@@ -31,6 +31,7 @@ Rampancy can manifest itself in a number of ways in virtually any self-aware tec
 <p>Tier 5 species usually begin <mark>focusing on clean energy production</mark>. The occasional <mark>belligerent species will use atomic energy for weapons, often resulting in mass extinctions</mark>. In-atmosphere craft are a hallmark, often leading to manned space flight, albeit in a short-scale. Humanity entered this age in 1945, when the first atomic bombs were dropped on Hiroshima and Nagasaki in Japan.</p>
 <h3>Tier 4: Space Age (Comparable to real life)</h3>
 <p>Tier 4 is often the final resting place for <mark>species intelligent enough to break free from their cradle's surface only to fill the gulf surrounding it with war</mark>. Their comfort-focused technology can include medical advances.</p>
+<h4>Warning on chosen war over peace</h4>
 <p><mark>"Ten thousand years ago, humans had fought a war against Forerunners — and lost. The centers of human civilization had been dismantled and the humans themselves devolved and shattered into many forms, some said as punishment — but more likely because they were a naturally violent species."</mark>
     — Bornstellar Makes Eternal Lasting (Source: Halo Video Game Series)</p>
 <p>Comment: The character is alluding to this (below) through "force de-evolution" into multiple subspecies as a result of defeat in war (unconditional surrender).</p>
