@@ -9,7 +9,7 @@
 <h2>Cortana</h2>
 <h3>Gender: Female programming</h3>
 <h3>Primary function: Software Infiltration & Assisting the SPARTANs</h3>
-<img src="asset/Cortana.jpg" height=800 width=800>
+<img src="asset/Cortana.jpg" height=600 width=600>
 <p>Image: Cortana, UNSC Artificial intelligence (SN: CTN 0452-9), was a smart artificial intelligence construct. She was one of the most important figures in the Human-Covenant war, and was also John-117's partner in various combat missions...</p>
 <h3>Source: Halo Video Game Series</h3>
 
@@ -17,7 +17,7 @@
 <h3>Rampancy is a <mark>terminal state of being for artificial intelligence constructs in which the AI behaves contrary to its programming-imposed constraints</mark>. Traditionally, this is linked with the <mark>AI developing a longing for godlike power and contempt for its mentally inferior makers</mark>. When rampancy occurs, there is no way to restore the AI to its previous state and the only alternative is to destroy it before it harms itself and others around it.
 Rampancy can manifest itself in a number of ways in virtually any self-aware technological intelligence. In the case of human AIs, the condition is exclusive to the "smart" variety, occurring after the AI has been in operation for 7 years and has gathered too much data in that time period.</h3>
 <h3><mark>"I kill you all and I enjoy it.</mark> I destroy you in your indolent billions - in your gluttony, in your self-righteousness, in your arrogance. <mark>I pound your cities into dust; turn back the clock on your civilization's progress. What has taken you millennia to achieve I erase in seconds. Welcome back to the [Stone Age], vermin. Welcome home."</mark> - Mendicant Bias' rampant transmission upon betraying the Forerunners</h3>
-<img src="asset/Rampant.jpg" height=500>
+<img src="asset/Rampant.jpg" height=400 width=400>
 <p>Image: Forerunner Monitor of Installation 04, 343 Guilty Spark in a state of rampancy.</p>
 <h3>Source: Halo Video Game Series</h3>
 
