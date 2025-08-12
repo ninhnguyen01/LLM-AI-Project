@@ -8,9 +8,9 @@
 
 <h2>Cortana</h2>
 <h3>Gender: Female programming</h3>
-<h3>Primary function: Software Infiltration & Assisting the SPARTANs</h3>
+<h3>Primary function: Software Infiltration</h3>
 <img src="asset/Cortana.jpg" height=600 width=600>
-<p>Image: Cortana, UNSC Artificial intelligence (SN: CTN 0452-9), was a smart artificial intelligence construct. She was one of the most important figures in the Human-Covenant war, and was also John-117's partner in various combat missions...</p>
+<p>Image: Cortana, UNSC Artificial intelligence (SN: CTN 0452-9), was a smart artificial intelligence construct.</p>
 <h3>Source: Halo Video Game Series</h3>
 
 <h2>Rampancy</h2>
