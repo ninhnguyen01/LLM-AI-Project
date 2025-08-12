@@ -1,0 +1,4 @@
+"What is AI inference?"
+
+- inference is the process that a trained machine learning model* uses to draw conclusions from brand-new data. 
+- An example of AI inference would be a self-driving car that is capable of recognizing a stop sign, even on a road it has never driven on before. The process of identifying this stop sign in a new context is inference.
