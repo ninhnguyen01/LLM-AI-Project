@@ -1,0 +1,10 @@
+"What is AGI (Artificial General Intelligence)?"
+
+-theoretical AI research that attempts to create software with human-like intelligence and the ability to self-teach. 
+
+Strong AI compared with weak AI 
+- Strong AI is full artificial intelligence, or AGI, capable of performing tasks with human cognitive levels despite having little background knowledge. 
+Example: Cortana from the video game Halo
+
+- weak AI or narrow AI are AI systems limited to computing specifications, algorithms, and specific tasks they are designed for.
+Example: ChatGPT

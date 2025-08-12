@@ -1,0 +1,13 @@
+"AI Engineer job description"
+
+What is an AI Engineer?
+- tech professional skilled in programming, machine learning, and data science.
+
+What does an AI Engineer do?
+- development and deployment of machine learning models. 
+
+Key responsibilities:
+- Design and develop AI models and algorithms from scratch.
+- Implement AI solutions that integrate with existing business systems to enhance functionality and user interaction.
+- Manage the data flow and infrastructure for effective AI deployment.
+- Collaborate across teams to align AI initiatives with organizational goals.

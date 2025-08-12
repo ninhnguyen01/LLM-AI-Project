@@ -1,0 +1,12 @@
+"What is a large language model (LLM)?"
+- a type of artificial intelligence (AI) program that can recognize and generate text, among other tasks.
+- a computer program that has been fed enough examples to be able to recognize and interpret human language or other types of complex data. 
+- use a type of machine learning called deep learning in order to understand how characters, words, and sentences function together.
+
+LLM = data
+Transformer = architecture + training
+
+Business Application
+- customer service
+- email and marketing
+- software development

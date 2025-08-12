@@ -1,0 +1,24 @@
+AI vs ML?
+AI = ML?
+AI <> ML?
+
+AI > or = Human
+
+- Discover
+- Infer
+- Reason
+
+ML (Level 1)
+
+- Supervised
+- UnSupervised
+
+DL (Level 2)
+
+AI (Level 3)
+- NLP
+- Vision
+- Text to Speech
+- Motion
+
+ML is a subset of AI

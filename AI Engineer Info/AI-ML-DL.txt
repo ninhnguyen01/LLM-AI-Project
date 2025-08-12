@@ -1,0 +1,21 @@
+- AI
+(1) AI development from human reasoning and intelligence
+LISP/PROLOG
+
+- ML
+(1) Better prediction from more data
+
+- DL
+(1) neural networks
+
+- GEN AI
+(1) Generating new content
+
+- LLM
+(1) Foundation model 
+
+- CHATBOT
+(1) Everything mentioned
+
+- DEEPFAKES
+(1) Audio and Video impersonating people or things
