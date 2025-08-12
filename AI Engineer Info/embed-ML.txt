@@ -1,0 +1,32 @@
+"What are embeddings in machine learning?"
+- represent real-world objects, like words, images, or videos, in a form that computers can process. Embeddings enable similarity searches and are foundational for AI.
+- representations of values or objects like text, images, and audio that are designed to be consumed by machine learning models and semantic search algorithms. 
+- enable machine learning models to find similar objects.
+
+"What is a vector in machine learning?"
+- In mathematics, a vector is an array of numbers that define a point in a dimensional space. 
+- a vector is a list of numbers — like {1989, 22, 9, 180}. 
+
+In machine learning, the use of vectors makes it possible to search for similar objects. 
+A vector-searching algorithm simply has to find two vectors that are close together in a vector database.
+
+"latitude and longitude example":
+- 2 dimensions — north-south and east-west, respectively — can indicate the location of any place on Earth. 
+- The city of Vancouver, British Columbia, Canada can be represented as the latitude and longitude coordinates {49°15'40"N, 123°06'50"W}. 
+This list of 2 values is a simple vector.
+
+- find a city that is very near Vancouver. A machine learning model look at the latitude and longitude (or vector) 
+and find a place with a similar latitude and longitude. 
+The city of Burnaby is at {49°16'N, 122°58'W} — very close to {49°15'40"N, 123°06'50"W}. 
+Therefore, the model can conclude, correctly, that Burnaby is located near Vancouver.
+
+The complexity of vectors:
+
+1 dimension - x axes
+2 dimension - y axes
+3 dimension - z axes
+
+etc...
+
+Embedding is a critical tool for ML engineers who build text and image search engines, recommendation systems, 
+chatbots, fraud detection systems and many other applications.

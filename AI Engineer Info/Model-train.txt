@@ -1,0 +1,31 @@
+"What Is Model Training?"
+- the process of training an ML algorithm with adequate training data to demonstrate correlation between the outcome and the influencing variables.
+- Model training in machine language is the process of feeding an ML algorithm with data to help identify and learn good values for all attributes involved. 
+
+- Supervised learning is possible when the training data contains both the input and output values
+- Unsupervised learning involves determining patterns in the data. 
+
+Creating A Model In Machine Learning
+
+(1) Defining The Problem
+(2) Data Collection
+(3) Preparing The Data
+(4) Assigning Appropriate Model / Protocols
+(5) Training The Machine Model Or “The Model Training”
+(6) Evaluating And Defining Measure Of Success
+(7) Parameter Tuning
+
+Split the dataset
+
+A common way of splitting the training data is to use cross-validation. In 10-fold cross-validation, for example, the data is split into ten sets, allowing you to train and test the data ten times. 
+
+To do this:
+- Split the data into ten equal parts or folds.
+- Designate one fold as the hold-out fold.
+- Train the model on the other nine folds.
+- Test the model on the hold-out fold.
+
+Select algorithms to test
+Tune the hyperparameters
+Fit and tune models
+Choose the best model
