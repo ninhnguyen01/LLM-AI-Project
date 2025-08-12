@@ -1,0 +1,21 @@
+- LLMs (large language models)
+- NN (neural networks)
+- image recognition
+- machine learning
+- summarization
+- programming
+
+History of LLMs
+- 1966 Eliza model
+- 1972 RNN 
+- 2017 Transformer
+- 2018 GPT 1
+- 2018 BERT
+- 2019-2020 LLM Scaling (GPT 2 and 3)
+- 2023 GPT 4
+
+- tokenization
+- vector databases
+- transformer
+- rlhf
+- fine-tuning
