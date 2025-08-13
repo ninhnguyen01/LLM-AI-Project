@@ -1,0 +1,17 @@
+Changes:
+
+(1) Model Selection (GPT-40,03, 04 mini)
+Router pick:
+- fast 
+- reasoning
+(2) Hallucinations (confidence in giving fake info)
+Grader:
+Browse on/off
+(3) Sycophancy (RLHF)
+System Prompt:
+Post training
+(4) Safe Completions
+Prompt:
+comply
+refuse
+(5) Deceptions
