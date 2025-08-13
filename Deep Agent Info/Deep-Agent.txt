@@ -1,0 +1,10 @@
+Deep Agents UI
+
+Tool Type:
+- Planning Tool
+- File System
+- Sub Agents
+- System Prompt
+
+Source: https://www.youtube.com/watch?v=0CE_BhdnZZI
+Author: LangChain
