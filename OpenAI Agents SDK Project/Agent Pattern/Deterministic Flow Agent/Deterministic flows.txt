@@ -1,0 +1,1 @@
+break down a task into a series of smaller steps. Each task can be performed by an agent, and the output of one agent is used as input to the next. 
