@@ -1,0 +1,6 @@
+"Why is a vector database useful?"
+- determines what other data (represented as vectors) is near your input query. 
+- Vector databases can also power Retrieval Augmented Generation ↗ (RAG) tasks, which allow you to bring additional context to LLMs (Large Language Models) by using the context from a vector search to augment the user prompt.
+
+"Retrieval Augmented Generation"
+- an approach used to improve the context provided to an LLM (Large Language Model) in generative AI use-cases, including chatbot and general question-answer applications.
