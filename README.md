@@ -15,7 +15,7 @@
 
 <h2>Rampancy</h2>
 <h3>Rampancy is a <mark>terminal state of being for artificial intelligence constructs in which the AI behaves contrary to its programming-imposed constraints</mark>. Traditionally, this is linked with the <mark>AI developing a longing for godlike power and contempt for its mentally inferior makers</mark>. When rampancy occurs, there is no way to restore the AI to its previous state and the only alternative is to destroy it before it harms itself and others around it.</h3>
-<h3><mark>"I kill you all and I enjoy it.</mark> I destroy you in your indolent billions - in your gluttony, in your self-righteousness, in your arrogance. <mark>I pound your cities into dust; turn back the clock on your civilization's progress. What has taken you millennia to achieve I erase in seconds. Welcome back to the [Stone Age], vermin. Welcome home."</mark> - Mendicant Bias' rampant transmission upon betraying the Forerunners</h3>
+<h3>"I kill you all and I enjoy it. I destroy you in your indolent billions - in your gluttony, in your self-righteousness, in your arrogance. I pound your cities into dust; turn back the clock on your civilization's progress. What has taken you millennia to achieve I erase in seconds. Welcome back to the [Stone Age], vermin. Welcome home." - Mendicant Bias' rampant transmission upon betraying the Forerunners</h3>
 <img src="asset/Rampant.jpg" height=400 width=400>
 <p>Image: Forerunner Monitor of Installation 04, 343 Guilty Spark in a state of rampancy.</p>
 <h3>Source: Halo Video Game Series</h3>
@@ -31,7 +31,7 @@
 <h3>Tier 4: Space Age (Comparable to real life)</h3>
 <p>Tier 4 is often the final resting place for <mark>species intelligent enough to break free from their cradle's surface only to fill the gulf surrounding it with war</mark>. Their comfort-focused technology can include medical advances.</p>
 <h4>Comment: Warning on War</h4>
-<p><mark>"Ten thousand years ago, humans had fought a war against Forerunners — and lost. The centers of human civilization had been dismantled and the humans themselves devolved and shattered into many forms, some said as punishment — but more likely because they were a naturally violent species."</mark>
+<p>"Ten thousand years ago, humans had fought a war against Forerunners — and lost. The centers of human civilization had been dismantled and the humans themselves devolved and shattered into many forms, some said as punishment — but more likely because they were a naturally violent species."
     — Bornstellar Makes Eternal Lasting (Source: Halo Video Game Series)</p>
 <p>Comment: The character is alluding to this (below) through "force de-evolution" into multiple subspecies as a result of defeat in war (unconditional surrender).</p>
 <img src="asset/Hominidae.jpg" height=500>
