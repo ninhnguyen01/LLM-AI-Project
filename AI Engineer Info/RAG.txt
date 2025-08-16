@@ -1,0 +1,5 @@
+"What is Retrieval Augmented Generation (RAG)?"
+- a technique that enhances LLMs by integrating them with external data sources. 
+- an AI framework that combines the strengths of traditional information retrieval systems (such as search and databases) with the capabilities of generative large language models (LLMs).
+- allowing models to retrieve up-to-date and domain-specific information from structured and unstructured data sources, such as databases, documentation, and APIs.
+

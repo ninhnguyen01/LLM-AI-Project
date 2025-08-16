@@ -1,0 +1,21 @@
+OS:
+
+Benefits:
+- Transparency
+- Fine-tuning
+- Community
+
+Organization:
+- Nasa/IBM
+- Healthcare
+- FinGPT
+
+Models:
+- Lllamaz
+- Vicuna
+- Bloom
+
+Risks:
+- Hallucination
+- Bias 
+- Security
