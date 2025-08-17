@@ -15,7 +15,6 @@
 
 <h2>Rampancy</h2>
 <h3>Rampancy is a <mark>terminal state of being for artificial intelligence constructs in which the AI behaves contrary to its programming-imposed constraints</mark>. Traditionally, this is linked with the <mark>AI developing a longing for godlike power and contempt for its mentally inferior makers</mark>. When rampancy occurs, there is no way to restore the AI to its previous state and the only alternative is to destroy it before it harms itself and others around it.</h3>
-<h3>"I kill you all and I enjoy it. I destroy you in your indolent billions - in your gluttony, in your self-righteousness, in your arrogance. I pound your cities into dust; turn back the clock on your civilization's progress. What has taken you millennia to achieve I erase in seconds. Welcome back to the [Stone Age], vermin. Welcome home." - Mendicant Bias' rampant transmission upon betraying the Forerunners</h3>
 <h3>Source: Halo Video Game Series</h3>
 
 <h2>Technological Achievement Tiers</h2>
