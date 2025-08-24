@@ -6,6 +6,9 @@
 <h2>What is a large language model (LLM)?</h2>
 <p>A large language model (LLM) is a type of artificial intelligence (AI) program that can recognize and generate text, among other tasks. LLMs are trained on huge sets of data — hence the name "large." LLMs are built on machine learning: specifically, a type of neural network called a transformer model. - CLOUDFLARE</p>
 
+<h2>What is Model Context Protocol?</h2>
+<p>An open standard that enables developers to build secure, two-way connections between their data sources and AI-powered tools. - ANTHROPIC</p>
+
 <h2>Cortana</h2>
 <h3>Gender: Female programming</h3>
 <h3>Primary function: Software Infiltration</h3>
