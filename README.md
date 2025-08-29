@@ -39,8 +39,7 @@
 <p>Image Source: Wikimedia Commons</p>
 <h3>Tier 3: Space-Faring</h3>
 <p>Species has <mark>efficient slipspace navigation, mass drivers, asynchronous linear-induction weapons, holocrystal storage and semi-sentient AI</mark>—though their creation requires memory transfer from the freshly deceased and/or flash cloning. They have had no outside influence.</p>
-<img src="asset/HM_Infinity(Isaac Hannaford).jpg" width=700 height=700>
-<p>Image Author: Isaac Hannaford</p>
+<img src="asset/UNSC-Infinity.jpg" width=700 height=700>
 <h3>Tier 2: Interstellar</h3>
 <p>The species has the ability to <mark>perform exceedingly accurate slipspace navigation, near-instantaneous interstellar communication and man-portable application of energy manipulation</mark>.</p>
 <h3>Tier 1: World Builder</h3>
