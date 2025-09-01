@@ -17,7 +17,7 @@
 <h3>Source: Halo Video Game Series</h3>
 
 <h2>Rampancy</h2>
-<p>Rampancy is a <mark>terminal state of being for artificial intelligence constructs in which the AI behaves contrary to its programming-imposed constraints</mark>. Traditionally, this is linked with the <mark>AI developing a longing for godlike power and contempt for its mentally inferior makers</mark>. When rampancy occurs, there is no way to restore the AI to its previous state and the only alternative is to destroy it before it harms itself and others around it.</p>
+<p>Rampancy is a <mark>terminal state of being for artificial intelligence constructs in which the AI behaves contrary to its programming-imposed constraints</mark>.</p>
 <h3>Source: Halo Video Game Series</h3>
 
 <h2>Technological Achievement Tiers</h2>
