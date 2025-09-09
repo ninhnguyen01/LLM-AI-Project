@@ -30,20 +30,13 @@
 <p>Tier 5 species usually begin focusing on clean energy production. The occasional belligerent species will use atomic energy for weapons, often resulting in mass extinctions. In-atmosphere craft are a hallmark, often leading to manned space flight, albeit in a short-scale. Humanity entered this age in 1945, when the first atomic bombs were dropped on Hiroshima and Nagasaki in Japan.</p>
 <h3>Tier 4: Space Age (Comparable to real life)</h3>
 <p>Tier 4 is often the final resting place for <b>species intelligent enough to break free from their cradle's surface only to fill the gulf surrounding it with war</b>. Their comfort-focused technology can include medical advances.</p>
-<h4>Comment: Warning on War</h4>
-<p>"Ten thousand years ago, humans had fought a war against Forerunners — and lost. The centers of human civilization had been dismantled and the humans themselves devolved and shattered into many forms, some said as punishment — but more likely because they were a naturally violent species."
-    — Bornstellar Makes Eternal Lasting (Source: Halo Video Game Series)</p>
-<p>Comment: The character is alluding to this (below) through "force de-evolution" into multiple subspecies as a result of defeat in war (unconditional surrender).</p>
-<img src="asset/Hominidae.jpg" height=500>
-<p>Image: All extant species of hominid: Top) Human, Middle) Common chimpanzee, bonobo, western gorilla & eastern gorilla, Bottom) Bornean, Sumatran & Tapanuli orangutan</p>
-<p>Image Source: Wikimedia Commons</p>
 <h3>Tier 3: Space-Faring</h3>
 <p>Species has efficient slipspace navigation, mass drivers, asynchronous linear-induction weapons, holocrystal storage and <b>semi-sentient AI</b>—though their creation requires memory transfer from the freshly deceased and/or flash cloning. They have had no outside influence.</p>
 <img src="asset/UNSC-Infinity.jpg" width=700 height=700>
 <h3>Tier 2: Interstellar</h3>
 <p>The species has the ability to perform exceedingly accurate slipspace navigation, near-instantaneous interstellar communication and man-portable application of energy manipulation.</p>
 <h3>Tier 1: World Builder</h3>
-<p>The species has the <b>ability to manipulate gravitational forces, create AI with full sentience, fabricate super-dense materials, perform super-accurate slipspace navigation, the ability to create life, and the ability to create worlds</b>.</p>
+<p>The species has the ability to manipulate gravitational forces, <b>create AI with full sentience</b>, fabricate super-dense materials, perform super-accurate slipspace navigation, the ability to create life, and the ability to create worlds.</p>
 <h3>Tier 0: Transsentient</h3>
 <p>A theoretical ceiling. It is suspected that they can travel between galaxies and accelerate the evolution of intelligent life.
 The state of transsentience is evidently connected less to the level of available technology as understood in the traditional sense and more to a metaphysical elevation of the beings themselves beyond conventional existence.</p>
