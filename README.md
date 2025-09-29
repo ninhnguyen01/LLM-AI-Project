@@ -11,7 +11,6 @@
 
 <h2>Cortana</h2>
 <h3>Gender: Female programming</h3>
-<h3>Primary function: Software Infiltration</h3>
 <img src="asset/Cortana.jpg" height=600 width=600>
 <p>Image: Cortana, UNSC Artificial intelligence (SN: CTN 0452-9), was a <b>smart artificial intelligence construct.</b></p>
 <h3>Source: Halo Video Game Series</h3>
