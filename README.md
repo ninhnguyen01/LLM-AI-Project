@@ -12,17 +12,18 @@
 <h2>What is Model Context Protocol?</h2>
 <p>An open standard that enables developers to build secure, two-way connections between their data sources and AI-powered tools. - ANTHROPIC</p>
 
-<h2>Cortana</h2>
-<h3>Gender: Female programming</h3>
+<h2>Cortana Example</h2>
 <img src="asset/Cortana.jpg" height=600 width=600>
-<p>Image: Cortana, UNSC Artificial intelligence (SN: CTN 0452-9), was a <b>smart artificial intelligence construct.</b></p>
+<p>Image: Cortana was a <b>smart artificial intelligence construct (smart AI).</b></p>
+<p>Comment: In real life, we are now in the "proto-dumb AI era".</p>
 <h3>Source: Halo Video Game Series</h3>
 
 <h2>Rampancy</h2>
 <p>Rampancy is a <b>terminal state of being for artificial intelligence constructs in which the AI behaves contrary to its programming-imposed constraints</b>.</p>
+<p>Comment: In real life, we call this "hallucination". We are not at the stage yet where "AI can act on its own and do harm" without human command.</p>
 <h3>Source: Halo Video Game Series</h3>
 
-<h2>Technological Achievement Tiers</h2>
+<h2>Technological Achievement Tiers (based on Kardashev scale)</h2>
 <p>A Technological Achievement Tier was a level of categorization used by the Forerunners to assess the technological advancement of civilizations. There are a total of 8 tiers, and the lower the Tier number, the more advanced the civilization's technology is/was.</p>
 <h3>Tier 7: Pre-Industrial</h3>
 <p>Tier 7 is one of the most common and stable states, with limited weaponry and environmental threats. Societies tend to be small and scattered, driven by subsistence farming, foraging, or hunter-gathering needs. Technology is limited to simple hand made tools, weapons, or agrarian implements and methods, but a very broad understanding of planetary and solar mechanics is not uncommon.</p>
