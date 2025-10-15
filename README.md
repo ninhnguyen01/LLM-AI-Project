@@ -20,7 +20,7 @@
 
 <h2>Rampancy</h2>
 <p>Rampancy is a <b>terminal state of being for artificial intelligence constructs in which the AI behaves contrary to its programming-imposed constraints</b>.</p>
-<p>Comment: In real life, we call this "hallucination". We are not at the stage yet where "AI can act on its own and do harm" without human command.</p>
+<p>Comment: In real life, we call this "hallucination".</p>
 <h3>Source: Halo Video Game Series</h3>
 
 <h2>Technological Achievement Tiers (based on Kardashev scale)</h2>
