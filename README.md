@@ -35,7 +35,6 @@
 <p>Tier 4 is often the final resting place for <b>species intelligent enough to break free from their cradle's surface only to fill the gulf surrounding it with war</b>. Their comfort-focused technology can include medical advances.</p>
 <h3>Tier 3: Space-Faring</h3>
 <p>Species has efficient slipspace navigation, mass drivers, asynchronous linear-induction weapons, holocrystal storage and <b>semi-sentient AI</b>—though their creation requires memory transfer from the freshly deceased and/or flash cloning. They have had no outside influence.</p>
-<img src="asset/UNSC-Infinity.jpg" width=700 height=700>
 <h3>Tier 2: Interstellar</h3>
 <p>The species has the ability to perform exceedingly accurate slipspace navigation, near-instantaneous interstellar communication and man-portable application of energy manipulation.</p>
 <h3>Tier 1: World Builder</h3>
