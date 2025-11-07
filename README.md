@@ -3,14 +3,20 @@
 <h2>What is AI?</h2>
 <p>Artificial intelligence (AI) is technology that enables computers and machines to simulate human learning, comprehension, problem solving, decision making, creativity and autonomy. - IBM</p>
 
-<h2>What is a large language model (LLM)?</h2>
+<h2>What is a Large Language Model (LLM)?</h2>
 <p>A large language model (LLM) is a type of artificial intelligence (AI) program that can recognize and generate text, among other tasks. LLMs are trained on huge sets of data — hence the name "large." LLMs are built on machine learning: specifically, a type of neural network called a transformer model. - CLOUDFLARE</p>
 
 <h2>What is Retrieval Augmented Generation (RAG)?</h2>
 <p>A technique that enhances LLMs by integrating them with external data sources. - DATACAMP</p> 
 
-<h2>What is Model Context Protocol?</h2>
+<h2>What is Model Context Protocol (MCP)?</h2>
 <p>An open standard that enables developers to build secure, two-way connections between their data sources and AI-powered tools. - ANTHROPIC</p>
+
+<h2>Common business applications</h2>
+<p>(1) Customer support automation</p>
+<p>(2) Content classification and tagging</p>
+<p>(3) Document analysis and summarization</p>
+<p>(4) Email drafting and response generation</p>
 
 <h2>Cortana Example</h2>
 <img src="asset/Cortana.jpg" height=600 width=600>
