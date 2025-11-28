@@ -1,0 +1,9 @@
+Autonomous long running agents that can handle complex tasks.
+- plan agent
+- subtool
+- filesystem
+- sys prompt
+
+Agent harness (deep agent)
+Agent framework (LangChain)
+Agent runtime (LangGraph)

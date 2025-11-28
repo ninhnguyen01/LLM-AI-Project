@@ -1,0 +1,1 @@
+Anthropic recently introduced the idea of agent skills, a directory of folders that an agent can access to perform different actions. 
