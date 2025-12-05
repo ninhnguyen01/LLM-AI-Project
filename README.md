@@ -12,11 +12,12 @@
 <h2>What is Model Context Protocol (MCP)?</h2>
 <p>An open standard that enables developers to build secure, two-way connections between their data sources and AI-powered tools. - ANTHROPIC</p>
 
-<h2>Common business applications</h2>
-<p>(1) Customer support automation</p>
-<p>(2) Content classification and tagging</p>
-<p>(3) Document analysis and summarization</p>
-<p>(4) Email drafting and response generation</p>
+<h2>Common business applications <b>(CBA)</b></h2>
+<p>(1) Customer support <b>automation</b></p>
+<p>(2) Content <b>classification</b> and tagging</p>
+<p>(3) Document analysis and <b>summarization</b></p>
+<p>(4) Email drafting and response <b>generation</b></p>
+<p><b>ACSG</b> or <b>(Automation, classification, summarization, generation)</b></p>
 
 <h2>Cortana Example</h2>
 <img src="asset/Cortana.jpg" height=600 width=600>
