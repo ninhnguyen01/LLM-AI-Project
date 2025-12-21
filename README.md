@@ -19,6 +19,10 @@
 <p>(4) Email drafting and response <b>generation</b></p>
 <p><b>ACSG</b> or <b>(Automation, classification, summarization, generation)</b></p>
 
+<img src="asset/AI_lang.PNG" height=1000 width=1000>
+<img src="asset/AI_project.PNG" height=1000 width=1000>
+<h3>Source: GitHub</h3>
+
 <h2>Cortana Example</h2>
 <img src="asset/Cortana.jpg" height=600 width=600>
 <p>Image: Cortana was a <b>smart artificial intelligence construct (smart AI).</b></p>
