@@ -23,6 +23,11 @@
 <img src="asset/AI_project.PNG" height=1000 width=1000>
 <h3>Source: GitHub</h3>
 
+<h2>The Great Flood (Korean Movie)</h2>
+<p><b>When a raging flood traps a researcher and her young son, a call to a crucial mission puts their escape — and the future of humanity — on the line.</b></p>
+<p><b>Theme: Human emotions, AI, Survival.</b></p>
+<img src="asset/The Great Flood.JPG" height=800>
+
 <h2>Cortana Example</h2>
 <img src="asset/Cortana.jpg" height=600 width=600>
 <p>Image: Cortana was a <b>smart artificial intelligence construct (smart AI).</b></p>
