@@ -1,0 +1,14 @@
+Chapter 8 Answer Key
+
+    C: Early stopping prevents the model from memorizing the training data. Increasing the complexity of the model usually increases the risk of overfitting. Noisy data increases variance and reduces performance. Tuning hyperparameters is important to balance bias and variance.
+
+    D: Licensing agreements—like OpenAI’s deal with News Corp—are being used to address IP concerns. Removing all public data is impractical and not a standard solution. Restricting access doesn’t solve IP ownership issues. Internal limits will reduce exposure, but this doesn’t fully resolve IP problems.
+
+    A: Without accuracy, models can be unsafe or untrustworthy. However, even accurate models require regular retraining. Cost savings may result from accuracy but aren’t the core reason it’s important for responsible AI. And accuracy is important across all model types, not just visual ones.
+
+    D: Fairness means AI decisions should be impartial and nondiscriminatory. It is unrelated to model sophistication and it focuses on equity, not speed. Personalization may actually introduce bias if not managed carefully.
+
+    B: Explainability helps users understand specific outputs, whereas transparency is about system-wide openness. These concepts are closely related but not interchangeable. User interface design is unrelated to the core concept of explainability. Transparency is encouraged in all systems, not just open source models.
+
+    C: Privacy and security are about protecting individual data and user rights. Model weights and parameters are technical aspects, not user-focused. Transparency relates to openness, not data protection. While IP is important, it’s not the focus of privacy and security.
+

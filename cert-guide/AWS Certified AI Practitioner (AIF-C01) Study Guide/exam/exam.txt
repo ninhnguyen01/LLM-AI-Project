@@ -1,0 +1,544 @@
+Appendix A. Practice Exam
+
+To check your answers, please refer to the “Practice Exam Answer Key”.
+
+    What is an availability zone (AZ)?
+
+        A physical data center containing multiple AWS servers
+
+        A logical partition of AWS infrastructure that provides redundancy
+
+        A security group that isolates AWS resources
+
+        A region that spans multiple continents
+
+    Which cloud service model provides full applications to users without requiring them to manage infrastructure?
+
+        Infrastructure as a service (IaaS)
+
+        Platform as a service (PaaS)
+
+        Software as a service (SaaS)
+
+        Virtualization as a service (VaaS)
+
+    What is a defining characteristic of the hybrid cloud model?
+
+        It exclusively uses private data centers for all workloads.
+
+        It combines public and private cloud environments.
+
+        It relies only on on-premises infrastructure.
+
+        It uses a multitenant model for security.
+
+    What is a key advantage of AWS regions?
+
+        They eliminate the need for availability zones (AZs).
+
+        They allow customers to comply with data residency requirements.
+
+        They are only available in Asia.
+
+        They provide unlimited computing power without redundancy.
+
+    Which AWS service allows developers to deploy applications without managing servers?
+
+        Amazon EC2
+
+        AWS Lambda
+
+        Amazon RDS
+
+        Amazon CloudFront
+
+    Which of the following best describes Amazon S3?
+
+        A relational database service for structured data storage
+
+        A scalable object storage service designed for durability and availability
+
+        A high-performance compute service for running applications
+
+        A content delivery network (CDN) for accelerating web traffic
+
+    What is the main benefit of using a confusion matrix to evaluate a machine learning (ML) model?
+
+        It shows the training time of the model.
+
+        It helps analyze false positives and false negatives.
+
+        It calculates the total number of data points used in training.
+
+        It eliminates the need for additional performance metrics.
+
+    A bank wants to detect fraudulent transactions in real time. What type of inference should they use?
+
+        Batch inference
+
+        Asynchronous inference
+
+        Real-time inference
+
+        On-demand inference
+
+    What is a major challenge when using high-dimensional datasets in machine learning (ML)?
+
+        It reduces the need for model tuning.
+
+        It increases computational costs and complexity.
+
+        It makes models interpret data more efficiently.
+
+        It ensures better accuracy for all ML tasks.
+
+    A company notices that its deployed machine learning (ML) model is becoming less accurate over time due to changing customer behavior. What issue is this?
+
+        Model overfitting
+
+        Hyperparameter tuning issue
+
+        Feature engineering error
+
+        Drift
+
+    What is the primary reason for using Amazon SageMaker Model Monitor?
+
+        To train deep-learning models faster
+
+        To automatically deploy machine learning (ML) models
+
+        To detect issues such as data drift and concept drift
+
+        To fine-tune pretrained models
+
+    A business wants to improve the efficiency of their data processing pipeline by automating feature extraction and transformation. Which AWS tool is best suited for this?
+
+        Amazon Rekognition
+
+        Amazon Textract
+
+        Amazon SageMaker Data Wrangler
+
+        AWS Glue
+
+    A software company wants to analyze customer feedback to determine whether reviews are positive, neutral, or negative. Which AWS service should they use?
+
+        Amazon Textract
+
+        Amazon Comprehend
+
+        AWS Lambda
+
+        Amazon SageMaker Feature Store
+
+    What is the primary purpose of hyperparameter tuning in machine learning (ML)?
+
+        To create new training data
+
+        To adjust model parameters for improved performance
+
+        To convert categorical data into numerical form
+
+        To speed up the training process
+
+    How do diffusion models work?
+
+        They add and remove noise in various steps.
+
+        They use competing neural networks.
+
+        They only create text.
+
+        They only create sound.
+
+    What is the primary purpose of fine-tuning a foundation model (FM)?
+
+        To make a model more general-purpose
+
+        To customize the model for a specific domain
+
+        To lower the latency
+
+        To train the model from scratch
+
+    How does an encoder work in a transformer model?
+
+        It creates synthetic data.
+
+        It fine-tunes hyperparameters.
+
+        It evaluates model predictions.
+
+        It processes input sequences and extracts meaningful representations.
+
+    Which of the following describes a limit on how much a large language model (LLM) can process at a time?
+
+        Overfitting
+
+        Bias
+
+        Context windows
+
+        The discriminator
+
+    What’s the reason for using reinforcement learning from human feedback (RLHF) in generative AI models?
+
+        To improve the alignment the model’s responses with human preferences
+
+        To lower training costs
+
+        To replace deep learning models
+
+        To reduce the latency of the model
+
+    What is a key benefit of a multimodal foundation model (FM)?
+
+        It requires much less data for the training
+
+        It can process and create different types of content like text, images, and videos
+
+        It is more explainable than text-based models
+
+        It does not require GPUs
+
+    Of the choices below, which is a main reason why large language models consume significant compute resources?
+
+        They use retrieval-augmented generation (RAG).
+
+        They use complex linear algebra.
+
+        They process billions of parameters to generate accurate responses.
+
+        They rely on human feedback and evaluation for all responses.
+
+    Why can RAG help lower hallucinations in AI models?
+
+        It has guardrails for certain types of prompts
+
+        It searches a proprietary database to enhance the response
+
+        It disables the probability system
+
+        It relies only on human supervision
+
+    Among these choices, what is a core capability of Amazon Lex?
+
+        It analyzes data for fraud detection.
+
+        It allows for video analysis.
+
+        It supports intents and slot filling to create conversational AI experiences.
+
+        It automates the extraction of text from scanned documents.
+
+    What can you do with Amazon Comprehend?
+
+        Analyze text to extract insights such as for sentiment, key phrases, and entities.
+
+        Transcribe audio recordings into text.
+
+        Convert text into humanlike speech.
+
+        Translate text into multiple languages.
+
+    What is a major capability of Amazon Rekognition?
+
+        The translation of spoken language into text.
+
+        The use of optical character recognition (OCR) for scanned documents.
+
+        The generation of AI-powered chatbot responses.
+
+        The ability to recognize faces, objects, and scenes in images and videos.
+
+    Among these options, which is a technique used in natural language processing (NLP) preprocessing?
+
+        Automatically correcting all grammatical errors in a sentence.
+
+        Translating text into another language before processing.
+
+        Lemmatization, which reduces words to their root form.
+
+        Applying deepfake detection to verify text authenticity.
+
+    Why is stopword removal used in natural language processing (NLP) preprocessing?
+
+        Stopwords add important meaning to a text.
+
+        It helps remove uncommon words to focus only on frequently used terms.
+
+        Stopwords are removed to reduce text length to speed up processing.
+
+        Removing stopwords like the and is helps improve efficiency without losing essential meaning.
+
+    When is AI not always the best solution for a business use case?
+
+        AI models do not work well in cloud-based environments.
+
+        AI requires human oversight at all times.
+
+        AI can only be used for simple automation tasks.
+
+        AI solutions can be complex and costly when a simpler approach may suffice.
+
+    What is the Compare Models feature in the Bedrock playground?
+
+        It allows for using image and text responses.
+
+        It provides for making longer responses for two different models.
+
+        It combines responses from two models.
+
+        It allows for evaluating the side-by-side responses from two different models.
+
+    Why would you fine-tune a model in Bedrock?
+
+        To reduce compute costs
+
+        To improve latency
+
+        To improve response accuracy for domain-specific scenarios
+
+        To use images
+
+    What is a key advantage of using open source foundation models (FMs) in AWS Bedrock?
+
+        They are always free to use.
+
+        They support real-time inference by default.
+
+        They offer transparency, customization, and community innovation.
+
+        They provide the codebase and datasets.
+
+    What’s a benefit of using a distilled model in Bedrock?
+
+        It reduces compute requirements, making it suitable for edge devices.
+
+        It increases the context window.
+
+        It increases the creativity of the responses.
+
+        It guarantees higher accuracy than larger models.
+
+    What is a key benefit of multiagent collaboration in Bedrock?
+
+        It relies on distilled models.
+
+        It provides for 100% accuracy.
+
+        It allows different agents to specialize in specific tasks, leading to better problem solving.
+
+        It enables users to edit model weights and biases.
+
+    What is a key benefit of batch processing when using Bedrock?
+
+        There is low latency.
+
+        The context window is unlimited.
+
+        There is higher accuracy.
+
+        Lower costs.
+
+    Which technique improves the consistency and clarity of prompts when used repeatedly?
+
+        Few-shot prompting
+
+        Zero-shot prompting
+
+        Chain-of-thought prompting
+
+        Prompt templates
+
+    What is the purpose of chain-of-thought (CoT) prompting?
+
+        To specify for the large language model (LLM) which examples to use
+
+        To limit the response of the large language model (LLM)
+
+        To allow for step-by-step reasoning for complex problems
+
+        To adjust the large language model (LLM) parameters
+
+    Which type of prompting involves providing several examples to help the model learn a pattern?
+
+        Zero-shot prompting
+
+        Chain-of-thought (CoT) prompting
+
+        Few-shot prompting
+
+        Template prompting
+
+    What is model poisoning?
+
+        This allows a model to process personal health data.
+
+        This is when biased or malicious data is injected into the training process.
+
+        This when a model lacks proper licensing.
+
+        This is where there are conflicting instructions in a single prompt.
+
+    What is exposure as it relates to security risks with foundation models (FMs)?
+
+        The use of the model for consumer apps
+
+        The loss of GPU performance during training
+
+        The unintentional inclusion of sensitive data in training sets
+
+        The failure to generate output within token limits
+
+    What is jailbreaking of a foundation model (FM)?
+
+        Running a model without GPU acceleration
+
+        Resetting a model’s API token for expanding the access
+
+        Deleting a model’s training history
+
+        Tricking the model into bypassing safety and ethical restrictions
+
+    Which of the following best describes AI governance?
+
+        A set of marketing strategies for AI adoption
+
+        Policies and oversight structures to guide ethical AI development
+
+        Legal ownership of AI-generated content
+
+        Techniques for building large language models (LLMs)
+
+    What does controllability in AI focus on?
+
+        Reducing computational costs
+
+        Building faster AI systems
+
+        Aligning AI actions with human intent and oversight
+
+        Removing human involvement
+
+    Which of the following is a business advantage of adopting responsible AI practices?
+
+        Enhanced trust and improved brand reputation
+
+        Reduced need for data collection
+
+        Increased dependence on human intervention
+
+        Elimination of all algorithmic errors
+
+    What is the role of Amazon SageMaker Clarify in responsible AI?
+
+        Detecting harmful URLs in user prompts
+
+        Managing compute costs during training
+
+        Identifying and explaining bias in data and models
+
+        Encrypting training data
+
+    What is Amazon Augmented AI (A2I) primarily used for?
+
+        Accelerating training of neural networks
+
+        Creating synthetic data from scratch
+
+        Managing GPUs in SageMaker
+
+        Integrating human reviews into AI workflows
+
+    What is a key advantage of reinforcement learning from human feedback (RLHF)?
+
+        It removes the need for model retraining.
+
+        It ensures AI systems remain static.
+
+        It helps models align outputs with human preferences and judgments.
+
+        It eliminates the need for data labeling.
+
+    What is a compliance risk caused by AI systems developing emergent capabilities?
+
+        They strictly follow preprogrammed features with no surprises.
+
+        They may behave unpredictably in ways not planned by the original designers.
+
+        They automatically file compliance reports as they change.
+
+        They prevent the need for any human oversight.
+
+    What is a key characteristic of a regulated workload?
+
+        It only applies to gaming or entertainment systems.
+
+        It only focuses on making systems faster, not safer.
+
+        It only requires encryption of stored data.
+
+        It must follow specific compliance rules due to legal, industry, or safety concerns.
+
+    Why is data logging important in AI systems?
+
+        It helps speed up model training by skipping error checks.
+
+        It captures inputs, outputs, and system events, supporting debugging, monitoring, and transparency.
+
+        It prevents the need for data residency compliance.
+
+        It automatically guarantees 100% model accuracy.
+
+    Which AWS service provides a detailed history of resource configuration changes and relationships to support compliance auditing?
+
+        AWS Config
+
+        AWS Trusted Advisor
+
+        Amazon Inspector
+
+        AWS Artifact
+
+    In the Generative AI Security Scoping Matrix, which scope involves using publicly available generative AI tools without backend access or customization?
+
+        Scope 3: Pretrained models
+
+        Scope 4: Fine-tuned models
+
+        Scope 5: Self-trained models
+
+        Scope 1: Consumer applications
+
+    Which AWS service uses machine learning (ML) to detect and classify sensitive data like personally identifiable information (PII) or protected health information (PHI) across your environment?
+
+        AWS Verified Permissions
+
+        AWS Shield Advanced
+
+        Amazon Macie
+
+        Amazon SageMaker Role Manager
+
+    What is the purpose of a model card in the context of generative AI?
+
+        To automatically retrain models with new data
+
+        To manage access controls across cloud infrastructure
+
+        To document the data sources, intended uses, risks, and limitations of a model
+
+        To optimize compute resources for faster model deployment.
+
+    In a generative AI system, who always controls user data, regardless of application scope?
+
+        The application provider
+
+        The cloud service provider
+
+        The data annotation team
+
+        The customer or end user
+

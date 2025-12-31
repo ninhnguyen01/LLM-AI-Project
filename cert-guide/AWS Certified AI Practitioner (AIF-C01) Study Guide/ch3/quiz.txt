@@ -1,0 +1,65 @@
+
+Quiz
+
+To check your answers, please refer to the “Chapter 3 Answer Key”.
+
+    Which of the following best describes the role of feature engineering in machine learning (ML)?
+
+        It creates new variables or transforms data to improve model performance.
+
+        It trains the model using labeled data.
+
+        It evaluates the accuracy of a trained model.
+
+        It ensures that the model is not biased.
+
+    What is the primary purpose of reinforcement learning in AI?
+
+        To learn patterns from labeled data
+
+        To optimize decisions based on rewards and penalties
+
+        To detect anomalies in datasets
+
+        To reduce dimensionality in high-dimensional datasets
+
+    A company is using Amazon SageMaker to build a machine learning (ML) model. What is the primary advantage of using SageMaker over traditional on-premises ML infrastructure?
+
+        It eliminates the need for data preprocessing.
+
+        It requires more manual intervention than on-premises solutions.
+
+        It provides pretrained models that cannot be customized.
+
+        It automates the entire ML lifecycle, from training to deployment.
+
+    What is the primary difference between supervised and unsupervised learning?
+
+        Supervised learning does not require labeled data, while unsupervised learning does.
+
+        Supervised learning focuses on reinforcement learning, while unsupervised learning does not.
+
+        Supervised learning uses labeled data, while unsupervised learning finds patterns in unlabeled data.
+
+        Supervised learning is only used for classification tasks, while unsupervised learning is used for all other ML applications.
+
+    A retailer wants to group its customers based on purchasing behavior without using predefined labels. Which machine learning (ML) approach should they use?
+
+        Reinforcement learning
+
+        Supervised learning
+
+        Unsupervised learning
+
+        Semisupervised learning
+
+    Why is model monitoring important in machine learning (ML)?
+
+        It prevents overfitting by reducing the number of features in a dataset.
+
+        It ensures that a deployed model maintains accuracy and adapts to data changes.
+
+        It eliminates the need for retraining models over time.
+
+        It guarantees that predictions will always be correct.
+

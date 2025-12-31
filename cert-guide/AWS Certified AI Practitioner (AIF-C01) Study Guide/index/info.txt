@@ -1,0 +1,1794 @@
+Index
+
+Symbols
+
+    3D simulation AWS DeepRacer, AWS DeepRacer
+
+A
+
+    access controls, Zero trust and fine-grained access controls, Data access control
+        network access control lists, Security approaches with AWS tools
+    account created for AWS, Setting Up AWS
+    accuracy, Classification, Accuracy
+        defined, Glossary
+        fine-tuning foundation models, Fine-tuning
+        risk of generative AI, Accuracy
+    ACLs (network access control lists), Security approaches with AWS tools
+    ACM (see AWS Certificate Manager (ACM))
+    Active Custom Translation (ACT), Amazon Translate
+    agentic AI, Evolution of FMs
+        Amazon Bedrock agents, Agents in Amazon Bedrock-Pricing
+            about, Agents in Amazon Bedrock
+            example customer support chatbot, Multiagent Collaboration
+            example restaurant website, Agents in Amazon Bedrock
+            Guardrails and responsible AI, Amazon Bedrock
+            multiagent collaboration, Multiagent Collaboration
+            proprietary data sources integrated, Agents in Amazon Bedrock
+            workflow, Agents in Amazon Bedrock
+        defined, Glossary
+    AGI (artificial general intelligence), AGI
+        OpenAI mission, Understanding Generative AI, AGI
+    AI (artificial intelligence)
+        AI governance defined, Glossary
+            (see also governance)
+        “artificial intelligence” coined, AI and Machine Learning
+        AWS AI revenue, AWS Remains Dominant
+        benefits of AI skills, Why Should You Take This Exam?-Improving Economic Growth and Business Operations
+        defined, Understanding AI, Glossary
+        economic growth from, Improving Economic Growth and Business Operations, Real-World AI Applications with AWS Tools
+        growth of, The Growth of AI
+        history of, AI and Machine Learning
+        implementation scopes and security, Generative AI Security Scoping Matrix-Generative AI Security Scoping Matrix
+        security, Security for AI and Generative AI
+            (see also security)
+        understanding AI, Understanding AI
+            components of AI, Understanding AI
+            ML as a subset, Understanding AI
+            ML explained, Machine Learning
+        when to use, When to Use AI?
+            (see also real-world applications of AWS tools)
+    AI For Everyone by Andrew Ng (Coursera), Other Certifications
+    AI Ready initiative (Amazon), Foreword
+        shortage of talent, Foreword
+    AI-900: Microsoft Azure AI Fundamentals certification, Other Certifications
+    AIF-C01 certification, Preface, Why Should You Take This Exam?-Improving Economic Growth and Business Operations, Other Certifications
+        AWS courses online, AWS Resources
+        AWS exam study guide online, Topics Covered in the Exam
+        exam for (see exam for AIF-C01)
+        exams to take after, Other Certifications
+        updates online, Updates
+    Altman, Sam, Understanding Generative AI
+    Amazon AI Ready initiative, Foreword
+    Amazon Augmented AI (Amazon A2I), Amazon Augmented AI (Amazon A21)
+    Amazon Aurora, RAG, Applications of FMs
+        defined, Glossary
+    Amazon Bedrock
+        about, Building with Amazon Bedrock and Amazon Q
+        agents in, Agents in Amazon Bedrock-Pricing
+            about, Agents in Amazon Bedrock
+            example customer support chatbot, Multiagent Collaboration
+            example restaurant website, Agents in Amazon Bedrock
+            multiagent collaboration, Multiagent Collaboration
+            proprietary data sources integrated, Agents in Amazon Bedrock
+            workflow, Agents in Amazon Bedrock
+        Amazon Q, Amazon Q-Benefits of Bedrock and Amazon Q
+            benefits of Amazon Bedrock and Amazon Q, Benefits of Bedrock and Amazon Q
+            Business, Amazon Q Business
+            Developer, Amazon Q Developer
+        business goals and metrics, Measuring Success: Business Goals and Metrics-Efficiency
+            about, Measuring Success: Business Goals and Metrics
+            average revenue per user, Average Revenue per User
+            conversion rate, Conversion Rate
+            efficiency, Efficiency
+        choosing a foundation model, Choosing an FM-FM Response Analysis
+            FM response analysis, FM Response Analysis
+            license types, License Types-License Types
+        customization of model, Model Customization-Continued Pretraining
+            about, Model Customization
+            continued pretraining, Continued Pretraining
+            distillation, Distillation
+            fine-tuning, Fine-Tuning
+        dashboard, Getting Started with Amazon Bedrock-Guardrails
+        defined, Glossary
+        foundation models
+            choosing a foundation model, Choosing an FM-FM Response Analysis
+            enabling model, Getting Started with Amazon Bedrock
+            fee for using, Getting Started with Amazon Bedrock
+            interacting with, Interacting with the FM
+            model catalog, Getting Started with Amazon Bedrock
+            profiles of models, Getting Started with Amazon Bedrock
+            sample code for API request, Getting Started with Amazon Bedrock
+        getting started, Getting Started with Amazon Bedrock-Getting Started with Amazon Bedrock
+        Guardrails, Guardrails
+            responsible AI, Amazon Bedrock
+            testing environment for, Guardrails
+        playground for image and video models, Image/Video Playground-Seed
+            downloading as jpg file, Seed
+            exporting as zip file, Seed
+            negative prompt, Negative prompt
+            prompt strength, Prompt strength
+            response image, Response image
+            seed, Seed
+        playground for text-based models, Getting Started with Amazon Bedrock-Guardrails
+            response analysis for choosing FM, FM Response Analysis
+            response length, Response length
+            stop sequences, Stop sequences
+            temperature, Temperature
+            Top K, Top K
+            Top P, Top P
+        pricing, Pricing
+        responsible AI tools, Amazon Bedrock
+    Amazon Chime, Software as a Service
+    Amazon CloudFront, Content Delivery
+    Amazon CloudWatch, Monitoring and Logging
+    Amazon Cognito, Security approaches with AWS tools
+    Amazon Comprehend, Amazon Comprehend, Amazon Comprehend
+        defined, Glossary
+        demo, Amazon Comprehend
+        natural language processing, Natural Language Processing, Amazon Comprehend
+        user satisfaction measure, User Satisfaction
+    Amazon Connect, Software as a Service
+    Amazon DynamoDB, Storage and Databases
+        free storage, Setting Up AWS
+    Amazon EBS, Analytics and Recommendations
+    Amazon EC2 (Elastic Compute Cloud)
+        analytics and recommendations, Analytics and Recommendations
+        defined, Glossary
+        security response, Security approaches with AWS tools
+        virtual machines of AWS, Infrastructure as a Service, Analytics and Recommendations
+            accessing instances, Analytics and Recommendations
+            Amazon EBS storage, Analytics and Recommendations
+            EC2 Instance Connect via browser, Analytics and Recommendations
+    Amazon Elastic Compute Cloud (see Amazon EC2 (Elastic Compute Cloud))
+    Amazon EventBridge, Security approaches with AWS tools
+    Amazon Fraud Detector, Fraud Detection
+        defined, Glossary
+    Amazon GuardDuty, Security approaches with AWS tools
+    Amazon Inspector, Amazon Inspector
+        defined, Glossary
+    Amazon Kendra, Amazon Kendra, Amazon Kendra
+        defined, Glossary
+        GenAI index, Amazon Kendra
+        natural language processing, Natural Language Processing, Amazon Kendra
+        vector database capabilities, RAG
+    Amazon Kinesis, Data Ingestion
+    Amazon Lex, Amazon Lex, Amazon Lex
+        defined, Glossary
+        natural language processing, Natural Language Processing, Amazon Lex
+    Amazon Macie, Amazon Macie
+        defined, Glossary
+    Amazon OpenSearch Serverless, RAG
+    Amazon OpenSearch Service, RAG
+    Amazon Personalize, Amazon Personalize
+        defined, Glossary
+    Amazon Polly, Amazon Polly, Amazon Polly
+        defined, Glossary
+        natural language processing, Natural Language Processing, Amazon Polly
+        trying out, Amazon Polly
+    Amazon Q, Software as a Service, Amazon Q-Benefits of Bedrock and Amazon Q
+        about, Building with Amazon Bedrock and Amazon Q, Amazon Q
+        benefits of Amazon Bedrock and Amazon Q, Benefits of Bedrock and Amazon Q
+        Business, Amazon Q Business
+            pricing, Amazon Q Business
+        defined, Glossary
+        Developer, Software as a Service, Amazon Q Developer
+            AWS integration, Amazon Q Developer
+            defined, Glossary
+            enterprise-grade capabilities, Amazon Q Developer
+    Amazon RDS
+        storage of structured transactional data, Storage and Databases
+        vector databases, RAG
+    Amazon Redshift, Storage and Databases
+    Amazon Rekognition, Amazon Rekognition, Amazon Rekognition-Amazon Rekognition
+        defined, Glossary
+        software development kit, Amazon Rekognition
+        trying out, Amazon Rekognition
+    Amazon S3 (Simple Storage Service), Data Ingestion
+        defined, Glossary
+    Amazon SageMaker
+        defined, Glossary
+        explained, Amazon SageMaker
+        model development, Using AWS for model development
+        SageMaker Clarify
+            defined, Glossary
+            responsible AI tools, SageMaker Clarify and Experiments, Data Preparation
+        SageMaker Data Wrangler, Data preprocessing, feature engineering, and data visualization
+            defined, Amazon SageMaker, Glossary
+            responsible AI tools, Data Preparation
+        SageMaker Experiments, MLOps
+            defined, Glossary
+            responsible AI tools, SageMaker Clarify and Experiments
+        SageMaker Feature Store, MLOps
+            defined, Glossary
+        SageMaker Ground Truth, RLHF
+            defined, Glossary
+        SageMaker JumpStart, Platform as a Service
+            defined, Amazon SageMaker, Glossary
+            pretrained models, Amazon SageMaker, Using AWS for model development
+        SageMaker Model Cards, SageMaker Clarify and Experiments
+            defined, Glossary
+        SageMaker Model Dashboard, SageMaker Clarify and Experiments
+            defined, Glossary
+        SageMaker Model Monitor, Monitoring
+            defined, Amazon SageMaker, Glossary
+            responsible AI, SageMaker Model Monitor
+        SageMaker Model Registry, MLOps
+            defined, Glossary
+        SageMaker Notebook Instances, SageMaker Notebook Instances
+        SageMaker Processing, MLOps
+            defined, Glossary
+        SageMaker Role Manager
+            defined, Glossary
+            governance tools, SageMaker Clarify and Experiments
+            IAM roles, Amazon SageMaker Role Manager
+        SageMaker Studio Classic, SageMaker Studio Classic
+            defined, Amazon SageMaker, Glossary
+    Amazon Simple Notification Service (SNS), Monitoring and Logging
+    Amazon Textract, Amazon Textract, Intelligent Document Processing
+        defined, Glossary
+        trying out, Intelligent Document Processing
+    Amazon Titan models, Continued Pretraining
+    Amazon Transcribe, Amazon Transcribe, Amazon Transcribe
+        defined, Glossary
+        natural language processing, Natural Language Processing, Amazon Transcribe
+        trying out, Amazon Transcribe
+    Amazon Translate, Amazon Translate, Amazon Translate
+        defined, Glossary
+        natural language processing, Natural Language Processing, Amazon Translate
+        trying out, Amazon Translate
+    Amazon Virtual Private Cloud (VPC), Private Cloud
+        network and edge security, Security approaches with AWS tools, Network security and data flow control
+    Amazon Web Services (see AWS entries)
+    Amazon WorkDocs, Software as a Service
+    Amodei, Dario, Costs
+    Angelopoulos, Anastasios, Issues with benchmark metrics
+    anonymization of data, Data Security and Privacy, Exposure
+    Apache 2.0 license, License Types
+    application security, Security approaches with AWS tools
+    architecture of AWS, AWS Fundamentals for the AI Practitioner
+    area under the curve-receiver operating curve (AUC-ROC), Classification
+    artificial general intelligence (AGI), AGI
+        OpenAI mission, Understanding Generative AI, AGI
+    artificial intelligence (see AI (artificial intelligence))
+    Associate level AWS certification, Other Certifications
+    automatic speech recognition (ASR), Amazon Transcribe, Glossary
+    automation and jobs, Disruption of the Nature of Work
+    autonomous agents, Evolution of FMs
+    availability zones (AZs), Availability Zones
+    average revenue per user (ARPU), Average Revenue per User
+    AWS (Amazon Web Services), AWS Remains Dominant
+        AIF-C01 courses online, AWS Resources
+        AIF-C01 exam study guide online, Topics Covered in the Exam
+        Amazon Q Developer integration, Amazon Q Developer
+        certifications, Other Certifications
+            levels of, Other Certifications
+        compliance tools, AWS compliance tools, Security, Compliance, and Governance for AI Solutions
+        core services, Core AWS Services: An eCommerce Example-Monitoring and Logging
+            about, Core AWS Services: An eCommerce Example
+            analytics and recommendations, Analytics and Recommendations
+            content delivery, Content Delivery
+            data ingestion, Data Ingestion
+            data processing, Data Processing
+            monitoring and logging, Monitoring and Logging
+            storage and databases, Storage and Databases
+        development tools, AWS Development Tools-AWS DeepRacer
+            about, AWS Development Tools
+            AWS ML services, AWS ML Services-AWS DeepRacer
+            SageMaker Notebook Instances, SageMaker Notebook Instances
+            SageMaker Studio Classic, SageMaker Studio Classic
+        fundamentals
+            about AWS, AWS Fundamentals for the AI Practitioner
+            cloud computing, Cloud Computing
+            cloud models, Cloud Models
+            cloud service types, Cloud Service Types
+            microservices architecture, AWS Fundamentals for the AI Practitioner
+            model prices, Pricing Models, Setting Up AWS, Setting Up AWS
+            pricing calculator online, Pricing Models
+        global cloud infrastructure, AWS Regions, Availability Zones, and Local Zones
+            availability zones, Availability Zones
+            local zones, Local Zones
+            regions, Region
+        governance tools and services, AWS governance tools and services, Security, Compliance, and Governance for AI Solutions
+        Management Console, Setting Up AWS
+            cloud computing services, Cloud Computing
+        real-world applications (see real-world applications of AWS tools)
+        security tools, Shared Responsibility Model, Security approaches with AWS tools-Security approaches with AWS tools, AWS security tools and services for AI workloads, Security, Compliance, and Governance for AI Solutions
+            (see also security)
+        setting up, Setting Up AWS
+        shared responsibility model, Shared Responsibility Model
+        Systems Manager, Analytics and Recommendations
+    AWS Artifact, AWS Artifact
+        defined, Glossary
+    AWS Audit Manager, AWS Audit Manager
+        defined, Glossary
+    AWS Bedrock (see Amazon Bedrock)
+    AWS Certificate Manager (ACM), Security approaches with AWS tools
+        defined, Glossary
+    AWS Certified AI Practitioner, Preface, Why Should You Take This Exam?-Improving Economic Growth and Business Operations, Other Certifications
+        AWS courses online, AWS Resources
+        AWS exam study guide online, Topics Covered in the Exam
+        exam (see exam for AIF-C01)
+        exams to take after, Other Certifications
+        updates online, Updates
+    AWS Certified Cloud Practitioner (CLF-C02), Other Certifications
+    AWS Certified Data Engineer—Associate (DEA-C01), Other Certifications
+    AWS Certified Machine Learning Engineer, The Growth of AI
+    AWS Certified Machine Learning Engineer—Associate (MLA-C01), Other Certifications
+    AWS Certified Machine Learning—Specialty (MLS-C01), Other Certifications
+    AWS CloudTrail, AWS CloudTrail
+        about, Shared Responsibility Model
+        defined, Glossary
+    AWS Config, AWS Config
+        about, Shared Responsibility Model
+        defined, Glossary
+    AWS Console integration with GitLab, Amazon Q Developer
+    AWS Control Tower, AWS Control Tower
+    AWS DeepRacer, AWS DeepRacer
+        defined, Glossary
+    AWS Firewall Manager, AWS Shield Advanced
+    AWS Glue, Data Processing
+        defined, Glossary
+    AWS IAM (Identity and Access Management), AWS IAM
+        about, Shared Responsibility Model
+        defined, Glossary
+        IAM Access Analyzer, AWS IAM
+        IAM group, AWS IAM
+        IAM role, AWS IAM, Security approaches with AWS tools, Amazon SageMaker Role Manager
+        IAM user, AWS IAM
+        infrastructure protection, Security approaches with AWS tools
+        policies, AWS IAM
+        security, Security approaches with AWS tools
+    AWS Key Management Service (KMS), Security approaches with AWS tools, AWS Key Management Service
+        about, Shared Responsibility Model
+        defined, Glossary
+    AWS Lambda
+        data processing, Data Processing
+        free Lambda requests, Setting Up AWS
+        security response automation, Security approaches with AWS tools
+    AWS Management Console, Setting Up AWS
+        cloud computing services, Cloud Computing
+    AWS Network Firewall, Network security and data flow control
+    AWS Organizations, AWS Organizations and service control policies (SCPs)
+        service control policies, AWS Organizations and service control policies (SCPs)
+    AWS Outposts for hybrid cloud model, Hybrid Cloud
+    AWS Private CA for data security, Security approaches with AWS tools
+    AWS PrivateLink
+        Amazon Virtual Private Cloud connected to Amazon Bedrock, Network security and data flow control
+        data security, Security approaches with AWS tools
+        defined, Glossary
+        secure deployments, Security, Compliance, and Governance for AI Solutions
+    AWS Security Hub, Security approaches with AWS tools
+        defined, Glossary
+    AWS Shared Responsibility Model, Shared Responsibility Model-Shared Responsibility Model
+        defined, Glossary
+    AWS Shield
+        defined, Glossary
+        denial-of-service attacks, Security approaches with AWS tools
+        distributed denial of service attacks, Glossary
+        firewall tools, AWS Shield Advanced
+    AWS System and Organization Controls (SOC), Compliance standards
+    AWS Systems Manager, Analytics and Recommendations
+    AWS Trusted Advisor, AWS Trusted Advisor
+        about, Shared Responsibility Model
+    AWS Verified Access, Zero trust and fine-grained access controls
+    AWS Verified Permissions, Zero trust and fine-grained access controls
+    AWS WAF (web application firewall), Security approaches with AWS tools
+        AWS Shield Advanced including, AWS Shield Advanced
+        defined, Glossary
+    AZs (availability zones), Availability Zones
+    Azure certifications from Microsoft, Other Certifications
+
+B
+
+    backpropagation, Neural Networks and Deep Learning
+        defined, Glossary
+    Bank of America cybersecurity costs, Security, Compliance, and Governance for AI Solutions
+    basics of AWS (see fundamentals of AWS)
+    batch size, Tuning
+    batch transform, Model Deployment, Fundamentals of AI and ML
+        defined, Glossary
+    Bedrock (see Amazon Bedrock)
+    benchmark dataset
+        defined, Glossary
+    benchmark metrics resource Hugging Face, Resource for benchmark metrics: Hugging Face
+        issues with benchmark metrics, Issues with benchmark metrics
+    Bengio, Yoshua, Generative Adversarial Network
+    BERTScore, BERTScore
+    Bezos, Jeff, AWS Fundamentals for the AI Practitioner, Building with Amazon Bedrock and Amazon Q
+    bias, Model fit
+        Amazon SageMaker Clarify and Data Wrangler, Data Preparation
+        bias drift, SageMaker Model Monitor
+        defined, Accuracy, Glossary
+        fine-tuning foundation models, Fine-tuning
+    black box, Interpretability
+    BLEU (bilingual evaluation understudy), BLEU
+        defined, Glossary
+    book web page, How to Contact Us
+    branding and AI, Social and Branding Risks, The Benefits of Responsible AI
+    business goals and metrics, Measuring Success: Business Goals and Metrics-Efficiency
+        about, Measuring Success: Business Goals and Metrics
+        conversion rate, Conversion Rate
+        efficiency, Efficiency
+    business problem framing, ML Problem Framing
+        defined, Glossary
+
+C
+
+    car dealership chatbot embarrassment, Social and Branding Risks
+    catalog of FM models in Amazon Bedrock, Getting Started with Amazon Bedrock
+        choosing a foundation model, Choosing an FM-FM Response Analysis
+            FM response analysis, FM Response Analysis
+            license types, License Types-License Types
+    certification
+        AWS certifications, Other Certifications
+            levels of, Other Certifications
+        AWS Certified AI Practitioner, Preface, Why Should You Take This Exam?-Improving Economic Growth and Business Operations, Other Certifications
+            AWS courses online, AWS Resources
+            AWS exam study guide online, Topics Covered in the Exam
+            exam, Preface (see exam for AIF-C01)
+            exams to take after, Other Certifications
+            updates online, Updates
+        AWS Certified Machine Learning Engineer, The Growth of AI
+        importance of, Preface, Why Should You Take This Exam?-Improving Economic Growth and Business Operations
+        Microsoft Azure certifications, Other Certifications
+    chain-of-thought (CoT) prompting, Chain-of-Thought Prompting (CoT)
+        defined, Glossary
+    Chatbot Arena, Issues with benchmark metrics
+    chatbots
+        Amazon Kendra, Amazon Kendra
+        Amazon Lex, Amazon Lex
+        risks of, Social and Branding Risks
+        Tay chatbot and Twitter, A Framework for Responsible AI
+    ChatGPT (OpenAI)
+        creativity exhibited, Capabilities of Generative AI
+        deep research feature, Hallucinations
+        drawbacks of generative AI
+            about, Drawbacks of Generative AI
+            context window limitations, Limited Context Windows
+            costs, Costs-Costs
+            data challenge, Data Challenge
+            data security and privacy, Data Security and Privacy
+            hallucinations, Hallucinations
+            interpretability, Interpretability
+            letter requesting pause, Drawbacks of Generative AI
+            nondeterminism, Nondeterminism
+            recency, Recency
+            social and branding risks, Social and Branding Risks
+        launch, Understanding Generative AI
+        System 1 thinking, Evolution of FMs
+    Chaumond, Julien, Resource for benchmark metrics: Hugging Face
+    cheating and plagiarism, Plagiarism and Cheating
+    Chiang, Wei-Lin, Issues with benchmark metrics
+    classification in supervised learning, Supervised learning
+        defined, Glossary
+    classification metrics for model evaluation, Classification-Regression
+    CLF-C02 (AWS Certified Cloud Practitioner), Other Certifications
+    CLI (see command-line interface (CLI))
+    cloud computing, Cloud Computing
+        advantages of, Cloud Computing
+        AWS global cloud infrastructure, AWS Regions, Availability Zones, and Local Zones
+            regions, Region
+        cloud models
+            about, Cloud Models
+            comparison table, Hybrid Cloud
+            hybrid cloud, Hybrid Cloud
+            private cloud, Private Cloud
+            public cloud, Public Cloud
+        cloud service types, Cloud Service Types
+            about, Cloud Service Types
+            infrastructure as a service, Infrastructure as a Service
+            platform as a service, Platform as a Service
+            software as a service, Software as a Service
+        data security and privacy risks, Data Security and Privacy
+        defined, Cloud Computing, Glossary
+        dominant players, AWS Remains Dominant
+        shared responsibility model of AWS, Shared Responsibility Model
+        virtualization of services, Cloud Computing
+    CloudFront (see Amazon CloudFront)
+    CloudWatch (see Amazon CloudWatch)
+    clustering in unsupervised learning, Unsupervised learning
+        defined, Glossary
+        k-means clustering, Unsupervised learning
+    CNN (see convolutional neural network (CNN))
+    collaborative work among AI agents, Evolution of FMs
+    collider at CERN (Switzerland), Generative Adversarial Network
+    command-line interface (CLI)
+        Amazon Q Developer, Amazon Q Developer
+        cloud computing services, Cloud Computing
+    communication via Amazon Chime, Software as a Service
+    compensation for AI skills, Boosting Your Salary, Productivity, and Career with AI Skills
+    compliance
+        AI governance board, Compliance
+        AWS compliance tools, AWS compliance tools, Security, Compliance, and Governance for AI Solutions
+        challenges, Compliance standards
+        compliance standards, Compliance standards
+        defined, Glossary
+        described, Overview of Security, Compliance, and Governance, Compliance
+        ML suitability and, ML Problem Framing
+        private cloud model, Private Cloud
+        regulated workloads, Regulated workloads
+    computer vision, Computer Vision
+        Amazon Rekognition, Amazon Rekognition, Amazon Rekognition-Amazon Rekognition
+            defined, Glossary
+            software development kit, Amazon Rekognition
+            trying out, Amazon Rekognition
+        defined, Glossary
+    “Computing Machinery and Intelligence” (Turing), AI and Machine Learning
+    concept drift, Monitoring
+    confusion matrix
+        defined, Glossary
+        evaluation in model development, Classification
+    contact center via Amazon Connect, Software as a Service
+    content delivery, Content Delivery
+        AI-generated content on the internet, Data Challenge
+        data poisoning leading to toxic content, Data Security and Privacy
+        Guardrails in Amazon Bedrock, Guardrails
+        intellectual property, Intellectual Property
+    context window
+        defined, Glossary
+        example sizes, Limited Context Windows
+        limitations, Limited Context Windows
+        prompt, The Anatomy of a Prompt
+    controllability
+        defined, Glossary
+        responsible AI, Controllability
+    conversion rate, Conversion Rate
+    convolutional neural networks (CNNs)
+        defined, Glossary
+        image recognition via, Computer Vision
+    costs
+        Amazon Bedrock pricing, Pricing
+        Amazon Q Business, Amazon Q Business
+        AWS pricing models, Pricing Models
+            calculator for pricing online, Pricing Models
+            Free Tier, Setting Up AWS
+            support plans, Setting Up AWS
+        Bedrock foundation models, Getting Started with Amazon Bedrock
+        cloud computing lower costs, Cloud Computing
+        cybersecurity spending, Security, Compliance, and Governance for AI Solutions
+        generative AI foundation models, Costs-Costs
+        high-dimensional data, Unsupervised learning
+        hybrid cloud, Hybrid Cloud
+        infrastructure as a service, Infrastructure as a Service
+            pay-as-you-go model, Infrastructure as a Service
+        infrastructure costs of building FMs, Costs
+            Meta data centers, Costs
+            spending in 2025 for, Costs
+            Stargate project for next-generation, Costs
+        platform as a service, Platform as a Service
+        private cloud, Private Cloud, Hybrid Cloud
+        public cloud, Public Cloud, Hybrid Cloud
+        real estate house price ML example, Machine Learning
+        resource costs while scaling up AI, Efficiency
+    CoT (see chain-of-thought (CoT) prompting)
+    Coursera AI For Everyone by Andrew Ng, Other Certifications
+    crash course for exam study, Crash Course: What to Know Before Exam Day-Guidelines for Responsible AI
+    creating an account for AWS, Setting Up AWS
+    creativity from a generative AI foundation model, Capabilities of Generative AI
+    curse of dimensionality, Unsupervised learning
+    customer support via Amazon Lex, Amazon Lex
+    cybersecurity
+        described, Overview of Security, Compliance, and Governance
+            (see also security)
+        spending on, Security, Compliance, and Governance for AI Solutions
+
+D
+
+    DALL-E (OpenAI), Diffusion Model
+    data
+        costs for building foundation models, Costs
+        data drift, Monitoring
+            defined, Glossary
+            SageMaker Model Monitor, SageMaker Model Monitor
+        data ingestion, Data Ingestion
+        data lineage, Understanding data and model lineage
+            defined, Glossary
+        data poisoning, Data Security and Privacy
+        data residency, Data governance concepts
+            defined, Glossary
+        data warehouse, Storage and Databases
+        foundation models
+            challenges of quality and quantity, Data Challenge
+            data analysis, Data governance concepts
+            selecting data, Data Selection, Data Preparation, Amazon Macie
+        governance, Data governance concepts-Data governance concepts
+            data lineage, Understanding data and model lineage
+            data usage in generative AI, Review of data usage in generative AI
+            defined, Glossary
+        labeled data, Data collection and integration
+            defined, Glossary
+            fine-tuning a foundation model, Fine-tuning
+            ImageNet dataset, Computer Vision
+            label shift, Monitoring
+            supervised learning, Supervised learning, Glossary
+        monitoring, Data governance concepts
+        proprietary data sources integrated into agents, Agents in Amazon Bedrock
+        responsible AI, Data Preparation
+        retention, Data governance concepts
+        safety versus transparency, Safety
+        secure data engineering, Secure data engineering
+            assessing data quality, Assessing data quality
+            data access control, Data access control
+            data integrity, Data integrity
+            privacy-enhancing technologies, Implementing privacy-enhancing technologies
+        security and privacy
+            anonymization of data, Data Security and Privacy, Exposure
+            encryption, Security for AI and Generative AI
+            encryption via AWS Key Management Service, Shared Responsibility Model, Security approaches with AWS tools, AWS Key Management Service, Glossary
+            generative AI FMs, Data Security and Privacy
+            model trained on sensitive data, Exposure
+            privacy-enhancing technologies, Implementing privacy-enhancing technologies
+            protection of data, Security for AI and Generative AI
+            secure data engineering, Secure data engineering
+            sensitive data identified and classified, Amazon Macie
+            sensitive data identified and redacted, Amazon Comprehend, Amazon Comprehend
+        selecting for models
+            Amazon Macie flagging sensitive data, Amazon Macie
+            Data Selection with Importance Resampling framework, Data Selection
+            responsible AI, Data Preparation
+        semistructured data, Storage and Databases
+        storage, Storage and Databases
+            Amazon EBS for EC2 instances, Analytics and Recommendations
+            Amazon S3, Data Ingestion, Glossary
+        structured data, Data collection and integration
+            defined, Glossary
+        synthetic data, Data Challenge
+            underrepresented groups, Data Preparation
+        training data, Training
+            data analysis, Data governance concepts
+            documenting data origins, Source citation and data origins documentation
+            English Wikipedia, Data Selection
+            foundation models, Data Selection
+            governance, Training data
+            larger dataset better, Data Selection
+            selecting data, Data Selection, Data Preparation, Amazon Macie
+            source citation, Source citation and data origins documentation
+            WebTest, Data Selection
+        unlabeled data, Data collection and integration
+            continued pretraining, Continued Pretraining
+            defined, Glossary
+            semisupervised learning synthetic labels, Pretraining
+            unsupervised learning, Unsupervised learning
+        unstructured data, Data collection and integration
+            defined, Glossary
+    data fundamentals on Azure certification from Microsoft, Other Certifications
+    data poisoning leading to toxic content, Data Security and Privacy
+    data preprocessing, Data preprocessing, feature engineering, and data visualization
+        defined, Glossary
+        SageMaker Processing automating, MLOps
+    data processing, Data Processing
+        ML lifecycle, Data Processing
+            data collection and integration, Data collection and integration
+            data preprocessing, feature engineering, visualization, Data preprocessing, feature engineering, and data visualization
+            SageMaker Data Wrangler, Data preprocessing, feature engineering, and data visualization
+            SageMaker Processing, MLOps
+        natural language processing, Natural Language Processing
+        responsible AI data preparation, Data Preparation
+    Data Selection with Importance Resampling (DSIR) framework, Data Selection
+    DBSCAN (density-based spatial clustering of applications with noise), Unsupervised learning
+    DDoS (see distributed denial of service (DDoS))
+    DEA-C01 (AWS Certified Data Engineer—Associate), Other Certifications
+    deep learning
+        defined, Glossary
+        generative AI, Understanding AI, Neural Networks and Deep Learning
+        image recognition via CNN, Computer Vision
+        ML component, Understanding AI
+    deep research feature of ChatGPT, Hallucinations
+    defense in depth, Security approaches with AWS tools-Security approaches with AWS tools
+        AWS tools
+            application protection, Security approaches with AWS tools
+            data protection, Security approaches with AWS tools
+            IAM, Security approaches with AWS tools
+            infrastructure protection, Security approaches with AWS tools
+            network and edge protection, Security approaches with AWS tools
+            threat detection and incident response, Security approaches with AWS tools
+        defined, Glossary
+    Delangue, Clément, Resource for benchmark metrics: Hugging Face
+    denial of service (DoS) protection via AWS Shield, Security approaches with AWS tools, Glossary
+    density-based spatial clustering of applications with noise (DBSCAN), Unsupervised learning
+    deploying a model, Model Deployment
+        foundation models, Deployment
+        inferencing, Model Deployment
+        secure deployments, Security, Compliance, and Governance for AI Solutions
+        self-hosted versus managed API, Model Deployment
+    development tools in AWS, AWS Development Tools-AWS DeepRacer
+        about, AWS Development Tools
+        AWS ML services, AWS ML Services-AWS DeepRacer
+        SageMaker Notebook Instances, SageMaker Notebook Instances
+        SageMaker Studio Classic, SageMaker Studio Classic
+    diffusion models, Diffusion Model
+        defined, Glossary
+        foundation models, Foundation Models
+            lifecycle, Foundation Models-Deployment
+            multimodal models, Foundation Models
+    dimensionality reduction, Unsupervised learning
+        defined, Glossary
+    distillation, Distillation
+        defined, Glossary
+    distributed denial of service (DDoS) protection via AWS Shield, Security approaches with AWS tools
+        defined, Glossary
+    Docker images for model development, Using AWS for model development
+    document sharing and collaboration, Software as a Service
+    DoS (denial of service) protection via AWS Shield, Security approaches with AWS tools, Glossary
+    DP-900: Microsoft Azure Data Fundamentals certification, Other Certifications
+    DSIR (Data Selection with Importance Resampling) framework, Data Selection
+    DynamoDB (see Amazon DynamoDB)
+
+E
+
+    EC2 (see Amazon EC2 (Elastic Compute Cloud))
+    ecommerce example using AWS services, Core AWS Services: An eCommerce Example-Monitoring and Logging
+        about, Core AWS Services: An eCommerce Example
+        analytics and recommendations, Analytics and Recommendations
+        content delivery, Content Delivery
+        data ingestion, Data Ingestion
+        data processing, Data Processing
+        monitoring and logging, Monitoring and Logging
+        storage and databases, Storage and Databases
+    economic growth from AI adoption, Improving Economic Growth and Business Operations, Real-World AI Applications with AWS Tools
+    EDA (exploratory data analysis), Data preprocessing, feature engineering, and data visualization
+    efficiency metrics, Efficiency
+    electronic health record (EHR) system and intelligent document processing, Intelligent Document Processing
+    embeddings
+        BERTScore, BERTScore
+        defined, Glossary
+        embedding models, Getting Started with Amazon Bedrock, Applications of FMs
+        input embedding, Input embedding
+        RAG, RAG
+    encryption of data, Security for AI and Generative AI
+        AWS Key Management Service, Shared Responsibility Model, Security approaches with AWS tools, AWS Key Management Service, Glossary
+    environment and AI, Sustainability and Environmental Considerations
+    ethics (see responsible AI)
+    European Union Agency for Cybersecurity (ENISA) security framework, Compliance standards
+    evaluation in model development, Evaluation-Regression
+        classification metrics, Classification-Regression
+            accuracy, Classification
+            area under the curve-receiver operating curve, Classification
+            confusion matrix, Classification
+            precision, Classification
+            recall, Classification
+        foundation models (see evaluation of foundation models)
+        model fit, Model fit
+        regression, Regression
+    evaluation of foundation models, Evaluation-Issues with benchmark metrics
+        about, Evaluation
+        benchmark datasets, Benchmark datasets
+        human evaluation, Human evaluation
+        standard evaluation metrics, Standard evaluation metrics-Issues with benchmark metrics
+            about, Standard evaluation metrics
+            BERTScore, BERTScore
+            BLEU, BLEU
+            Hugging Face resource, Resource for benchmark metrics: Hugging Face
+            issues with benchmark metrics, Issues with benchmark metrics
+            ROUGE, ROUGE-ROUGE
+    exam for AIF-C01
+        about, Preface, Why Certify? An Introduction to the AWS AI Practitioner Exam
+        age requirement, Other Important Information
+        AWS study guide online, Topics Covered in the Exam
+        code AIF-C01, Why Certify? An Introduction to the AWS AI Practitioner Exam
+        cost of, Exam Details
+        crash course for exam study, Crash Course: What to Know Before Exam Day-Guidelines for Responsible AI
+        details, Exam Details, Other Important Information
+        guessing not penalized, Exam Details, Use the Process of Elimination
+        other AWS certifications, Other Certifications
+        registering for, Exam Details
+        score needed to pass, Exam Details
+        strategies for success
+            glossary will help, Strategies and Techniques for Successfully Taking the AWS Certified AI Practitioner (AIF-C01) Exam
+            time needed for preparation, Strategies and Techniques for Successfully Taking the AWS Certified AI Practitioner (AIF-C01) Exam
+            tips when taking the exam, Tips When Taking the Exam-Stay Calm and Double-Check Your Answers
+        topics covered, Topics Covered in the Exam
+            AI and ML fundamentals, AI and Machine Learning, Fundamentals of AI and ML
+            applications of FMs, Applications of FMs
+            AWS fundamentals, AWS Fundamentals for the AI Practitioner
+            business goals and metrics, Measuring Success: Business Goals and Metrics
+            crash course for exam study, Crash Course: What to Know Before Exam Day-Guidelines for Responsible AI
+            generative AI, Topics Covered in the Exam, Generative AI Models, Fundamentals of Generative AI
+            prompt engineering, A Guide to Prompt Engineering
+            responsible AI, A Framework for Responsible AI, Elements of Responsible AI, Guidelines for Responsible AI
+            security services, Security, Compliance, and Governance for AI Solutions, Security approaches with AWS tools, Security, Compliance, and Governance for AI Solutions
+        updates online, Updates
+    explainable AI (XAI), Explainability
+        defined, Glossary
+        explainability frameworks, Explainability
+        interpretability versus, Interpretability Versus Explainability
+        responsible AI, Explainability, Interpretability Versus Explainability
+        transparency versus, Transparency
+    exploratory data analysis (EDA), Data preprocessing, feature engineering, and data visualization
+    exposure, Exposure
+
+F
+
+    fairness
+        defined, Glossary
+        responsible AI, Fairness
+    feature attribution drift, SageMaker Model Monitor
+    feature drift, Monitoring
+    feature engineering, Data preprocessing, feature engineering, and data visualization
+        defined, Glossary
+    fee for exam, Exam Details
+    feedback extraction, User Satisfaction
+    few-shot prompting, Few-Shot Prompting
+        defined, Glossary
+    Feynman, Richard, AGI
+    fine-tuning
+        customization of model in Bedrock, Fine-Tuning
+        data governance, Fine-tuning data
+        defined, Glossary
+        foundation models, Fine-tuning
+            advanced fine-tuning methods, Fine-tuning
+            drawbacks, Fine-tuning
+        hallucinations reduced, Hallucinations
+    firewall (AWS WAF), Security approaches with AWS tools
+        defined, Glossary
+    FMs (see foundation models (FMs))
+    foreign language translation, Amazon Translate
+    foundation models (FMs)
+        Amazon Bedrock
+            choosing a foundation model, Choosing an FM-FM Response Analysis
+            customization of model, Model Customization-Continued Pretraining
+            enabling model, Getting Started with Amazon Bedrock
+            fee for using, Getting Started with Amazon Bedrock
+            interacting with FM, Interacting with the FM
+            model catalog, Getting Started with Amazon Bedrock
+            playground for image and video models, Image/Video Playground-Seed
+            playground for text-based models, Getting Started with Amazon Bedrock-Guardrails
+            pricing, Pricing
+            profiles of models, Getting Started with Amazon Bedrock
+            sample code for API request, Getting Started with Amazon Bedrock
+        business goals and metrics, Measuring Success: Business Goals and Metrics-Efficiency
+            about, Measuring Success: Business Goals and Metrics
+            average revenue per user, Average Revenue per User
+            conversion rate, Conversion Rate
+            efficiency, Efficiency
+        choosing a foundation model, Choosing an FM-FM Response Analysis
+            FM response analysis, FM Response Analysis
+            license types, License Types-License Types
+        defined, Glossary
+        distillation, Distillation
+        evaluation, Evaluation-Issues with benchmark metrics
+            about, Evaluation
+            benchmark datasets, Benchmark datasets
+            human evaluation, Human evaluation
+            platforms for ranking LLMs, Issues with benchmark metrics
+            standard evaluation metrics, Standard evaluation metrics-Issues with benchmark metrics
+        evolution of, Evolution of FMs
+        generative AI, Foundation Models
+            AI-generated content on the internet, Data Challenge
+            capabilities of, Capabilities of Generative AI
+            drawbacks of, Drawbacks of Generative AI-Data Challenge
+            lifecycle of FMs, Foundation Models-Deployment
+            LLMs, Foundation Models
+            multimodal models, Foundation Models
+        lifecycle, Foundation Models-Deployment
+            about, Foundation Models
+            data selection, Data Selection
+            deployment, Deployment
+            environmental impact assessments, Sustainability and Environmental Considerations
+            evaluation, Evaluation-Issues with benchmark metrics
+            optimization, Optimization-RAG
+            pretraining, Pretraining
+        pretrained, Using AWS for model development, Glossary
+    Foundational level AWS certification, Other Certifications
+    fraud detection, Fraud Detection
+        Amazon Fraud Detector, Fraud Detection
+        classification for, Supervised learning
+        DBSCAN algorithm for clustering, Unsupervised learning
+        DynamoDB for, Storage and Databases
+        ML for, Understanding AI
+    fundamentals of AWS
+        about AWS, AWS Fundamentals for the AI Practitioner
+        cloud computing, Cloud Computing
+            cloud models, Cloud Models
+            cloud service types, Cloud Service Types
+        core services, Core AWS Services: An eCommerce Example-Monitoring and Logging
+            about, Core AWS Services: An eCommerce Example
+            analytics and recommendations, Analytics and Recommendations
+            content delivery, Content Delivery
+            data ingestion, Data Ingestion
+            data processing, Data Processing
+            monitoring and logging, Monitoring and Logging
+            storage and databases, Storage and Databases
+        global cloud infrastructure, AWS Regions, Availability Zones, and Local Zones
+            availability zones, Availability Zones
+            local zones, Local Zones
+            regions, Region
+        model prices, Pricing Models
+        pricing models
+            calculator for pricing online, Pricing Models
+            Free Tier, Setting Up AWS
+            support plans, Setting Up AWS
+        setting up AWS, Setting Up AWS
+        shared responsibility model, Shared Responsibility Model
+
+G
+
+    GAN (see generative adversarial network (GAN))
+    Ganguli, Surya, Diffusion Model
+    General Data Protection Regulation (GDPR) compliance, Compliance standards
+    generative adversarial network (GAN), Generative Adversarial Network-Generative Adversarial Network
+        defined, Glossary
+        developer Ian Goodfellow, Generative Adversarial Network
+        discriminator, Generative Adversarial Network
+        generator, Generative Adversarial Network
+        subatomic particle behavior, Generative Adversarial Network
+    generative AI
+        about, Generative AI Models, When to Use AI?
+        AI-generated content on the internet, Data Challenge
+        Amazon Q, Software as a Service, Amazon Q
+            about, Building with Amazon Bedrock and Amazon Q, Amazon Q
+            Business, Amazon Q Business
+            defined, Glossary
+            Developer, Amazon Q Developer
+        building applications (see Amazon Bedrock)
+        capabilities of, Capabilities of Generative AI
+        ChatGPT launch, Understanding Generative AI
+        deep learning component, Understanding AI, Neural Networks and Deep Learning
+        defined, Glossary
+        development via neural networks, Neural Networks and Deep Learning
+        drawbacks
+            about, Drawbacks of Generative AI
+            context window limitations, Limited Context Windows
+            costs, Costs-Costs
+            data challenge, Data Challenge
+            data security and privacy, Data Security and Privacy
+            hallucinations, Hallucinations
+            interpretability, Interpretability
+            letter requesting pause, Drawbacks of Generative AI
+            nondeterminism, Nondeterminism
+            recency, Recency
+            social and branding risks, Social and Branding Risks
+        evolution of, Evolution of FMs
+        exam focusing on, Topics Covered in the Exam
+        foundation models, Foundation Models
+            capabilities of, Capabilities of Generative AI
+            evolution of, Evolution of FMs
+            lifecycle, Foundation Models-Deployment
+            LLMs, Foundation Models
+            model catalog in Amazon Bedrock, Getting Started with Amazon Bedrock
+            multimodal models, Foundation Models
+        Generative AI Security Scoping Matrix, Generative AI Security Scoping Matrix-Generative AI Security Scoping Matrix
+        models
+            diffusion model, Diffusion Model, Glossary
+            generative adversarial network, Generative Adversarial Network-Generative Adversarial Network, Glossary
+            transformer model, Transformer Model-A transformer is a prediction engine, Glossary
+            variational autoencoder, Variational Autoencoder, Glossary
+        risks of, Risks of Generative AI-Accuracy
+            about, Risks of Generative AI
+            accuracy, Accuracy
+            intellectual property theft, Intellectual Property
+            plagiarism and cheating, Plagiarism and Cheating
+            toxicity, Toxicity
+            workforce transitions, Disruption of the Nature of Work
+        security, Security approaches with AWS tools, Security for AI and Generative AI
+            (see also security)
+    Generative AI Security Scoping Matrix (AWS), Generative AI Security Scoping Matrix-Generative AI Security Scoping Matrix
+        defined, Glossary
+    GitLab integration with AWS Console, Amazon Q Developer
+    glossary, Glossary-Glossary
+        exam study aid, Strategies and Techniques for Successfully Taking the AWS Certified AI Practitioner (AIF-C01) Exam
+    GNU General Public License (GPL), License Types
+    Goodfellow, Ian, Generative Adversarial Network
+    Google Cloud’s share of market, AWS Remains Dominant
+    governance
+        AI governance board, Compliance
+        AI governance defined, Glossary
+        Amazon SageMaker tools for, SageMaker Clarify and Experiments
+        AWS tools and services, AWS governance tools and services, Security, Compliance, and Governance for AI Solutions
+        data governance, Data governance concepts-Data governance concepts
+            data lineage, Understanding data and model lineage
+            data usage in generative AI, Review of data usage in generative AI
+            defined, Glossary
+        described, Overview of Security, Compliance, and Governance
+        model lineage, Understanding data and model lineage
+        responsible AI, Governance
+        secure data engineering, Secure data engineering
+    GPUs (Graphics Processing Units), Pretraining
+        infrastructure costs of building FMs, Costs
+            Stargate supercomputer system, Costs
+        resource allocation in choosing FM, Efficiency
+    Guardrails in Amazon Bedrock, Guardrails
+        responsible AI, Amazon Bedrock
+        testing environment for, Guardrails
+    guessing on exam not penalized, Exam Details, Use the Process of Elimination
+
+H
+
+    hallucinations, Hallucinations
+        defined, Glossary
+        RAG reducing, RAG, Hallucinations
+    Harari, Yuval Noah, Drawbacks of Generative AI
+    Hassabis, Sir Demis, AGI
+    HCD (human-centered design), Human-Centered Design
+    Health Insurance Portability and Accountability Act (HIPAA) compliance, Compliance standards
+    high availability, Cloud Computing
+    hijacking (prompt injection), Hijacking and Prompt Injection
+        defined, Glossary
+    HIPAA (Health Insurance Portability and Accountability Act) compliance, Compliance standards
+    Hollywood writers’ strike (2023), Intellectual Property
+    Hugging Face resource, Resource for benchmark metrics: Hugging Face
+    human-centered design (HCD), Human-Centered Design
+    hybrid cloud model, Hybrid Cloud, Hybrid Cloud
+        AWS Outposts, Hybrid Cloud
+        growth strong, Hybrid Cloud
+    hyperparameters
+        defined, Glossary
+        optimization or tuning, Tuning
+            defined, Glossary
+
+I
+
+    IaaS (infrastructure as a service), Infrastructure as a Service
+        shared responsibility model, Shared Responsibility Model
+    IAM (see AWS IAM (Identity and Access Management))
+    IBM AI Foundations for Business certification, Other Certifications
+    IDE (integrated development environment)
+        Amazon Q Developer plug-in, Amazon Q Developer
+        Amazon SageMaker Studio Classic, SageMaker Studio Classic
+            defined, Amazon SageMaker, Glossary
+    IDP (see intelligent document processing (IDP))
+    ImageNet dataset, Computer Vision
+    inferencing by model, Model Deployment
+        batch transform, Model Deployment, Fundamentals of AI and ML
+            defined, Glossary
+        real-time inference, Model Deployment, Fundamentals of AI and ML
+            defined, Glossary
+    information security, Overview of Security, Compliance, and Governance
+        (see also security)
+    infrastructure as a service (IaaS), Infrastructure as a Service
+        shared responsibility model, Shared Responsibility Model
+    infrastructure costs of building FMs, Costs
+        Meta data centers, Costs
+        spending in 2025 for, Costs
+        Stargate project for next-generation, Costs
+    infrastructure security, Security approaches with AWS tools, Security for AI and Generative AI
+    instruction fine-tuning, Fine-tuning
+    integrated development environment (see IDE (integrated development environment))
+    intellectual property (IP), Intellectual Property
+        licensing deals, Intellectual Property
+    intelligent document processing (IDP), Intelligent Document Processing
+        Amazon Textract, Intelligent Document Processing
+        natural language processing versus, Intelligent Document Processing
+    interpretability, Interpretability
+        defined, Glossary
+        explainable AI (XAI)
+            versus interpretability, Interpretability Versus Explainability
+        responsible AI, Interpretability Versus Explainability
+    ISO security standards, Compliance standards
+
+J
+
+    jailbreaking, Jailbreaking
+        defined, Glossary
+    jobs and automation, Disruption of the Nature of Work
+    JPMorgan cybersecurity spending, Security, Compliance, and Governance for AI Solutions
+    Jupyter Notebook
+        defined, Glossary
+        instances in Amazon SageMaker, Amazon SageMaker
+            development tool, SageMaker Notebook Instances
+
+K
+
+    k-means clustering, Unsupervised learning
+    Kahneman, Daniel, Evolution of FMs
+    key performance indicators (KPIs), Business Goal Identification
+    Keynes, John Maynard, Disruption of the Nature of Work
+    Kingma, Diederik P., Variational Autoencoder
+    KMS (see AWS Key Management Service (KMS))
+    knowledge bases via Amazon Kendra, Amazon Kendra
+    Kurzweil, Ray, AGI
+
+L
+
+    labeled data, Data collection and integration
+        defined, Glossary
+        fine-tuning a foundation model, Fine-tuning
+        ImageNet dataset, Computer Vision
+        label shift, Monitoring
+        supervised learning, Supervised learning, Glossary
+    Lambda (see AWS Lambda)
+    landing zones, AWS Control Tower
+    Large Hadron Collider at CERN, Generative Adversarial Network
+    large language models (see LLMs (large language models))
+    latency
+        AWS global data centers, Cloud Computing
+        defined, Glossary
+        local zones, Local Zones
+    learning rate, Tuning
+    LeCun, Yann, Generative Adversarial Network
+    Lemke, Leslie, AGI
+    lemmatization, Natural Language Processing
+        defined, Glossary
+    Lewis, Patrick, RAG
+    Li, Fei-Fei, Computer Vision
+    licensing intellectual property, Intellectual Property
+    Llama Community License Agreement, License Types
+    LLMs (large language models)
+        foundation models, Foundation Models
+            lifecycle, Foundation Models-Deployment
+        hallucinations, Hallucinations
+        platforms for ranking LLMs, Issues with benchmark metrics
+    local zones, Local Zones
+    logging, Monitoring and Logging
+        Amazon CloudWatch Logs, Monitoring and Logging
+        AWS CloudTrail, Shared Responsibility Model, AWS CloudTrail
+        data logging for governance, Data governance concepts
+    Logic Theorist AI program (Newell and Simon), AI and Machine Learning
+    long short-term memory (LSTM) networks, Transformer Model
+    low-rank adaptation (LoRA), Fine-tuning
+
+M
+
+    machine learning (ML)
+        AI component, Understanding AI
+        Amazon SageMaker, Amazon SageMaker
+            (see also Amazon SageMaker)
+        AWS ML services, AWS ML Services-AWS DeepRacer
+        deep learning as component of, Understanding AI
+        defined, Glossary
+        “machine learning” coined, Machine Learning
+        ML lifecycle, The ML Lifecycle-MLOps
+            about, The ML Lifecycle
+            Amazon SageMaker supporting, Amazon SageMaker
+            business goal identification, Business Goal Identification
+            data processing, Data Processing
+            environmental impact assessments, Sustainability and Environmental Considerations
+            ML problem framing, ML Problem Framing
+            MLOps, MLOps
+            model deployment, Model Deployment
+            model development, Model Development-Tuning
+            monitoring, Monitoring
+        understanding, Machine Learning
+            example of ML, Machine Learning
+    machine learning operations (MLOps)
+        defined, Glossary
+        ML lifecycle, MLOps
+        tools in Amazon SageMaker, Amazon SageMaker, MLOps
+    Maheswaranathan, Niru, Diffusion Model
+    McCarthy, John, AI and Machine Learning
+    McCulloch, Warren, AI and Machine Learning
+    mean squared error (MSE), Regression
+        defined, Glossary
+    Meta data centers, Costs
+    metrics for measuring success (see business goals and metrics)
+    MFA (multi-factor authentication), AWS IAM, Security approaches with AWS tools
+    microservice architecture of AWS, AWS Fundamentals for the AI Practitioner
+    Microsoft
+        certifications for Azure, Other Certifications
+        cloud market share, AWS Remains Dominant
+        New York Times suing, Intellectual Property
+        Tay chatbot, A Framework for Responsible AI
+        Xiaoice chatbot, A Framework for Responsible AI
+    Microsoft Teams integration with AWS Console, Amazon Q Developer
+    Midjourney, Diffusion Model
+    Minsky, Marvin, AI and Machine Learning, Computer Vision
+    MIT license, License Types
+    ML (see machine learning (ML))
+    ML lifecycle, The ML Lifecycle-MLOps
+        about, The ML Lifecycle
+        Amazon SageMaker supporting, Amazon SageMaker
+        business goal identification, Business Goal Identification
+        data processing, Data Processing
+        ML problem framing, ML Problem Framing
+        MLOps, MLOps
+        model deployment, Model Deployment
+        model development, Model Development-Tuning
+            AWS for model development, Using AWS for model development
+            environmental impact assessments, Sustainability and Environmental Considerations
+            evaluation, Evaluation-Regression
+            training, Training-Using AWS for model development
+            tuning, Tuning
+        monitoring, Monitoring
+    MLA-C01 (AWS Certified Machine Learning Engineer—Associate), Other Certifications
+    MLOps (see machine learning operations (MLOps))
+    MLS-C01 (AWS Certified Machine Learning—Specialty), Other Certifications
+    model cards
+        defined, Glossary
+        governance documentation, SageMaker Clarify and Experiments, Data lineage
+        SageMaker Model Cards, SageMaker Clarify and Experiments
+            defined, Glossary
+    model catalog for FMs in Amazon Bedrock, Getting Started with Amazon Bedrock
+        choosing a foundation model, Choosing an FM-FM Response Analysis
+            FM response analysis, FM Response Analysis
+            license types, License Types-License Types
+    model deployment, Model Deployment
+        foundation models, Deployment
+        inferencing, Model Deployment
+        secure deployments, Security, Compliance, and Governance for AI Solutions
+        self-hosted versus managed API, Model Deployment
+    model development
+        AWS for, Using AWS for model development
+        evaluation, Evaluation-Regression
+            classification metrics, Classification-Regression
+            model fit, Model fit
+            regression, Regression
+        ML lifecycle, Model Development
+            environmental impact assessments, Sustainability and Environmental Considerations
+        training, Training-Using AWS for model development
+        tuning, Tuning
+    model lineage, Understanding data and model lineage
+    model poisoning, Model Poisoning
+        defined, Glossary
+    model quality drift, SageMaker Model Monitor
+    monitoring, Monitoring and Logging
+        AWS CloudTrail, Shared Responsibility Model
+        data monitoring, Data governance concepts
+        ML lifecycle, Monitoring
+        SageMaker Model Monitor, Amazon SageMaker
+            defined, Glossary
+            responsible AI, SageMaker Model Monitor
+    MSE (see mean squared error (MSE))
+    multi-factor authentication (MFA), AWS IAM, Security approaches with AWS tools
+    multi-tenant model of public cloud, Public Cloud
+    multimodal models
+        defined, Glossary
+        foundation models, Foundation Models
+            lifecycle, Foundation Models-Deployment
+    Musk, Elon, Understanding Generative AI, Drawbacks of Generative AI
+
+N
+
+    National Institute of Standards and Technology (NIST) security framework, Compliance standards
+    natural language processing (NLP)
+        about, Natural Language Processing
+        Amazon Comprehend, Amazon Comprehend
+        continued pretraining for Amazon Titan models, Continued Pretraining
+        dataset preparation, Natural Language Processing
+        defined, Glossary
+        intelligent document processing versus, Intelligent Document Processing
+        real-world applications, Natural Language Processing
+            AWS services, Natural Language Processing-Amazon Translate
+        recurrent neural networks, Transformer Model
+        transformer model, Transformer Model-A transformer is a prediction engine
+            defined, Glossary
+        user satisfaction measured via Comprehend, User Satisfaction
+    network access control lists (ACLs), Security approaches with AWS tools
+    network security, Security approaches with AWS tools, Network security and data flow control
+    neural networks
+        convolutional neural networks, Computer Vision
+            defined, Glossary
+        deep learning of ML, Understanding AI
+            generative AI, Neural Networks and Deep Learning
+        defined, Glossary
+        generative adversarial network, Generative Adversarial Network-Generative Adversarial Network
+        generative AI development, Neural Networks and Deep Learning
+        hyperparameter tuning, Tuning
+        recurrent neural networks, Transformer Model
+        researchers McCulloch and Pitts, AI and Machine Learning
+    New York Times IP theft complaints, Intellectual Property
+    Newell, Allen, AI and Machine Learning
+    Ng, Andrew, Other Certifications, Generative Adversarial Network
+    NIST (National Institute of Standards and Technology) security framework, Compliance standards
+    NLP (see natural language processing (NLP))
+    nondeterminism, Nondeterminism
+    nucleus sampling, Top P
+
+O
+
+    OCR (optical character recognition)
+        Amazon Textract, Intelligent Document Processing
+        computer vision, Computer Vision
+        defined, Glossary
+        electronic health record system and intelligent document processing, Intelligent Document Processing
+    on-premises
+        Amazon Virtual Private Cloud, Private Cloud
+        AWS Outposts, Hybrid Cloud
+        defined, Glossary
+        hybrid clouds, Hybrid Cloud
+    online resources (see resources online)
+    open source license types, License Types-License Types
+    OpenAI
+        ChatGPT, Understanding Generative AI
+        DALL-E, Diffusion Model
+        data security and privacy guardrails, Data Security and Privacy
+        founding, Understanding Generative AI
+        New York Times suing, Intellectual Property
+        Stargate supercomputer project, Costs
+    optical character recognition (see OCR (optical character recognition))
+    optimization of foundation models, Optimization-RAG
+        about, Optimization
+        fine-tuning, Fine-tuning
+        RAG, RAG-RAG
+    Oracle and Stargate project, Costs
+    outliers detected by Random Cut Forest, Unsupervised learning
+    output (see responses)
+    overfitting, Model fit
+        defined, Glossary
+        high-dimensional data, Unsupervised learning
+
+P
+
+    PaaS (platform as a service), Platform as a Service
+    parameters
+        defined, Glossary
+        tuning a model, Tuning
+    Payment Card Industry Data Security Standard (PCI DSS) compliance, Compliance standards
+    personally identifiable information (PII)
+        Amazon Bedrock Guardrails redacting, Amazon Bedrock
+        Amazon Comprehend redacting, Amazon Comprehend, Amazon Comprehend
+        Amazon Macie classifying, Amazon Macie
+        Amazon Transcribe content removal filters, Amazon Transcribe
+        drawbacks of generative AI, Data Security and Privacy
+    pgvector support in vector databases, RAG
+    PII (see personally identifiable information (PII))
+    Pitts, Walter, AI and Machine Learning
+    plagiarism and cheating, Plagiarism and Cheating
+    platform as a service (PaaS), Platform as a Service
+    playground in Amazon Bedrock
+        image and video models, Image/Video Playground-Seed
+            downloading as jpg file, Seed
+            exporting as zip file, Seed
+            negative prompt, Negative prompt
+            prompt strength, Prompt strength
+            response image, Response image
+            seed, Seed
+        interacting with foundation model, Interacting with the FM
+        text-based models, Getting Started with Amazon Bedrock-Guardrails
+            response analysis for choosing FM, FM Response Analysis
+            response length, Response length
+            stop sequences, Stop sequences
+            temperature, Temperature
+            Top K, Top K
+            Top P, Top P
+    policies
+        access controls, Zero trust and fine-grained access controls, Data access control
+            network access control lists, Security approaches with AWS tools
+        Amazon Virtual Private Cloud, Network security and data flow control
+        AWS Control Tower for consistency, AWS Control Tower
+        AWS IAM, AWS IAM
+        AWS Organizations, AWS Organizations and service control policies (SCPs)
+        zero trust approach, Zero trust and fine-grained access controls
+    power consumption
+        human brain, AGI
+        Meta, Costs
+        Stargate supercomputer project, Costs
+    practical applications (see real-world applications of AWS tools)
+    precision, Classification
+        defined, Glossary
+    pretrained models
+        foundation models as, Using AWS for model development, Glossary
+        recency issues, Recency
+        SageMaker JumpStart, Amazon SageMaker, Using AWS for model development
+    pretraining of foundation models, Pretraining
+    pricing (see costs)
+    privacy
+        fine-tuning a foundation model, Fine-tuning
+        Guardrails in Amazon Bedrock, Guardrails
+        privacy-enhancing technologies, Implementing privacy-enhancing technologies
+        private cloud model, Private Cloud
+        responsible AI, Privacy and Security
+        risk with generative AI FMs, Data Security and Privacy
+            anonymization of data, Data Security and Privacy, Exposure
+        sensitive data
+            anonymization of data, Data Security and Privacy, Exposure
+            identified and classified, Amazon Macie
+            identified and redacted, Amazon Comprehend, Amazon Comprehend
+            model trained on, Exposure
+    private cloud model, Private Cloud, Hybrid Cloud
+        Amazon Virtual Private Cloud, Private Cloud
+        single-tenant model, Private Cloud
+    probability distribution
+        temperature, Temperature
+        Top K, Top K
+        Top P, Top P
+        variational autoencoder, Variational Autoencoder
+    productivity improvements from AI, Improving Economic Growth and Business Operations
+    Professional level AWS certification, Other Certifications
+    prompt engineering
+        about, A Guide to Prompt Engineering
+        anatomy of a prompt, The Anatomy of a Prompt-Output Indicator
+            about, The Anatomy of a Prompt
+            context, Context
+            customer service prompt, The Anatomy of a Prompt
+            input data, Input Data
+            instructions, Instruction
+            output indicator, Output Indicator-Output Indicator
+        best practices for prompting, Best Practices for Prompting-Use Prompt Templates
+            about, Best Practices for Prompting
+            asking for alternatives, Ask for Alternatives
+            avoiding leading questions, Avoid Leading Questions
+            being clear, Be Clear
+            using analogies or comparisons, Use Analogies or Comparisons
+            using prompt templates, Use Prompt Templates
+        defined, Glossary
+        prompting techniques, Prompting Techniques-Chain-of-Thought Prompting (CoT)
+            chain-of-thought prompting, Chain-of-Thought Prompting (CoT), Glossary
+            few-shot prompting, Few-Shot Prompting, Glossary
+            zero-shot prompting, Zero-Shot Prompting, Glossary
+    prompt injection, Hijacking and Prompt Injection, Security for AI and Generative AI
+        defined, Glossary
+    prompts
+        anatomy of, The Anatomy of a Prompt-Output Indicator
+            about, The Anatomy of a Prompt
+            context, Context
+            customer service prompt, The Anatomy of a Prompt
+            input data, Input Data
+            instructions, Instruction
+            output indicator, Output Indicator-Output Indicator
+        defined, Glossary
+        document types to output, Output Indicator
+        output formatting via prompt, Output Indicator
+        prompt engineering (see prompt engineering)
+        prompt template, Use Prompt Templates
+            defined, Glossary
+        response analysis for choosing FM, FM Response Analysis
+        security issues, Security Issues-Jailbreaking
+            exposure, Exposure
+            jailbreaking, Jailbreaking, Glossary
+            model poisoning, Model Poisoning, Glossary
+            prompt injection, Hijacking and Prompt Injection, Security for AI and Generative AI, Glossary
+            prompt leaking, Prompt Leaking, Glossary
+    public cloud model, Public Cloud, Hybrid Cloud
+        multi-tenant model, Public Cloud
+
+R
+
+    R squared (R²), Regression
+        defined, Glossary
+    RAG (retrieval-augmented generation), RAG-RAG
+        AWS vector database capabilities, RAG
+            pgvector support, RAG
+        broad adoption, RAG
+        defined, Glossary
+        disadvantages of, RAG
+        hallucinations reduced, RAG, Hallucinations
+    Random Cut Forest (RCF) algorithm, Unsupervised learning
+    Rangan, Kash, Improving Economic Growth and Business Operations
+    real estate house price ML example, Machine Learning
+    real-time inference, Model Deployment, Fundamentals of AI and ML
+        defined, Glossary
+    real-world applications of AWS tools
+        about, Real-World AI Applications with AWS Tools
+        computer vision, Computer Vision
+            Amazon Rekognition, Amazon Rekognition, Amazon Rekognition-Amazon Rekognition
+            Amazon Rekognition defined, Glossary
+            computer vision defined, Glossary
+        fraud detection, Fraud Detection
+        intelligent document processing, Intelligent Document Processing
+        natural language processing, Natural Language Processing
+            AWS services, Natural Language Processing-Amazon Translate
+            defined, Glossary
+        when to use AI, When to Use AI?
+    reasoning models, Evolution of FMs
+    recall, Classification
+        defined, Glossary
+    Recall-Oriented Understudy for Gisting Evaluation (ROUGE), ROUGE-ROUGE
+        defined, Glossary
+    recency issues with pretrained models, Recency
+    recurrent neural networks (RNNs), Transformer Model
+    ReFT (representation fine-tuning), Fine-tuning
+    regions of AWS global cloud infrastructure, Region
+        availability zones, Availability Zones
+        local zones, Local Zones
+    registering for the exam, Exam Details
+    regression in model evaluation, Regression
+        mean squared error, Regression
+        R squared, Regression
+    regression in supervised learning, Supervised learning
+        defined, Glossary
+    regulated workloads, Regulated workloads
+    reinforcement learning (RL), Reinforcement learning
+        AWS DeepRacer, AWS DeepRacer
+        defined, Glossary
+    reinforcement learning from human feedback (RLHF), Fine-tuning
+        defined, Glossary
+        responsible AI, RLHF
+    representation fine-tuning (ReFT), Fine-tuning
+    resources online
+        AWS
+            courses for AIF-C01, AWS Resources
+            exam study guide for AIF-C01, Topics Covered in the Exam
+            pricing calculator, Pricing Models
+            setting up AWS, Setting Up AWS
+        book web page, How to Contact Us
+        Hugging Face, Resource for benchmark metrics: Hugging Face
+        registering for the exam, Exam Details
+        updates on AIF-C01 certification, Updates
+    responses
+        generating types of documents, Output Indicator
+        prompts for formatting responses, Output Indicator
+        response analysis for choosing FM, FM Response Analysis
+        response image, Response image
+        response length, Response length
+        risks of generative AI, Risks of Generative AI-Accuracy
+            about, Risks of Generative AI
+            accuracy, Accuracy
+            intellectual property theft, Intellectual Property
+            plagiarism and cheating, Plagiarism and Cheating
+            toxicity, Toxicity
+            workforce transitions, Disruption of the Nature of Work
+    responsible AI
+        about, A Framework for Responsible AI
+        Amazon tools for, Amazon Tools for Responsible AI-SageMaker Model Monitor
+            about, Amazon Tools for Responsible AI
+            Amazon Augmented AI, Amazon Augmented AI (Amazon A21)
+            Amazon Bedrock, Amazon Bedrock
+            SageMaker Clarify and Experiments, SageMaker Clarify and Experiments
+        benefits of, The Benefits of Responsible AI
+        elements of, Elements of Responsible AI-Controllability
+            about, Elements of Responsible AI
+            controllability, Controllability
+            explainability, Explainability
+            fairness, Fairness
+            governance, Governance
+            privacy and security, Privacy and Security
+            safety, Safety
+            transparency, Transparency
+            veracity and robustness, Veracity and Robustness
+        further considerations, Going Further with Responsible AI-RLHF
+            data preparation, Data Preparation
+            the environment, Sustainability and Environmental Considerations
+            human-centered design, Human-Centered Design
+            interpretability versus explainability, Interpretability Versus Explainability
+            reinforcement learning from human feedback, RLHF
+        risks of generative AI, Risks of Generative AI-Accuracy
+            about, Risks of Generative AI
+            accuracy, Accuracy
+            intellectual property theft, Intellectual Property
+            plagiarism and cheating, Plagiarism and Cheating
+            toxicity, Toxicity
+            workforce transitions, Disruption of the Nature of Work
+        training data source citation, Source citation and data origins documentation
+            documenting data origins, Source citation and data origins documentation
+    retrieval-augmented generation (see RAG (retrieval-augmented generation))
+    RL (see reinforcement learning (RL))
+    RLHF (see reinforcement learning from human feedback (RLHF))
+    robotic process automation (RPA)
+        defined, Glossary
+        intelligent document processing using, Intelligent Document Processing
+            electronic health record system example, Intelligent Document Processing
+    robustness
+        benchmark datasets gauging, Benchmark datasets
+        defined, Glossary
+        responsible AI, Veracity and Robustness
+    ROUGE (Recall-Oriented Understudy for Gisting Evaluation), ROUGE-ROUGE
+        defined, Glossary
+    RPA (see robotic process automation (RPA))
+
+S
+
+    S3 (see Amazon Simple Storage Service (S3))
+    SaaS (software as a service), Software as a Service
+        shared responsibility model, Shared Responsibility Model
+    safety as responsible AI, Safety
+        transparency trade-off, Safety
+    SageMaker (see Amazon SageMaker)
+    salaries and AI skills, Boosting Your Salary, Productivity, and Career with AI Skills
+    Samuel, Arthur, Machine Learning
+    scalability
+        Amazon EC2 scaling strategies, Analytics and Recommendations
+        cloud computing advantage, Cloud Computing
+        generative AI capability, Capabilities of Generative AI
+        microservice architecture of AWS, AWS Fundamentals for the AI Practitioner
+        resource costs while scaling up AI, Efficiency
+    scaling laws for training data, Data Selection
+    score needed to pass exam, Exam Details
+    SDK (see software development kit (SDK))
+    secure data engineering, Secure data engineering
+        assessing data quality, Assessing data quality
+        data access control, Data access control
+        data integrity, Data integrity
+        privacy-enhancing technologies, Implementing privacy-enhancing technologies
+    Secure Shell (SSH) for Amazon EC2 access, Analytics and Recommendations
+    security
+        about priority of, Security, Compliance, and Governance for AI Solutions
+        AI and generative AI security, Security for AI and Generative AI
+        Amazon IAM, AWS IAM
+        availability zones, Availability Zones
+        AWS cloud computing, Cloud Computing
+        AWS tools, Shared Responsibility Model, Security approaches with AWS tools-Security approaches with AWS tools, AWS security tools and services for AI workloads, Security, Compliance, and Governance for AI Solutions
+            application protection, Security approaches with AWS tools
+            data protection, Security approaches with AWS tools
+            defense in depth approach, Security approaches with AWS tools-Security approaches with AWS tools
+            IAM, Security approaches with AWS tools
+            infrastructure protection, Security approaches with AWS tools
+            network and edge protection, Security approaches with AWS tools
+            threat detection and incident response, Security approaches with AWS tools
+        data risk with generative AI FMs, Data Security and Privacy
+            anonymization of data, Data Security and Privacy, Exposure
+        defense in depth, Security approaches with AWS tools-Security approaches with AWS tools
+        described, Overview of Security, Compliance, and Governance
+        Generative AI Security Scoping Matrix, Generative AI Security Scoping Matrix-Generative AI Security Scoping Matrix
+        layered approach, Security approaches with AWS tools-Security approaches with AWS tools, Glossary
+            application protection, Security approaches with AWS tools
+            data protection, Security approaches with AWS tools
+            IAM, Security approaches with AWS tools
+            infrastructure protection, Security approaches with AWS tools
+            network and edge protection, Security approaches with AWS tools
+            threat detection and incident response, Security approaches with AWS tools
+        multi-factor authentication, AWS IAM
+        private cloud, Private Cloud
+        prompts, Security Issues-Jailbreaking
+            exposure, Exposure
+            jailbreaking, Jailbreaking, Glossary
+            model poisoning, Model Poisoning, Glossary
+            prompt injection, Hijacking and Prompt Injection, Security for AI and Generative AI, Glossary
+            prompt leaking, Prompt Leaking, Glossary
+        public cloud, Public Cloud
+        responsible AI, Privacy and Security
+        secure data engineering, Secure data engineering
+        shared responsibility model of AWS, Shared Responsibility Model
+    semistructured data, Storage and Databases
+    semisupervised learning, Pretraining
+    serverless models in Amazon Bedrock, Getting Started with Amazon Bedrock
+        serverless explained, Getting Started with Amazon Bedrock
+    setting up AWS, Setting Up AWS
+    Shannon, Claude, AI and Machine Learning
+    shared responsibility model of AWS, Shared Responsibility Model
+        defined, Glossary
+    Simon, Herbert A., AI and Machine Learning
+    single-tenant model of private cloud, Private Cloud
+    Slack integration with AWS Console, Amazon Q Developer
+    SNS (Amazon Simple Notification Service), Monitoring and Logging
+    SOC (AWS System and Organization Controls), Compliance standards
+    Softbank and Stargate project, Costs
+    software as a service (SaaS), Software as a Service
+        shared responsibility model, Shared Responsibility Model
+    software development kit (SDK)
+        Amazon Rekognition, Amazon Rekognition
+        cloud computing services, Cloud Computing
+    software development via Amazon Q Developer, Software as a Service, Amazon Q Developer
+    Sohl-Dickstein, Jascha, Diffusion Model
+    Specialty level AWS certification, Other Certifications
+    speech from text via Amazon Polly, Amazon Polly
+    SSH (Secure Shell) for Amazon EC2 access, Analytics and Recommendations
+    Stable Diffusion (Stability AI), Diffusion Model
+    Stargate supercomputer project, Costs
+    stemming, Natural Language Processing
+    stop sequences, Stop sequences
+    structured data, Data collection and integration
+        defined, Glossary
+    subject matter experts (SMEs), ML Problem Framing
+    supervised learning, Supervised learning-Supervised learning, Reinforcement learning
+        classification, Supervised learning
+        defined, Glossary
+        fine-tuning a foundation model, Fine-tuning
+        labeled data, Supervised learning, Glossary
+            label shift, Monitoring
+        regression, Supervised learning
+    Sussman, Gerald Jay, Computer Vision
+    sustainability, Sustainability and Environmental Considerations
+        defined, Glossary
+    synthetic data, Data Challenge
+
+T
+
+    Tay chatbot (Microsoft), A Framework for Responsible AI
+    temperature, Temperature
+        defined, Glossary
+        nondeterminism and, Nondeterminism
+    Tensor Processing Units (TPUs), Pretraining
+    text from speech via Amazon Translate, Amazon Transcribe
+    Thinking, Fast and Slow (Kahneman), Evolution of FMs
+    threat detection, Security for AI and Generative AI
+        AWS tools, Security approaches with AWS tools
+    time management during exam, Manage Your Time, Stay Calm and Double-Check Your Answers
+    tokens, Fundamentals of Generative AI
+        context window defined, Glossary
+        defined, Glossary
+        on-demand pricing, Pricing
+        vectors from, Input embedding
+    Top K, Top K
+    Top P, Top P
+    top probability sampling, Top P
+    topics covered in exam for AIF-C01, Topics Covered in the Exam
+        AI and ML fundamentals, AI and Machine Learning, Fundamentals of AI and ML
+        applications of FMs, Applications of FMs
+        AWS fundamentals, AWS Fundamentals for the AI Practitioner
+        business goals and metrics, Measuring Success: Business Goals and Metrics
+        crash course for exam study, Crash Course: What to Know Before Exam Day-Guidelines for Responsible AI
+        generative AI, Topics Covered in the Exam, Generative AI Models, Fundamentals of Generative AI
+        prompt engineering, A Guide to Prompt Engineering
+        responsible AI, A Framework for Responsible AI, Elements of Responsible AI, Guidelines for Responsible AI
+        security services, Security, Compliance, and Governance for AI Solutions, Security, Compliance, and Governance for AI Solutions
+            defense in depth, Security approaches with AWS tools
+    toxicity, Toxicity
+        data poisoning leading to toxic content, Data Security and Privacy
+        defined, Glossary
+    TPUs (Tensor Processing Units), Pretraining
+    training, Training-Using AWS for model development
+        costs for building foundation models, Costs
+        data governance, Training data
+            data source citation, Source citation and data origins documentation
+            documenting data origins, Source citation and data origins documentation
+        dataset split into three sections, Training
+        environmental considerations, Sustainability and Environmental Considerations
+        pretrained models
+            foundation models, Using AWS for model development, Glossary
+            recency issues, Recency
+            SageMaker JumpStart, Amazon SageMaker, Using AWS for model development
+        pretraining of foundation models, Pretraining
+        reinforcement learning, Reinforcement learning
+        supervised learning, Supervised learning-Supervised learning, Reinforcement learning
+        unsupervised learning, Unsupervised learning, Reinforcement learning
+    transformer model, Transformer Model-A transformer is a prediction engine
+        decoder stack component, Decoder stack
+        defined, Glossary
+        encoder stack component, Encoder stack
+        foundation models, Foundation Models
+            lifecycle, Foundation Models-Deployment
+            LLMs, Foundation Models
+            multimodal models, Foundation Models
+        input embedding component, Transformer Model-Input embedding
+        positional encoding component, Positional encoding
+        as prediction engine, A transformer is a prediction engine
+    transparency
+        defined, Glossary
+        explainability versus, Transparency
+        ML suitability and, ML Problem Framing
+        responsible AI, Transparency
+        safety trade-off, Safety
+    Troutman, Jenni, Why Certify? An Introduction to the AWS AI Practitioner Exam, Boosting Your Salary, Productivity, and Career with AI Skills
+    tuning a model, Tuning
+    Turing test, AI and Machine Learning
+    Turing, Alan, AI and Machine Learning
+    Twitter and Tay chatbot, A Framework for Responsible AI
+
+U
+
+    underfitting, Model fit
+        defined, Glossary
+    unlabeled data, Data collection and integration
+        continued pretraining, Continued Pretraining
+        defined, Glossary
+        semisupervised learning synthetic labels, Pretraining
+        unsupervised learning, Unsupervised learning
+    unstructured data, Data collection and integration
+        defined, Glossary
+    unsupervised learning, Unsupervised learning, Reinforcement learning
+        clustering, Unsupervised learning
+        defined, Glossary
+        dimensionality reduction, Unsupervised learning
+    user data governance, User data
+
+V
+
+    VAE (see variational autoencoder (VAE))
+    variance, Model fit
+        defined, Accuracy, Glossary
+    variational autoencoder (VAE), Variational Autoencoder
+        defined, Glossary
+        probability distribution, Variational Autoencoder
+    vector databases
+        AWS capabilities, RAG
+        defined, Glossary
+        pgvector support, RAG
+    vector search, Applications of FMs
+        defined, Glossary
+    veracity and robustness as responsible AI, Veracity and Robustness
+    virtual machines (VMs), Infrastructure as a Service
+        Amazon EC2, Infrastructure as a Service, Analytics and Recommendations
+            accessing instances, Analytics and Recommendations
+    virtualization of cloud computing services, Cloud Computing
+    visualization of data, Data preprocessing, feature engineering, and data visualization
+    VPC (see Amazon Virtual Private Cloud (VPC))
+    vulnerability management, Security for AI and Generative AI
+        Amazon Inspector, Amazon Inspector
+
+W
+
+    web application firewall (WAF), Security approaches with AWS tools
+        AWS Shield Advanced including, AWS Shield Advanced
+        defined, Glossary
+    web page for book, How to Contact Us
+    WebTest, Data Selection
+    Weiss, Eric, Diffusion Model
+    Welling, Max, Variational Autoencoder
+    Wikipedia as training data, Data Selection
+    Wolf, Thomas, Resource for benchmark metrics: Hugging Face
+    workforce risks of generative AI, Disruption of the Nature of Work
+    Wozniak, Steve, Drawbacks of Generative AI
+    Writers Guild of America (WGA), Intellectual Property
+
+X
+
+    XAI (see explainable AI (XAI))
+    Xiaoice chatbot (Microsoft), A Framework for Responsible AI
+
+Z
+
+    zero trust approach, Zero trust and fine-grained access controls
+    zero-shot prompting, Zero-Shot Prompting
+        chain-of-thought prompting with, Chain-of-Thought Prompting (CoT)
+        defined, Glossary
+    Zuckerberg, Mark, Costs

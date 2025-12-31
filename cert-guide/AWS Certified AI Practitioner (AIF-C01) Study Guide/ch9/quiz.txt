@@ -1,0 +1,65 @@
+
+Quiz
+
+To check your answers, please refer to the “Chapter 9 Answer Key”.
+
+    What is a key difference between governance and compliance?
+
+        Governance enforces laws, while compliance manages innovation.
+
+        Governance protects data, while compliance ensures ethical AI development.
+
+        Governance guides decision making and risk management, while compliance ensures adherence to external and internal rules.
+
+        Governance is optional, but compliance is legally mandatory for all companies.
+
+    In AWS, what best describes the purpose of a defense-in-depth strategy?
+
+        To rely on a single strong security control.
+
+        To use multiple, layered security measures to catch threats that bypass one control.
+
+        To automate model training and inference pipelines.
+
+        To combine multiple security layers so if one fails, others can provide protection.
+
+    Which AWS services would you primarily use to protect applications against denial-of-service (DoS) attacks and manage secure user sign-ins?
+
+        Amazon GuardDuty and AWS Private CA
+
+        AWS Key Management Service (KMS) and AWS Certificate Manager (ACM)
+
+        AWS Shield and Amazon Cognito
+
+        Amazon Virtual Private Cloud (VPC) and AWS WAF
+
+    Which AWS service helps route sensitive traffic privately without exposing it to the public internet?
+
+        AWS PrivateLink
+
+        AWS Security Hub
+
+        Amazon VPC
+
+        Amazon GuardDuty
+
+    Which of the following is an example of a governance policy for AI solutions?
+
+        Building AI models without any human review
+
+        Using only public datasets without checking privacy concerns
+
+        Defining standards for data sourcing, model training, evaluation, and deployment approvals
+
+        Allowing unrestricted model deployment to speed innovation
+
+    Which AWS-supported compliance framework is specifically focused on protecting United States healthcare information?
+
+        Payment Card Industry Data Security Standard (PCI DSS)
+
+        Health Insurance Portability and Accountability Act (HIPAA)
+
+        General Data Protection Regulation (GDPR)
+
+        European Union Agency for Cybersecurity (ENISA)
+

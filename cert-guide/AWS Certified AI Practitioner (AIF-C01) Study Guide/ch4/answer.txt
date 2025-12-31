@@ -1,0 +1,14 @@
+Chapter 4 Answer Key
+
+    C: Generative Adversarial Networks (GANs) employ two competing neural networks—a generator and a discriminator—to produce realistic content. VAE utilizes a complex probabilistic system for encoding and decoding data, while the Transformer model leverages attention mechanisms to comprehend intricate patterns. Lastly, diffusion models create realistic content, such as images, through a process of adding and removing noise.
+
+    B: Positional encoding is crucial in models utilizing attention mechanisms, as it reorders words that become out of sequence after attention is applied. It does not enhance GPU reliability or reduce the cost of an AI model. Backpropagation is the mechanism by which a deep learning model refines its results.
+
+    D: A key advantage of RAG is its ability to search data from an external vector database, which eliminates the need to modify the internal weights of the model. While RAG generally uses less computational power, this is not considered its primary advantage. RAG might actually increase response latency due to data processing. And although RAG can help reduce bias, it will not eliminate it entirely.
+
+    B: A key advantage of transformer models, due to attention mechanisms, is their ability to process large datasets in parallel, whereas RNNs process data sequentially. Both transformer and RNN models can utilize labeled data. RNNs are designed for text processing, and transformers typically require training with substantial amounts of data.
+
+    A: The transformer model’s use of complex probability systems with large datasets can sometimes result in false or misleading responses. GPUs, while crucial for AI, are not unpredictable. The presence of labeled data in model training does not inherently lead to hallucinations. Hallucinations are not exclusive to large models but can occur across small and medium size models.
+
+    C: The hidden layer is where weights are applied to inputs, which enables the model to detect patterns. The input layer receives the raw data and the output layer produces the network’s response. There is no activation layer in a neural network.
+

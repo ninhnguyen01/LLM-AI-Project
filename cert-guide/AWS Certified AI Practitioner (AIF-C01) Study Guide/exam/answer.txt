@@ -1,0 +1,110 @@
+Practice Exam Answer Key
+
+    B: AZs provide redundancy and fault tolerance within AWS regions. An AZ consists of multiple data centers but is not itself a single data center. Security groups control access but do not define infrastructure zones. AWS regions are separate from AZs, and neither span multiple continents. See Chapter 2.
+
+    C: SaaS delivers fully managed applications. IaaS provides virtualized hardware, PaaS offers tools for developers, but neither of these include fully managed applications. VaaS is not a standard cloud computing model. See Chapter 2.
+
+    B: Hybrid cloud integrates both private and public cloud environments for flexibility and lower costs. Hybrid cloud allows data and applications to be shared between cloud environments, rather than relying solely on on-premises systems. Multitenancy is a feature of public clouds. See Chapter 2.
+
+    B: AWS regions help meet compliance needs by allowing users to store data in specific geographic locations. They contain multiple AZs; they do not replace them. AWS regions are available worldwide. Computing power is not unlimited, and redundancy is a core AWS feature. See Chapter 2.
+
+    B: AWS Lambda is a serverless compute service that runs code without managing infrastructure. Amazon EC2 requires users to manage server instances. Amazon RDS is a database service. Amazon CloudFront is a content delivery network (CDN). See Chapter 2.
+
+    B: Amazon S3 is designed for object storage, offering scalability, durability, and availability. It is not a relational database. Amazon EC2 provides compute services. Amazon CloudFront is AWS’s CDN service for delivering content faster. See Chapter 2.
+
+    B: A confusion matrix helps in evaluating a classification model by showing how many predictions were correct and incorrect, specifically analyzing false positives and false negatives. It does not track model training time. The number of data points used is separate from model evaluation. Additional metrics like precision, recall, and F1-score are still needed. See Chapter 3.
+
+    C: Real-time inference processes data instantly, making it ideal for fraud detection where immediate action is required. Batch inference is used for processing large datasets at scheduled intervals. Asynchronous inference is suitable for large payloads but not for real-time needs. On-demand inference is for infrequent queries rather than continuous fraud monitoring. See Chapter 3.
+
+    B: High-dimensional data can lead to increased processing time, memory usage, and model overfitting, making it harder to extract meaningful insights. More dimensions often require additional tuning to prevent overfitting, and they typically make interpretation more difficult, not easier. More features do not always lead to higher accuracy. See Chapter 3.
+
+    D: Data drift occurs when the statistical properties of incoming data change over time, reducing the model’s accuracy. Overfitting happens when a model performs well on training data but poorly on new data, not necessarily due to long-term changes. Hyperparameter tuning optimizes a model but does not address changes in data distribution over time. Feature engineering errors occur during data preprocessing. See Chapter 3.
+
+    C: SageMaker Model Monitor tracks deployed ML models and alerts users to changes in data distribution or concept drift. It does not speed up training. Deployment is managed separately in SageMaker, not specifically through Model Monitor. Fine-tuning pretrained models is a different ML task and is not the purpose of Model Monitor. See Chapter 3.
+
+    C: SageMaker Data Wrangler helps automate data preprocessing, feature engineering, and transformation for machine learning (ML) models. Amazon Rekognition is for image and video analysis. Amazon Textract extracts text from documents. AWS Glue is an extract, transform, load (ETL) service. See Chapter 3.
+
+    B: Amazon Comprehend provides NLP capabilities, including sentiment analysis. Amazon Textract extracts text from scanned documents but does not analyze sentiment. Lambda is used for serverless computing. SageMaker Feature Store is for storing machine learning (ML) model features. See Chapter 3.
+
+    B: Hyperparameter tuning optimizes model performance by adjusting parameters such as the learning rate and batch size. It does not generate new data. Data preprocessing, not hyperparameter tuning, converts categorical data. Tuning may increase training time rather than speed it up. See Chapter 3.
+
+    A: Diffusion models create realistic content by gradually adding and then removing noise. They create images, not text or sound. GANs, not diffusion models, use competing neural networks. See Chapter 4.
+
+    B: With fine-tuning, you will change an FM’s parameters based on a proprietary dataset, which allows it to be more specialized for a particular domain. Fine-tuning actually makes a model more specialized, and does not impact the latency. See Chapter 4.
+
+    D: The encoder processes input data into the transformer. It helps to find the contextual patterns and relationships. An AI model, not an encoder, creates synthetic data. Fine-tuning hyperparameters is a technique to improve the performance of a model. You can use benchmarks, not an encoder, to evaluate a model. See Chapter 4.
+
+    C: LLMs have context windows. These fix the amount of text it can process at a time. Overfitting is where the model is not able to adequately generalize about something. Bias is generally about issues with the underlying dataset. The discriminator is a component in a GAN. It does not impact how much data can be processed in a large language model. See Chapter 4.
+
+    A: RLHF is focused on improving the responses of a generative AI model by incorporating human preferences and feedback. It does not impact the speed of the model and it may increase training costs. Deep learning models are usually the core of the transformer model, which is when RLHF is used. See Chapter 4.
+
+    B: Multimodal models allow for processing different types of data, such as text, images and videos. They usually require large amounts of data. They aren’t necessarily more explainable than text-based models. GPUs are critical for multimodal FMs because of the need to handle large amounts of data. See Chapter 4.
+
+    C: The number of parameters in LLMs are usually massive and this means having to use sophisticated systems—like GPUs—to handle the processing. RAG does consume compute resources, but this is a small part of the overall LLM. LLMs use complex linear algebra, but this is not a key reason for the heavy use of compute resources. Human feedback and evaluation is a small part of the process for developing an LLM. See Chapter 4.
+
+    B: RAG will search a vector database, which has proprietary documents. These help to increase the accuracy of the responses. An AI model may have guardrails, but this isn’t what RAG does. RAG also doesn’t impact the probability algorithms in the transformer model, or rely solely on human supervision. See Chapter 4.
+
+    C: Amazon Lex provides chatbot interactions through the use of intents and slot filling. You can use Amazon Fraud Detector for fraud detection, Amazon Rekognition for video analysis, and Amazon Textract to extract text from scanned documents. See Chapter 5.
+
+    A: Amazon Comprehend allows you to analyze text and extract key information. Amazon Transcribe converts audio to text, Amazon Polly converts text to speech, and Amazon Translate provides language translation. See Chapter 5.
+
+    D: Amazon Rekognition is for analyzing images and videos. Amazon Transcribe allows for speech-to-text conversion. OCR is a core feature of Amazon Textract. You can create AI chatbots with Amazon Lex. See Chapter 5.
+
+    C: Lemmatization is an NLP technique for preprocessing that helps AI models understand words more effectively. NLP models usually do not automatically correct grammar. Translation is not a preprocessing step in NLP. Deepfake detection is used for media verification. See Chapter 5.
+
+    D: Stopword removal eliminates words that have little meaning. Uncommon words are often more informative than stopwords, so NLP will often focus more on them. Stopwords are not removed to reduce text length. See Chapter 5.
+
+    D: If a task can be handled with traditional software, using AI may be unnecessary and expensive. AI can work quite well in cloud environments. And while human oversight is important, AI can function independently in many cases. AI can also handle complex tasks, not just simple automation. See Chapter 5.
+
+    D: This feature allows you to evaluate the responses of two different models, but it does not combine text and image responses or responses from two models. It also does not impact the length of the responses. See Chapter 6.
+
+    C: Fine-tuning customizes a model for specialized use cases using labeled data. Fine-tuning may actually increase compute costs because of the extra training required, and it will not improve latency. You would not use fine-tuning in Bedrock for images. See Chapter 6.
+
+    C: Open source models provide access to the code, allowing for customization. There is also the benefit of innovation from a community of contributors. Bedrock will still charge for hosting the model on AWS. You can specify real-time inference but it is not set by default. While the codebase may be available, this may not be the case for the datasets. See Chapter 6.
+
+    A: This type of model uses less power and has a smaller footprint, which makes it better for edge devices. The context window would likely be smaller as the model is smaller. This type of model does not mean that the responses will be more creative. The accuracy of larger models will likely be higher. See Chapter 6.
+
+    C: Each agent specializes in a certain area, which helps improve the responses. You can use any type of AI model in Bedrock. Because generative AI is based on probabilities, there is no guarantee of 100% accuracy. Multiagent collaboration is not about editing model weights and biases. See Chapter 6.
+
+    D: The cost advantages can be considerable, up to 50% compared to on-demand processing, but latency is usually high. Batch processing is not related to the context window and it will not impact accuracy rates of the model. See Chapter 6.
+
+    D: Prompt templates provide reusable structures that promote clarity and efficiency. Few-shot prompting means a prompt has had examples added. Zero-shot prompting is quick but often less consistent. Chain-of-thought prompting helps with reasoning, but not consistency across prompts. See Chapter 7.
+
+    C: CoT prompting breaks down reasoning into smaller steps. Few-shot prompting specifies which examples to use. Output length limits the response of the LLM. Prompting doesn’t adjust model parameters. See Chapter 7.
+
+    C: Few-shot prompting provides examples so the model can learn the patterns. Zero-shot prompting uses no examples. CoT prompting focuses on step-by-step logic. Template prompting structures the prompt, but doesn’t necessarily include examples. See Chapter 7.
+
+    B: Model poisoning is where an attacker maliciously alters training data to produce unethical or harmful outputs. Data exposure allows a model to process personal health data. Licensing is a legal issue. Conflicting instructions can confuse a model, but this isn’t considered poisoning. See Chapter 7.
+
+    C: Exposure is when confidential or regulated information is leaked because it was part of the training data. Public use may carry risks but is not exposure by itself. The loss of GPU performance during training is a hardware issue. The failure to generate output within token limits is unrelated to privacy or data security. See Chapter 7.
+
+    D: Jailbreaking uses indirect or tricky prompts to override model guardrails. Hardware limitations are not related to jailbreaking. Resetting a model’s API token is an API access issue. Models don’t retain session history unless designed for it. See Chapter 7.
+
+    B: Governance ensures responsible AI practices through policy and oversight. AI governance is not about marketing or IP concerns, and it is not a technical methodology. See Chapter 8.
+
+    C: Controllability ensures AI can be guided and monitored by humans. Cost is not a key issue in controllability and speed is unrelated to human control. See Chapter 8.
+
+    A: Responsible AI builds trust and boosts brand image, which can lead to improved user engagement. Data collection is still essential. Responsible AI aims to improve automation and reduce risk, although it cannot eliminate all errors. See Chapter 8.
+
+    C: SageMaker Clarify highlights bias and helps explain model decisions. It does not scan for URLs and is not designed for cost management. Data encryption is handled by other AWS tools. See Chapter 8.
+
+    D: It supports human review in tasks like content moderation and translation. It is not focused on model training speed and does not generate data. GPU management is outside the scope of Amazon A2I. See Chapter 8.
+
+    C: RLHF uses human input to guide AI behavior in complex scenarios. It supplements, but doesn’t replace, model updates. RLHF helps systems adapt, not stay static. It still involves some form of labeling or feedback. See Chapter 8.
+
+    B: Emergent capabilities are unexpected behaviors that can create new compliance risks. They don’t involve strict feature following. AI systems do not autonomously handle regulatory reporting. Human oversight remains essential for compliant AI operations. See Chapter 9.
+
+    D: Regulated workloads must comply with legal, industry, or safety standards. They typically involve fields like healthcare, finance, or aerospace—not gaming. They prioritize safety, security, and accountability, not just speed. Compliance involves much more than encryption; it covers processes, oversight, and decision making. See Chapter 9.
+
+    B: Logging provides critical information for tracing, auditing, and improving model performance. Data logging is separate from data residency. Logs support diagnosis and improvement, but they cannot guarantee perfect accuracy. See Chapter 9.
+
+    A: AWS Config tracks resource setups over time and helps audit changes. AWS Trusted Advisor offers recommendations. Amazon Inspector focuses on vulnerability scanning. AWS Artifact provides compliance documents. See Chapter 9.
+
+    D: Scope 1 refers to using public generative AI tools like ChatGPT without backend access. Pretrained models involve building apps with existing models, not just using public tools. Fine-tuned models require adapting a model with your own data, not simple usage. Self-trained models involve building everything from scratch. See Chapter 9.
+
+    C: Amazon Macie uses ML to identify and classify sensitive data like PII and PHI. Verified Permissions helps implement fine-grained access control. Shield Advanced focuses on protecting against DDoS attacks. SageMaker Role Manager assists in setting IAM roles for ML projects. See Chapter 9.
+
+    C: Model cards provide a structured summary of a model’s data origins, usage guidelines, risks, and limitations. They don’t trigger retraining. Managing access controls is a separate function handled by IAM or similar services. Compute optimization is unrelated to the purpose of model documentation. See Chapter 9.
+
+    D: Customers and end users always retain control over the data they input into the system. Application providers may control other types of data, but not user inputs. The cloud provider hosts infrastructure but doesn’t control user data. Data annotation teams label training data but don’t control user-generated inputs. See Chapter 9.
+

@@ -1,0 +1,65 @@
+
+Quiz
+
+To check your answers, please refer to the “Chapter 6 Answer Key”.
+
+    For an AI model in Amazon Bedrock, what might happen if you adjust the temperature and Top P?
+
+        Using both will guarantee more accurate responses.
+
+        Using a combination of these may cause unpredictable or unexpected responses.
+
+        Using both will disable the model.
+
+        Using both will make the responses more deterministic.
+
+    When configuring the image/video playground in Amazon Bedrock, what is a “negative prompt”?
+
+        This increases the model’s temperature.
+
+        It generates black-and-white images.
+
+        It specifies elements you want to exclude from the image or video.
+
+        This decreases the size of the image.
+
+    What is the role of the modality filter in Amazon Bedrock’s model catalog?
+
+        The filter lets users sort models by license type.
+
+        It filters models based on language support.
+
+        The filter identifies models that support serverless deployment.
+
+        It categorizes models by input and output types like text, image, audio, and multimodal.
+
+    For a model in Amazon Bedrock, why would you increase the setting for temperature?
+
+        To generate deterministic content
+
+        To produce videos
+
+        To generate creative content
+
+        To summarize information
+
+    For a model profile in Amazon Bedrock, what type of information would you usually find?
+
+        Type of GPU used
+
+        Version, release date, deployment type, modalities, and model ID
+
+        Only the license information
+
+        The datasets
+
+    What do you need to do to gain access to foundation models (FMs) in Amazon Bedrock that are not enabled by default?
+
+        Enable “On-demand” and restart the session.
+
+        Submit a model access request form with use case details.
+
+        Complete an AWS certification exam.
+
+        Download the model on your own computer.
+

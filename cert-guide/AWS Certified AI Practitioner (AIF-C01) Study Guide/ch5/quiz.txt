@@ -1,0 +1,65 @@
+
+Quiz
+
+To check your answers, please refer to the “Chapter 5 Answer Key”.
+
+    What is the difference between intelligent document processing (IDP) and natural language processing (NLP)?
+
+        NLP is only used for chatbots, while IDP is used for all text-based AI applications.
+
+        NLP is a subset of IDP.
+
+        IDP automates data extraction for business documents, while NLP is for broader text-processing tasks.
+
+        NLP is only for handwritten language, while IDP is for printed language.
+
+    Which AWS service would you use for translating text into different languages?
+
+        Amazon Comprehend
+
+        Amazon Polly
+
+        Amazon Translate
+
+        Amazon Textract
+
+    What is the purpose of Amazon Kendra?
+
+        It uses AI models to translate foreign languages.
+
+        It converts text into speech.
+
+        It uses AI to create financial reports.
+
+        It provides an AI-powered search-and-retrieval system that processes natural language queries.
+
+    What is a core AI capability in Amazon Kendra?
+
+        It retrieves data from a quantum database.
+
+        It uses linear regression analysis.
+
+        It uses retrieval-augmented generation (RAG) to improve search accuracy.
+
+        It uses keyword matching.
+
+    What does Amazon Transcribe do?
+
+        It converts spoken audio into written text.
+
+        It converts text into another language.
+
+        It extracts information from a document.
+
+        It provides for sentiment analysis of text.
+
+    What is the purpose of Amazon Polly?
+
+        It transcribes spoken audio into text.
+
+        It translates text into other languages.
+
+        It extracts insights from large databases for analytics.
+
+        It converts text into humanlike speech.
+

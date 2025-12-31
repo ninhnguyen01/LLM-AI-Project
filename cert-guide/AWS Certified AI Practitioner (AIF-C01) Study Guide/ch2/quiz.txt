@@ -1,0 +1,65 @@
+
+Quiz
+
+To check your answers, please refer to the “Chapter 2 Answer Key”.
+
+    What is the definition of the shared responsibility model?
+
+        AWS is responsible for all security aspects of cloud applications.
+
+        Customers are responsible for security in the cloud, while AWS manages security of the cloud.
+
+        AWS only provides security updates if customers request them.
+
+        Customers are required to manage physical security at AWS data centers.
+
+    Which of the following is an AWS infrastructure as a service (IaaS)?
+
+        AWS Lambda
+
+        Amazon EC2
+
+        Amazon RDS
+
+        Amazon Chime
+
+    Which AWS service provides virtual machines (VMs)?
+
+        Amazon RDS
+
+        Amazon S3
+
+        Amazon EC2
+
+        AWS Glue
+
+    What is a key advantage of the public cloud?
+
+        The customer has full control over infrastructure and customization.
+
+        There are lower costs due to shared resources.
+
+        You have guaranteed security against all cybersecurity threats.
+
+        There is a single-tenant model for each organization.
+
+    Which of the following best defines cloud computing?
+
+        A set of physical servers that companies purchase and manage internally
+
+        The ability to access IT resources on demand over the internet
+
+        A private data center managed by a single company
+
+        A high-performance computing system for AI applications
+
+    What is the purpose of AWS Identity and Access Management (IAM)?
+
+        To encrypt all AWS storage resources
+
+        To manage user authentication and authorization for AWS services
+
+        To provide monitoring and logging for AWS environments
+
+        To automatically back up AWS resources for disaster recovery purposes
+

@@ -1,0 +1,14 @@
+Chapter 6 Answer Key
+
+    B: Although the model will continue to work, combining both can lead to unpredictable responses and is not generally recommended. Using both does not guarantee accuracy and does not necessarily mean the responses will be deterministic.
+
+    C: A negative prompt is used to exclude unwanted elements (e.g., blurry, cartoon). It does not change the colors of an image or impact the size of the image. Temperature is used for text responses.
+
+    D: Modality refers to the input and output types for a model, such as text, image, audio, and multimodal. Modality is distinct from the model’s license type, language support, or whether it can be deployed serverlessly.
+
+    C: A higher temperature will make the content more creative. A higher temperature encourages less deterministic content and is also less effective for tasks like summarization, since the content will be more random and creative. Temperature is not used for creating videos.
+
+    B: A model profile in Amazon Bedrock includes more than just the license information, such as the version, release date, deployment type, modalities, and model ID. It will not include information about GPU usage or datasets.
+
+    B: Users must submit a form with details such as company name, use case, and intended users. Provisioned mode is related to model inference, not access. A certification exam is not required to use the models. Models cannot be directly downloaded from Bedrock.
+

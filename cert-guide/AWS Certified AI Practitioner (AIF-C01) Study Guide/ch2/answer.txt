@@ -1,0 +1,15 @@
+Appendix B. Answer Key
+Chapter 2 Answer Key
+
+    B: While AWS is responsible for securing the underlying infrastructure and its physical security, customers are accountable for securing their applications, configuring security settings, and managing their cloud environments.
+
+    B: AWS Lambda is a serverless computing service. Amazon EC2 is an IaaS offering due to its provision of virtualized compute resources. Amazon RDS is a PaaS due to its managed database capabilities. Amazon Chime is a SaaS application for communications.
+
+    C: Amazon RDS is a managed relational database service, Amazon S3 provides storage capabilities, Amazon EC2 offers scalable virtual machines in the cloud, and AWS Glue is utilized for data preparation and transformation.
+
+    B: Public cloud environments do not offer full control over infrastructure or operate on a multi-tenant model to achieve cost savings through shared resources. While public cloud providers implement robust security, no system is entirely immune to cyber threats.
+
+    B: Cloud computing eliminates the need for companies to purchase and manage physical servers, provides on-demand access to IT resources such as storage and computing power, is distinct from on-premises environments like private data centers, and while it can support AI applications, its overall definition is much broader.
+
+    B: IAM is responsible for managing permissions, roles, and policies to secure AWS resources, but not for direct encryption. In contrast, AWS CloudWatch and AWS CloudTrail are dedicated to monitoring and logging activities within AWS, while AWS Backup is the specific service designed for automated backup processes.
+

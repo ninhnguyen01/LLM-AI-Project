@@ -1,0 +1,65 @@
+
+Quiz
+
+To check your answers, please refer to the “Chapter 8 Answer Key”.
+
+    Which of the following methods can help reduce overfitting in an AI model?
+
+        Increasing the complexity of the model
+
+        Adding more noisy data
+
+        Stopping training early
+
+        Avoiding hyperparameters
+
+    What is one technique companies use to address intellectual property concerns in generative AI?
+
+        Removing all training data from public sources
+
+        Restricting access to AI tools
+
+        Limiting AI to internal company use only
+
+        Creating licensing agreements with content providers
+
+    Why is accuracy in AI models considered key to responsible AI?
+
+        It improves reliability, trust, and safety.
+
+        Accurate models require fewer updates and patches.
+
+        Accuracy makes models less costly.
+
+        Accuracy only matters for visual models.
+
+    What is the main purpose of fairness in AI systems?
+
+        Increasing the sophistication of models
+
+        Reducing latency in decision making
+
+        Enhancing personalization features
+
+        Avoiding discrimination against individuals or groups
+
+    How does explainability compare to transparency?
+
+        Explainability focuses on user interface design.
+
+        Explainability explains model decisions; transparency shares system details.
+
+        They mean the same thing.
+
+        Transparency is only required in open source models.
+
+    What do privacy and security in AI primarily aim to protect?
+
+        Model weights and parameters
+
+        Algorithm transparency
+
+        Individual data and usage control
+
+        Developer intellectual property
+

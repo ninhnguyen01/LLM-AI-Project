@@ -1,0 +1,14 @@
+Chapter 7 Answer Key
+
+    C: Instruction is required. Without it, the model won’t know what to do. Context is helpful but not required. Input data is only needed when you want the model to analyze something specific. The output indicator is for formatting but is not essential.
+
+    B: The output indicator instructs the model on what the response should look like, say as a table or CSV format. The output indicator does not provide examples of how to write better prompts. The context component provides background information for the task. Prompting is not the same as training.
+
+    B: Context improves the model’s ability to understand the task, by providing relevant background information. The input data component supplies relevant input data. The output indicator specifies the output format. While context can include past interactions, it’s not used to summarize them.
+
+    C: Delimiters improve prompt clarity by showing where the input begins. They do not reduce token count. They are not intended to separate formatting options and they only affect the current prompt.
+
+    B: Defining the user’s role helps shape the LLM’s understanding and tone.
+
+    C: Few-shot prompting is where you provide examples to guide the model..
+

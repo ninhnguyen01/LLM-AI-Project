@@ -1,0 +1,14 @@
+Chapter 3 Answer Key
+
+    A: Feature engineering transforms raw data to improve model accuracy and performance. Although it can aid in bias reduction, it is not the sole determinant of fairness in models. Model training involves an algorithm that learns patterns from data. Model evaluation assesses performance post-training.
+
+    B: Supervised learning involves models learning from labeled examples, whereas reinforcement learning trains models through trial and error with rewards and penalties. Additionally, anomaly detection typically employs unsupervised learning, while dimensionality reduction aims to decrease the number of input features.
+
+    D: SageMaker simplifies and automates ML workflows, allowing users to train, tune, and deploy models efficiently. It also reduces manual intervention through automation. It provides both pretrained and customizable models.
+
+    C: Supervised learning requires labeled data to learn patterns and can be used for classification and regression tasks. In contrast, unsupervised learning identifies structures and patterns in unlabeled data, primarily for clustering and dimensionality reduction, and reinforcement learning is a distinct paradigm separate from both.
+
+    C: Unsupervised learning is used for clustering and finding patterns in data without predefined labels, making it suitable for customer segmentation. Reinforcement learning is for sequential decision-making and not clustering. Supervised learning is unsuitable for this task as it requires labeled data, which is typically unavailable for segmentation. Semisupervised learning is a hybrid approach not necessary for this task.
+
+    B: The main purpose of model monitoring is to track performance over time, identify issues like data drift, and ensure consistent accuracy in real-world applications. It helps determine when retraining is necessary but does not eliminate the need for it, as no ML model can guarantee 100% accuracy in all scenarios. And although reducing features can improve generalization, it’s not the primary goal of monitoring.
+

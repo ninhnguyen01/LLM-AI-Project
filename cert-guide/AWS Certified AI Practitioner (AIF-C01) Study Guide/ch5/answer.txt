@@ -1,0 +1,14 @@
+Chapter 5 Answer Key
+
+    C: NLP is a broader field used for various language-related applications like translation and sentiment analysis, whereas IDP is a more specialized subset of NLP. IDP primarily focuses on automating the processing of business documents, extracting and classifying information from both structured and unstructured formats. While NLP can handle spoken data, IDP’s main scope is document-based input, although both can process various forms of input beyond just handwritten or printed language.
+
+    C: Amazon Translate provides capabilities for translating text between various languages. Amazon Comprehend is designed for NLP tasks like sentiment analysis and entity recognition. Amazon Polly specializes in converting text into lifelike speech. Amazon Textract is used for extracting text from images and documents.
+
+    D: Amazon Kendra is an AI-powered search service that utilizes natural language queries; it is not a financial analysis tool. Amazon Translate is used for translating foreign languages, while Amazon Polly provides text-to-speech conversion services.
+
+    C: Kendra’s use of RAG allows it to produce more relevant and context-aware search results. Kendra does not use a quantum database and linear regression is not central to Kendra’s advanced capabilities. While keyword matching is a fundamental search approach, it’s not an AI feature.
+
+    A: Amazon Transcribe converts audio into written text. Amazon Translate converts text into another language. Amazon Comprehend can be used to extract various information from a document for sentiment analysis.
+
+    D: Amazon Polly provides the capability to generate human-sounding speech from text. Amazon Transcribe converts speech to text, Amazon Translate can translate text into other languages, and Amazon Comprehend is used to extract insights and perform data analytics.
+

@@ -1,0 +1,65 @@
+
+Quiz
+
+To check your answers, please refer to the “Chapter 4 Answer Key”.
+
+    Which generative AI model involves two neural networks that compete against each other?
+
+        Variational autoencoder (VAE)
+
+        Transformer model
+
+        Generative adversarial network (GAN)
+
+        Diffusion model
+
+    What is the purpose of positional encoding for a transformer model?
+
+        To enhance the performance of backpropagation
+
+        To process words in the original order of the text
+
+        To improve the reliability of GPUs
+
+        To make AI models more cost-effective
+
+    What is a key advantage of retrieval-augmented generation (RAG) compared to the process of fine-tuning?
+
+        RAG requires less energy.
+
+        It significantly increases the model’s speed.
+
+        RAG mitigates bias in AI responses.
+
+        It does not require the modification of a model’s internal weights.
+
+    What is a key advantage of a transformer model over a recurrent neural network (RNN)?
+
+        Transformers require no labeled data.
+
+        Transformers can process entire datasets in parallel.
+
+        RNNs cannot process text.
+
+        Transformers do not require training.
+
+    Why does an AI model create hallucinations?
+
+        They rely on probabilistic predictions.
+
+        They use GPUs, which can be unpredictable.
+
+        They are based on supervised learning.
+
+        They are only a problem with small models.
+
+    Which part of a neural network allows for detecting patterns in a dataset?
+
+        Input layer
+
+        Output layer
+
+        Hidden layer
+
+        Activation layer
+

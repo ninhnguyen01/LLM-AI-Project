@@ -1,0 +1,283 @@
+Glossary
+
+accuracy
+    A common classification metric, accuracy is calculated as the number of correct predictions divided by the total number of predictions. It provides a quick sense of overall model performance. However, accuracy can be misleading in cases where the dataset is imbalanced—such as detecting rare events.
+agentic AI
+    Next-generation AI models that can take a multistep approach to problem solving, act autonomously or near-autonomously, and use tools to carry out tasks. Often involves multiple AI agents collaborating.
+AI governance
+    Policies and procedures companies set up to guide the ethical and compliant development of AI systems, including defining roles, implementing oversight, and managing risk.
+Amazon Aurora
+    This version of a relational database from AWS is compatible with MySQL and PostgreSQL.
+Amazon Bedrock
+    A sophisticated generative AI platform created by AWS. It allows users to find, use, customize, and integrate FMs.
+Amazon Comprehend
+    An NLP tool that extracts insights from data like documents and social media feeds, focusing on key phrases, entities, sentiment, and topics. It can also identify and redact PII.
+Amazon Elastic Compute Cloud (EC2)
+    AWS’s VM service, providing scalable compute capacity that can grow or shrink based on user needs.
+Amazon Fraud Detector
+    AWS’s system to use AI for fraud detection, allowing users to build models based on their business case and data.
+Amazon Inspector
+    A service that continuously scans AWS workloads for software vulnerabilities and unintended network exposures.
+Amazon Kendra
+    An enterprise search system using AI to provide accurate results across various structured and unstructured repositories using natural language queries.
+Amazon Lex
+    A fully managed AI service for creating, testing, and deploying conversational interfaces like chatbots, using the Alexa platform’s core engine.
+Amazon Macie
+    This is a service that uses ML to automatically discover, classify, and protect sensitive data within AWS.
+Amazon Personalize
+    An AI service that helps create customized applications based on user interests and behaviors, incorporating real-time data to improve recommendations.
+Amazon Polly
+    A service that converts text into lifelike speech using various voices and languages.
+Amazon Q
+    Generative AI-powered virtual assistant for businesses and software developers, built on Amazon Bedrock.
+Amazon Q Developer
+    This version of Amazon Q leverages generative AI to assist with software development tasks like generating, debugging, testing, and deploying code.
+Amazon Rekognition
+    A sophisticated computer vision tool that identifies objects, people, scenes, and activities in images and videos, also enabling facial analysis and search.
+Amazon SageMaker
+    A platform for the ML lifecycle, including data processing, model development, deployment, and monitoring.
+Amazon SageMaker Clarify
+    This tool within SageMaker helps detect bias in datasets and AI models and provides explanations for model predictions.
+Amazon SageMaker Data Wrangler
+    A SageMaker feature that streamlines data preparation for ML by simplifying data selection, quality verification, transformation, and visualization.
+Amazon SageMaker Experiments
+    This SageMaker capability organizes, tracks, compares, and evaluates different ML training runs.
+Amazon SageMaker Feature Store
+    A SageMaker service for creating, sharing, and managing features for ML models.
+Amazon SageMaker Ground Truth
+    A SageMaker capability that helps build high-quality training datasets for ML, incorporating human feedback like RLHF.
+Amazon SageMaker JumpStart
+    This SageMaker feature provides access to pretrained models, including foundation, computer vision, and NLP models, to accelerate ML development.
+Amazon SageMaker Model Cards
+    A SageMaker feature providing standardized documentation for ML models, covering intended use, training details, and risk assessments.
+Amazon SageMaker Model Dashboard
+    This SageMaker feature offers a unified interface to monitor deployed model performance, integrating data from various sources.
+Amazon SageMaker Model Monitor
+    A fully managed service for continuously monitoring AI models in production to detect drift in data quality, model quality, bias, and feature attribution.
+Amazon SageMaker Model Registry
+    A SageMaker repository to catalog models, manage versions, handle approvals, and deploy models to production.
+Amazon SageMaker Processing
+    This SageMaker capability automates data preprocessing, feature engineering, and model evaluation tasks within the ML workflow.
+Amazon SageMaker Role Manager
+    A SageMaker tool that helps administrators define IAM roles and permissions for different ML personas based on preconfigured templates.
+Amazon SageMaker Studio Classic
+    An integrated development environment (IDE) within SageMaker for the entire ML workflow, supporting tools like Jupyter notebooks and collaboration.
+Amazon Simple Storage Service (S3)
+    A scalable object storage service organizing data into buckets.
+Amazon Textract
+    This service extracts text, handwriting, and data from scanned documents, PDFs, and images, going beyond basic OCR to understand the extracted information.
+Amazon Transcribe
+    An automatic speech recognition (ASR) service that converts speech into text, providing features like speaker partitioning and timestamps.
+Amazon Translate
+    A neural machine translation service that delivers fast, high-quality, and customizable language translation for text documents or real-time interactions.
+artificial intelligence (AI)
+    Technology with humanlike problem-solving capabilities that is able to simulate human intelligence by recognizing images, writing content, and making data-based predictions. It’s a collection of different approaches and fields.
+AWS Artifact
+    A self-service portal providing on-demand access to AWS compliance reports and certifications.
+AWS Audit Manager
+    This service helps to continuously audit AWS usage to simplify risk assessment and compliance with regulations and industry standards by automating evidence collection.
+AWS Certificate Manager (ACM)
+    A service that handles the complexity of creating, storing, and renewing public and private Secure Sockets Layer/Transport Layer Security (SSL/TLS) certificates.
+AWS CloudTrail
+    A service that provides event history of AWS account activity, including actions taken through the AWS Management Console, SDKs, command-line tools, and other AWS services.
+AWS Config
+    This service enables you to assess, audit, and evaluate the configurations of your AWS resources, continuously monitoring and recording configurations and allowing automation of evaluation against desired configurations.
+AWS DeepRacer
+    A 3D simulation application of a fully autonomous race car designed as a fun way to learn about reinforcement learning.
+AWS Glue
+    A serverless data integration service that makes it easy to discover, prepare, and combine data for analytics, ML, and application development.
+AWS Identity and Access Management (IAM)
+    This is a web service that helps you securely control access to AWS resources by managing users, groups, roles, and permissions.
+AWS Key Management Service (KMS)
+    This managed service makes it easy to create and control the encryption keys used to encrypt data.
+AWS PrivateLink
+    A service that provides secure, private connectivity between VPCs, AWS services, and on-premises applications on the Amazon network.
+AWS Security Hub
+    A service that provides a comprehensive view of high-priority security alerts and compliance status across AWS accounts.
+AWS Shared Responsibility Model
+    A framework defining the division of security responsibilities between AWS and the customer; AWS is responsible for the security of the cloud (infrastructure), while the customer is responsible for security in the cloud (data, configuration, access).
+AWS Shield
+    This managed distributed denial of service (DDoS) protection service safeguards applications running on AWS.
+AWS WAF (web application firewall)
+    A web application firewall that helps protect web applications or APIs against common web exploits that may affect availability, compromise security, or consume excessive resources.
+backpropagation
+    A technique used in deep learning to adjust model weights by comparing predicted scores with actual labels (calculating error) and propagating these adjustments backward through the model to improve accuracy over multiple cycles (epochs).
+batch transform
+    An inference method used for making predictions on large datasets when quick response times are not needed, processing data in batches.
+benchmark dataset
+    A dataset used for quantitative evaluation of an FM’s performance across various aspects like accuracy, speed, efficiency, scalability, responsible AI, robustness, and generalization.
+bias
+    The error introduced by approximating a real-world problem with a simplified model. It reflects the model’s assumptions about the data and can lead to systematic errors. While high bias is often associated with underfitting—where the model fails to capture important patterns—it can also appear in more complex scenarios, such as when the training data itself contains inherent biases.
+bilingual evaluation understudy (BLEU)
+    A metric evaluating machine translation quality by comparing LLM-generated text to human references.
+business problem framing
+    The process of clearly defining a business challenge or opportunity that AI or ML can address. Effective framing aligns technical solutions with business goals and helps identify high-impact use cases.
+chain-of-thought (CoT) prompting
+    A prompt engineering method guiding an FM to break down complex problems step-by-step, explaining its reasoning along the way.
+classification
+    A supervised learning task about sorting data into predefined categories based on patterns learned from labeled data. Examples include credit risk assessment and spam filtering.
+cloud computing
+    The on-demand delivery of IT resources (like compute power, storage, databases) over the internet with pay-as-you-go pricing.
+clustering
+    An unsupervised learning approach that groups data points based on similarities, often using distance measurements like Euclidean distance or k-means algorithms.
+compliance
+    Ensuring an organization follows rules, whether from laws, regulations, internal policies, or industry standards.
+computer vision
+    A field of AI focused on enabling computers to “see” and interpret visual information from the world, like images and videos.
+confusion matrix
+    A table used in classification evaluation to understand prediction errors by showing counts of true positives, false positives, false negatives, and true negatives.
+context window
+    The amount of text (measured in tokens) that an AI model can process at one time when generating a response.
+controllability
+    The ability to guide and regulate AI systems to ensure their actions align with human intentions and ethical standards, often involving human oversight.
+convolutional neural network (CNN)
+    A type of deep learning model, often used for image recognition, that processes data through convolutional layers, activation functions, and pooling layers to extract features.
+data drift
+    A situation where the statistical properties or features of the input data for an ML model change over time, while the underlying relationships remain the same, potentially degrading model accuracy.
+data governance
+    The overall management of the availability, usability, integrity, and security of data used in an organization, encompassing policies, standards, and controls.
+data lineage
+    The record tracking the origin, movement, transformation, and usage of data throughout its lifecycle, essential for tracing errors, ensuring compliance, and understanding data provenance.
+data preprocessing
+    The process of cleaning and transforming raw data into a usable format for ML, dealing with issues like missing values, errors, and inconsistencies.
+data residency
+    The physical or geographic location where data is stored and processed, often subject to legal or regulatory requirements like data sovereignty.
+deep learning
+    A subset of ML that uses neural networks with multiple hidden layers (often hundreds) to process large amounts of data and detect complex, nonlinear patterns.
+defense in depth
+    A layered security strategy assuming no single control is perfect, using multiple security measures (like firewalls, IAM, encryption) so if one fails, others provide backup protection.
+diffusion model
+    A type of generative AI model that creates new data (like images or audio) by first adding noise to a dataset and then reversing the process, removing the noise step by step.
+dimensionality reduction
+    The process of reducing the number of features (dimensions) in a dataset while preserving essential information, used to combat the “curse of dimensionality,” reduce computational costs, and mitigate overfitting.
+distillation
+    A technique where knowledge is transferred from a larger, more complex AI model (the teacher) to a smaller, often faster and lower-cost model (the student) to improve efficiency.
+embeddings
+    Vector representations (strings of numbers) of data inputs like words or tokens, capturing their semantic meaning and relationships to allow models to analyze patterns.
+explainable AI (XAI)
+    The ability of an AI system to provide understandable explanations for its decisions or predictions, making its reasoning transparent, especially for complex models.
+fairness
+    An ethical principle ensuring that AI systems make impartial decisions and do not discriminate against individuals or groups based on attributes like race or gender.
+feature engineering
+    The process in ML where data scientists select, transform, or create meaningful features (variables) from raw data to improve model performance and predictive accuracy.
+few-shot prompting
+    A prompt engineering technique where you provide the LLM with a few examples (shots) within the prompt to guide its response and help it understand the desired pattern or task.
+fine-tuning
+    The process of adapting a pretrained FM for a specific task or domain by further training it on a smaller, labeled dataset relevant to that task, adjusting the model’s parameters.
+foundation model (FM)
+    Large AI models, often pretrained on vast amounts of data (like LLMs based on transformers or diffusion models), that can be adapted for a wide range of downstream tasks.
+generative adversarial network (GAN)
+    A type of generative AI model consisting of two competing neural networks; a generator that creates synthetic data and a discriminator that evaluates if the data is real or fake, improving generation quality through adversarial training.
+generative AI
+    This is subset of deep learning where models learn from data (often at massive scale) to create new, original content like text, images, code, audio, or video that can seem humanlike.
+Generative AI Security Scoping Matrix
+    A framework that helps organizations assess security risks in generative AI implementations by mapping responsibilities across different scopes—such as user data, fine-tuning data, and training data—to either the customer or the provider.
+hallucination
+    An instance where a generative AI model produces a response that is false, misleading, or nonsensical, often due to limitations in training data or the probabilistic nature of the model.
+hyperparameter
+    A configuration setting for an ML algorithm that is set before the training process begins (unlike parameters learned during training) and controls how the model learns (e.g., learning rate, batch size).
+hyperparameter optimization/tuning
+    The process of adjusting hyperparameters to find the combination that results in the best model performance.
+interpretability
+    The degree to which a human can understand the internal mechanics and decision-making process of an AI model.
+jailbreaking
+    An attack where users craft clever prompts to trick an AI model into bypassing its safety, ethical, or operational restrictions.
+Jupyter Notebook
+    An open source web application allowing users to create and share documents containing live code, equations, visualizations, and narrative text, popular for ML development.
+labeled data
+    Data where each sample is tagged with an informative label or description, used in supervised learning (e.g., emails labeled “spam” or “not spam”).
+latency
+    The time delay it takes for data to travel from one point to another in a network or system.
+lemmatization
+    An NLP preprocessing technique that reduces words to their base or dictionary form (lemma), removing affixes to group different inflected forms together.
+machine learning (ML)
+    This is subset of AI defined as the field of study giving computers the ability to learn from data without being explicitly programmed, identifying patterns to make predictions.
+machine learning operations (MLOps)
+    A set of practices, processes, and automations for managing the ML lifecycle, integrating concepts from DevOps with the unique requirements of ML, such as data management and continuous monitoring.
+mean squared error (MSE)
+    A regression metric that measures the average of the squares of the errors (the difference between predicted and actual values) with lower values indicating better model fit.
+model card
+    A standardized document providing key information about an ML model, including its intended use, training data details, performance benchmarks, limitations, ethical considerations, and potential biases.
+model poisoning
+    A security attack where malicious data is intentionally injected into an AI model’s training process to compromise its integrity, causing it to produce biased, incorrect, or harmful outputs.
+multimodal model
+    An AI model capable of understanding, processing, and generating content across multiple types of data (modalities), such as text, images, and audio, often using a combination of transformer and diffusion architectures.
+natural language processing (NLP)
+    A field of AI focused on enabling computers to understand, interpret, and generate human language (text or speech).
+neural network
+    This computational model inspired by the structure and function of the human brain consists of interconnected nodes (neurons) organized in layers (input, hidden, output) that process information and learn patterns.
+on-premises
+    An IT environment where an organization builds, manages, and hosts its own infrastructure, often within its own data centers; also referred to as a private cloud model.
+optical character recognition (OCR)
+    Technology that converts images of typed, handwritten, or printed text into machine-encoded text.
+overfitting
+    A problem in ML where a model learns the training data too well, including noise and specific details, causing it to perform poorly on new, unseen data because it fails to generalize.
+parameter
+    Internal variables within an ML model whose values are learned during the training process (unlike hyperparameters, which are set before training).
+precision
+    A classification metric calculated as the number of true positives divided by the sum of true positives and false positives, measuring the accuracy of positive predictions.
+prompt
+    An input, typically text, given to a generative AI model to elicit a response or action.
+prompt engineering
+    The practice of designing and refining prompts (inputs) to effectively guide LLMs and other generative AI systems toward desired outputs.
+prompt injection
+    A security vulnerability where an attacker crafts malicious prompts to manipulate an LLM into generating unintended, harmful, or biased outputs or revealing sensitive information.
+prompt leaking
+    A security risk where an AI model inadvertently reveals its internal instructions, configurations, or proprietary data embedded within its prompts or training, which potentially exposes sensitive information.
+prompt template
+    A predefined structure or format for a prompt, often using placeholders, to ensure consistency, efficiency, and clarity when interacting with an LLM for specific tasks.
+real-time inference
+    This prediction method is used for applications requiring near-instantaneous responses, often for high-stakes use cases like fraud detection or self-driving cars.
+recall
+    A classification metric calculated as the number of true positives divided by the sum of true positives and false negatives, measuring the model’s ability to identify all relevant positive instances.
+Recall-Oriented Understudy for Gisting Evaluation (ROUGE)
+    A set of metrics used to evaluate automatic summarization and machine translation by comparing model-generated text to human references, often based on n-gram overlap (ROUGE-N) or longest common subsequence (ROUGE-L).
+regression
+    A supervised learning task focused on predicting continuous numerical values (rather than categories) by modeling the relationship between independent and dependent variables. Examples include forecasting sales or predicting house prices.
+reinforcement learning (RL)
+    This is a type of ML where an agent learns to make decisions by performing actions in an environment and receiving rewards or penalties (positive or negative reinforcement) based on the outcomes, learning through trial and error.
+reinforcement learning from human feedback (RLHF)
+    A technique used to align AI models (especially LLMs) more closely with human values and preferences by refining model responses based on human feedback, often involving ranking or rating different outputs.
+retrieval-augmented generation (RAG)
+    A technique that enhances the responses of generative AI models (like LLMs) by retrieving relevant information from an external knowledge source (like a vector database) and incorporating it into the context provided to the model before generation, improving accuracy and reducing hallucinations.
+robotic process automation (RPA)
+    Technology that uses software bots to automate routine, repetitive, rule-based tasks previously performed by humans, often mimicking user actions like data entry or clicking buttons.
+robustness
+    An AI system’s ability to maintain consistent and reliable performance even when faced with variations in input data, noisy environments, adversarial attacks, or other unexpected conditions.
+R squared (R²)
+    A regression metric representing the proportion of the variance in the dependent variable that is predictable from the independent variables, ranging from 0 to 1, with higher values generally indicating better model fit.
+structured data
+    Data organized in a predefined format, typically in rows and columns like in spreadsheets or relational databases (tabular data), or as time series data.
+supervised learning
+    A type of ML where the model learns from labeled data, using the labels to understand the relationship between inputs and corresponding outputs to make predictions or classifications on new, unlabeled data.
+sustainability
+    Developing and deploying AI systems in a way that is environmentally sound, socially equitable, and economically viable over the long term, considering factors like energy consumption and resource utilization.
+temperature
+    A parameter that controls the randomness of an LLM’s outputs. Lower values make responses more deterministic and focused, while higher values introduce more creativity and variation.
+token
+    The basic unit of data processed by NLP and generative AI models; a token can represent a word, part of a word, punctuation, or other characters.
+toxicity
+    AI-generated content that is offensive, inappropriate, harmful, hostile, or disturbing.
+transformer model
+    A type of neural network architecture, central to many modern LLMs, that uses self-attention mechanisms to weigh the importance of different words in an input sequence, allowing it to process data in parallel and capture long-range dependencies effectively. It typically includes components like input embedding, positional encoding, encoder stacks, and decoder stacks.
+transparency
+    The principle of openly sharing information about how an AI system is designed, trained, and operated, including its data sources, objectives, capabilities, and limitations, to foster trust and accountability.
+underfitting
+    A problem in ML where a model is too simple to capture the underlying patterns in the data, resulting in poor performance on both the training data and new data (high bias).
+unlabeled data
+    Raw data that lacks predefined tags, descriptions, or categories; used in unsupervised learning.
+unstructured data
+    Data that does not have a predefined format or organization, such as text, images, audio, and video.
+unsupervised learning
+    This is a type of ML where the model is trained on unlabeled data, discovering patterns, structures, or relationships (like clusters or reduced dimensions) within the data without explicit guidance.
+variance
+    A measure of how much a model’s predictions fluctuate for different training datasets; high variance indicates sensitivity to noise and can lead to overfitting.
+variational autoencoder (VAE)
+    A type of generative AI model using neural networks and probability theory, consisting of an encoder that maps input data to a probability distribution and a decoder that reconstructs data from samples of that distribution, enabling generation of new, similar data.
+vector database
+    A specialized database designed to store, manage, and search high-dimensional vector embeddings efficiently, often used in RAG systems for finding similar vectors.
+vector search
+    This technique finds similar items by comparing vector embeddings rather than exact keyword matches. It’s essential for RAG systems, allowing for semantically relevant document retrieval.
+zero-shot prompting
+    Interacting with an LLM by providing only an instruction without any examples, relying on the model’s pretrained knowledge and understanding to generate the desired response.
+

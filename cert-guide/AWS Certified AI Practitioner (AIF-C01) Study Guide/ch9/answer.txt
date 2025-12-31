@@ -1,0 +1,14 @@
+Chapter 9 Answer Key
+
+    C: Governance provides a structure for wise decision making and innovation management, while compliance ensures rules and standards are consistently followed. Governance is not about enforcing laws. Protecting data is part of security, and ethical development is shared across functions. Governance is essential for organizational success and is not optional.
+
+    D: Defense in depth means layering defenses so there are multiple safeguards. It assumes no single control is sufficient on its own. Although multiple, layered security measures are partially correct, this doesn’t fully explain the idea of backup controls stepping in. Automation of pipelines is important but not part of defense in depth.
+
+    C: AWS Shield mitigates DoS attacks, and Amazon Cognito securely handles user authentication and federation. GuardDuty detects threats, and Private CA manages certificates. AWS KMS and AWS ACM both help encrypt data and manage certificates. Amazon VPC and AWS WAF help with network and web layer protection.
+
+    A: PrivateLink enables private connectivity between VPCs and AWS services without public internet exposure. Security Hub aggregates security alerts. Amazon VPC creates private networks but does not specifically handle private routing across services. GuardDuty detects suspicious activity.
+
+    C: Governance policies include clear standards for sourcing data, training models, evaluating results, and approving deployments. Human oversight is critical in AI governance to ensure ethical use. Public datasets still require privacy and bias evaluations. Unrestricted deployment increases legal, ethical, and operational risks.
+
+    B: HIPAA governs the security and privacy of protected health information (PHI) in the US. PCI DSS focuses on protecting payment card information; GDPR is about personal data privacy for EU residents; and ENISA focuses on cybersecurity standards for the EU.
+

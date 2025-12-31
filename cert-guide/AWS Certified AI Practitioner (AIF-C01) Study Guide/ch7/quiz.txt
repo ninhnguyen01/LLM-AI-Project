@@ -1,0 +1,65 @@
+
+Quiz
+
+To check your answers, please refer to the “Chapter 7 Answer Key”.
+
+    Which of the following is a required component of every prompt when working with a foundation model (FM)?
+
+        Context
+
+        Input data
+
+        Instruction
+
+        Output indicator
+
+    What is the reason for the output indicator in a prompt?
+
+        To provide relevant examples of how to write better prompts
+
+        To specify the format or structure of the model’s response
+
+        To provide background information for the task
+
+        To train the model on a new dataset
+
+    What is the purpose of context in a prompt?
+
+        To supply relevant input data
+
+        To provide background that improves response quality
+
+        To specify the output format
+
+        To summarize past interactions with the model
+
+    Why would you use delimiters like ### in a prompt?
+
+        They minimize the use of tokens.
+
+        They separate the formatting options.
+
+        They clearly distinguish between instructions and input data.
+
+        They improve model performance for follow-up prompts.
+
+    Which of the following best demonstrates a persona-based context?
+
+        “Write the blog post in under 500 words.”
+
+        “You are a procurement analyst at a mid-sized manufacturing company.”
+
+        “These are the product reviews to analyze.”
+
+        “Format the results as a bar chart.”
+
+    Which of the following is an example of few-shot prompting?
+
+        “Translate this blog into German.”
+
+        “List three benefits of generative AI.”
+
+        “Here are examples of customer support feedback and their categories. Now categorize this new inquiry.”
+
+        “Let’s break this down step by step.”
+
