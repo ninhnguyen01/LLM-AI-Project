@@ -1,0 +1,122 @@
+Practice Questions
+
+These practice questions may help you understand what kind of questions to expect on the exam so you can prepare accordingly. The answers are listed in the Appendix.
+
+    A company’s analytics team frequently queries partitioned data stored in Amazon S3 using Amazon Athena. The team reports that query planning is becoming increasingly slow as their dataset grows, particularly due to the high number of partitions. Which solutions would most effectively improve query planning performance while maintaining the existing architecture? (Select two.)
+
+        Implement AWS Glue partition indexing with partition filtering enabled.
+
+        Configure Athena partition projection based on partition patterns.
+
+        Convert all data files to the Apache Parquet format with Snappy compression.
+
+        Create a new partitioning scheme based on the most common WHERE clause columns.
+
+        Use AWS Glue jobs to combine smaller partition files into larger files (over 128 MB).
+
+    A data engineer is using an Amazon Redshift data warehouse to load and analyze historical data in batches. The engineer faced a failure when running a COPY command to load data from Amazon S3 to the Redshift table. A data engineer must choose a system table in Amazon Redshift that records the load failures. Which table views should the data engineer use to meet this requirement?
+
+        STL_LOAD_INFO
+
+        STL_LOAD_ERRORS
+
+        STL_ALERT_EVENT_LOAD
+
+        SYS_QUERY_HISTORY
+
+    A company has deployed a serverless ETL pipeline where AWS Lambda functions orchestrated by Step Functions process data from Amazon Kinesis and store results in Amazon DynamoDB. After deployment, the Step Functions executions consistently fail during the Lambda invocation steps. What troubleshooting approaches would be most effective in identifying the root cause? (Select two.)
+
+        Check IAM configuration and permissions by validating the Step Functions execution role, reviewing Lambda function permissions, verifying Kinesis read access, and confirming DynamoDB write permissions.
+
+        Examine network configuration details by verifying VPC endpoint configurations, checking Lambda function VPC settings, reviewing security group rules, and analyzing subnet routing tables.
+
+        Modify the state machine workflow by adding wait states between steps, implementing choice states, increasing timeout values, and adding parallel processing branches.
+
+        Update the deployment process to use AWS SAM for deployment, implement blue-green deployment, add CloudFormation drift detection, and enable automatic rollbacks.
+
+        Enhance error tracking setup by configuring x-ray tracing, setting up CloudWatch alarms, enabling detailed logging, and implementing custom metrics.
+
+    A data architect wants to ensure that their Amazon Redshift deployment is highly available with the least operational overhead. What options can they choose? (Select two.)
+
+        Choose the multi-AZ deployment option in Amazon Redshift.
+
+        Choose the multiregion deployment option in Amazon Redshift.
+
+        Copy snapshots to another region using cross-region snapshot copy.
+
+        Create two Amazon clusters in two AZs and perform parallel data loads into each of them.
+
+    The company must schedule an Amazon Redshift stored procedure that can run for more than 15 minutes at 8:00 p.m. every night. Which solution will meet this requirement with the least cost and effort?
+
+        Create an MWAA DAG to run the stored procedure at 8:00 p.m. each day.
+
+        Create a Step Functions state machine to call a Lambda that calls the Redshift data API to run the CALL stored procedure statement.
+
+        Use the scheduler in Query Editor v2 in Amazon Redshift to schedule the stored procedure run.
+
+        Use an AWS Glue workflow to call a Glue Python job that calls the Redshift data API to run the CALL stored procedure statement.
+
+    A data engineer must orchestrate a data pipeline that consists of two AWS Glue crawlers and one AWS Glue job. Which solution will meet these requirements with the least management overhead and most cost efficiency?
+
+        Use an AWS Step Functions workflow to run the three Lambda functions. Two of them will run crawlers and one will run the AWS Glue job.
+
+        Use an Apache Airflow workflow that is deployed on an Amazon EC2 instance. Define a directed acyclic graph (DAG) in which the first two tasks will call Lambda functions that will run the AWS Glue crawlers while the third task will call a Lambda function to run the AWS Glue job.
+
+        Use an AWS Glue workflow to orchestrate the AWS Glue crawlers and AWS Glue job.
+
+        Use an MWAA directed acyclic graph (DAG) with three tasks. The first two tasks will call Lambda functions that will run the AWS Glue crawlers and the third task will call Lambda to run the AWS Glue job.
+
+    A healthcare analytics company needs to analyze patient treatment data stored in Amazon S3 (several terabytes) using Amazon Athena. The data is updated daily through AWS Glue jobs that run overnight. Multiple departments run identical reports throughout the day, causing unnecessary query processing and increased costs. The reports need to reflect data no older than four hours to meet compliance requirements.
+
+    The analytics team needs to optimize Athena usage while maintaining data freshness requirements and minimizing additional infrastructure costs.
+
+    Which solution is most cost-effective with the least operational overhead?
+
+        Implement Athena workgroups with query result caching enabled, setting a cache duration of four hours for frequently run queries.
+
+        Convert all data files to Apache ORC format with Zlib compression and implement partitioning by date.
+
+        Deploy an Amazon RDS read replica to cache frequently accessed data from Athena queries.
+
+        Create materialized views in Athena for commonly used query patterns.
+
+        Implement an Amazon DynamoDB table to cache query results with a TTL of four hours.
+
+    A data analyst wants to create a visualization but is not well versed with Amazon QuickSight. How can the analyst develop visualizations with the least support?
+
+        Using Amazon Q to generate visuals using natural language prompts.
+
+        Read through the Amazon QuickSight documentation and master all visuals.
+
+        Try different visualization options in Amazon QuickSight.
+
+        Use the autograph feature in QuickSight.
+
+    A retail company deployed an application on Amazon EC2 instances inside a VPC. In order to detect suspicious traffic patterns or potential security threats the company wants to analyze VPC flow logs. Which solution will meet these requirements with the least operational overhead most cost-effectively?
+
+        Publish flow logs to Amazon S3 in Parquet format. Use Amazon Redshift provisioned clusters for analytics.
+
+        Publish flow logs to Amazon CloudWatch. Use Amazon Redshift provisioned clusters for analytics.
+
+        Publish flow logs to Amazon CloudWatch. Use Amazon Athena for analytics.
+
+        Publish flow logs to Amazon S3 in Parquet format. Use Amazon Athena for analytics.
+
+    A healthcare provider processes patient records using AWS Glue ETL jobs. The data team needs to implement strict data validation to ensure Patient IDs follow a specific format, date fields are within valid ranges, required fields are not null, and numeric values fall within acceptable medical ranges.
+
+    What is the most efficient way to implement these data quality requirements in their ETL pipeline?
+
+        Implement using AWS Glue Data Quality rules. Example:
+
+        dq_rules = {
+            'Patient_Validation': {
+                'PatientID': 'Matches "[A-Z]{2}\\d{6}"',
+                'DateOfBirth': 'Between "1900-01-01" AND current_date',
+                'BloodPressure': 'Between 60 AND 200' }}
+
+        Create custom PySpark validation functions.
+
+        Use AWS Glue Data Catalog validation.
+
+        Implement AWS Lake Formation tags.
+

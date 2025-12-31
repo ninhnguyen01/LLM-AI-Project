@@ -1,0 +1,1459 @@
+Index
+
+A
+
+    ABAC (attribute-based access control), Fine-Grained Access Control with AWS Lake Formation
+    access control
+        ABAC, Fine-Grained Access Control with AWS Lake Formation
+        access denied exceptions, Access denied exceptions
+        Athena workgroups, Workgroups
+        Lake Formation, AWS Lake Formation, Fine-Grained Access Control with AWS Lake Formation-Best practices for tag-based access control
+        QuickSight, Fine-Grained Access Control in Amazon QuickSight, Create Amazon QuickSight execution role using AWS IAM-Create Amazon QuickSight execution role using AWS IAM
+        RBAC, Role-based access control
+        TBAC, Fine-Grained Access Control with AWS Lake Formation, Tag-based access control, Best practices for tag-based access control
+    access patterns, S3 Intelligent-Tiering, S3 Intelligent-Tiering
+    actions (Spark), Spark
+    active-active resilience architecture, Disaster Recovery and High Availability, Availability Zone (AZ) failure recovery
+    active-passive resilience architecture, Disaster Recovery and High Availability, Availability Zone (AZ) failure recovery
+    ad-hoc data exploration and analysis, Glue DataBrew use case, AWS Glue DataBrew
+    ADF (see Amazon Data Firehose)
+    AI (artificial intelligence), Becoming an AWS Data Engineer Associate
+        (see also machine learning)
+        AWS Artificial Intelligence, Data Quality
+        certification advantages for working on AI data, Becoming an AWS Data Engineer Associate
+        Glue to troubleshoot Spark, GenAI-Powered Troubleshooting for Spark in AWS Glue
+        new Amazon/AWS products and upgrades to integrate, Improving the Developer Experience with Generative AI-GenAI-Powered Troubleshooting for Spark in AWS Glue
+        OpenSearch Service use case, Amazon OpenSearch Service
+        Redshift AI-driven autoscaling, Autoscaling
+        Redshift ML for data analytics, Redshift ML and Generative AI
+        SageMaker AI, Amazon SageMaker AI-Amazon SageMaker AI
+        SageMaker Catalog, Amazon SageMaker Catalog
+        visualization building with, QuickSight GenBI Capabilities (QuickSight Q)-Enhanced dashboard Q&A
+    Airflow, Application Integration, Managed Workflows for Apache Airflow-Sample Use Case
+    alerting, data pipeline resiliency, Alerting-Notifications
+    Amazon AppFlow, Application Integration
+    Amazon Athena, Amazon Athena-Amazon Athena
+        best practices, Best Practices When Using Amazon Athena-Best Practices When Using Amazon Athena
+        Glue Data Catalog integration, Integrating with other AWS services
+        lakehouse architecture, Reference Architecture: Lakehouse with Glue, Redshift, and Athena
+        querying logs with, Amazon Athena
+        reference architecture using, Reference Architecture: Lakehouse with Glue, Redshift, and Athena
+        SQL analytics using, Amazon Athena, Building a Data Strategy with Multiple Data Stores, SQL Analytics Using Amazon Athena-Best Practices When Using Amazon Athena
+        use cases, Use Cases-Use Cases
+    Amazon Athena Federated Query, Building a Data Strategy with Multiple Data Stores, Athena Federated SQL-Athena Federated SQL
+    Amazon Aurora, Database, Analyzing Data from Operational Data Stores Using Amazon Redshift
+    Amazon Bedrock, Machine Learning
+    Amazon CloudFront, Networking and Content Delivery
+    Amazon CloudWatch
+        alarms, CloudWatch Alarms-Notifications
+        KMS integration, Managing Encryption Keys with AWS KMS
+        logging and auditing, Management Governance, Ingesting AWS logs into log analytics solutions, Amazon CloudWatch
+        monitoring metrics with, Monitoring metrics using CloudWatch
+        Redshift logging and auditing, Logging and auditing in Amazon Redshift
+        S3 Storage Lens metrics, S3 Storage Lens
+        workgroup monitoring and control, Workgroups
+    Amazon CloudWatch Events API, Amazon EventBridge
+    Amazon CloudWatch Log Insights, Amazon CloudWatch Log Insights
+    Amazon CloudWatch Logs, Monitoring logs and traces
+    Amazon Data Firehose (ADF), Amazon Data Firehose-Amazon Data Firehose
+        archiving data with Lambda functions, Archiving Data from Amazon DynamoDB to Amazon S3
+        best practices, Best Practices for Amazon Data Firehose-Best Practices for Amazon Data Firehose
+        data transformation with, Amazon Data Firehose for Transformation
+        and DynamoDB in data ingestion, Streaming Amazon DynamoDB data into a centralized data lake
+        log ingestion for analysis, Ingesting AWS logs into log analytics solutions-Ingesting AWS logs into log analytics solutions
+        streaming data ingestion, Ingesting streaming data from IoT devices into a data lake, Best Practices for Amazon Data Firehose-Best Practices for Amazon Data Firehose
+    Amazon DataZone, Amazon DataZone-Amazon DataZone
+        business data cataloging, Components of Metadata and Data Catalogs, Amazon DataZone business glossary
+        data lineage feature, Amazon DataZone
+        data mesh architecture for governance, Data mesh with centralized governance-Data mesh with centralized governance
+        Glue Catalog integration, AWS Glue
+        IAM Identity Center integration, IAM Identity Center integration with Amazon DataZone
+        SageMaker Catalog integration, Amazon SageMaker Catalog
+    Amazon DocumentDB, Database, AWS Cloud Databases
+    Amazon DynamoDB
+        archiving data to S3, Archiving Data from Amazon DynamoDB to Amazon S3-Archiving Data from Amazon DynamoDB to Amazon S3
+        and Data Firehose, Streaming Amazon DynamoDB data into a centralized data lake
+        data model design, Data Modeling Strategies for Amazon DynamoDB-Common use cases and considerations
+        and KDS, Streaming Amazon DynamoDB data into a centralized data lake, Archiving Data from Amazon DynamoDB to Amazon S3
+        key-value databases, Database, AWS Cloud Databases
+    Amazon DynamoDB Streams, Real-Time Streaming Data Ingestion, Streaming Amazon DynamoDB data into a centralized data lake, Archiving Data from Amazon DynamoDB to Amazon S3
+    Amazon DynamoDB TTL, Archiving Data from Amazon DynamoDB to Amazon S3
+    Amazon EBS Elastic Volumes, AWS Core Storage Services
+    Amazon EC2 Spot Instances, Instance Types, Leveraging Serverless Services
+    Amazon Elastic Block Store (EBS), Storage, AWS Core Storage Services, Selecting Storage Solutions for Hot and Cold Data
+    Amazon Elastic Compute Cloud (EC2), Compute and Containers
+        block cloud storage, AWS Core Storage Services
+        deployment option with EMR, Deployment Options
+        Spot Instances, Instance Types, Leveraging Serverless Services
+    Amazon Elastic Container Registry (ECR), Compute and Containers
+    Amazon Elastic Container Service (ECS), Compute and Containers
+    Amazon Elastic File System (EFS), Storage, AWS Core Storage Services
+    Amazon Elastic Kubernetes Service (EKS), Compute and Containers, Deployment Options
+    Amazon Elastic MapReduce (EMR), Amazon EMR-Amazon EMR
+        autoscaling with, Autoscaling
+        batch data transformation, Batch Data Transformation, Choosing the Right Batch Transformation Service
+        data transformation, Data Transformation Using Amazon EMR-AWS Glue Versus Amazon EMR Options
+        Deequ with, Using Deequ with Amazon EMR-Using Deequ with Amazon EMR
+        and EC2 Spot Instances, Instance Types
+        enabling encryption in, Amazon EMR-Amazon EMR
+        high availability, HA for Amazon EMR clusters on EC2
+        log processing with, Processing logs with Amazon EMR or AWS Glue
+        streaming transformation service, Choosing the Right Streaming Transformation Service
+        Virtual Private Cloud for cluster configuration, Configuring a VPC and Security Group for an Amazon EMR Cluster
+    Amazon Elasticache, Selecting Storage Solutions for Hot and Cold Data
+    Amazon EMR Notebooks, Amazon EMR Notebooks
+    Amazon EMR Serverless, Amazon EMR, Deployment Options, Creating an EMR Studio and EMR Serverless application-Creating VPC endpoints for Kinesis Data Streams, Amazon S3, and EMR Serverless
+    Amazon EMR Studio, Creating an EMR Studio and EMR Serverless application-Creating an EMR Studio and EMR Serverless application
+    Amazon EventBridge, Application Integration, Amazon EventBridge-Sample Use Case, Event-Driven Pipeline Maintenance with EventBridge
+    Amazon FSx, AWS Core Storage Services
+    Amazon Keyspaces, Database
+    Amazon Kinesis Data Generator, Setting up Amazon Kinesis Data Generator-Setting up Amazon Kinesis Data Generator
+    Amazon Kinesis Data Streams (KDS), Amazon Kinesis Data Streams-Amazon Kinesis Data Streams
+        consuming data from, Best Practices for Consuming Data from KDS
+        Data Firehose to connect to data stores, Best Practices for Amazon Data Firehose
+        data ingestion, Real-Time Streaming Data Ingestion, Best Practices for Streaming Ingestion-Best Practices for Streaming Ingestion
+        data transformations with MSF, Amazon Managed Service for Apache Flink
+        and DynamoDB, Streaming Amazon DynamoDB data into a centralized data lake, Archiving Data from Amazon DynamoDB to Amazon S3
+        Kinesis Agent, Real-Time Streaming Data Ingestion
+        versus MSK, Kinesis Data Streams Versus Amazon MSK-Kinesis Data Streams Versus Amazon MSK
+        sharding best practices, Best Practices for Sharding
+        stream storage, Real-Time Streaming Data Ingestion
+        streaming pipeline implementation, Creating a Kinesis data stream-Setting up Amazon Kinesis Data Generator
+        VPC endpoints, Creating VPC endpoints for Kinesis Data Streams, Amazon S3, and EMR Serverless-Creating VPC endpoints for Kinesis Data Streams, Amazon S3, and EMR Serverless
+    Amazon Macie, Security, Identity, and Compliance, Integrating Amazon Macie for data at rest
+    Amazon Managed Grafana, Management Governance
+    Amazon Managed Prometheus, Management Governance
+    Amazon Managed Service for Apache Flink (MSF), Amazon Managed Service for Apache Flink-Amazon Managed Service for Apache Flink
+        best practices, Amazon Managed Service for Apache Flink
+        reference architecture for streaming analytics, Reference Architecture: Streaming Analytics Pattern with Apache Flink and MSK
+        stream consumption and processing, Real-Time Streaming Data Ingestion
+        streaming data transformation, Streaming Data Transformation, Amazon Managed Service for Apache Flink, Choosing the Right Streaming Transformation Service-Choosing the Right Streaming Transformation Service
+    Amazon Managed Service for Apache Kafka (MSK), Amazon Managed Streaming for Apache Kafka-Amazon Managed Streaming for Apache Kafka
+        Data Firehose to connect to data stores, Best Practices for Amazon Data Firehose
+        data transformation, Best Practices for Amazon MSK-General practices when using Amazon MSK, Amazon Managed Service for Apache Flink
+        high availability, HA for Amazon MSK
+        IoT device data ingestion, Ingesting streaming data from IoT devices into a data lake
+        reference architecture for streaming analytics, Reference Architecture: Streaming Analytics Pattern with Apache Flink and MSK
+        stream storage, Real-Time Streaming Data Ingestion
+        streaming data ingestion, Real-Time Streaming Data Ingestion, Kinesis Data Streams Versus Amazon MSK-Kinesis Data Streams Versus Amazon MSK, Best Practices for Amazon MSK-General practices when using Amazon MSK
+    Amazon Managed Workflows for Apache Airflow (MWAA), Application Integration, Managed Workflows for Apache Airflow-Sample Use Case
+    Amazon MemoryDB, Database
+    Amazon MSK Connect, Amazon Managed Streaming for Apache Kafka, General practices when using Amazon MSK
+    Amazon MSK Replicator, Amazon Managed Streaming for Apache Kafka, General practices when using Amazon MSK, HA for Amazon MSK
+    Amazon MSK Serverless, Amazon Managed Streaming for Apache Kafka
+    Amazon Neptune, Database, Building lineage solutions with AWS Glue, Amazon Neptune, and Spline
+    Amazon OpenSearch Dashboards, Amazon OpenSearch Dashboards
+    Amazon OpenSearch Service, Amazon OpenSearch Service-Amazon OpenSearch Service, AWS Cloud Databases
+        AI use case, Amazon OpenSearch Service
+        destination streaming data store, Real-Time Streaming Data Ingestion
+        high availability, HA for Amazon OpenSearch
+        ingesting data, Amazon OpenSearch Service, Ingesting AWS logs into log analytics solutions-Ingesting AWS logs into log analytics solutions
+        log analysis, Amazon Athena, Example: Building a Petabyte-Scale Log Analytics Solution on AWS-Storage Tier Decisions for Different Access Patterns, Amazon OpenSearch Service
+        streaming analytics pattern, reference architecture, Reference Architecture: Streaming Analytics Pattern with Apache Flink and MSK
+        VPC endpoints, OpenSearch Service–managed VPC endpoints
+    Amazon Q, Machine Learning
+    Amazon Q Business, Machine Learning
+    Amazon Q Developer, Machine Learning, Amazon SageMaker Unified Studio, Generative AI–Powered Code Generation with Amazon Q Developer
+    Amazon QuickSight, Amazon QuickSight-Amazon QuickSight, Amazon QuickSight-Enhanced dashboard Q&A
+        access control, Fine-Grained Access Control in Amazon QuickSight, Create Amazon QuickSight execution role using AWS IAM-Create Amazon QuickSight execution role using AWS IAM
+        batch processing pipeline implementation, Sign up for and manage Amazon QuickSight-Sign up for and manage Amazon QuickSight
+        BI reporting, Amazon Athena, Amazon QuickSight
+        creating datasets, Datasets
+        data sources, High-Level Architecture Overview of Data Processing Pipelines, Data Sources-Data Sources
+        refreshing SPICE datasets, Refreshing SPICE Datasets-Refreshing SPICE Datasets
+        visualizations, Reference Architecture: Lakehouse with Glue, Redshift, and Athena, Visualizations-Enhanced dashboard Q&A, Create Amazon QuickSight visualization-Create Amazon QuickSight visualization
+    Amazon QuickSight Q, Amazon QuickSight, Amazon QuickSight, QuickSight GenBI Capabilities (QuickSight Q)-Enhanced dashboard Q&A
+    Amazon Redshift, Amazon Redshift-Amazon Redshift
+        AI-driven autoscaling, Autoscaling
+        batch transformation service, Choosing the Right Batch Transformation Service
+        data model design, Data Modeling Strategies for Amazon Redshift-Additional best practices for data modeling with Amazon Redshift
+        data sharing feature, Amazon Redshift Storage, Multiaccount, hub-and-spoke model for data sharing
+        database management for security, Database Security in Amazon Redshift-Dynamic data masking
+        destination streaming data store, Real-Time Streaming Data Ingestion
+        enabling encryption in, Amazon Redshift
+        high availability, HA for Amazon Redshift provisioned clusters
+        ingesting data, Ingesting click streams into a data warehouse for real-time reporting-Ingesting click streams into a data warehouse for real-time reporting, Ingesting data into Amazon Redshift using DMS, Best Practices for AWS DMS Tasks with Amazon Redshift Target-Best Practices for AWS DMS Tasks with Amazon Redshift Target
+        and lakehouse architecture, Reference Architecture: Lakehouse with Glue, Redshift, and Athena, Performing COPY and UNLOAD Operations to Move Data Between Amazon S3 and Amazon Redshift
+        logging and auditing, Logging and auditing in Amazon Redshift
+        query scheduler, Amazon Redshift Scheduler
+        QuickSight visualization, Create Amazon QuickSight visualization-Create Amazon QuickSight visualization
+        reference architecture, Reference Architecture: Lakehouse with Glue, Redshift, and Athena
+        SQL analytics using, SQL Analytics Using Amazon Redshift-User-Defined Functions
+        for SQL-based data transformations, Batch Data Transformation, SQL-Based Data Transformation Using Amazon Redshift-Amazon Redshift stored procedures
+        stream consumption and processing, Real-Time Streaming Data Ingestion
+        VPC endpoints managed by, Redshift-managed VPC endpoints
+    Amazon Redshift Managed Storage (RMS), Amazon Redshift stored procedures
+    Amazon Redshift ML, Amazon Redshift, Redshift ML and Generative AI
+    Amazon Redshift Serverless, Amazon Redshift, Amazon Redshift Compute, Create Amazon Redshift cluster-Create Amazon Redshift cluster
+    Amazon Redshift Spectrum, Amazon Redshift, Building a Data Strategy with Multiple Data Stores
+    Amazon Relational Database Service (RDS), Database, Analyzing Data from Operational Data Stores Using Amazon Redshift
+    Amazon Route 53, Networking and Content Delivery
+    Amazon S3
+        and OpenSearch for hot and cold data, Storage Tier Decisions for Different Access Patterns
+        archiving data from DynamoDB to, Archiving Data from Amazon DynamoDB to Amazon S3-Archiving Data from Amazon DynamoDB to Amazon S3
+        Athena analytics, Amazon Athena
+        creating buckets, Create Amazon S3 buckets, Create Amazon S3 buckets for an Iceberg data lake and a streaming checkpoint
+        data lake best practices, Amazon S3 Data Lake Best Practices-Use open table formats
+        destination streaming data store, Real-Time Streaming Data Ingestion
+        with EMR, Storage
+        ingesting data into data lake with DMS, Ingesting data into an Amazon S3 data lake using DMS
+        and lakehouse architecture, Building a Data Strategy with Multiple Data Stores, Performing COPY and UNLOAD Operations to Move Data Between Amazon S3 and Amazon Redshift
+        logging and auditing, Reference Architecture: Streaming Analytics Pattern with Apache Flink and MSK, Amazon S3
+        object storage from, AWS Core Storage Services
+        optimizing data management (see optimizing data lifecycle)
+        and Redshift, Amazon Redshift, Reference Architecture: Lakehouse with Glue, Redshift, and Athena, Performing COPY and UNLOAD Operations to Move Data Between Amazon S3 and Amazon Redshift
+        securing data in, Secure Data in Amazon S3
+        streaming analytics reference architecture, Reference Architecture: Streaming Analytics Pattern with Apache Flink and MSK
+        VPC endpoints for real-time streaming, Creating VPC endpoints for Kinesis Data Streams, Amazon S3, and EMR Serverless-Creating VPC endpoints for Kinesis Data Streams, Amazon S3, and EMR Serverless
+    Amazon S3 Data Lake, Amazon S3 Data Lake Best Practices-Use open table formats
+    Amazon S3 Express One Zone, Frequently accessed storage classes
+    Amazon S3 Glacier, Storage
+    Amazon S3 Glacier Deep Archive, Rarely accessed storage classes
+    Amazon S3 Glacier Flexible Retrieval, Rarely accessed storage classes
+    Amazon S3 Glacier Instant Retrieval, Rarely accessed storage classes
+    Amazon S3 Intelligent-Tiering, Storage class for changing or unknown access patterns, S3 Intelligent-Tiering-S3 Intelligent-Tiering, Managing the Data Lifecycle with Amazon S3 Lifecycle
+    Amazon S3 Lifecycle, Managing the Data Lifecycle with Amazon S3 Lifecycle-Managing the Data Lifecycle with Amazon S3 Lifecycle
+    Amazon S3 Metadata, Amazon S3 Metadata
+    Amazon S3 OneZone-IA, Infrequently accessed storage classes
+    Amazon S3 Standard storage class, Frequently accessed storage classes
+    Amazon S3 Standard-IA, Infrequently accessed storage classes
+    Amazon S3 Storage Lens, S3 Storage Lens
+    Amazon S3 Tables, Amazon S3 Tables
+    Amazon S3 Versioning, Ensuring S3 Data Resiliency with S3 Versioning-S3 Versioning and Object Lifecycle Management
+    Amazon SageMaker, Amazon Redshift, Machine Learning, Use Cases
+    Amazon SageMaker Catalog, Amazon SageMaker Catalog
+    Amazon SageMaker Clarify, Amazon SageMaker AI
+    Amazon SageMaker Ground Truth, Amazon SageMaker AI
+    Amazon SageMaker JumpStart, Amazon SageMaker AI
+    Amazon SageMaker Lakehouse, Amazon SageMaker Lakehouse-Amazon SageMaker Lakehouse
+    Amazon SageMaker Model Cards, Amazon SageMaker AI
+    Amazon SageMaker Unified Studio, Amazon SageMaker Unified Studio-Amazon SageMaker Unified Studio
+    Amazon Simple Notification Service (SNS), Reference Architecture: Streaming Analytics Pattern with Apache Flink and MSK, Application Integration, Notifications
+    Amazon Simple Queue Service (SQS), Application Integration
+    Amazon Virtual Private Cloud (VPC), Networking and Content Delivery, Amazon VPC Overview-Security Groups Overview
+        batch processing pipeline implementation, Sign up for and manage Amazon QuickSight-Sign up for and manage Amazon QuickSight
+        best practices, Best Practices for Configuring Security Groups for Your Workloads
+        EMR cluster configuration, Configuring a VPC and Security Group for an Amazon EMR Cluster
+        endpoints, VPC Endpoints Overview-OpenSearch Service–managed VPC endpoints
+        real-time streaming pipeline implementation, Creating VPC endpoints for Kinesis Data Streams, Amazon S3, and EMR Serverless-Creating VPC endpoints for Kinesis Data Streams, Amazon S3, and EMR Serverless
+    Amazon Web Services (AWS), certification benefits, Becoming an AWS Data Engineer Associate-Becoming an AWS Data Engineer Associate
+    analysis visualization format, Presentation Formats
+    analytics data layer, Analytics data layer: Curated and aggregated data
+    anomaly detection, CloudWatch, CloudWatch Alarms
+    Apache Airflow, Application Integration, Managed Workflows for Apache Airflow-Sample Use Case
+    Apache Cassandra, Database
+    Apache Flink (see Amazon Managed Service for Apache Flink)
+    Apache Hive, Hive, Hive, Migrating from an existing Hive catalog
+    Apache Hive Metastore Server (HMS), Hive
+    Apache Hive Query Language (HiveQL), Hive
+    Apache Hudi, Table Formats
+    Apache Iceberg, Amazon Athena, Table Formats, Use Cases, Amazon SageMaker Lakehouse
+    Apache Kafka (see Amazon Managed Service for Apache Kafka)
+    Apache ORC, Ingesting streaming data from IoT devices into a data lake, Use columnar file formats
+    Apache Parquet data format, Ingesting streaming data from IoT devices into a data lake, Ingesting data into an Amazon S3 data lake using DMS, Column-Based File Formats, Use columnar file formats
+    Apache Spark, Spark
+        and Athena, Amazon Athena
+        batch data transformations, Batch Data Transformation
+        code upgrades from Glue, Automated Script Upgrade in AWS Glue
+        Delta Lake table format, Table Formats
+        Glue interactive sessions with, AWS Glue Interactive Sessions
+        troubleshooting with Glue, GenAI-Powered Troubleshooting for Spark in AWS Glue
+    Apache Spark SQL/PySpark, Spark SQL/PySpark
+    Apache Spark Streaming, Real-Time Streaming Data Ingestion
+    Apache Spark Structured Streaming, Streaming Data Transformation
+        batch processing pipeline implementation, Create Amazon S3 buckets for an Iceberg data lake and a streaming checkpoint-Creating an EMR Studio and EMR Serverless application
+        choosing a streaming transformation service, Choosing the Right Streaming Transformation Service-Choosing the Right Streaming Transformation Service
+        and Glue Streaming ETL, AWS Glue, Glue Jobs
+        real-time streaming pipeline implementation, Submitting the Spark Streaming job to the EMR Serverless application-Submitting the Spark Streaming job to the EMR Serverless application
+    Apache Zeppelin, Amazon Managed Service for Apache Flink
+    API call monitoring, CloudTrail, Monitoring API calls with CloudTrail
+    APIs, MSF’s variety of, Amazon Managed Service for Apache Flink
+    AppFlow, Application Integration
+    applications, Glue connectors for, Data Sources and Destinations
+    archiving data, Archiving Data from Amazon DynamoDB to Amazon S3-Archiving Data from Amazon DynamoDB to Amazon S3
+        data archiving strategies, Defining Data Retention Policy and Archiving Strategies
+        S3 Glacier Deep Archive, Rarely accessed storage classes
+    Athena (see Amazon Athena)
+    attribute-based access control (ABAC), Fine-Grained Access Control with AWS Lake Formation
+    attributes, DynamoDB table, Core concepts of DynamoDB
+    Aurora, Database, Analyzing Data from Operational Data Stores Using Amazon Redshift
+    authentication and authorization, user, Create an IAM User for Authentication, Security, Identity, and Compliance, User Authentication and Authorization-IAM Identity Center integration with Amazon DataZone
+    AutoGraph feature, QuickSight, Visualizations
+    automated data quality checks and error handling, Automated Data Quality Checks and Error Handling
+    automatic query rewriting, Redshift materialized views, Amazon Redshift materialized views
+    automatic refresh, Redshift materialized views, Amazon Redshift materialized views
+    autoscaling, Amazon Kinesis Data Streams, Best Practices for AWS Glue, Autoscaling
+    auxiliary analytic services, Auxiliary Services for Analytics-AWS Well-Architected Tool
+        application integration services, Application Integration-Application Integration
+        AWS WA Tool, AWS Well-Architected Tool
+        cloud financial management, Developer Tools
+        compute and containers, Compute and Containers-Compute and Containers
+        database, Database-Database
+        developer tools, Developer Tools
+        machine learning, Machine Learning-Machine Learning
+        management governance, Management Governance-Management Governance
+        migration and transfer, Migration and Transfer-Migration and Transfer
+        networking and content delivery, Networking and Content Delivery
+        security, identity, and compliance, Security, Identity, and Compliance-Security, Identity, and Compliance
+        storage, Storage
+    Availability Zones (AZs), An Overview of Amazon Web Services, Availability Zone (AZ) failure recovery, Amazon VPC Overview
+    AVRO row-based file format, Row-Based File Formats
+    AWS account setup, How to Set Up an AWS Account
+    AWS Artificial Intelligence (AI), Data Quality
+    AWS Backup, Storage
+    AWS Budgets, Cloud Financial Management, Monitor and Control Data Transfer Costs
+    AWS Certificate Manager, Amazon Redshift
+    AWS Clean Rooms, Cross-organization or business-to-business data sharing
+    AWS CLI, Developer Tools, Enabling Versioning on an S3 Bucket
+    AWS Cloud Development Kit (CDK), Developer Tools, AWS Cloud Development Kit (AWS CDK)
+    AWS Cloud Quest, Study Plan
+    AWS CloudFormation, Management Governance, AWS CloudFormation-AWS CloudFormation
+    AWS CloudShell, Developer Tools
+    AWS CloudTrail, Management Governance
+        API call monitoring, Monitoring API calls with CloudTrail
+        AWS KMS integration, Managing Encryption Keys with AWS KMS
+        IAM role in audit logs, IAM Identity Center integration with AWS Lake Formation
+        logging and auditing, AWS CloudTrail to audit actions or API invocations
+        Redshift audit logging to, Logging and auditing in Amazon Redshift
+    AWS CloudTrail Insights, AWS CloudTrail Insights
+    AWS CloudTrail Lake, Analyzing CloudTrail logs using CloudTrail Lake
+    AWS Code Services, Developer Tools
+    AWS CodeBuild, Developer Tools, Continuous integration (CI)
+    AWS CodeCommit, Developer Tools, Version Control and Collaboration
+    AWS CodeDeploy, Developer Tools
+    AWS CodePipeline, Developer Tools, Continuous deployment (CD)
+    AWS Config, Management Governance, Auditing AWS configuration changes with AWS Config
+    AWS Construct Library, AWS Cloud Development Kit (AWS CDK)
+    AWS Control Tower, How to Set Up an AWS Account
+    AWS Cost Explorer, Cloud Financial Management, AWS Cost Explorer, Monitor and Control Data Transfer Costs
+    AWS Data Exchange, Migration and Transfer, Ingesting third-party datasets
+        data marketplace building, Exposing data as a product in a data marketplace
+        Lake Formation integration, AWS Lake Formation
+        Redshift integration, Amazon Redshift, Multiaccount, hub-and-spoke model for data sharing
+    AWS Database Migration Service (DMS), Migration and Transfer
+        data ingestion with Redshift, Ingesting data into Amazon Redshift using DMS, Best Practices for AWS DMS Tasks with Amazon Redshift Target-Best Practices for AWS DMS Tasks with Amazon Redshift Target
+        performance in database migrations, Best Practices for AWS DMS Replication Instances and Tasks-Best Practices for AWS DMS Replication Instances and Tasks
+        supported sources and targets for, Supported Sources for AWS DMS
+        use cases, Sample Use Cases
+    AWS DataSync, Migration and Transfer, Ingesting files from on premises
+    AWS Developer Tools, Developer Tools
+    AWS Glue, AWS Glue-AWS Glue
+        autoscaling with, Best Practices for AWS Glue, Autoscaling
+        batch data transformations with Spark, Batch Data Transformation
+        best practices, Best Practices for AWS Glue
+        choosing batch transformation service, Choosing the Right Batch Transformation Service
+        choosing streaming transformation service, Choosing the Right Streaming Transformation Service
+        code upgrades for Spark and Python, Automated Script Upgrade in AWS Glue
+        connectors, Glue Connectors, Data Sources and Destinations-AWS Glue interactive sessions, Create Glue data connection for the Redshift cluster-Create Glue data connection for the Redshift cluster
+        crawlers, AWS Glue, AWS Glue crawler
+        data transformation, Data Transformation Using AWS Glue, AWS Glue Versus Amazon EMR Options
+        versus EMR for data processing options, AWS Glue Versus Amazon EMR Options
+        enabling encryption in, AWS Glue
+        error handling by, Automated Data Quality Checks and Error Handling
+        exploring and analyzing datasets, AWS Glue Interactive Sessions-AWS Glue Interactive Sessions
+        GenAI-powered troubleshooting for Spark, GenAI-Powered Troubleshooting for Spark in AWS Glue
+        interactive sessions for dataset analysis, AWS Glue Interactive Sessions-AWS Glue Interactive Sessions
+        lakehouse reference architecture, Reference Architecture: Lakehouse with Glue, Redshift, and Athena
+        log processing with, Processing logs with Amazon EMR or AWS Glue
+        orchestrating data pipelines, AWS Glue Workflows-Sample Use Case
+        sensitive data detection, Integrating AWS Glue sensitive data detection-Integrating AWS Glue sensitive data detection
+        stream consumption and processing, Real-Time Streaming Data Ingestion
+    AWS Glue API, AWS Glue Workflows
+    AWS Glue Data Catalog, AWS Glue
+        Deequ and DQDL in, AWS Glue Data Quality
+        encryption for, AWS Glue
+        Lake Formation integration, AWS Lake Formation
+        metadata management, AWS Glue Data Catalog
+        optimizing performance with, Optimize performance with Glue Data Catalog
+        partitions, Best Practices for AWS Glue
+        populating, Populating an AWS Glue Data Catalog-Migrating from an existing Hive catalog
+        security, Secure the Data Catalog
+        streaming ETL jobs, Glue Jobs
+    AWS Glue Data Quality, AWS Glue, AWS Glue Data Quality-Composite rules, Data Quality
+    AWS Glue Data Quality Definition Language (DQDL), Data Profiling
+    AWS Glue DataBrew, AWS Glue DataBrew-AWS Glue DataBrew, Data Preparation for Nontechnical Personas-Other Data Preparation Transformations, Automated Data Quality Checks and Error Handling, Data Profiling
+    AWS Glue ETL jobs, Glue Jobs
+        batch processing pipeline implementation, Create AWS Glue PySpark ETL job-Create AWS Glue PySpark ETL job
+        data lineage building, Building lineage solutions with AWS Glue, Amazon Neptune, and Spline
+        data quality checks with, AWS Glue Data Quality
+        encryption for, AWS Glue
+    AWS Glue Spark UI, Best Practices for AWS Glue
+    AWS Glue Studio, Glue Studio, AWS Glue Data Quality
+    AWS IAM Identity Center, Best Practices to Follow with AWS IAM, Enable Single Sign-on with AWS IAM Identity Center-IAM Identity Center integration with Amazon DataZone
+    AWS Identity and Access Management (IAM), Configure Access with AWS IAM, Security, Identity, and Compliance
+        IAM groups, Authenticating Users with IAM Credentials
+        IAM roles, What Is an IAM Role?
+        policies, What Is an IAM Policy?, Secure the Data Catalog, Redshift-managed VPC endpoints, Access control with IAM policies
+        QuickSight creation of execution role, Create Amazon QuickSight execution role using AWS IAM-Create Amazon QuickSight execution role using AWS IAM
+        user authentication and authorization, Create an IAM User for Authentication, Security, Identity, and Compliance, User Authentication and Authorization-IAM Identity Center integration with Amazon DataZone
+    AWS IoT Core, Real-Time Streaming Data Ingestion, Ingesting streaming data from IoT devices into a data lake
+    AWS Jam, Study Plan
+    AWS Key Management Service (KMS), Security, Identity, and Compliance
+    AWS Lake Formation, AWS Lake Formation-AWS Lake Formation
+        access control, AWS Lake Formation, Fine-Grained Access Control with AWS Lake Formation-Best practices for tag-based access control
+        cross-account data sharing, Best practices for cross-account sharing, Multiaccount, hub-and-spoke model for data sharing
+        and data classification for permission control, Enriching Data Catalogs with Data Classification
+        Glue Data Catalog integration, AWS Glue
+        governance role, AWS Lake Formation, Data mesh with centralized governance-Data mesh with centralized governance
+        IAM Identity Center integration, IAM Identity Center integration with AWS Lake Formation-IAM Identity Center integration with AWS Lake Formation
+        QuickSight access control with, Access control with Lake Formation
+        SageMaker Catalog integration, Amazon SageMaker Catalog
+    AWS Lambda
+        archiving data from DynamoDB to S3, Archiving Data from Amazon DynamoDB to Amazon S3
+        attaching function to SNS, Notifications
+        data format conversion for streaming ingestion, Ingesting streaming data from IoT devices into a data lake
+        data source connecting for Athena Federated Query, Athena Federated SQL
+        data transformation with, AWS Lambda for Transformation, Choosing the Right Batch Transformation Service
+        event-driven quality checks, Event-Driven Pipeline Maintenance with EventBridge
+        reference architecture, Reference Architecture: Streaming Analytics Pattern with Apache Flink and MSK
+        serverless compute service, Compute and Containers
+        stream consumption and processing, Real-Time Streaming Data Ingestion
+        triggering Glue jobs with, Reference Architecture: Lakehouse with Glue, Redshift, and Athena
+    AWS Lambda UDFs, User-Defined Functions
+    AWS Management Console, Glue workflows, AWS Glue Workflows, Enabling Versioning on an S3 Bucket
+    AWS Organizations, How to Set Up an AWS Account, Best practices for cross-account sharing
+    AWS PrivateLink, Networking and Content Delivery
+    AWS Resource Access Manager, Best practices for cross-account sharing
+    AWS SageMaker ML Lineage, Amazon SageMaker ML Lineage Tracking
+    AWS Samples Data Profiler utility, Data Profiling
+    AWS Schema Conversion Tool (SCT), Migration and Transfer, Ingesting data into Amazon Redshift using DMS
+    AWS SDK, data ingestion customization, Real-Time Streaming Data Ingestion
+    AWS Secrets Manager, Security, Identity, and Compliance, Manage Database Credentials
+    AWS Serverless Application Model (SAM), Compute and Containers, AWS Serverless Application Model
+    AWS Service Catalog AppRegistry, AWS Well-Architected Tool
+    AWS Shield, Security, Identity, and Compliance
+    AWS Skill Builder Labs, Study Plan
+    AWS Snow Family, Migration and Transfer
+    AWS Snowball, Migration and Transfer
+    AWS Snowcone, Migration and Transfer
+    AWS Spark jobs, Glue Jobs
+    AWS Step Functions, Application Integration, AWS Step Functions, Automated Data Quality Checks and Error Handling
+    AWS Systems Manager, Management Governance
+    AWS Transfer Family, Migration and Transfer
+    AWS Trusted Advisor, AWS Well-Architected Tool
+    AWS Well-Architected Framework (WAF), Security, Identity, and Compliance
+
+B
+
+    backup service (AWS Backup), Storage
+    backup-restore resilience architectures, Disaster Recovery and High Availability, Backup and restore
+    bar charts, QuickSight, Visualizations
+    batch data processing, Batch Processing Pipeline
+        and Amazon EMR, Amazon EMR
+        data transformation, Batch Data Transformation, Choosing the Right Batch Transformation Service
+        with Glue bookmarks, Glue Bookmarks
+        ingesting data, Data Ingestion
+        pipeline implementation, Implementing a Batch Processing Pipeline-Best Practices and Optimization Techniques
+            Amazon S3 buckets, creating, Create Amazon S3 buckets
+            best practices, Best Practices and Optimization Techniques
+            Glue data connection for Redshift cluster, Create Glue data connection for the Redshift cluster-Create Glue data connection for the Redshift cluster
+            Glue PySpark ETL job, creating, Create AWS Glue PySpark ETL job-Create AWS Glue PySpark ETL job
+            input dataset, Overview of Input Dataset
+            QuickSight sign-up and management, Sign up for and manage Amazon QuickSight-Sign up for and manage Amazon QuickSight
+            QuickSight visualization, creating, Create Amazon QuickSight visualization-Create Amazon QuickSight visualization
+            Redshift Serverless cluster, Create Amazon Redshift cluster-Create Amazon Redshift cluster
+            use case and architecture, Use Case and Architecture Overview
+            visualization, Create Amazon QuickSight execution role using AWS IAM-Create Amazon QuickSight execution role using AWS IAM
+    Bedrock, Machine Learning
+    BI (see business intelligence)
+    big data, Overview of Big Data-Overview of Big Data
+        AWS-supported services, Data Sources
+        and EMR, Amazon EMR, Amazon EMR, Deployment Options
+        and Redshift, Amazon Redshift
+    block storage (EBS), Storage, AWS Core Storage Services, Selecting Storage Solutions for Hot and Cold Data
+    bookmarks, Glue, Glue Bookmarks
+    box plots, QuickSight, Visualizations
+    brokers, MSK clusters, Amazon MSK provisioned cluster versus serverless, General practices when using Amazon MSK
+    bucketing of data
+        creating buckets in Amazon S3, Create Amazon S3 buckets, Create Amazon S3 buckets for an Iceberg data lake and a streaming checkpoint
+        data lake access control, Best practices to integrate AWS Lake Formation
+        S3 Data Lake, Bucket your data
+    Budgets, Cloud Financial Management, Monitor and Control Data Transfer Costs
+    buffering hints, optimizing with Data Firehose, Best Practices for Amazon Data Firehose
+    business intelligence (BI), Certification Essentials
+        (see also Amazon QuickSight)
+        Athena use case, Amazon Athena
+        Glue DataBrew use case, AWS Glue DataBrew
+        metadata for, Components of Metadata and Data Catalogs
+        and Redshift, Amazon Redshift
+    business-to-business data sharing, Cross-organization or business-to-business data sharing-Exposing data as a product in a data marketplace
+
+C
+
+    capacity mode, choosing data stream, Best Practices for Choosing Data Stream Capacity Mode
+    capacity reservations, Athena, Capacity Reservations
+    case modifications, formatting functions (DataBrew), Formatting Functions
+    Cassandra, Database
+    CDC (change data capture), Amazon Managed Streaming for Apache Kafka, Data Ingestion, Ingesting Data from Databases with CDC Using AWS Data Migration Service-Ingesting third-party datasets
+    cdcMaxBatchInterval attribute, Ingesting data into an Amazon S3 data lake using DMS
+    cdcMinFileSize attribute, Ingesting data into an Amazon S3 data lake using DMS
+    CDK (Cloud Development Kit), Developer Tools, AWS Cloud Development Kit (AWS CDK)
+    CDN (content delivery network), Networking and Content Delivery
+    cell-level access control, Lake Formation, Row- and column-based data filtering
+    Certificate Manager, Amazon Redshift
+    certification essentials, Certification Essentials-Conclusion
+        applying problem-solving process to questions, How This Thought Process Applies to Certification Questions-How This Thought Process Applies to Certification Questions
+        exam format, Exam Format
+        exam topics, Exam Topics
+        exam-style questions, Exam-Style Questions
+        focus for the data engineering persona, How This Thought Process Applies to Certification Questions
+        real-world problem-solving framework, Think Like an AWS Solutions Architect: Translating a Real-World Problem-Solving Framework into Certification-How This Thought Process Applies to Certification Questions
+        registering for exam, Registering for the Exam
+        study plan, Study Plan
+    change data capture (CDC), Amazon Managed Streaming for Apache Kafka, Data Ingestion, Ingesting Data from Databases with CDC Using AWS Data Migration Service-Ingesting third-party datasets
+    CI/CD (continuous integration/continuous deployment), CI/CD, CI/CD Pipelines
+    Clean Rooms, Cross-organization or business-to-business data sharing
+    click stream ingesting into data warehouse, Ingesting click streams into a data warehouse for real-time reporting-Ingesting click streams into a data warehouse for real-time reporting
+    client-side encryption, Enabling encryption and managing keys in AWS
+    cloud environment
+        block-based storage, AWS Core Storage Services
+        compute and container services in AWS, Compute and Containers-Compute and Containers
+        data store management, AWS Cloud Databases-AWS Cloud Databases
+        financial management, Cloud Financial Management
+        knowledge on computing in, Cloud Computing and AWS-What Is Cloud Computing?
+        management governance tools, Management Governance
+    Cloud Quest, Study Plan
+    CloudFormation, Management Governance, AWS CloudFormation-AWS CloudFormation
+    CloudFront, Networking and Content Delivery
+    CloudShell, Developer Tools
+    CloudTrail (see AWS CloudTrail)
+    CloudWatch (see Amazon CloudWatch)
+    cluster manager (CM), OpenSearch, HA for Amazon OpenSearch
+    cluster mode, Spark, Spark
+    clusters, Amazon MSK, Best Practices for Amazon MSK-General practices when using Amazon MSK
+    code generation, AI, Generative AI–Powered Code Generation with Amazon Q Developer
+    code repositories, Working with Code Repositories-How to Work with Code Repositories
+    Code Services, Developer Tools
+    CodeBuild, Developer Tools, Continuous integration (CI)
+    CodeCommit, Developer Tools, Version Control and Collaboration
+    CodeDeploy, Developer Tools
+    CodePipeline, Developer Tools, Continuous deployment (CD)
+    cold and hot data, selecting storage solutions for, Selecting Storage Solutions for Hot and Cold Data-Storage Tier Decisions for Different Access Patterns
+    column-level access control, Lake Formation, Row- and column-based data filtering
+    columnar file formats
+        cost advantage, Best Practices When Using Amazon Athena, Columnar Formats
+        data lake, Column-Based File Formats
+        S3 Data Lake, Use columnar file formats
+    combiner process, MapReduce, MapReduce
+    comma-separated values (CSV) row-based format, Row-Based File Formats
+    command-line tool (AWS CLI), Developer Tools
+    compliance certifications, Security, Identity, and Compliance
+        (see also governance)
+    composite alarms, CloudWatch, CloudWatch Alarms
+    compression encodings, Redshift, Additional best practices for data modeling with Amazon Redshift
+    compression of data, S3 Data Lake, Use compression
+    compute resources
+        Glue job workers as, Worker Type
+        Redshift’s massively parallel compute, Amazon Redshift Compute
+    conceptual data models, Introduction to Data Modeling
+    configuration changes, auditing (AWS Config), Management Governance
+    connection timed out errors, Connection timed out errors
+    connections, making
+        Data Firehose for data stores, Best Practices for Amazon Data Firehose
+        Glue, Glue Connectors, Data Sources and Destinations-AWS Glue interactive sessions, Create Glue data connection for the Redshift cluster-Create Glue data connection for the Redshift cluster
+        Lambda for Athena Federated Query, Athena Federated SQL
+        MSK Connect, Amazon Managed Streaming for Apache Kafka, General practices when using Amazon MSK
+    Construct Library, AWS Cloud Development Kit (AWS CDK)
+    consumers, data stream, Real-Time Streaming Data Ingestion, Best Practices for Streaming Ingestion, Best Practices for Consuming Data from KDS
+    consumption component, data processing pipeline, High-Level Architecture Overview of Data Processing Pipelines
+    containerized environments, Amazon EMR, Compute and Containers
+    content delivery network (CDN), Networking and Content Delivery
+    context-awareness, Q Code Developer, Generative AI–Powered Code Generation with Amazon Q Developer
+    continuous integration/continuous deployment (CI/CD), CI/CD, CI/CD Pipelines
+    Control Tower, How to Set Up an AWS Account
+    COPY command, Redshift SQL, Performing COPY and UNLOAD Operations to Move Data Between Amazon S3 and Amazon Redshift
+    core storage services, AWS Core Storage Services-AWS Core Storage Services
+    Cost Explorer, Cloud Financial Management, AWS Cost Explorer, Monitor and Control Data Transfer Costs
+    cost optimization, Cost Optimization for Data Pipelines-Follow Cost Optimization Best Practices
+        capacity reservations with Athena, Capacity Reservations
+        with columnar file formats, Best Practices When Using Amazon Athena, Columnar Formats
+        query result reuse strategy, Best Practices When Using Amazon Athena
+        serverless services, Leveraging Serverless Services
+        tiered storage, Tiered Storage
+    crawlers, Glue, AWS Glue Workflows, Using Glue crawlers
+    cross-account data sharing, Lake Formation, Best practices for cross-account sharing, Multiaccount, hub-and-spoke model for data sharing
+    cross-organization data sharing, Cross-organization or business-to-business data sharing-Exposing data as a product in a data marketplace
+    cross-region snapshots for failure recovery (Redshift), Region failure recovery
+    CSV (comma-separated values) row-based format, Row-Based File Formats
+    custom policies, authorization, Managed Versus Self-Managed Policies
+
+D
+
+    DAGs (directed acyclic graphs), Application Integration
+    DAS (direct-attached storage), AWS Core Storage Services
+    dashboard visualization, Presentation Formats, Create executive summaries, Amazon OpenSearch Dashboards, Amazon SageMaker AI
+    data access patterns, Introduction to Data Modeling, NoSQL versus relational data modeling-Example use case: Ecommerce website
+    data analytics (see data operations and support)
+    data cataloging, Data Cataloging Systems-Enriching Data Catalogs with Data Classification
+    data classification, in data catalogs, Enriching Data Catalogs with Data Classification-Enriching Data Catalogs with Data Classification
+    data cleaning and standardization, Glue DataBrew, Formatting Functions
+    Data Control Language (DCL), Relational Databases
+    Data Definition Language (DDL), Relational Databases, DDL Capabilities
+    data discovery
+        classification of data, Enriching Data Catalogs with Data Classification
+        SageMaker Catalog, Amazon SageMaker Catalog
+    Data Exchange (see AWS Data Exchange)
+    data ingestion, Data Ingestion and Transformation, Data Ingestion-Best Practices for AWS DMS Tasks with Amazon Redshift Target
+        AWS Glue for data ingestion, AWS Glue
+        batch ingesting, Data Ingestion
+        best practices, Best Practices for Data Ingestion-Best Practices for AWS DMS Tasks with Amazon Redshift Target
+        data processing pipeline, High-Level Architecture Overview of Data Processing Pipelines, Orchestrating Data Pipelines-Choosing the Right Orchestration Service
+        ETL versus ELT, ETL Versus ELT
+        as exam topic, Exam Topics
+        from CDC databases with DMS, Ingesting Data from Databases with CDC Using AWS Data Migration Service-Ingesting third-party datasets
+        Glue Connectors, Glue Connectors
+        log data to OpenSearch cluster, Amazon OpenSearch Service
+        near real-time ingesting, Data Ingestion
+        OpenSearch Service, Amazon OpenSearch Service, Ingesting AWS logs into log analytics solutions-Ingesting AWS logs into log analytics solutions
+        real-time streaming, Real-Time Streaming Data Ingestion-Ingesting AWS logs into log analytics solutions
+        with zero-ETL integrations, Ingesting Data Using Zero-ETL Integrations
+    data lakes, What Is a Data Lake?
+        (see also AWS Lake Formation)
+        Amazon S3 used for storage in, AWS Core Storage Services
+        Athena exploration and analytics, Amazon Athena
+        and AWS Glue, AWS Glue
+        data model design strategies, Data Modeling Strategies for Data Lakes-Use open table formats
+        destination streaming data store, Real-Time Streaming Data Ingestion
+        prerequisite knowledge, What Is a Data Lake?, Data Warehouse Versus Data Lake
+        Redshift Spectrum querying of, Query Data from Data Lake
+        storage formats for, Data Storage Formats for Data Lakes-Table Formats
+        streaming into with Data Firehose, Amazon Data Firehose
+        streaming IoT device data, Ingesting streaming data from IoT devices into a data lake
+    data lifecycle management, Managing the Lifecycle of Data-Performing COPY and UNLOAD Operations to Move Data Between Amazon S3 and Amazon Redshift
+        archiving data from DynamoDB and S3, Archiving Data from Amazon DynamoDB to Amazon S3-Archiving Data from Amazon DynamoDB to Amazon S3
+        data lineage, Data Lineage-Amazon SageMaker ML Lineage Tracking
+        data retention policies, Defining Data Retention Policy and Archiving Strategies
+        governance role, Data Lifecycle Management
+        hot and cold data storage selection, Selecting Storage Solutions for Hot and Cold Data-Storage Tier Decisions for Different Access Patterns
+        lakehouse architecture, Performing COPY and UNLOAD Operations to Move Data Between Amazon S3 and Amazon Redshift
+        log analytics example, Example: Building a Petabyte-Scale Log Analytics Solution on AWS
+        optimizing (see optimizing data lifecycle)
+        storage tiers, decisions for access patterns, Storage Tier Decisions for Different Access Patterns-Storage Tier Decisions for Different Access Patterns
+    data lineage, Amazon DataZone, Data Lineage-Amazon SageMaker ML Lineage Tracking
+    Data Manipulation Language (DML), Relational Databases
+    data marketplace exposure of data, Exposing data as a product in a data marketplace
+    data marts, What Is a Data Warehouse?
+    data mesh architecture, Amazon Redshift Storage-Amazon Redshift Storage, Data mesh with centralized governance-Data mesh with centralized governance
+    data migration, DMS ingestion into Redshift, Ingesting data into Amazon Redshift using DMS
+    data model design, Designing Data Models and Schema-Use open table formats
+        data lake strategies, Data Modeling Strategies for Data Lakes-Use open table formats
+        DynamoDB, Data Modeling Strategies for Amazon DynamoDB-Common use cases and considerations
+        Redshift, Data Modeling Strategies for Amazon Redshift-Additional best practices for data modeling with Amazon Redshift
+    data normalization, and schema design patterns, Common schema design patterns
+    data operations and support, Exam Topics, Data Operations and Support-Conclusion
+        (see also data processing pipelines)
+        as exam topic, Exam Topics
+        generative AI for BI analysis, QuickSight GenBI Capabilities (QuickSight Q)-Enhanced dashboard Q&A
+        notebooks, analyzing data using, Analyzing Data Using Notebooks-Amazon EMR Notebooks
+        QuickSight, Amazon QuickSight-Enhanced dashboard Q&A
+        SQL analytics using Athena, SQL Analytics Using Amazon Athena-Best Practices When Using Amazon Athena
+        SQL analytics using Redshift, SQL Analytics Using Amazon Redshift-User-Defined Functions
+    data processing methods, prerequisite knowledge, Different Ways to Process Data-Event-Driven Processing
+    data processing pipelines, Data Processing Pipeline-Data Processing Pipeline
+        building resilient (see resiliency, data pipelines)
+        cost optimization, Cost Optimization for Data Pipelines-Follow Cost Optimization Best Practices
+        data ingestion, High-Level Architecture Overview of Data Processing Pipelines
+        governance in, High-Level Architecture Overview of Data Processing Pipelines
+        high-level architecture knowledge, High-Level Architecture Overview of Data Processing Pipelines-High-Level Architecture Overview of Data Processing Pipelines
+        OpenSearch Service for data ingestion, Amazon OpenSearch Service
+        security in, High-Level Architecture Overview of Data Processing Pipelines
+        streaming for data analytics, Real-Time Streaming Data Ingestion
+    data processing units (DPUs), Data Processing Units
+    data profiling, AWS Glue DataBrew, Data Profiling
+    data quality
+        automated checks and error handling, Automated Data Quality Checks and Error Handling
+        DataZone management, Amazon DataZone
+        with Deequ and DQDL, Ensuring Data Quality and Reliability: Deequ and DQDL-Using Deequ with Amazon EMR
+        Glue Data Quality, AWS Glue, AWS Glue Data Quality-Composite rules, Data Quality
+        Glue DataBrew checks, AWS Glue DataBrew
+        governance role, Data Quality-Data Quality
+    Data Quality Definition Language (DQDL), Ensuring Data Quality and Reliability: Deequ and DQDL-Using Deequ with Amazon EMR
+    Data Query Language (DQL), Relational Databases
+    data replication, Amazon Managed Streaming for Apache Kafka, Best Practices for AWS DMS Replication Instances and Tasks
+    data retention, Amazon Kinesis Data Streams, Amazon Managed Streaming for Apache Kafka, Defining Data Retention Policy and Archiving Strategies
+    data security (see security)
+    data sharing
+        cross-account, Best practices for cross-account sharing, Multiaccount, hub-and-spoke model for data sharing
+        DataZone’s governed, Amazon DataZone
+        governance role, Data Sharing-Exposing data as a product in a data marketplace
+        Lake Formation, AWS Lake Formation
+        Redshift, Amazon Redshift, Amazon Redshift Storage, Multiaccount, hub-and-spoke model for data sharing
+    data skew, Partition your data
+    data sources
+        accessing with QuickSight, High-Level Architecture Overview of Data Processing Pipelines, Data Sources-Data Sources
+        Glue connections to, Data Sources and Destinations
+        incremental crawls to update, Use crawlers effectively
+    data store management, Data Store Management-Conclusion
+        Amazon RDS and Aurora with Redshift, Analyzing Data from Operational Data Stores Using Amazon Redshift
+        AWS core storage services, AWS Core Storage Services-AWS Core Storage Services
+        cloud databases, AWS Cloud Databases-AWS Cloud Databases
+        data cataloging, Data Cataloging Systems-Enriching Data Catalogs with Data Classification
+        data lakes, storage formats for, Data Storage Formats for Data Lakes-Table Formats
+        data model design, Designing Data Models and Schema-Use open table formats
+        as exam topic, Exam Topics
+        lifecycle of data, Managing the Lifecycle of Data-Performing COPY and UNLOAD Operations to Move Data Between Amazon S3 and Amazon Redshift
+        multiple data stores for data strategy, Building a Data Strategy with Multiple Data Stores-Building a Data Strategy with Multiple Data Stores
+        optimizing data management, Optimizing Data Management with Amazon S3-S3 Versioning and Object Lifecycle Management
+    data stories visualization format, Presentation Formats
+    data swamp, What Is a Data Lake?
+    data transfer costs, monitoring and controlling, Monitor and Control Data Transfer Costs
+    data transformation, Data Ingestion and Transformation, Data Transformation-Other Data Preparation Transformations
+        (see also data ingestion)
+        batch data transformation, Batch Data Transformation, Choosing the Right Batch Transformation Service
+        data classification role in, Enriching Data Catalogs with Data Classification
+        Data Firehose, Amazon Data Firehose, Amazon Data Firehose for Transformation
+        EMR, Data Transformation Using Amazon EMR-AWS Glue Versus Amazon EMR Options
+        as exam topic, Exam Topics
+        Glue, Data Transformation Using AWS Glue, AWS Glue Versus Amazon EMR Options
+        Glue DataBrew no-code, AWS Glue DataBrew
+        Lambda, AWS Lambda for Transformation
+        MSF, Amazon Managed Service for Apache Flink
+        orchestrating data pipelines, Orchestrating Data Pipelines-Choosing the Right Orchestration Service
+        preparation of data for nontechnical personas, Data Preparation for Nontechnical Personas-Other Data Preparation Transformations
+        Redshift for SQL-based transformations, SQL-Based Data Transformation Using Amazon Redshift-Amazon Redshift stored procedures
+        streaming data transformation, Streaming Data Transformation, Choosing the Right Streaming Transformation Service-Choosing the Right Streaming Transformation Service
+    data warehouses, What Is a Data Warehouse?
+        (see also Amazon Redshift)
+        click stream ingesting for real-time reporting, Ingesting click streams into a data warehouse for real-time reporting-Ingesting click streams into a data warehouse for real-time reporting
+        Data Firehose streaming into, Amazon Data Firehose
+        destination streaming data store, Real-Time Streaming Data Ingestion
+        Glue use case, AWS Glue
+        and Hive, Hive
+        prerequisite knowledge, What Is a Data Warehouse?
+        Redshift Spectrum querying of, Query Data from Data Lake
+        star schema in, Common schema design patterns
+    database management system (DBMS), What Is a Database Management System?
+    databases
+        credentials management, Manage Database Credentials
+        Glue connectors for, Data Sources and Destinations
+        prerequisite knowledge, Databases and Types of Databases-NoSQL Databases
+        relational (see relational databases)
+    DataFrames, Spark, Spark
+    datasets
+        creating with QuickSight, Datasets
+        input set for data processing pipeline, Overview of Input Dataset
+        Spark Datasets, Spark
+    DataSync, Migration and Transfer, Ingesting files from on premises
+    DataZone (see Amazon DataZone)
+    DBMS (database management system), What Is a Database Management System?
+    DCL (Data Control Language), Relational Databases
+    DDL (Data Definition Language), Relational Databases, DDL Capabilities
+    DDOS (distributed denial of service) attacks, Security, Identity, and Compliance
+    Deequ framework, Ensuring Data Quality and Reliability: Deequ and DQDL-Using Deequ with Amazon EMR, Data Profiling
+    Delta Lake (table format), Table Formats
+    denormalized schemas, Common schema design patterns
+    dependencies, DAG, Managed Workflows for Apache Airflow
+    destination data stores, Real-Time Streaming Data Ingestion, Best Practices for Amazon Data Firehose
+    dimensional modeling, Logical data modeling in Amazon Redshift
+    direct-attached storage (DAS), AWS Core Storage Services
+    directed acyclic graphs (DAGs), Application Integration, Managed Workflows for Apache Airflow
+    disaster recovery (DR), Disaster Recovery and High Availability-HA for Amazon OpenSearch
+    distributed denial of service (DDOS) attacks, Security, Identity, and Compliance
+    distributed processing frameworks, Distributed Processing Frameworks for Big Data-Trino
+    distributed storage layer, data processing pipeline, High-Level Architecture Overview of Data Processing Pipelines
+    distribution styles, Redshift clusters, Physical data modeling in Amazon Redshift: Choosing the best distribution style
+    DML (Data Manipulation Language), Relational Databases
+    DMS (see AWS Database Migration Service)
+    DMS Schema Conversion, Converting schema using DMS Schema Conversion
+    Docker, Compute and Containers
+    document databases, AWS Cloud Databases
+    DocumentDB, Database, AWS Cloud Databases
+    Domain Name System (DNS), Networking and Content Delivery
+    DPUs (data processing units), Data Processing Units
+    DQDL (Glue Data Quality Definition Language), Data Profiling
+    DQL (Data Query Language), Relational Databases
+    duplicate records, identifying (DataBrew), Identify Duplicate Records
+    dynamic data masking (DDM), Redshift, Dynamic data masking
+    dynamic partitioning, Data Firehose, Best Practices for Amazon Data Firehose
+    DynamoDB (see Amazon DynamoDB)
+
+E
+
+    EBS (Amazon Elastic Block Store), Storage, AWS Core Storage Services, Selecting Storage Solutions for Hot and Cold Data
+    EC2 (see Amazon Elastic Compute Cloud)
+    ECR (Elastic Container Registry), Compute and Containers
+    ECS (Elastic Container Service), Compute and Containers
+    EFS (Elastic File System), Storage, AWS Core Storage Services
+    EKS (Elastic Kubernetes Service), Compute and Containers, Deployment Options
+    Elasticache, Selecting Storage Solutions for Hot and Cold Data
+    ELT (extract, load, and transform), ETL Versus ELT, Ingesting streaming data from IoT devices into a data lake, Performing COPY and UNLOAD Operations to Move Data Between Amazon S3 and Amazon Redshift
+    embedded analytics, QuickSight, Amazon QuickSight
+    EMR (see Amazon Elastic MapReduce)
+    EMRFS (EMR File System), Configuring a VPC and Security Group for an Amazon EMR Cluster
+    encryption and decryption, Manage Database Credentials, Data Encryption and Decryption and Managing the Encryption Keys-Amazon Redshift
+    encryption keys, Security, Identity, and Compliance, Managing Encryption Keys with AWS KMS-Best practices for managing keys with AWS KMS
+    enhanced fan-out feature, KDS, Amazon Kinesis Data Streams, Best Practices for Consuming Data from KDS
+    error handling
+        automated, Automated Data Quality Checks and Error Handling
+        data pipelines, Troubleshooting and Performance Tuning-Resource constraints
+    ETL (extract, transform, and load), ETL Versus ELT
+        Data Firehose near real-time streaming, Amazon Data Firehose
+        versus ELT, ETL Versus ELT
+        Glue, AWS Glue, AWS Glue, Glue Jobs, AWS Glue interactive sessions
+        Glue Studio for workflows, Glue Studio
+        moving data between S3 and Redshift, Performing COPY and UNLOAD Operations to Move Data Between Amazon S3 and Amazon Redshift
+    Event bus (router), Amazon EventBridge
+    event-driven architectures and processing, Event-Driven Processing
+        EventBridge, Application Integration, Sample Use Case-Sample Use Case, Event-Driven Pipeline Maintenance with EventBridge
+        KDS, Amazon Kinesis Data Streams
+        MSF use case, Amazon Managed Service for Apache Flink
+        MSK use case, Amazon Managed Streaming for Apache Kafka
+        Step Functions, AWS Step Functions
+    EventBridge, Application Integration, Amazon EventBridge-Sample Use Case, Event-Driven Pipeline Maintenance with EventBridge
+    events and API actions, tracking (CloudTrail), Management Governance
+    exam information (see certification essentials)
+    Exam Prep Official Practice Question Set, Exam-Style Questions
+    executive summaries, QuickSight Q, Create executive summaries
+    expiring snapshots from open table formats, Expiring Snapshots from Open Table Formats
+    express brokers, MSK clusters, Amazon MSK provisioned cluster versus serverless
+    extract, load, and transform (ELT), ETL Versus ELT, Ingesting streaming data from IoT devices into a data lake, Performing COPY and UNLOAD Operations to Move Data Between Amazon S3 and Amazon Redshift
+    extract, transform, and load (ETL) (see ETL (extract, transform, and load))
+    extraction functions, Glue DataBrew, Formatting Functions
+
+F
+
+    federated queries, Amazon Athena, Building a Data Strategy with Multiple Data Stores, Athena Federated SQL-Athena Federated SQL, Analyzing Data from Operational Data Stores Using Amazon Redshift
+    federated users, IAM, Best Practices to Follow with AWS IAM
+    file formats
+        AVRO, Row-Based File Formats
+        columnar, Column-Based File Formats, Use columnar file formats, Best Practices When Using Amazon Athena, Columnar Formats
+        CSV, Row-Based File Formats
+        Glue best practices, Best Practices for AWS Glue
+        JSON, Ingesting streaming data from IoT devices into a data lake, Row-Based File Formats, Semi-Structured Data Analysis-Semi-Structured Data Analysis
+        Parquet, Ingesting streaming data from IoT devices into a data lake, Ingesting data into an Amazon S3 data lake using DMS, Column-Based File Formats, Use columnar file formats
+    file size optimization, S3 Data Lake, Optimize file size
+    file storage, AWS Core Storage Services
+    fine-grained access controls (FGAC), AWS Lake Formation
+    firewall, Security, Identity, and Compliance, Security Groups Overview
+    Flink (see Amazon Managed Service for Apache Flink)
+    formatting functions, Glue DataBrew, Formatting Functions
+    foundation models (FMs), machine learning, Machine Learning, Amazon SageMaker AI
+    fraud detection, Amazon Managed Service for Apache Flink, Reference Architecture: Streaming Analytics Pattern with Apache Flink and MSK
+    FSx, AWS Core Storage Services
+
+G
+
+    generative AI (GenAI)
+        Amazon Redshift ML for data analytics, Redshift ML and Generative AI
+        AWS Glue to troubleshoot Spark, GenAI-Powered Troubleshooting for Spark in AWS Glue
+        new Amazon/AWS products and upgrades to integrate, Improving the Developer Experience with Generative AI-GenAI-Powered Troubleshooting for Spark in AWS Glue
+        SageMaker Catalog, Amazon SageMaker Catalog
+        visualization building with, QuickSight GenBI Capabilities (QuickSight Q)-Enhanced dashboard Q&A
+    generative AI–powered assistant (Amazon Q), Machine Learning
+    generative BI (QuickSight Q), Amazon QuickSight
+    geospatial analytics, Use Cases, Geospatial Data Analysis
+    git add, How to Work with Code Repositories
+    git clone, How to Work with Code Repositories
+    git commit, How to Work with Code Repositories
+    git fetch, How to Work with Code Repositories
+    git merge, How to Work with Code Repositories
+    git pull, How to Work with Code Repositories
+    git push, How to Work with Code Repositories
+    git status, How to Work with Code Repositories
+    GitHub, How to Work with Code Repositories
+    global secondary indexes (GSIs), DynamoDB, Core concepts of DynamoDB, Utilizing global secondary indexes and local secondary indexes
+    Glue (see AWS Glue)
+    governance, Data Governance-Auditing AWS configuration changes with AWS Config
+        Amazon Lake Formation, AWS Lake Formation
+        business metadata for, Components of Metadata and Data Catalogs
+        cloud environment management, Management Governance
+        data lifecycle management, Data Lifecycle Management
+        data lineage, Data Lineage-Amazon SageMaker ML Lineage Tracking
+        in data processing pipeline, High-Level Architecture Overview of Data Processing Pipelines
+        data quality, Data Quality-Data Quality
+        data sharing, Data Sharing-Exposing data as a product in a data marketplace
+        as exam topic, Exam Topics
+        logging and auditing, Logging and Auditing-Auditing AWS configuration changes with AWS Config
+        machine learning implementation, Amazon SageMaker AI
+        metadata management, Metadata Management and Technical Catalog-Amazon DataZone business glossary
+        OpenSearch Service, Amazon OpenSearch Service
+        privacy (see privacy)
+        profiling data, Data Profiling
+        security (see security)
+        versioning for data lifecycle optimization, Ensuring S3 Data Resiliency with S3 Versioning-S3 Versioning and Object Lifecycle Management
+    Grafana, Management Governance, Amazon Managed Service for Prometheus and Grafana
+    graph database service (Neptune), Database, AWS Cloud Databases
+    Graviton instances (EMR), Instance Types
+    GSIs (global secondary indexes), DynamoDB, Core concepts of DynamoDB, Utilizing global secondary indexes and local secondary indexes
+
+H
+
+    Hadoop clusters, What Is a Data Lake?
+    Hadoop Distributed File System (HDFS), Distributed Processing Frameworks for Big Data, What Is a Data Lake?, Storage
+    Hadoop framework, Distributed Processing Frameworks for Big Data
+    hardware security module (HSM) encryption, Amazon Redshift
+    hierarchical databases, Hierarchical Databases
+    high availability (HA), Disaster Recovery and High Availability-HA for Amazon OpenSearch
+    histograms, QuickSight, Visualizations
+    Hive (see Apache Hive)
+    HiveQL (Apache Hive Query Language), Hive
+    HMS (Hive Metastore Server), Hive
+    hot and cold data, selecting storage solutions for, Selecting Storage Solutions for Hot and Cold Data-Storage Tier Decisions for Different Access Patterns
+    HSM (hardware security module) encryption, Amazon Redshift
+    hub and spoke architecture, Redshift, Amazon Redshift Storage-Amazon Redshift Storage
+    Hudi, Table Formats
+
+I
+
+    IaaS (infrastructure as a service), What Is Cloud Computing?
+    IaC (infrastructure as code), Management Governance, Infrastructure as Code-Choosing the right IaC solution
+    IAM (see AWS Identity and Access Management)
+    Iceberg, Amazon Athena, Table Formats, Use Cases, Amazon SageMaker Lakehouse
+    in-memory databases, Database, AWS Cloud Databases
+    in-memory storage, Selecting Storage Solutions for Hot and Cold Data
+    incremental crawls, to update changing data sources, Use crawlers effectively
+    incremental refresh, Redshift materialized views, Amazon Redshift materialized views
+    Independent software vendors (ISVs), Amazon QuickSight
+    indexes
+        OpenSearch, HA for Amazon OpenSearch
+        partition, Optimize performance with Glue Data Catalog
+        secondary DynamoDB, Core concepts of DynamoDB, Utilizing global secondary indexes and local secondary indexes-Common use cases and considerations
+    infrastructure as a service (IaaS), What Is Cloud Computing?
+    infrastructure as code (IaC), Management Governance, Infrastructure as Code-Choosing the right IaC solution
+    ingesting data (see data ingestion)
+    inline policies, authorization, Managed Versus Self-Managed Policies
+    instance types, EMR, Instance Types
+    IoT Core, Real-Time Streaming Data Ingestion, Ingesting streaming data from IoT devices into a data lake
+    IoT devices
+        Amazon MSK use case, Amazon Managed Streaming for Apache Kafka
+        streaming data ingestion into data lake, Ingesting streaming data from IoT devices into a data lake
+    ISVs (Independent software vendors), Amazon QuickSight
+    items, DynamoDB table, Core concepts of DynamoDB
+
+J
+
+    Jam, Study Plan
+    job bookmarks, Glue, Glue Bookmarks, Best Practices for AWS Glue
+    job worker types, Glue, Worker Type
+    JobManager, Flink, Flink
+    jobs, Glue, Data Transformation Using AWS Glue, Glue Jobs, AWS Glue Workflows
+    Join data transformation, Glue DataBrew, Integrating Data from Multiple Sources
+    JSON file format, Ingesting streaming data from IoT devices into a data lake, Row-Based File Formats, Semi-Structured Data Analysis-Semi-Structured Data Analysis
+    Jupyter notebooks, Glue Studio notebooks, Amazon EMR Notebooks
+
+K
+
+    Kafka (see Amazon Managed Service for Apache Kafka)
+    KDS (see Amazon Kinesis Data Streams)
+    key-value databases, DynamoDB, Database, AWS Cloud Databases
+    Keyspaces, Database
+    Kimball methodology, Logical data modeling in Amazon Redshift
+    Kimball, Ralph, Logical data modeling in Amazon Redshift
+    Kinesis Agent, Real-Time Streaming Data Ingestion
+    Kinesis Consumer Library (KCL), Real-Time Streaming Data Ingestion
+    Kinesis Data Streams (see Amazon Kinesis Data Streams)
+    Kinesis Producers Library (KPL), Real-Time Streaming Data Ingestion
+    KMS (Key Management Service), Security, Identity, and Compliance
+    KPIs (key performance indicators), QuickSight, Visualizations
+    Kubernetes, Amazon EMR, Compute and Containers
+
+L
+
+    Lake Formation (see AWS Lake Formation)
+    lakehouse architecture, Building a Data Strategy with Multiple Data Stores
+        Amazon SageMaker Lakehouse, Amazon SageMaker Lakehouse-Amazon SageMaker Lakehouse
+        data store management, Performing COPY and UNLOAD Operations to Move Data Between Amazon S3 and Amazon Redshift
+        reference architecture with Glue, Redshift, and Athena, Reference Architecture: Lakehouse with Glue, Redshift, and Athena
+    Lambda (see AWS Lambda)
+    least privilege principle, IAM Role-Based Authentication and Authorization, Create Amazon QuickSight execution role using AWS IAM
+    lexical search, OpenSearch Service, Amazon OpenSearch Service
+    LF-Tags (Lake Formation tags), Tag-based access control, Best practices for tag-based access control
+    lifecycle of data, management of (see data lifecycle management)
+    lightweight data transformations, Data Firehose, Amazon Data Firehose
+    line charts, QuickSight, Visualizations-Visualizations
+    local secondary indexes (LSIs), DynamoDB, Core concepts of DynamoDB, Utilizing global secondary indexes and local secondary indexes
+    log analytics
+        Athena use case, Amazon Athena
+        example data lifecycle, Example: Building a Petabyte-Scale Log Analytics Solution on AWS
+        ingesting logs for analysis, Ingesting AWS logs into log analytics solutions-Ingesting AWS logs into log analytics solutions
+        OpenSearch Service, Amazon OpenSearch Service
+    log data, Data Firehose for streaming into SIEM tools, Amazon Data Firehose
+    log storage in Amazon S3, Reference Architecture: Streaming Analytics Pattern with Apache Flink and MSK
+    logging and auditing for governance, Logging and Auditing-Auditing AWS configuration changes with AWS Config
+    logical data modeling, Introduction to Data Modeling, Logical data modeling in Amazon Redshift
+    logs and traces, pipeline processing, Monitoring logs and traces
+    LSIs (local secondary indexes), DynamoDB, Core concepts of DynamoDB
+
+M
+
+    machine learning (ML)
+        data lineage tracking, Amazon SageMaker ML Lineage Tracking
+        EMR, Amazon EMR
+        Glue, AWS Glue
+        Glue DataBrew, AWS Glue DataBrew
+        Redshift, Amazon Redshift
+        Redshift ML, Redshift ML and Generative AI
+        SageMaker, Use Cases
+        SageMaker AI, Amazon SageMaker AI-Amazon SageMaker AI
+    machine learning operations (MLOps), Amazon SageMaker AI
+    managed business data catalog, DataZone, Amazon DataZone
+    managed versus self-managed policies for authorization, Managed Versus Self-Managed Policies
+    managed versus unmanaged services, Managed Services Versus Unmanaged Services
+    map process (MapReduce), MapReduce
+    MapReduce, Certification Essentials, MapReduce
+        (see also Amazon Elastic MapReduce)
+    massively parallel processing (MPP) architecture, Amazon Redshift, SQL Analytics Using Amazon Redshift
+    materialized views (MVs), Ingesting click streams into a data warehouse for real-time reporting, SQL Data Transformations
+    medallion architecture, data lake management, Data Modeling Strategies for Data Lakes
+    MemoryDB, Database
+    message queuing service (SQS), Application Integration
+    messaging service (SNS), Application Integration
+    metadata
+        Amazon S3 Metadata, Amazon S3 Metadata
+        collecting for data lineage, Data Lineage
+        data store catalogs, Components of Metadata and Data Catalogs
+        governance management role for, Metadata Management and Technical Catalog-Amazon DataZone business glossary
+        manually defining for Glue Data Catalog, Defining metadata manually
+    metadata catalog, data processing pipeline, High-Level Architecture Overview of Data Processing Pipelines
+    metric alarms, CloudWatch, CloudWatch Alarms
+    metrics monitoring and alerting (Managed Prometheus), Management Governance
+    MFA (multifactor authentication), How to Set Up an AWS Account, Best Practices to Follow with AWS IAM
+    missing data values, filling with Glue DataBrew, Fill Missing Values-Fill Missing Values
+    MLOps (machine learning operations), Amazon SageMaker AI
+    monetization of data, Redshift, Amazon Redshift
+    MongoDB, Database
+    monitoring and observability, data pipeline resiliency, Monitoring-Monitoring using system tables
+    monitoring component, data processing pipeline, High-Level Architecture Overview of Data Processing Pipelines
+    MPP (massively parallel processing) architecture, Amazon Redshift, SQL Analytics Using Amazon Redshift
+    MQTT messages, Real-Time Streaming Data Ingestion
+    MSF (see Amazon Managed Service for Apache Flink)
+    MSK (see Amazon Managed Service for Apache Kafka)
+    multi-account environment setup, How to Set Up an AWS Account
+    multi-cluster architectures, Redshift storage, Amazon Redshift Storage-Amazon Redshift Storage
+    multifactor authentication (MFA), How to Set Up an AWS Account, Best Practices to Follow with AWS IAM
+    multiple choice questions, Exam Format
+    multiple data stores for data strategy, Building a Data Strategy with Multiple Data Stores-Building a Data Strategy with Multiple Data Stores
+    multiple response questions, Exam Format
+    MVs (materialized views), Ingesting click streams into a data warehouse for real-time reporting, SQL Data Transformations
+    MWAA (Managed Workflows for Apache Airflow), Application Integration, Managed Workflows for Apache Airflow-Sample Use Case
+
+N
+
+    name-based access control, Lake Formation, Name-based access control
+    naming conventions
+        Amazon S3 buckets, Step-by-Step Implementation Guide
+        Glue Data Catalog, Establish a consistent naming convention
+    near real-time data ingestion, Data Ingestion
+    nesting functions, data structures (Glue DataBrew), Nesting and Unnesting Data Structures, Nesting and Unnesting Data Structures
+    network security, Network Security-OpenSearch Service–managed VPC endpoints
+    no-code data transformation, Glue DataBrew, AWS Glue DataBrew
+    normalization of data, and schema design patterns, Common schema design patterns
+    NoSQL databases, NoSQL Databases, Database, Data Modeling Strategies for Amazon DynamoDB-Common use cases and considerations
+    notebook-based development, Glue Studio, Glue Studio notebooks
+    notebooks, analyzing data using, Analyzing Data Using Notebooks-Amazon EMR Notebooks
+
+O
+
+    object storage, AWS Core Storage Services, Selecting Storage Solutions for Hot and Cold Data, S3 Storage Lens
+    on-demand mode, data stream capacity, Best Practices for Streaming Ingestion
+    on-premises applications and data sources, ingesting into cloud, Ingesting files from on premises
+    online analytical processing (OLAP), OLTP Versus OLAP, Common schema design patterns
+    online transaction processing (OLTP), OLTP Versus OLAP
+    open table formats
+        Athena support for, Amazon Athena
+        expiring snapshots from, Expiring Snapshots from Open Table Formats
+        with S3 Data Lake, Use open table formats
+    OpenSearch Service (see Amazon OpenSearch Service)
+    operators, DAG, Managed Workflows for Apache Airflow
+    optimizing data lifecycle, Optimizing Data Management with Amazon S3-S3 Versioning and Object Lifecycle Management
+        Amazon S3 Lifecycle configuration tool, Managing the Data Lifecycle with Amazon S3 Lifecycle-Managing the Data Lifecycle with Amazon S3 Lifecycle
+        archiving data from DynamoDB and S3, Archiving Data from Amazon DynamoDB to Amazon S3-Archiving Data from Amazon DynamoDB to Amazon S3
+        expiring snapshots from open table formats, Expiring Snapshots from Open Table Formats
+        monitoring and management, Monitoring the Amazon S3 Data Lifecycle-AWS Cost Explorer
+        S3 Intelligent-Tiering, S3 Intelligent-Tiering-S3 Intelligent-Tiering
+        storage classes, Overview of S3 Storage Classes-Choosing the Right Storage Class
+        versioning for data resiliency and compliance, Ensuring S3 Data Resiliency with S3 Versioning-S3 Versioning and Object Lifecycle Management
+    ORC (optimized row columnar), file format, Column-Based File Formats
+    ORC data format, Ingesting streaming data from IoT devices into a data lake, Use columnar file formats
+    orchestrating data pipelines, Orchestrating Data Pipelines-Choosing the Right Orchestration Service
+        choosing best service, Choosing the Right Orchestration Service-Choosing the Right Orchestration Service
+        data ingestion, Orchestrating Data Pipelines-Choosing the Right Orchestration Service
+        data transformation, Orchestrating Data Pipelines-Choosing the Right Orchestration Service
+        ECS, Compute and Containers
+        EventBridge, Application Integration, Amazon EventBridge-Sample Use Case, Event-Driven Pipeline Maintenance with EventBridge
+        Glue workflows, AWS Glue Workflows-Sample Use Case
+        MWAA, Managed Workflows for Apache Airflow-Sample Use Case
+        Redshift Query Editor v2, Amazon Redshift Scheduler
+        Step Functions, AWS Step Functions
+        workflow orchestration, High-Level Architecture Overview of Data Processing Pipelines, AWS Step Functions
+    ownership, data classification by, Enriching Data Catalogs with Data Classification
+
+P
+
+    PaaS (platform as a service), What Is Cloud Computing?
+    parallelism, Overview of Big Data
+        enhanced fan-out consumers mode, KDS, Best Practices for Consuming Data from KDS
+        MPP architecture, Amazon Redshift, SQL Analytics Using Amazon Redshift
+        Presto, Presto
+    Parquet data format, Ingesting streaming data from IoT devices into a data lake, Ingesting data into an Amazon S3 data lake using DMS, Column-Based File Formats, Use columnar file formats
+    partition indexes, Optimize performance with Glue Data Catalog
+    partition keys
+        Athena, Best Practices When Using Amazon Athena
+        DynamoDB, Core concepts of DynamoDB
+        MSK, Best Practices for Amazon MSK, General practices when using Amazon MSK
+        S3 Data Lake, Partition your data
+        shards in KDS, Best Practices for Sharding
+    partition projection, Best Practices When Using Amazon Athena
+    partition skewing, General practices when using Amazon MSK
+    partitioning data, Best Practices for AWS Glue, Partition your data
+    performance
+        batch processing pipeline implementation, Best Practices and Optimization Techniques
+        data pipeline tuning, Troubleshooting and Performance Tuning-Resource constraints
+        database migrations, Best Practices for AWS DMS Replication Instances and Tasks-Best Practices for AWS DMS Replication Instances and Tasks
+        Glue Data Catalog for optimizing, Optimize performance with Glue Data Catalog
+        KPIs (QuickSight), Visualizations
+        OpenSearch Service, Amazon OpenSearch Service
+        SPICE in-memory cache for query, Datasets-Refreshing SPICE Datasets
+    permissions
+        data classification’s role in, Enriching Data Catalogs with Data Classification
+        Lake Formation management of, AWS Lake Formation
+        Redshift GRANT and REVOKE, Manage permissions with GRANT and REVOKE
+        setting user IAM, Add Permissions to Authorize the User, Best Practices to Follow with AWS IAM
+    personalized data portal, DataZone, Amazon DataZone
+    personally identifiable information (PII), Protecting Sensitive Data-Protecting Sensitive Data, Sensitive Data Detection and Redaction
+    physical data modeling, Introduction to Data Modeling, Physical data modeling in Amazon Redshift: Choosing the best distribution style-Physical data modeling in Amazon Redshift: Choosing the best sort key
+    pie and donut charts, QuickSight, Visualizations
+    pivot tables, QuickSight, Visualizations
+    PL/pgSQL, Amazon Redshift stored procedures
+    PL/SQL (Procedural Language for SQL), Relational Databases
+    platform as a service (PaaS), What Is Cloud Computing?
+    PostgreSQL database software, SQL Functions
+    preparation of data for nontechnical personas, Glue DataBrew, Data Preparation for Nontechnical Personas-Other Data Preparation Transformations
+    prerequisite knowledge for data engineers, Prerequisite Knowledge for Aspiring Data Engineers-Conclusion
+        big data, Overview of Big Data-Overview of Big Data
+        CI/CD, CI/CD
+        cloud computing, Cloud Computing and AWS-What Is Cloud Computing?
+        code repositories, Working with Code Repositories-How to Work with Code Repositories
+        data lakes, What Is a Data Lake?, Data Warehouse Versus Data Lake
+        data processing methods, Different Ways to Process Data-Event-Driven Processing
+        data warehouses, What Is a Data Warehouse?
+        databases, Databases and Types of Databases-NoSQL Databases
+        distributed processing frameworks, Distributed Processing Frameworks for Big Data-Trino
+        getting started with AWS, Getting Started with AWS-Best Practices to Follow with AWS IAM
+        high-level architecture of data processing pipelines, High-Level Architecture Overview of Data Processing Pipelines-High-Level Architecture Overview of Data Processing Pipelines
+        OLTP versus OLAP, OLTP Versus OLAP
+    presentation formats, QuickSight, Presentation Formats
+    Presto (PrestoDB), Presto
+    primary key, DynamoDB, Core concepts of DynamoDB
+    privacy
+        GDPR and HIPAA compliance, Ensuring S3 Data Resiliency with S3 Versioning
+        KMS keys, Managing Encryption Keys with AWS KMS
+        PII protection, Protecting Sensitive Data-Protecting Sensitive Data, Sensitive Data Detection and Redaction
+        sensitive data detection and redaction, Sensitive Data Detection and Redaction-Integrating AWS Glue sensitive data detection
+        VPC (see Amazon Virtual Private Cloud)
+    PrivateLink, Networking and Content Delivery
+    Procedural Language for SQL (PL/SQL), Relational Databases
+    processing component, data processing pipeline, High-Level Architecture Overview of Data Processing Pipelines
+    producers, data stream, Best Practices for Streaming Ingestion
+    Prometheus, Management Governance, Amazon Managed Service for Prometheus and Grafana
+    provisioned compute, Amazon Redshift Compute
+    provisioned mode, data stream capacity, Best Practices for Streaming Ingestion
+    PySpark, Glue Studio notebooks, Create Amazon S3 buckets for an Iceberg data lake and a streaming checkpoint-Creating an EMR Studio and EMR Serverless application
+    Python shell jobs (Glue), AWS Glue, Glue Jobs
+    Python UDFs, User-Defined Functions
+
+Q
+
+    Q&A, enabling on visualization dashboard, Create executive summaries
+    queries (see Amazon Athena; Amazon Redshift; SQL)
+    query operation, DynamoDB, Core concepts of DynamoDB
+    query result reuse strategy, Best Practices When Using Amazon Athena
+    QuickSight (see Amazon QuickSight)
+
+R
+
+    RAG (retrieval-augmented generation), Amazon OpenSearch Service
+    raw data layer, data lake, Raw data layer: The landing zone for raw data
+    RBAC (role-based access control), Role-based access control
+    RDBMS (relational database management systems), Common schema design patterns-Common schema design patterns, NoSQL versus relational data modeling
+    RDDs (Resilient Distributed Datasets), Spark
+    RDS (Relational Database Service), Database, Analyzing Data from Operational Data Stores Using Amazon Redshift
+    real-time analytics and processing
+        EMR, Amazon EMR
+        MSF use case, Amazon Managed Service for Apache Flink
+        MSK use case, Amazon Managed Streaming for Apache Kafka
+    real-time search, OpenSearch Service, Reference Architecture: Streaming Analytics Pattern with Apache Flink and MSK
+    real-time streaming, Real-Time Stream Processing
+        Data Firehose ETL, Amazon Data Firehose
+        data ingestion, Real-Time Streaming Data Ingestion-Ingesting AWS logs into log analytics solutions
+        data ingestion/processing use cases, Data Ingestion, Sample Streaming Ingestion Use Cases-Ingesting AWS logs into log analytics solutions
+        data transformation, Streaming Data Transformation, Choosing the Right Streaming Transformation Service-Choosing the Right Streaming Transformation Service
+        KDS data analytics, Amazon Kinesis Data Streams
+        pipeline implementation, Implementing a Real-Time Streaming Pipeline-Conclusion
+            Amazon S3 buckets, Create Amazon S3 buckets for an Iceberg data lake and a streaming checkpoint
+            EMR Studio and EMR Serverless application, Creating an EMR Studio and EMR Serverless application-Creating an EMR Studio and EMR Serverless application
+            KDS, Creating a Kinesis data stream
+            Kinesis Data Generator, Setting up Amazon Kinesis Data Generator
+            Spark Structured Streaming job, Submitting the Spark Streaming job to the EMR Serverless application-Submitting the Spark Streaming job to the EMR Serverless application
+            use case and architecture, Use Case and Architecture Overview
+            VPC endpoints, Creating VPC endpoints for Kinesis Data Streams, Amazon S3, and EMR Serverless-Creating VPC endpoints for Kinesis Data Streams, Amazon S3, and EMR Serverless
+    rebash command, How to Work with Code Repositories
+    recovery point objective (RPO), Disaster Recovery and High Availability-Disaster Recovery and High Availability
+    recovery time objective (RTO), Disaster Recovery and High Availability-Disaster Recovery and High Availability
+    Redshift (see Amazon Redshift)
+    Redshift Managed Storage (RMS), Amazon Redshift stored procedures
+    Redshift Processing Units (RPUs), Amazon Redshift Compute
+    reduce process (MapReduce), MapReduce
+    region failure recovery (Redshift), Region failure recovery
+    Regions, AWS, An Overview of Amazon Web Services
+    relational database management systems (RDBMS), Common schema design patterns-Common schema design patterns, NoSQL versus relational data modeling
+    Relational Database Service (RDS), Analyzing Data from Operational Data Stores Using Amazon Redshift
+    relational databases, Relational Databases, AWS Cloud Databases
+        AWS-supported services, Data Sources
+        choosing among Amazon offerings, AWS Cloud Databases
+        RDS, Database
+    replacement functions for data cleaning and standardization, Glue DataBrew, Formatting Functions
+    resharding a stream, Best Practices for Streaming Ingestion
+    resiliency, data pipeline, Data Pipeline Resiliency-HA for Amazon OpenSearch
+        alerting, Alerting-Notifications
+        automated data quality checks and error handling, Automated Data Quality Checks and Error Handling
+        CI/CD pipelines, CI/CD Pipelines
+        data quality and reliability, Ensuring Data Quality and Reliability: Deequ and DQDL-Using Deequ with Amazon EMR
+        disaster recovery and high availability, Disaster Recovery and High Availability-HA for Amazon OpenSearch
+        event-driven pipeline maintenance, Event-Driven Pipeline Maintenance with EventBridge
+        IaC, Infrastructure as Code-Choosing the right IaC solution
+        monitoring and observability, Monitoring-Monitoring using system tables
+        troubleshooting and performance tuning, Troubleshooting and Performance Tuning-Resource constraints
+        version control and collaboration, Version Control and Collaboration
+    Resilient Distributed Datasets (RDDs), Spark
+    Resource Access Manager, Best practices for cross-account sharing
+    resource constraints, error handling for, Resource constraints
+    resource-based access policies, Secure Data in Amazon S3
+    retrieval-augmented generation (RAG), Amazon OpenSearch Service
+    reusable recipes, Glue DataBrew, AWS Glue DataBrew
+    RMS (Amazon Redshift Managed Storage), Amazon Redshift stored procedures
+    role-based access control (RBAC), Role-based access control
+    role-based authentication and authorization, IAM Role-Based Authentication and Authorization
+    root admin user, avoidance of in data lake access control, Best practices to integrate AWS Lake Formation
+    row-based file formats, data lake, Row-Based File Formats
+    row-level access control, Lake Formation, Row- and column-based data filtering
+    row-level security (RLS), Redshift, Row-level security
+    RPO (recovery point objective), Disaster Recovery and High Availability-Disaster Recovery and High Availability
+    RPUs (Redshift Processing Units), Amazon Redshift Compute
+    RTO (recovery time objective), Disaster Recovery and High Availability-Disaster Recovery and High Availability
+    rules, EventBridge, Amazon EventBridge
+    run properties, in Glue workflows, AWS Glue Workflows
+
+S
+
+    S3 (see Amazon S3)
+    SaaS (software as a service), What Is Cloud Computing?, Data Sources
+    SageMaker (see Amazon SageMaker)
+    SageMaker AI (formerly SageMaker), Amazon SageMaker AI-Amazon SageMaker AI
+    SageMaker Model Dashboard, Amazon SageMaker AI
+    SAM (Serverless Application Model), Compute and Containers, AWS Serverless Application Model
+    SAML-enabled cloud applications, Enable Single Sign-on with AWS IAM Identity Center
+    Samples Data Profiler utility, Data Profiling
+    SAN (storage area network), AWS Core Storage Services
+    scaling and scalability
+        autoscaling, Amazon Kinesis Data Streams, Best Practices for AWS Glue, Autoscaling
+        AWS Glue’s ETL engine, AWS Glue
+        Glue autoscaling, Best Practices for AWS Glue
+        message queuing service (SQS), Application Integration
+        MSK Serverless, Amazon Managed Streaming for Apache Kafka
+        QuickSight, Amazon QuickSight
+        Redshift, Amazon Redshift
+    scan operation, DynamoDB, Core concepts of DynamoDB
+    scatter plots, QuickSight, Visualizations
+    schema change management, Glue Data Catalog, Manage schema changes effectively
+    schema conversion, Ingesting data into Amazon Redshift using DMS
+    Schema Conversion Tool (SCT), Migration and Transfer
+    schema design patterns, Common schema design patterns-Common schema design patterns, NoSQL versus relational data modeling-Example use case: Ecommerce website
+    “schema on read” approach, data lakes, Data Warehouse Versus Data Lake
+    “schema on write” approach, data warehouses, Data Warehouse Versus Data Lake
+    SCT (Schema Conversion Tool), Migration and Transfer
+    search and log analytics, destination streaming data store, Real-Time Streaming Data Ingestion
+    search engine (OpenSearch), AWS Cloud Databases
+    secondary indexes, DynamoDB tables, Core concepts of DynamoDB, Utilizing global secondary indexes and local secondary indexes-Common use cases and considerations
+    secrets (sensitive data), Security, Identity, and Compliance
+    Secrets Manager, Security, Identity, and Compliance, Manage Database Credentials
+    security, Data Security and Governance-Access control with Lake Formation
+        access control (see access control)
+        Amazon Redshift database management, Database Security in Amazon Redshift-Dynamic data masking
+        Amazon S3 data, Secure Data in Amazon S3
+        batch processing pipeline implementation, Best Practices and Optimization Techniques
+        in data processing pipeline, High-Level Architecture Overview of Data Processing Pipelines
+        data sharing with Redshift, Amazon Redshift
+        database credentials management, Manage Database Credentials
+        encryption and decryption, Data Encryption and Decryption and Managing the Encryption Keys-Amazon Redshift
+        as exam topic, Exam Topics
+        Glue Data Catalog, Secure the Data Catalog
+        network, Network Security-OpenSearch Service–managed VPC endpoints
+        OpenSearch Service, Amazon OpenSearch Service
+        sensitive data detection and redaction, Sensitive Data Detection and Redaction-Integrating AWS Glue sensitive data detection
+        user authentication and authorization, Create an IAM User for Authentication, Security, Identity, and Compliance, User Authentication and Authorization-IAM Identity Center integration with Amazon DataZone
+    security groups, Security Groups Overview-Configuring a VPC and Security Group for an Amazon EMR Cluster, Redshift-managed VPC endpoints
+    semantic search (OpenSearch), Amazon OpenSearch Service
+    semi-structured data, Overview of Big Data, Ingesting click streams into a data warehouse for real-time reporting, Semi-Structured Data Analysis-Semi-Structured Data Analysis
+    sensitive data, protecting, Security, Identity, and Compliance, Protecting Sensitive Data-Protecting Sensitive Data, Enriching Data Catalogs with Data Classification, Sensitive Data Detection and Redaction-Integrating AWS Glue sensitive data detection
+    SerDes (serialization and deserialization) for data format conversion, Amazon Athena
+    server-wide encryption, Enabling encryption and managing keys in AWS
+    Serverless Application Model (SAM), Compute and Containers, AWS Serverless Application Model
+    serverless services
+        Athena (see Amazon Athena)
+        cost optimization advantage, Leveraging Serverless Services
+        Data Firehose, Amazon Data Firehose
+        designing to detect fraud, Real-World Example: Designing a Serverless Stream Analytics Platform to Detect Fraud-Real-World Example: Designing a Serverless Stream Analytics Platform to Detect Fraud
+        Glue (see AWS Glue)
+        Lambda (see AWS Lambda)
+        MSK cluster, Amazon MSK serverless cluster
+        QuickSight, Amazon QuickSight
+    Service Catalog AppRegistry, AWS Well-Architected Tool
+    service-level agreements (SLAs), Data Warehouse Versus Data Lake
+    service-linked roles (SLRs), Service-Linked Roles, Best practices to integrate AWS Lake Formation
+    shards and sharding, Best Practices for Streaming Ingestion, Best Practices for Streaming Ingestion
+    shared responsibility model, AWS, Managed Services Versus Unmanaged Services
+    shared throughput consumers mode, KDS, Best Practices for Consuming Data from KDS
+    sheets visualization format, Presentation Formats
+    Shield, Security, Identity, and Compliance
+    Simple Queue Service (SQS), Application Integration
+    single sign-on (SSO) with IAM Identity Center, Enable Single Sign-on with AWS IAM Identity Center-IAM Identity Center integration with Amazon DataZone
+    sink connectors, MSK Connect, General practices when using Amazon MSK
+    Skill Builder Labs, Study Plan
+    skillbuilder.aws, Exam-Style Questions
+    SLRs (service-linked roles), Service-Linked Roles, Best practices to integrate AWS Lake Formation
+    SNAPPY format, data compression, Use compression
+    snapshots, table format, Expiring Snapshots from Open Table Formats
+    Snow Family, Migration and Transfer
+    Snowball, Migration and Transfer
+    Snowcone, Migration and Transfer
+    snowflake schema, Common schema design patterns
+    SNS (Simple Notification Service), Reference Architecture: Streaming Analytics Pattern with Apache Flink and MSK, Application Integration, Notifications
+    software as a service (SaaS), What Is Cloud Computing?
+    Solutions Architects, problem-solving framework, Think Like an AWS Solutions Architect: Translating a Real-World Problem-Solving Framework into Certification-The Solutions Architect’s Problem-Solving Framework
+    sort keys, Physical data modeling in Amazon Redshift: Choosing the best sort key, Core concepts of DynamoDB, Selecting the right sort key
+    source connectors, MSK Connect, General practices when using Amazon MSK
+    Spark (see Apache Spark)
+    Spark jobs, Glue Jobs
+    SPICE in-memory cache, Amazon QuickSight, Reference Architecture: Lakehouse with Glue, Redshift, and Athena, Datasets-Refreshing SPICE Datasets
+    Spline agent, data lineage building, Building lineage solutions with AWS Glue, Amazon Neptune, and Spline
+    SQL (Structured Query Language), Relational Databases
+        Athena for analytics, Amazon Athena, Building a Data Strategy with Multiple Data Stores, SQL Analytics Using Amazon Athena-Best Practices When Using Amazon Athena
+        Redshift for analytics, SQL Analytics Using Amazon Redshift-User-Defined Functions
+        Redshift ML, Amazon Redshift
+    SQL functions, Redshift, SQL Functions
+    SQL UDFs, User-Defined Functions
+    SQL-based data transformations, Batch Data Transformation, SQL-Based Data Transformation Using Amazon Redshift-Amazon Redshift stored procedures
+    SQS (Simple Queue Service), Application Integration
+    SSL/TLS certificates, Data Encryption and Decryption and Managing the Encryption Keys
+    SSO (single sign-on) with IAM Identity Center, Enable Single Sign-on with AWS IAM Identity Center-IAM Identity Center integration with Amazon DataZone
+    stage data layer, data lake, Stage data layer: Cleansed and conformed data
+    standard brokers, MSK clusters, Amazon MSK provisioned cluster versus serverless
+    star schema, Common schema design patterns
+    state machines, as workflows in Step Functions, AWS Step Functions
+    static threshold setup for metric alarms, CloudWatch Alarms
+    Step Functions, Application Integration, AWS Step Functions, Automated Data Quality Checks and Error Handling
+    storage
+        Amazon S3 (see Amazon S3)
+        classes for optimizing data lifecycle, Overview of S3 Storage Classes-Choosing the Right Storage Class
+        data store (see data store management)
+        EMR workload consideration, Storage
+        ingestion into stream storage layer, Real-Time Streaming Data Ingestion-Real-Time Streaming Data Ingestion
+        Redshift architecture, Amazon Redshift Storage-Amazon Redshift Storage
+        tiered, Amazon Managed Streaming for Apache Kafka, Storage Tier Decisions for Different Access Patterns-Storage Tier Decisions for Different Access Patterns, Tiered Storage
+    storage area network (SAN), AWS Core Storage Services
+    Storage Class Analysis, Storage Class Analysis
+    stored procedures, Redshift, Amazon Redshift stored procedures
+    stream storage layer, data pipeline, Real-Time Streaming Data Ingestion
+    streaming of data
+        data sources, Real-Time Streaming Data Ingestion
+        data transformation, Streaming Data Transformation, Choosing the Right Streaming Transformation Service-Choosing the Right Streaming Transformation Service
+        destination data store, Real-Time Streaming Data Ingestion
+        ETL, Glue Jobs
+        ingestion, Real-Time Streaming Data Ingestion, Best Practices for Streaming Ingestion-Best Practices for Amazon Data Firehose
+        KDS, Amazon Kinesis Data Streams-Amazon Kinesis Data Streams, Best Practices for Streaming Ingestion
+        MSK Connect, Amazon Managed Streaming for Apache Kafka
+        real-time (see real-time streaming)
+        reference architecture with Flink and MSK, Reference Architecture: Streaming Analytics Pattern with Apache Flink and MSK
+    structured data, Overview of Big Data, Data Quality
+    Structured Query Language (see SQL)
+    Studio notebook, MSF, Amazon Managed Service for Apache Flink
+    study plan, certification exam, Study Plan
+    Super-fast, Parallel, In-memory Calculation Engine (SPICE), Amazon QuickSight, Reference Architecture: Lakehouse with Glue, Redshift, and Athena, Datasets-Refreshing SPICE Datasets
+    system tables, Redshift, Monitoring using system tables
+    Systems Manager, Management Governance
+
+T
+
+    table formats
+        Athena support for, Amazon Athena
+        data lake, Table Formats
+        Delta Lake, Table Formats
+        DynamoDB table organization, Core concepts of DynamoDB
+        expiring snapshots from, Expiring Snapshots from Open Table Formats
+        Hudi, Table Formats
+        Iceberg, Amazon Athena, Table Formats, Use Cases, Amazon SageMaker Lakehouse
+    tag-based access control (TBAC), Fine-Grained Access Control with AWS Lake Formation, Tag-based access control, Best practices for tag-based access control
+    targets, EventBridge, Amazon EventBridge
+    TaskManagers, Flink, Flink
+    tasks, DAG, Managed Workflows for Apache Airflow
+    TCL (Transaction Control Language), Relational Databases
+    technical metadata, Components of Metadata and Data Catalogs
+    third normal form (3NF) schema, Common schema design patterns
+    third-party datasets, ingesting data from, Ingesting third-party datasets
+    throttling errors, Throttling errors
+    tiered storage, Amazon Managed Streaming for Apache Kafka, Storage Tier Decisions for Different Access Patterns-Storage Tier Decisions for Different Access Patterns, Tiered Storage
+    Transaction Control Language (TCL), Relational Databases
+    Transfer Family, Migration and Transfer
+    transformations, Spark, Spark
+    transforming data (see data transformation)
+    treemaps, QuickSight, Visualizations
+    triggers, in Glue workflows, AWS Glue Workflows
+    Trino (formerly PrestoSQL), Trino
+    Trino SQL, Trino SQL
+    Trusted Advisor, AWS Well-Architected Tool
+
+U
+
+    ultraWarm storage of data, Storage Tier Decisions for Different Access Patterns
+    Union data transformation, Glue DataBrew, Integrating Data from Multiple Sources
+    UNLOAD command, Redshift SQL, Performing COPY and UNLOAD Operations to Move Data Between Amazon S3 and Amazon Redshift
+    unstructured data, Overview of Big Data, Data Quality
+    user authentication and authorization, Create an IAM User for Authentication, Security, Identity, and Compliance, User Authentication and Authorization-IAM Identity Center integration with Amazon DataZone
+    user-defined functions (UDFs), Use Cases, User-Defined Functions
+
+V
+
+    value aspect of big data, Overview of Big Data
+    variety aspect of big data, Overview of Big Data
+    velocity of big data, Overview of Big Data
+    veracity (reliability) of big data, Overview of Big Data
+    version control and collaboration, Ensuring S3 Data Resiliency with S3 Versioning-S3 Versioning and Object Lifecycle Management, Version Control and Collaboration
+    virtual network isolation, Networking and Content Delivery
+    virtual servers, cloud environment, Compute and Containers
+    visualizations, Visualizations-Enhanced dashboard Q&A
+        AutoGraph feature, Visualizations
+        AWS IAM, Create Amazon QuickSight execution role using AWS IAM-Create Amazon QuickSight execution role using AWS IAM
+        bar charts, Visualizations
+        box plots, Visualizations
+        GenAI to build, QuickSight GenBI Capabilities (QuickSight Q)-Enhanced dashboard Q&A
+        Glue interactive sessions, AWS Glue Interactive Sessions
+        histograms, Visualizations
+        KPIs, Visualizations
+        line charts, Visualizations-Visualizations
+        pie and donut charts, Visualizations
+        pivot tables, Visualizations
+        presentation formats, Presentation Formats
+        QuickSight, Create Amazon QuickSight execution role using AWS IAM-Create Amazon QuickSight execution role using AWS IAM
+        scatter plots, Visualizations
+        treemaps, Visualizations
+    volume aspect of big data, Overview of Big Data
+
+W
+
+    Well-Architected Framework (WAF), AWS Well-Architected Tool
+    Well-Architected Lenses, AWS Well-Architected Tool
+    worker nodes, Spark, Spark
+    worker types, Glue, Worker Type
+    workflow orchestration, High-Level Architecture Overview of Data Processing Pipelines, AWS Step Functions
+    workgroups, Athena, Workgroups
+
+X
+
+    x86-based instances, EMR, Instance Types
+
+Z
+
+    zero-ETL integrations, Ingesting Data Using Zero-ETL Integrations, Storage Tier Decisions for Different Access Patterns, Amazon SageMaker Lakehouse
+    zstd (Zstandard) format, data compression, Use compression
+

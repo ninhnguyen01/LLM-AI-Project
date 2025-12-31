@@ -1,0 +1,683 @@
+Appendix. Solutions to the Practice Questions
+
+This appendix lists the solutions to the practice questions appearing at the end of Chapters 4–7 and the practice exam in Chapter 9.
+Chapter 4
+
+    C: The zero-ETL integration between Salesforce and Redshift that AWS Glue provides is the most seamless, optimal-cost, and low-overhead solution for integrating Salesforce data into Amazon Redshift. AWS takes care of the heavy lifting of identifying new data from the source and continuously replicating it to the target Redshift. Where zero-ETL integrations are available, they are almost always the right solution.
+
+    C: Creating an S3 event notification that triggers the Lambda function directly when an S3 ObjectCreated event occurs, with a filter rule for .txt files, provides the most straightforward and least operationally complex solution for this requirement.
+
+    C: AWS Glue DataBrew offers a visual, low-code interface for designing data preparation workflows, making it ideal for handling the described data quality issues and transformations with minimal coding and operational overhead.
+
+    B: Amazon Data Firehose provides the most streamlined solution for consolidating real-time data from multiple AWS services and delivering it to Datadog with minimal operational overhead, offering built-in integrations and automatic scaling.
+
+    A: UNNEST_STRUCT is the function that solves the requirement here.
+
+    B: AWS DataSync is purpose-built for efficient, automated data transfer from on-premises to AWS, with change detection capabilities to minimize transfer times and built-in monitoring features, making it the ideal choice for this scenario.
+
+    B: Amazon Managed Workflows for Apache Airflow (MWAA) provides a fully managed, scalable orchestration service that can handle complex data processing pipelines with external dependencies, offering robust monitoring and management capabilities.
+
+    A: The FindMatches transformation in AWS Glue DataBrew provides a managed, ML-powered solution for identifying and merging duplicate records, offering the least operational overhead for deduplicating customer data at scale.
+
+    B: The Amazon Redshift Serverless streaming ingestion feature allows direct consumption of data from Kinesis Data Streams, providing the most streamlined and low-overhead solution for real-time data ingestion and analytics.
+
+    A, C: Monitoring shard-level metrics in CloudWatch helps identify performance issues, while modifying the partition key can improve data distribution across shards, addressing the root causes of the observed throughput and latency problems.
+
+Chapter 5
+
+    A: Amazon S3 is a scalable, cost-effective storage service that integrates natively with Spark on Amazon EMR, making it ideal for big data processing workloads migrated from HDFS.
+
+    A: ISM policies in OpenSearch Service automate tiered storage transitions—Hot to UltraWarm to Cold—minimizing operational overhead while optimizing cost and performance for time-based access patterns.
+
+    C: Redshift Spectrum allows Amazon Redshift to directly query data stored in Amazon S3 without data movement, enabling seamless access to historical datasets.
+
+    B: S3 Lifecycle policies help with automatically deleting noncurrent object versions after a defined period, which directly addresses the storage cost increase caused by versioning.
+
+    A: AWS Glue crawlers automatically detect schema changes in S3 data and update the Glue Data Catalog with minimal manual effort, offering the least operational overhead.
+
+    A, B: Glue crawlers provide a low-overhead, automated way to catalog data from Amazon S3, RDS, and Snowflake into the Glue Data Catalog, enabling unified access without custom scripting or manual exports.
+
+    A, D: Partitioning prunes the data by allowing Athena to scan only the specific subfolders relevant to your query’s filters, drastically reducing query time and cost. Using compressed file formats reduces the amount of data Athena needs to read from S3, which directly improves query speed and lowers data scan costs.
+
+    A: This design is the most efficient because using UserID as the partition key allows for a direct query to retrieve all orders for a specific user, while using PurchaseTimestamp as the sort key automatically organizes those orders chronologically, fulfilling both access patterns with a single, highly performant query operation.
+
+    B: Applying the ALL distribution style to small dimension tables is a key Redshift optimization strategy, as it places a full copy of the table on every node, which completely eliminates data redistribution costs during joins with large fact tables, significantly boosting query performance with minimal storage impact.
+
+    C: S3 Standard provides immediate access during the first year. Glacier Deep Archive is the lowest-cost option that still meets the 48-hour retrieval SLA (as it supports restores within 12–48 hours), making it the most cost-effective choice for long-term compliance storage.
+
+Chapter 6
+
+    A, B: Implementing AWS Glue partition indexing and configuring Athena partition projection are the most effective solutions for improving query planning performance with partitioned data. Partition indexing creates a searchable index of partition locations, while partition projection eliminates the need to read partition metadata from the Glue Data Catalog.
+
+    B: STL_LOAD_ERRORS is the correct system table for viewing detailed information about COPY command load failures in Redshift. It contains specific error messages, row numbers, and other details crucial for troubleshooting.
+
+    A, B: Checking IAM configurations and examining network settings are the most effective approaches because Step Functions failures during Lambda invocation typically stem from permission issues or network connectivity problems.
+
+    A, C: Choosing multi-AZ deployment and implementing cross-region snapshot copy provide the highest availability with minimal operational overhead. Multi-AZ automatically handles failover, while cross-region snapshots provide disaster recovery capabilities.
+
+    C: Using the scheduler in Query Editor v2 is the most straightforward and cost-effective solution for scheduling long-running stored procedures in Redshift.
+
+    C: The AWS Glue workflow is the most efficient solution for orchestrating Glue components, offering native integration and minimal overhead.
+
+    A: Implementing Athena workgroups with query result caching is the most cost-effective solution while meeting the four-hour freshness requirement.
+
+    A: Using Amazon Q with natural language prompts provides the easiest way for non-expert users to create visualizations.
+
+    D: Publishing flow logs to S3 in Parquet format and using Athena for analysis provides the most cost-effective solution with minimal operational overhead.
+
+    A: Using AWS Glue Data Quality rules is the most efficient way to implement data validation requirements, offering a declarative approach with built-in functionality.
+
+Chapter 7
+
+    D: In AWS security groups you can configure specific IP addresses to provide access to the RDS database. Option A also mentions the same but option D is the best answer as it follows the least-privilege principle and suggests configuring IP address access only for the database port for enhanced security.
+
+    B: Deploying the AWS Lambda function in the same VPC as RDS will enable network connectivity. Then adding the Lambda function security group into RDS inbound access will open up the firewall for access.
+
+    B: AWS KMS enables you to share the KMS key with another AWS account; that’s the efficient way to provide access to the dataset.
+
+    B: AWS Lake Formation enables you to implement fine-grained access control on your data by integrating row-based, column-based, and tag-based filters.
+
+    C: AWS Glue Data Catalog is a managed service that reduces operational overhead as you do not need to manage any infrastructure and it scales with the number of metadata objects and number of requests.
+
+    C: AWS CloudTrail Lake is a managed service for aggregating, storing, and analyzing user and API activities across AWS environments. It allows for querying activity logs using SQL-based queries. It is the best answer as you can directly use it without any custom integration.
+
+    A: Amazon Redshift supports cross-account data sharing and you can enable the primary cluster to share with other Redshift clusters, which reduces operational overhead.
+
+    C: AWS Backup provides the capability to trigger backup from a central account and also define to which region data should be written. That’s the best way to achieve the requirement.
+
+    C: Aurora PostgreSQL’s export to S3 feature makes the implementation simple and reduces operational overhead.
+
+    C: AWS Secrets Manager stores credentials in a secured way and the Lambda functions refer only to the Secrets Manager key, so anyone having access to the Lambda function code will still not be able to get the database login credentials.
+
+Chapter 9
+
+    Correct Answers: A, C, D
+
+    This scenario requires building an open source–based CDC pipeline from Aurora MySQL to Amazon S3, which strongly aligns with using Debezium and Apache Kafka.
+
+        Option A (Enable binary logging) – Correct: Debezium relies on MySQL binary logs for capturing database changes, making this step mandatory.
+
+        Option B (Deploy Debezium directly on Aurora MySQL) – Incorrect: Aurora MySQL is a managed database service and doesn’t support direct installation of third-party software like Debezium connectors.
+
+        Option C (Deploy MSK Connect with Debezium) – Correct: Amazon MSK Connect runs Kafka connectors (like Debezium) natively, effectively capturing database changes from Aurora MySQL into Kafka topics.
+
+        Option D (Deploy an Amazon MSK cluster) – Correct: MSK provides a managed Kafka environment necessary for Debezium connectors to stream CDC events.
+
+        Option E (Set up AWS DMS) – Incorrect: AWS DMS is a proprietary service and does not meet the open source requirement stated in the scenario.
+
+        Option F (Use Kinesis Data Streams) – Incorrect: Amazon Kinesis does not natively support CDC directly from Aurora MySQL binary logs without additional tooling or integrations.
+
+    References:
+
+        “Build an End-to-End CDC Pipeline with Amazon MSK Connect”
+
+    Correct Answer: C
+
+    This scenario requires ingesting real-time streaming data from an Amazon Kinesis data stream directly into Amazon Redshift with minimal operational overhead. The emphasis is on simplicity, minimal management, and AWS-native integrations.
+
+        Option A (Amazon Managed Service for Apache Flink) – Incorrect: Although technically feasible, using Apache Flink introduces additional operational complexity, including managing application code and MSF applications, making it less optimal for minimal operational overhead.
+
+        Option B (AWS Glue Streaming with Redshift Data API) – Incorrect: AWS Glue streaming jobs combined with Redshift’s Data API provide a valid streaming solution, but require more operational management, monitoring, and troubleshooting than direct ingestion approaches.
+
+        Option C (Redshift streaming ingestion) – Correct: Amazon Redshift’s native streaming ingestion directly consumes data from Kinesis Data Streams without intermediate storage or complex setup. This approach provides the lowest operational overhead.
+
+        Option D (Kinesis Data Firehose + S3 + Redshift COPY command) – Incorrect: Although commonly used, this method involves additional steps such as managing intermediate S3 storage and scheduling COPY commands, resulting in increased operational overhead compared to direct streaming ingestion.
+
+    References:
+
+        Amazon Redshift streaming ingestion
+
+    Correct Answer: C
+
+    This scenario requires offloading analytical queries from Aurora PostgreSQL to Amazon Redshift, with an emphasis on (1) minimal operational overhead and (2) near-real-time data synchronization.
+
+        Option A (AWS Glue ETL + S3 + Redshift COPY command) – Incorrect: Although commonly used and technically feasible, this is a batch-oriented method that requires scheduled ETL jobs, additional data management, and introduces latency.
+
+        Option B (AWS DMS replication to Redshift) – Incorrect: While AWS DMS is a valid replication approach and offers near-real-time replication, it still involves managing replication tasks, monitoring, and occasional troubleshooting, adding operational complexity compared to a fully automated zero-ETL feature.
+
+        Option C (Aurora zero-ETL integration) – Correct: Aurora zero-ETL integration automatically replicates data from Aurora PostgreSQL into Amazon Redshift continuously without manual ETL management or intermediate storage. This AWS-managed solution provides real-time data synchronization with the least operational overhead.
+
+        Option D (Aurora read replica + export to S3 + Redshift Spectrum) – Incorrect: Exporting data directly from an Aurora PostgreSQL read replica to Amazon S3 is not supported, as Aurora permits only data export operations (SELECT INTO S3) from a writer instance. Thus, this solution is technically infeasible.
+
+    References:
+
+        “Aurora Zero-ETL Integration with Amazon Redshift”
+
+    Correct Answer: B
+
+    This scenario describes integrating changes from a feature branch (optimize-glue-jobs) into the main branch after switching to the main branch locally. The correct Git operation needs to merge feature changes into the current active branch (main).
+
+        Option A (git pull optimize-glue-jobs) – Incorrect: git pull fetches and merges changes from a remote repository, not from a feature branch to a main branch.
+
+        Option B (git merge optimize-glue-jobs) – Correct: git merge optimize-glue-jobs integrates changes from the specified local feature branch directly into the currently checked-out branch (main). This is exactly what’s required.
+
+        Option C (git rebase main) – Incorrect: git rebase main reapplies commits onto the main branch. You need to switch to the optimize-glue-jobs branch first to make this command work.
+
+        Option D (git checkout optimize-glue-jobs) – Incorrect: git checkout optimize-glue-jobs switches to the feature branch rather than merging its changes into main.
+
+    Correct Answer: A
+
+    This scenario requires defining AWS infrastructure as code (IaC) using (1) object-oriented programming constructs, (2) reusable across environments, and (3) with explicit support for Python.
+
+        Option A (AWS Cloud Development Kit) – Correct: AWS CDK supports defining infrastructure using familiar object-oriented programming languages such as Python and TypeScript. It allows developers to build reusable constructs, greatly simplifying consistency across staging and production environments.
+
+        Option B (Manual provision + export to CloudFormation templates) – Incorrect: Using the AWS Management Console to provision resources and exporting CloudFormation templates lacks object-oriented capabilities and introduces manual overhead, making it less scalable and reusable.
+
+        Option C (AWS CLI scripts) – Incorrect: CLI scripts are procedural focused and not designed for IaC usage.
+
+        Option D (AWS CloudFormation templates) – Incorrect: While AWS Cloud­For⁠mation offers infrastructure as code, it doesn’t natively support object-oriented constructs or programming languages like Python. Thus, it doesn’t align fully with the team’s stated preferences.
+
+    Correct Answer: B
+
+    This scenario involves large-scale Apache Spark–based ETL workloads that are recurring, not time-sensitive, and can tolerate interruptions. The primary objective is minimizing costs while maintaining scalability and stability.
+
+        Option A (EMR On-Demand Instances only) – Incorrect: Using exclusively On-Demand Instances ensures stability but is more expensive compared to the mixed Spot and On-Demand solution described in Option B. This doesn’t align with the goal of cost minimization.
+
+        Option B (EMR with Spot and On-Demand Instances) – Correct: Combining Spot and On-Demand Instances in Amazon EMR provides significant cost savings by leveraging lower-priced Spot Instances, while maintaining job stability through the use of some On-Demand Instances to mitigate interruptions.
+
+        Option C (AWS Glue serverless solution) – Incorrect: While AWS Glue offers a fully managed, serverless Spark environment, it typically incurs higher costs for continuous, large-scale Spark workloads compared to optimized EMR setups with Spot Instances.
+
+        Option D (Self-managed Spark on EC2 Spot Instances) – Incorrect: A fully self-managed cluster on Spot Instances could reduce costs but would significantly increase operational complexity and risks of job failures without any built-in fallback or stability guarantees provided by managed services such as Amazon EMR or AWS Glue.
+
+    Correct Answer: A
+
+    This scenario requires real-time, file-level processing triggered immediately upon file upload to Amazon S3, including schema validation and CSV-to-Parquet format conversion. The ideal solution must emphasize simplicity, scalability, and minimal operational overhead.
+
+        Option A (S3 Event Notification + AWS Lambda) – Correct: Using Amazon S3 Event Notifications to trigger AWS Lambda functions provides immediate processing upon file arrival, effectively handling schema validation and conversion tasks for the given file size (10–100 MB). This solution offers simplicity, scalability, and minimal management overhead.
+
+        Option B (AWS Glue crawlers + Glue jobs) – Incorrect: AWS Glue crawlers run periodically rather than reactively upon file arrival, thus not fulfilling the real-time requirement. It introduces latency and additional operational overhead.
+
+        Option C (S3 Event Notification + AWS Step Functions + Glue jobs) – Incorrect: While technically possible, AWS Glue jobs are overkill for lightweight, individual file-based processing.
+
+        Option D (Amazon S3 Batch Operations + Glue jobs) – Incorrect: Batch Operations are schedule-based rather than event-driven, failing the real-time processing requirement and causing processing delays. Additionally, Amazon S3 Batch Operations does not natively support integration with AWS Glue.
+
+    References:
+
+        “Get Started with Amazon S3 Event-Driven Design Patterns”
+
+    Correct Answer: C
+
+    This scenario requires stateful, near-real-time stream processing, strongly aligning with Apache Flink as an optimal technology. Additionally, the solution must be fully managed to ensure scalability and minimal operational overhead.
+
+        Option A (Self-managed Apache Flink on EC2) – Incorrect: Deploying and managing a self-hosted Flink cluster significantly increases operational complexity and management overhead, conflicting with the fully managed requirement.
+
+        Option B (AWS Lambda + DynamoDB) – Incorrect: While feasible for simple state handling, using DynamoDB as external state storage can increase latency and complexity. Lambda also has inherent limitations for complex, stateful stream processing scenarios at scale.
+
+        Option C (Amazon Managed Service for Apache Flink) – Correct: Amazon Managed Service for Apache Flink (MSF) is specifically designed for stateful streaming analytics. It offers fully managed infrastructure, automatic scaling, and built-in state management, perfectly aligning with the minimal operational overhead and real-time fraud detection requirements.
+
+        Option D (EMR-managed Apache Flink) – Incorrect: Although EMR simplifies cluster management compared to a self-managed setup, it still requires managing cluster lifecycle, configuration, and scaling, resulting in higher operational overhead compared to MSF.
+
+    Correct Answer: B
+
+    This scenario requires integrating Amazon EMR Notebooks seamlessly with a Git-based source code repository to effectively track changes, enhance team collaboration, and promote code reuse within EMR-based workflows. A solution must directly support version control without operational overhead.
+
+        Option A (Store notebook code in Amazon S3) – Incorrect: Using Amazon S3 for storing notebook code lacks built-in version control capabilities, requiring manual effort for tracking changes and introducing unnecessary operational complexity.
+
+        Option B (EMR Notebooks with Git repository integration) – Correct: Amazon EMR Notebooks natively integrate with Git-based repositories like AWS CodeCommit and GitHub. This enables users to pull, push, and manage notebook code changes directly within the notebook interface, meeting the seamless integration and collaboration goals.
+
+        Option C (Local Git repository on EC2) – Incorrect: This manual method significantly increases operational overhead, complicates synchronization, and undermines real-time collaboration by requiring manual uploads of job scripts to EMR Notebooks.
+
+        Option D (AWS Glue Studio to EMR Notebooks) – Incorrect: AWS Glue Studio primarily targets Glue-based workflows and doesn’t directly support EMR Notebooks integration, introducing unnecessary complexity and operational overhead.
+
+    Correct Answer: D
+
+    This scenario involves orchestrating a large-scale, multistage data pipeline across multiple analytics services, making Apache Airflow an ideal technology due to its flexibility and wide integration support. Additionally, the solution must be fully managed to minimize operational overhead, ensure scalability, availability, and security, and provide detailed logging and monitoring capabilities.
+
+        Option A (Self-managed Apache Airflow on EC2) – Incorrect: Deploying Apache Airflow manually on EC2 requires significant operational overhead for setup, maintenance, scaling, and security management, conflicting with the minimal overhead goal.
+
+        Option B (AWS Glue workflows) – Incorrect: AWS Glue workflows primarily orchestrate Glue-specific ETL jobs and lack native integration and flexibility for orchestrating comprehensive EMR and Flink-based pipelines.
+
+        Option C (Custom Python-based engine on ECS) – Incorrect: Building a custom orchestration solution introduces extensive complexity in development, deployment, maintenance, and scaling, resulting in higher operational overhead.
+
+        Option D (Amazon Managed Workflows for Apache Airflow - MWAA) – Correct: Amazon MWAA provides a fully managed, secure, and scalable orchestration service leveraging Apache Airflow. It supports comprehensive orchestration across various AWS analytics services (S3, EMR, Flink) with built-in detailed logging, monitoring, and minimal operational overhead.
+
+    Correct Answer: B
+
+    This scenario involves managing multiple AWS Lambda functions with shared third-party Python libraries. The company requires a solution that centralizes dependency management and ensures consistency.
+
+        Option A (Package libraries with each Lambda) – Incorrect: Bundling libraries individually with each function increases duplication, deployment complexity, and maintenance overhead.
+
+        Option B (AWS Lambda Layers) – Correct: AWS Lambda Layers allow common libraries to be packaged separately and centrally managed. This approach simplifies updates, ensures consistent dependencies across multiple Lambda functions, and significantly reduces operational overhead.
+
+        Option C (Libraries stored in S3, downloaded at runtime) – Incorrect: Downloading libraries at runtime from S3 increases complexity due to managing runtime errors, library versions, and network dependencies.
+
+        Option D (EFS filesystem mounted into Lambda) – Incorrect: Although technically feasible, using Amazon EFS introduces additional complexity in setup and management compared to Lambda Layers. It is also typically reserved for larger files or persistent storage needs rather than lightweight library management.
+
+    References:
+
+        Managing Python dependencies with Lambda Layers
+
+    Correct Answer: A
+
+    This scenario involves easily discovering, subscribing to, and incorporating third-party datasets into an AWS-based analytics platform. The company requires a solution specifically designed for accessing and integrating external data in the cloud.
+
+        Option A (AWS Data Exchange) – Correct: AWS Data Exchange is specifically designed to help customers find, subscribe to, and seamlessly integrate third-party datasets into their AWS environment, fully aligning with the scenario’s requirements.
+
+        Option B (AWS DataSync) – Incorrect: AWS DataSync is primarily for migrating data between on-premises and AWS or across AWS storage services. It does not offer capabilities to discover or subscribe to third-party datasets.
+
+        Option C (Redshift Data Marketplace) – Incorrect: “Redshift Data Marketplace” does not exist as an independent AWS service.
+
+        Option D (Redshift Data Sharing) – Incorrect: Redshift Data Sharing allows sharing data across Amazon Redshift clusters but does not enable discovery or subscription to external third-party datasets.
+
+    Correct Answer: B
+
+    This scenario involves querying a text column in an Amazon Redshift table to find records containing case-insensitive keywords (“refund,” “cancel,” or “complaint”). The SQL query needs efficient pattern-matching capabilities to detect these keywords within the comments text.
+
+        Option A (Exact match with =) – Incorrect: Using the = operator performs an exact match against the entire column value and won’t match partial strings or phrases within comments.
+
+        Option B (Case-insensitive regex with ~*) – Correct: The ~* operator in Redshift performs case-insensitive regular expression matching, efficiently retrieving records containing the specified keywords anywhere within the text.
+
+        Option C (IN operator with wildcards) – Incorrect: The IN operator does not support wildcard patterns; it only checks for exact matches within a defined list of values.
+
+        Option D (Case-sensitive regex with ~) – Incorrect: The ~ operator in Redshift performs case-sensitive regex matching.
+
+    References:
+
+        Pattern-matching conditions in Amazon Redshift
+
+        Regular expression functions in Amazon Redshift
+
+    Correct Answer: D
+
+    This scenario requires orchestrating multiple AWS Glue jobs in a daily ETL pipeline with an emphasis on cost efficiency and reliable, scheduled execution. The solution should leverage AWS Glue’s orchestration capabilities and cost-effective configurations.
+
+        Option A (AWS Lambda to trigger Glue jobs with default worker) – Incorrect: Using AWS Lambda individually to trigger each Glue job adds complexity in orchestration and job dependency management. Additionally, the default worker type is typically more expensive than Glue FLEX.
+
+        Option B (Glue workflow with default worker type) – Incorrect: While AWS Glue workflows provide reliable orchestration and scheduling, using the default worker type prioritizes speed over cost efficiency, increasing overall costs.
+
+        Option C (Individual Glue jobs via CloudWatch Events with FLEX) – Incorrect: Scheduling each Glue job individually via CloudWatch Events is possible but complicates orchestration and increases operational complexity compared to a Glue workflow.
+
+        Option D (Glue workflow with Glue FLEX) – Correct: AWS Glue workflows orchestrate and schedule multiple Glue jobs seamlessly, while Glue FLEX workers provide cost-effective execution suitable for non-time-critical workloads, fully aligning with the company’s requirement for reliability and cost-efficiency.
+
+    Correct Answer: D
+
+    This scenario involves cataloging CSV data from Amazon S3 into the AWS Glue Data Catalog, ensuring that the previous day’s data is automatically accessible each day by 7:00 a.m. The ideal solution must automate catalog updating on a daily basis with appropriate permissions.
+
+        Option A (On-demand crawler with AmazonS3FullAccess) – Incorrect: Using on-demand crawlers requires manual triggering, and the policy (AmazonS3FullAccess) provides unnecessarily broad permissions, not aligning with security best practices.
+
+        Option B (On-demand crawler with inline bucket-specific read-only policy) – Incorrect: While the permissions setup is secure, running the crawler on-demand does not automate daily batch processing, failing to meet the daily requirement.
+
+        Option C (Scheduled crawler with AmazonS3ReadOnlyAccess) – Incorrect: Though scheduling meets the automation requirement, AmazonS3ReadOnlyAccess provides overly broad access to all S3 buckets, not adhering to the principle of least privilege.
+
+        Option D (Scheduled crawler with inline bucket-specific read-only policy) – Correct: This approach securely combines precise, bucket-specific permissions with automated daily scheduling, fully meeting the requirement to update the catalog automatically on a batch daily basis.
+
+    Correct Answers: A, C, D
+
+    This scenario requires designing a cost-effective data pipeline that integrates Amazon DynamoDB, Amazon S3, and Amazon QuickSight. The company requires recent data (last three months) to be quickly available via DynamoDB for QuickSight dashboards, while older data (three months to five years) must be archived affordably yet remain accessible through Amazon Athena queries with reasonable performance. Data older than five years must be automatically deleted.
+
+        Option A (DynamoDB TTL to auto-delete data older than 90 days) – Correct: Using DynamoDB TTL ensures automatic deletion of data older than 90 days from DynamoDB, meeting the recent data requirement for QuickSight dashboards and reducing costs.
+
+        Option B (Store data indefinitely in DynamoDB Standard-IA) – Incorrect: Keeping data indefinitely in DynamoDB Standard-IA class is costly and does not meet archival and cost-efficiency requirements for long-term data retention.
+
+        Option C (AWS Glue job to export DynamoDB data to S3) – Correct: An AWS Glue job effectively moves data from DynamoDB to Amazon S3, enabling cost-efficient long-term storage in a data lake accessible via Amazon Athena.
+
+        Option D (S3 Lifecycle transition to S3-IA, delete after five years) – Correct: The S3 Infrequent Access (S3-IA) storage class provides lower-cost storage with reasonable retrieval performance suitable for occasional Athena queries. The lifecycle policy ensures automatic deletion after five years.
+
+        Option E (S3 Lifecycle transition to Glacier Deep Archive, delete after five years) – Incorrect: While Glacier Deep Archive is extremely cost-effective, it involves lengthy restoration delays (several hours) before data can be queried, failing the “reasonable performance” requirement.
+
+    Correct Answer: A
+
+    This scenario involves isolating workloads for Analytics and Reporting teams to address contention issues on a shared Amazon Redshift cluster. The optimal solution must effectively separate workloads, enable instant data availability for the Reporting Team, and minimize impact on the existing workflow.
+
+        Option A (Separate clusters with Amazon Redshift Data Sharing) – Correct: Amazon Redshift Data Sharing allows the Reporting Team (consumer cluster) to immediately query transformed data from the Analytics Team’s cluster (producer cluster) without data movement. This solution seamlessly isolates workloads and preserves current workflows.
+
+        Option B (Use AWS DMS for replication) – Incorrect: AWS DMS introduces complexity and latency because replication tasks have to be managed separately, and data synchronization is not immediate, potentially causing delays in report availability.
+
+        Option C (Separate clusters with zero-ETL jobs) – Incorrect: Zero-ETL integrations are primarily designed between transactional databases (like Aurora) and Redshift, not between two Redshift clusters. Thus, it’s not a suitable approach for this scenario.
+
+        Option D (Separate clusters with S3 unload and Spectrum tables) – Incorrect: This method introduces overhead and latency due to data unloading and reliance on external S3 storage. It impacts data freshness and increases operational complexity.
+
+    Correct Answers: C, D
+
+    This scenario requires optimizing Amazon Athena query performance and reducing query costs when analyzing transaction data frequently filtered by specific regions or time periods. The solution should include efficient storage formats and appropriate data organization techniques.
+
+        Option A (Convert to JSON and compress with Snappy) – Incorrect: While JSON is flexible, it is not optimized for analytical queries in Athena. JSON typically leads to larger file sizes and slower performance compared to columnar formats like Parquet.
+
+        Option B (Bucket data by region, year, and month) – Incorrect: Bucketing is most effective when applied to high-cardinality columns (e.g., user IDs). In contrast, region, year, and month are low-cardinality attributes better suited to partitioning.
+
+        Option C (Convert CSV to Parquet with Snappy compression) – Correct: Converting CSV to Apache Parquet, a columnar format, significantly enhances query performance by allowing Athena to efficiently scan only relevant columns. Snappy compression further reduces storage size and cost, aligning with AWS best practices.
+
+        Option D (Partition data by region, year, and month) – Correct: Partitioning by region, year, and month enables Athena queries to scan only the necessary partitions, greatly reducing data volume processed, speeding up queries, and lowering overall costs.
+
+    References:
+
+        “Top 10 Performance Tuning Tips for Amazon Athena”
+
+    Correct Answer: C
+
+    This scenario describes a predictable weekly pattern in DynamoDB workload—significant usage spikes every Monday morning followed by minimal weekend activity. The ideal solution must maintain consistent performance while optimizing costs through targeted capacity adjustments.
+
+        Option A (Switch to on-demand mode) – Incorrect: Although on-demand automatically adjusts to workload changes, it’s typically more costly for predictable traffic patterns compared to scheduled capacity adjustments with provisioned capacity.
+
+        Option B (Increase provisioned capacity to peak traffic) – Incorrect: Adjust provisioning capacity to peak levels significantly increases costs, especially during weekends and off-peak periods when usage is minimal.
+
+        Option C (Scheduled Auto Scaling) – Correct: Using AWS Application Auto Scaling to schedule higher capacity during predictable peak periods (Monday mornings) and lower capacity during off-peak periods (weekends) provides cost optimization and consistent performance aligned precisely with the workload patterns.
+
+        Option D (Separate table for peak usage) – Incorrect: Managing multiple tables for different usage periods unnecessarily complicates application logic, increases operational overhead, and doesn’t efficiently optimize costs compared to scheduled scaling.
+
+    References:
+
+        Managing DynamoDB provisioned capacity with autoscaling
+
+    Correct Answer: A
+
+    This scenario describes performance degradation in Amazon Athena query planning due to a growing number of partitions in an Amazon S3 dataset. The solution should enhance Athena’s query performance by optimizing partition handling with minimal operational overhead.
+
+        Option A (Glue partition indexes and partition projection) – Correct: Creating partition indexes in AWS Glue and enabling partition projection in Athena significantly improves query planning speed by eliminating the need to retrieve partition metadata from Glue each time. This approach directly addresses the described issue and requires minimal operational management.
+
+        Option B (Merge partitions periodically) – Incorrect: Merging partitions reduces the partition count but introduces complexity in managing periodic merging processes and can disrupt the existing partitioning strategy used by queries.
+
+        Option C (Consolidate smaller files) – Incorrect: While consolidating files improves query execution performance, it doesn’t specifically solve the partition metadata retrieval bottleneck causing query planning slowdowns.
+
+        Option D (Restructure data using bucketing) – Incorrect: Restructuring data using bucketing could reduce the number of subfolders. However, this introduces complexity during the data restructure process and can disrupt the existing data processing pipeline.
+
+    Correct Answers: A, B, E
+
+    This scenario requires providing data scientists with seamless SQL-based querying capabilities across diverse data sources: Parquet files on Amazon S3, Aurora MySQL, and DynamoDB, while ensuring minimal operational overhead.
+
+        Option A (AWS Glue crawlers for metadata) – Correct: AWS Glue crawlers efficiently crawl multiple data sources, automatically extracting schemas and maintaining metadata in the Glue Data Catalog. This simplifies schema management and data discovery.
+
+        Option B (Amazon Athena for S3 querying) – Correct: Amazon Athena provides serverless SQL querying capability directly against Parquet files on S3, requiring no infrastructure management and ensuring minimal operational overhead.
+
+        Option C (Migrate all data to Redshift) – Incorrect: Migrating all data into Amazon Redshift introduces significant operational overhead and complexity and isn’t necessary since federated querying can directly access multiple data sources without moving data.
+
+        Option D (AWS Glue jobs to transform all data to Parquet) – Incorrect: Transforming and replicating data from Aurora and DynamoDB to S3 using Glue jobs introduces additional ETL overhead, operational complexity, and latency that can be avoided with federated queries.
+
+        Option E (Athena federated queries for Aurora and DynamoDB) – Correct: Amazon Athena’s federated query capability enables direct SQL-based querying of Aurora MySQL and DynamoDB tables, eliminating the need for data movement and significantly reducing operational overhead.
+
+    Correct Answer: B
+
+    This scenario describes performance issues related to indexing throughput in Amazon OpenSearch Service. The company requires a cost-effective solution that specifically enhances indexing performance without compromising data durability.
+
+        Option A (Switch to UltraWarm storage) – Incorrect: UltraWarm storage is optimized for cost-effective querying and long-term storage, not indexing-heavy workloads. It would not effectively improve indexing throughput.
+
+        Option B (Migrate to OR1 instances) – Correct: OR1 instances are specifically designed for indexing-heavy workloads, offering up to 30% improved price-performance compared to other instance types. They leverage Amazon S3-backed storage, providing superior durability and operational simplicity, directly meeting the scenario’s requirements.
+
+        Option C (Upgrade to larger general-purpose instances) – Incorrect: Upgrading general-purpose instances can provide incremental performance improvements but lacks the indexing-specific optimizations and cost benefits offered by OR1 instances.
+
+        Option D (Use Index State Management to delete older data) – Incorrect: ISM helps optimize storage by deleting older data but doesn’t directly address indexing throughput performance issues.
+
+    Correct Answer: C
+
+    This scenario involves addressing two critical challenges in an Amazon S3 data lake: schema evolution disrupting existing workflows and inconsistent or corrupted data resulting from concurrent writes. The optimal solution should robustly handle schema changes, manage concurrent writes safely, and integrate smoothly with existing analytics tools.
+
+        Option A (Partitioning and locking) – Incorrect: Manual partitioning and implementing custom locking mechanisms adds complexity, increases operational overhead, and does not inherently address the schema evolution issue.
+
+        Option B (Apache Parquet format with schema validation) – Incorrect: While Apache Parquet is efficient for analytics workloads, it does not inherently support schema evolution. Enforcing strict schema validation at ingestion is rigid and can hinder flexibility.
+
+        Option C (Migrate to Apache Iceberg) – Correct: Apache Iceberg provides native support for schema evolution, allowing schema changes without workflow disruptions. It also manages concurrent writes safely through snapshot isolation and atomic transactions. Iceberg seamlessly integrates with common AWS analytics services (Athena, EMR, Glue), meeting all the scenario requirements effectively.
+
+        Option D (EMR custom scripts) – Incorrect: Writing custom scripts increases operational complexity and maintenance burden. It also lacks standardized, robust solutions for schema evolution and concurrent write management.
+
+    Correct Answer: C
+
+    This scenario involves building a near-real-time analytics pipeline to process streaming data from Amazon MSK to Amazon Redshift. The solution must minimize operational overhead, provide near-real-time insights, and seamlessly integrate with existing BI tools.
+
+        Option A (Kafka sink → S3 → Redshift COPY) – Incorrect: While feasible, staging data in Amazon S3 and then loading it via COPY introduces latency and operational complexity, hindering true near-real-time analytics.
+
+        Option B (MSK → Kinesis Data Firehose → S3 → Redshift COPY) – Incorrect: This approach involves multiple intermediate steps, causing additional latency and operational overhead, making it less suitable for near-real-time analysis.
+
+        Option C (Native integration with Redshift streaming ingestion) – Correct: Amazon Redshift’s streaming ingestion feature directly integrates with Amazon MSK, allowing near-real-time data availability without intermediate storage layers. Materialized views further optimize query performance for BI tools, resulting in the least operational overhead and meeting all scenario requirements.
+
+        Option D (Glue Spark Streaming jobs → Redshift) – Incorrect: Using AWS Glue Spark Streaming jobs adds additional infrastructure complexity, requires operational maintenance, and involves higher cost compared to direct MSK-to-Redshift streaming ingestion.
+
+    Correct Answer: A
+
+    This scenario involves optimizing Amazon Athena queries for a BI dashboard that refreshes hourly, with underlying data updated by ETL once every 24 hours. The chosen solution should reduce query costs while ensuring dashboards refresh efficiently with minimal operational overhead.
+
+        Option A (Athena query result reuse) – Correct: Athena’s query result reuse efficiently caches query results, significantly reducing costs by avoiding redundant query processing. By setting the cache maximum age aligned with the ETL schedule (24 hours), dashboards remain accurate and timely, offering the least operational overhead.
+
+        Option B (Lambda-based query trigger with S3 caching layer) – Incorrect: Using AWS Lambda functions to execute queries hourly and storing results separately introduces additional management overhead and cost compared to Athena’s built-in caching capability.
+
+        Option C (Partition tables hourly) – Incorrect: Partitioning data by hour does not align with the existing ETL schedule, which refreshes data only every 24 hours.
+
+        Option D (BI layer caching with manual cache clearance) – Incorrect: Manually managing cache invalidation introduces unnecessary operational overhead and potential human error, making it less efficient than Athena’s automated caching mechanism.
+
+    Correct Answer: A
+
+    This scenario involves addressing repeated performance degradation and query queuing in Amazon Athena due to teams querying a centralized data lake during specific peak hours. The solution must enhance query performance effectively, while requiring minimal operational overhead.
+
+        Option A (Athena Provisioned Capacity per region) – Correct: Amazon Athena Provisioned Capacity allows dedicated query-processing resources to be allocated during predictable peak usage windows. This solution directly improves query performance and reduces queuing without extensive operational management.
+
+        Option B (Use Amazon Redshift) – Incorrect: Migrating the workload to Amazon Redshift would introduce significant operational complexity, additional ETL overhead, and management costs, making it less suitable compared to Athena Provisioned Capacity.
+
+        Option C (Separate S3 buckets and Athena workgroups) – Incorrect: Creating separate buckets and workgroups increases complexity and does not directly alleviate resource contention or improve query performance during peak hours.
+
+        Option D (Implement query scheduling) – Incorrect: Implementing a query scheduling mechanism introduces substantial operational overhead and reduces flexibility, negatively impacting the regional teams’ capability to perform ad-hoc analytics.
+
+    Correct Answer: B
+
+    This scenario involves dynamically scaling AWS Glue jobs to optimize utilization and cost efficiency. The solution should require minimal operational overhead and automatically adjust resources according to workload demand.
+
+        Option A (Manual reduction of DPUs) – Incorrect: Manually reducing DPUs by a fixed percentage doesn’t dynamically adapt to changing workloads, potentially causing performance degradation and requiring continuous monitoring and adjustments.
+
+        Option B (AWS Glue autoscaling) – Correct: AWS Glue autoscaling dynamically adjusts the number of DPUs based on real-time job demands. Monitoring metrics like workerUtilization validates job performance automatically, providing a balance between cost savings and minimal operational overhead.
+
+        Option C (Migrate jobs to AWS Lambda) – Incorrect: Migrating Glue ETL workloads to AWS Lambda is not practical because Lambda has significant execution time limits (15 minutes), resource limits, and is not optimized for the long-running ETL workloads typical of AWS Glue.
+
+        Option D (Custom scripts for dynamic scaling) – Incorrect: Using custom scripts introduces significant operational complexity, ongoing maintenance overhead, and potential for errors. AWS Glue’s native autoscaling capabilities provide a more streamlined and efficient alternative.
+
+    Correct Answers: A, C
+
+    This scenario requires automatically identifying and classifying personally identifiable information (PII) and detecting custom data types that match specific patterns in an Amazon S3 data lake. The solution must meet regulatory compliance (e.g., PCI-DSS) requirements efficiently and accurately.
+
+        Option A (Macie managed data identifiers) – Correct: Amazon Macie’s built-in managed data identifiers automatically detect common PII types (such as email addresses, credit card numbers, and national IDs) out-of-the-box, providing comprehensive regulatory compliance coverage.
+
+        Option B (Lake Formation with Macie integration) – Incorrect: AWS Lake Formation manages data lake permissions and data governance but does not provide native integration for detecting or tagging PII directly through Macie.
+
+        Option C (Custom data identifiers in Macie) – Correct: Amazon Macie allows the creation of custom data identifiers using regular expressions to detect sensitive data matching unique, organization-specific patterns, addressing the requirement to identify internal customer reference IDs and custom form codes.
+
+        Option D (GuardDuty anomaly detection) – Incorrect: Amazon GuardDuty is a security threat detection service focused on identifying security anomalies and malicious activities, not classifying or detecting structured sensitive data like PII.
+
+        Option E (EMR custom regex in Spark jobs) – Incorrect: While technically feasible, using Amazon EMR with custom Spark jobs introduces significant complexity, operational overhead, and ongoing maintenance compared to Macie’s automated and managed detection capabilities.
+
+    References:
+
+        Amazon Macie managed data identifiers
+
+        Creating custom data identifiers in Amazon Macie
+
+    Correct Answer: B
+
+    This scenario requires validating the quality of transaction data stored in an Amazon S3–based data lake before processing with AWS Glue ETL jobs. The solution must efficiently detect missing values, format inconsistencies, and duplicate records with minimal operational overhead.
+
+        Option A (AWS Lambda with custom Python scripts) – Incorrect: Although Lambda can execute data quality scripts, managing custom scripts introduces significant development effort and ongoing maintenance, and lacks built-in data quality frameworks.
+
+        Option B (AWS Glue Data Quality with CloudWatch Alarms) – Correct: AWS Glue Data Quality provides built-in rule-based validations to detect missing values, duplicates, and format inconsistencies on data stored in Amazon S3. Integrating with Amazon CloudWatch Alarms enables automated alerts, delivering a fully managed solution.
+
+        Option C (Daily Athena anomaly queries) – Incorrect: Using Athena for daily data quality checks adds latency and complexity. It also lacks the structured, proactive data validation framework provided by AWS Glue Data Quality.
+
+        Option D (EMR with Apache Spark for data quality checks) – Incorrect: Running data quality checks via Amazon EMR adds substantial operational complexity, additional cluster management overhead, and script development effort compared to AWS Glue’s built-in data quality capabilities.
+
+    Correct Answers: B, D
+
+    This scenario involves orchestrating Amazon EMR Serverless ETL jobs for streaming video engagement data processing. The solution must reliably handle job dependencies and automatic retries with minimal operational overhead.
+
+        Option A (Self-managed Airflow on EC2) – Incorrect: Deploying a self-managed Apache Airflow environment increases operational overhead significantly, requiring manual patching, maintenance, and scaling.
+
+        Option B (AWS Step Functions orchestration) – Correct: AWS Step Functions provides a fully managed, serverless orchestration capability, enabling robust definition of job dependencies, state transitions, and automatic retries for EMR Serverless jobs, aligning well with the requirements.
+
+        Option C (EventBridge schedule triggers) – Incorrect: Amazon EventBridge scheduling provides basic triggering capabilities but lacks advanced orchestration features like automatic retries, job dependency handling, or failure management.
+
+        Option D (Define IAM policies for Step Functions and EMR Serverless) – Correct: Defining IAM policies and roles ensures AWS Step Functions has appropriate permissions to securely invoke Amazon EMR Serverless jobs.
+
+        Option E (Define IAM policies for self-managed Airflow) – Incorrect: Since Option A (self-managed Airflow) is not suitable due to its higher operational overhead, setting IAM permissions for it is also not necessary.
+
+    Correct Answer: C
+
+    This scenario describes repetitive, complex aggregate queries in Amazon Redshift causing high execution times and increased compute costs. The solution should optimize query performance with minimal manual effort.
+
+        Option A (Manual materialized views with AWS Lambda refresh) – Incorrect: Using AWS Lambda to manually schedule materialized view refreshes introduces additional complexity, operational overhead, and ongoing maintenance.
+
+        Option B (Manual materialized views scheduled via Redshift Query Editor v2) – Incorrect: While Redshift Query Editor v2 simplifies query scheduling, the materialized view generation process still involves development effort, configuration overhead, and manual intervention.
+
+        Option C (Automated materialized views [AutoMVs]) – Correct: Amazon Redshift’s AutoMVs feature automatically identifies frequently executed queries and dynamically creates and maintains materialized views without manual scheduling or maintenance, significantly optimizing query performance with minimal operational overhead.
+
+        Option D (Result caching) – Incorrect: Result caching helps reduce execution time for identical repeated queries but doesn’t efficiently handle varying parameters or improve general aggregation query performance like AutoMVs.
+
+    Correct Answer: C
+
+    This scenario involves migrating existing Apache Airflow workflows used for orchestrating ETL and reporting pipelines to AWS. The company aims to minimize both code changes and operational overhead during this migration.
+
+        Option A (Self-managed Apache Airflow on EC2) – Incorrect: Deploying Apache Airflow manually on EC2 introduces additional operational overhead, requiring ongoing infrastructure maintenance, management, and monitoring.
+
+        Option B (Convert pipelines to AWS Step Functions) – Incorrect: While AWS Step Functions provide serverless orchestration, migrating existing Airflow DAGs to Step Functions would require extensive code rework, contradicting the goal to minimize code changes.
+
+        Option C (Migrate to Amazon MWAA) – Correct: Amazon Managed Workflows for Apache Airflow (MWAA) provides a fully managed Apache Airflow environment on AWS. This approach minimizes both code changes (existing DAGs can be migrated directly) and operational overhead, as AWS manages infrastructure scaling, patching, and availability.
+
+        Option D (Rebuild workflows with AWS Glue workflows) – Incorrect: Rebuilding existing workflows in AWS Glue workflows would require significant refactoring effort and code changes, increasing both migration complexity and operational overhead.
+
+    Correct Answer: A
+
+    This scenario requires extracting query-level metrics—specifically data scanned and CPU time—from Amazon Redshift system tables to enable accurate cost attribution across different business units.
+
+        Option A (SVL_QUERY_METRICS_SUMMARY) – Correct: The SVL_QUERY​_MET⁠RICS_SUMMARY system view provides comprehensive query-level performance metrics, including data scanned, CPU time, and I/O metrics. This makes it the ideal choice for accurate and detailed cost attribution.
+
+        Option B (STL_SCAN) – Incorrect: STL_SCAN provides information specifically about table scans but lacks aggregated CPU usage data, making it insufficient for comprehensive cost attribution.
+
+        Option C (SVL_QUERY_REPORT) – Incorrect: SVL_QUERY_REPORT contains summary statistics and basic metrics for queries but does not include the detailed CPU time or granular data scanned information needed.
+
+        Option D (STL_WLM_QUERY) – Incorrect: STL_WLM_QUERY is focused on workload management metrics and concurrency information and does not provide detailed query-level data scan or CPU usage metrics.
+
+    Correct Answer: A
+
+    This scenario requires modifying an overly permissive IAM policy to grant only read-only permissions to all tables in a specific AWS Glue Data Catalog database (db1). The solution must adhere to the principle of least privilege.
+
+        Option A – Correct: This option correctly specifies the minimum set of Glue actions needed for read-only access (glue:GetDatabase, glue:GetTables, and glue:GetTable). It includes resources explicitly at the catalog and database levels, precisely meeting the requirement for accessing all tables within the specified database.
+
+        Option B – Incorrect: While it specifies correct actions, it adds the actions to the existing list, which does not adhere to the least-privilege principle.
+
+        Option C – Incorrect: This option lacks the database-specific resource reference (database/db1).
+
+        Option D – Incorrect: Using glue:Get* is overly broad, allowing access to potentially unnecessary Glue resources beyond databases and tables. It does not strictly adhere to the least-privilege principle.
+
+    References:
+
+        Managing access control with AWS Glue resources
+
+    Correct Answers: A, C, F
+
+    This scenario requires detecting, anonymizing, and partially redacting personally identifiable information (PII) from CSV files uploaded to Amazon S3 reactively. The solution must support partial redaction to retain sufficient data for transaction verification.
+
+        Option A (AWS Glue workflow triggered by S3 events) – Correct: AWS Glue workflows triggered by Amazon S3 event notifications (such as PutObject) provide immediate, automated processing whenever raw data files arrive, effectively handling uploads without a defined schedule.
+
+        Option B (AWS Step Functions with a time-based schedule) – Incorrect: AWS Step Functions with a time-based schedule does not fit the scenario’s unpredictable upload pattern, potentially causing processing delays or missed files.
+
+        Option C (Detect PII transform in AWS Glue Studio) – Correct: AWS Glue Studio’s built-in “Detect PII” transform automatically identifies PII fields within datasets, streamlining data anonymization processes.
+
+        Option D (AWS Glue Data Quality rule for PII obfuscation) – Incorrect: AWS Glue Data Quality rules focus primarily on validating data quality (format, completeness, duplicates) but do not directly provide functionality for obfuscation or anonymization.
+
+        Option E (Permanently delete all PII data) – Incorrect: Completely removing all PII data prevents transaction verification, conflicting with the requirement for partial redaction that preserves data usability.
+
+        Option F (Partially redact detected PII text) – Correct: Partial redaction maintains data integrity necessary for transaction verification while effectively protecting sensitive customer information, directly meeting compliance and usability requirements.
+
+    References:
+
+        “Detect and Process Sensitive Data Using AWS Glue Studio”
+
+    Correct Answers: A, B, D
+
+    This scenario requires implementing scalable, fine-grained access control on Amazon S3 data lake tables accessed by multiple compute engines (Athena, Glue, Redshift Spectrum). AWS Lake Formation is ideal for centrally managing these permissions in a scalable way.
+
+        Option A (Register S3 data lake location with Lake Formation) – Correct: Registering the Amazon S3 data lake location with AWS Lake Formation is essential to enable centralized governance and fine-grained permissions management across the entire data lake.
+
+        Option B (Grant Lake Formation data permissions) – Correct: AWS Lake Formation allows you to grant table- and column-level permissions directly to IAM users, roles, and groups. This centralized permission model ensures consistent and fine-grained access control across all supported compute engines.
+
+        Option C (Use IAM policies for access control) – Incorrect: IAM policies alone do not support fine-grained, column-level permissions directly. Additionally, IAM policies become cumbersome to manage as scale increases, making Lake Formation permissions preferable for fine-grained governance.
+
+        Option D (Configure Lake Formation tags) – Correct: Lake Formation tags provide scalable, attribute-based access control. Assigning these tags to tables and columns simplifies permission management significantly, enabling easier administration across multiple teams and compute services.
+
+        Option E (Enable encryption with AWS KMS) – Incorrect: AWS KMS provides encryption at rest but does not provide fine-grained access controls at the table or column level within data lake objects. It focuses primarily on securing data, rather than managing granular permissions.
+
+        Option F (Add compute engines as principals) – Incorrect: Compute engines such as Athena, Glue, and Redshift Spectrum are integrated with Lake Formation but could not be explicitly added as principals. Permissions should be granted to IAM users, roles, or groups rather than the compute engines themselves.
+
+    Correct Answer: B
+
+    This scenario requires applying two layers of encryption on sensitive healthcare data stored in Amazon S3 to comply with strict regulations, while also minimizing operational overhead.
+
+        Option A (Client-side encryption + server-side encryption [SSE]) – Incorrect: While technically providing two encryption layers, client-side encryption adds significant operational overhead, requiring management of encryption keys and client-side encryption logic.
+
+        Option B (Dual-layer server-side encryption with KMS [DSSE-KMS]) – Correct: Amazon S3’s DSSE-KMS automatically applies two separate encryption layers using AWS KMS-managed keys. It provides strong compliance assurance with minimal operational overhead, as AWS manages key storage, rotation, and encryption operations.
+
+        Option C (Single-layer server-side encryption with KMS [SSE-KMS]) – Incorrect: SSE-KMS alone provides only a single encryption layer, insufficient to meet the stated requirement for dual-layer encryption.
+
+        Option D (Combine SSE-KMS and SSE-S3) – Incorrect: Amazon S3 does not support applying two different types of server-side encryption simultaneously to the same object (e.g., SSE-KMS and SSE-S3). Therefore, this approach is not feasible.
+
+    References:
+
+        Amazon S3 dual-layer server-side encryption with AWS KMS (DSSE-KMS)
+
+    Correct Answer: A
+
+    This scenario requires securely storing and accessing MongoDB credentials used by an AWS Glue job, eliminating the security risk from hardcoded credentials within the job script.
+
+        Option A (AWS Secrets Manager with Glue connections) – Correct: AWS Secrets Manager securely stores database credentials, enabling AWS Glue connections to retrieve these credentials securely and dynamically at runtime. This approach eliminates hardcoded credentials, enhances security, and simplifies credential rotation.
+
+        Option B (AWS Glue job parameters) – Incorrect: Using Glue job parameters for credentials is insecure, as parameters may inadvertently be logged or exposed in configurations, thus not fully addressing the security concern.
+
+        Option C (AWS IAM Identity Center authentication) – Incorrect: AWS IAM Identity Center (formerly AWS SSO) doesn’t directly support authentication to external databases like MongoDB. It manages user access to AWS services and resources, but is not suitable for this specific use case.
+
+        Option D (Credentials in S3 configuration file) – Incorrect: Storing credentials in plaintext or even encrypted files on S3 introduces complexity and potential exposure risks. It requires additional custom logic to securely manage credential retrieval and rotation, unlike Secrets Manager’s built-in secure access mechanism.
+
+    Correct Answers: A, C
+
+    This scenario involves configuring Amazon QuickSight dashboards to restrict data visibility so each regional analyst group can access data relevant to only their geographic region. The solution must efficiently enforce data segregation based on a field in the dataset, which points to row-level access control.
+
+        Option A (Create QuickSight user groups) – Correct: Creating user groups in Amazon QuickSight simplifies user management, allowing easy assignment and consistent permission application across regional analyst groups.
+
+        Option B (Enable “Filter by Region” in dataset configuration) – Incorrect: QuickSight does not have a built-in “Filter by Region” dataset option. Filtering based on user attributes is handled through row-level security (RLS).
+
+        Option C (Implement QuickSight row-level security) – Correct: Amazon QuickSight’s RLS provides granular, secure control over dataset rows, ensuring each analyst group sees data corresponding to only their assigned region.
+
+        Option D (Configure IAM policies for row-level access) – Incorrect: IAM policies manage service-level or resource-level permissions, but they do not control row-level access within QuickSight datasets. Row-level security is handled internally by QuickSight.
+
+        Option E (Create separate regional datasets) – Incorrect: Creating separate datasets for each region introduces unnecessary duplication, complexity, and maintenance overhead compared to using QuickSight’s native row-level security capability.
+
+    References:
+
+        Row-level security in Amazon QuickSight
+
+    Correct Answers: A, B, D
+
+    This scenario involves setting up a multitenant Amazon MSK cluster with microservices from multiple lines of business (LOBs). Each LOB must have restricted access only to its own Kafka topics. The optimal solution uses IAM-based authentication and authorization to ensure secure, granular access control.
+
+        Option A (Enable IAM access control on MSK) – Correct: Enabling IAM authentication for the MSK cluster allows granular, identity-based control using AWS IAM, simplifying secure access management.
+
+        Option B (Create IAM policies for each LOB using kafka-cluster:Topic) – Correct: Defining IAM policies with resource-level permissions (e.g., kafka-cluster:Topic) allows each LOB to have specific and restricted access to only their respective Kafka topics.
+
+        Option C (Configure IAM RBAC within Kafka) – Incorrect: IAM-based RBAC within Kafka is not currently supported directly in Amazon MSK. IAM authorization is managed externally through IAM policies, not internally within Kafka RBAC.
+
+        Option D (Attach IAM policies to IAM roles assumed by microservices) – Correct: Attaching the defined IAM policies to the roles used by each LOB’s microservices ensures that each microservice inherits correct permissions, providing secure and seamless access control.
+
+        Option E (Kafka ACLs) – Incorrect: Kafka ACLs are Kafka-native authorization mechanisms. Since IAM-based authentication and authorization are in use, IAM policies provide a simpler and more centralized approach compared to Kafka ACLs.
+
+        Option F (VPC security groups for isolation) – Incorrect: VPC security groups manage network-level access control but do not provide topic-level granular control required by this scenario.
+
+    Correct Answers: B, C
+
+    This scenario involves building a secure data pipeline using Amazon EMR on EC2, Amazon S3, and Amazon Redshift to handle sensitive healthcare data. The solution must ensure data remains private and provide centralized, secure management of sensitive parameters like credentials.
+
+        Option A (Encrypted credentials in S3 bucket) – Incorrect: Storing credentials in Amazon S3—even encrypted—introduces complexity and security risks in credential management, as S3 isn’t optimized for secure key-value storage of parameters.
+
+        Option B (AWS Systems Manager Parameter Store) – Correct: AWS Systems Manager Parameter Store securely stores sensitive credentials such as database usernames, passwords, and API keys. It provides centralized parameter management with granular access control and encryption, effectively addressing the secure credential management requirement.
+
+        Option C (S3 Gateway VPC endpoint) – Correct: A Gateway VPC endpoint for Amazon S3 ensures that EMR clusters access data stored in S3 privately within the AWS backbone, without traversing the public internet, preventing data exposure.
+
+        Option D (Inject credentials via environment variables at bootstrap) – Incorrect: Injecting sensitive credentials directly into environment variables on EMR instances can pose security risks due to potential exposure through logs or instance metadata.
+
+        Option E (EC2 user data scripts to hardcode credentials) – Incorrect: Hardcoding credentials into EC2 user data scripts is insecure, exposing sensitive information and making credential rotation and management challenging.
+
+        Option F (Mount S3 bucket via S3FS and NAT Gateway) – Incorrect: Using S3FS mounts with a NAT Gateway unnecessarily routes traffic via the public internet, increasing complexity, latency, and potential exposure risk.
+
+    Correct Answer: A
+
+    This scenario involves securely connecting Amazon MSK deployed in private subnets with Kafka producers and consumers hosted on Amazon EKS clusters in separate VPCs. The solution must restrict access exclusively to authorized workloads.
+
+        Option A (Security groups + VPC peering or Transit Gateway) – Correct: Configuring MSK brokers with security groups that explicitly allow Kafka traffic only from security groups associated with authorized EKS worker nodes provides least-privilege access control. Establishing network connectivity between VPCs through VPC peering or AWS Transit Gateway enables secure and private communication without exposing traffic to the internet.
+
+        Option B (Allow inbound traffic from entire VPC CIDRs) – Incorrect: Allowing traffic from entire VPC CIDR blocks excessively broadens access, weakening the security posture by granting unintended access to other workloads within these VPCs.
+
+        Option C (Public-facing NLB + IP Whitelisting) – Incorrect: Deploying a public-facing load balancer unnecessarily exposes internal Kafka brokers to internet-based threats and complicates security management. IP whitelisting alone is less flexible than using private connectivity and security groups.
+
+        Option D (NAT Gateway + IAM authentication) – Incorrect: Enabling internet access via NAT Gateway is inappropriate for internal Kafka communication and introduces unnecessary complexity and potential security risks. Kafka access control via IAM does not eliminate network-level security risks associated with public internet exposure.
+

@@ -1,0 +1,136 @@
+Practice Questions
+
+These practice questions may help you understand what kind of questions to expect on the exam so you can prepare accordingly. The answers are listed in the Appendix.
+
+    A company has been using HDFS for their on-premises data storage to handle large-scale data processing. They use Apache Spark as the analytics engine. They plan to migrate their data to AWS and are looking for a scalable and cost-efficient storage solution in the cloud.
+
+    Which cloud storage option should the company choose for this migration?
+
+        Migrate the data to Amazon S3 and use Spark on Amazon EMR clusters for data processing.
+
+        Migrate the data to Amazon EBS volumes and attach them to EC2 instances for data processing.
+
+        Migrate the data to Amazon EBS volumes and set up HDFS on Amazon EMR clusters.
+
+        Migrate the data to Amazon Elastic File System (Amazon EFS) and configure Lambda functions to mount the file system.
+
+    A retail company uses Amazon OpenSearch Service to index and visualize its application logs. Over time, the index size has grown significantly, impacting performance and increasing costs. The company wants to implement a strategy to manage index lifecycle and reduce costs. The following are the log data access patterns:
+
+        The development team queries the past 3 days of logs frequently.
+
+        The development team performs historical data analytics that spans 6 months of data rarely.
+
+        You need to store the logs in the OpenSearch cluster for 2 years for compliance requirements.
+
+    Which solution will meet these requirements with the least operational overhead?
+
+        Land new logs on OpenSearch Hot storage. Use Amazon OpenSearch Service’s Index State Management (ISM) policies to move logs older than 3 days to UltraWarm and further move logs older than 6 months to Cold storage.
+
+        Land new logs on OpenSearch Hot storage. Use Amazon OpenSearch Service’s Index State Management (ISM) policies to move logs older than 3 days to UltraWarm. Use Lambda to snapshot logs older than 6 months to Amazon S3.
+
+        Land new logs on OpenSearch Hot storage. Schedule Lambda functions to automatically move indexes to UltraWarm and Cold storage.
+
+        Land new logs on OpenSearch Hot storage. Use Amazon OpenSearch Service’s Index State Management (ISM) policies to move logs older than 3 days to Cold storage. Migrate them back to UltraWarm when you need to query the data.
+
+    A financial services company uses Amazon Redshift for its data warehouse and stores historical data in Amazon S3. The company wants to query both the current data in Redshift and the historical data in S3 without moving the data.
+
+    Which Amazon Redshift feature allows this capability?
+
+        Redshift RA3 Nodes
+
+        Redshift Data Sharing
+
+        Redshift Spectrum
+
+        Redshift Serverless
+
+    A development team noticed that their storage costs have increased greatly after they enabled versioning on their S3 bucket to safeguard against accidental deletions. How can the team manage their storage costs while retaining the benefits of versioning?
+
+        Enable S3 Intelligent-Tiering for the bucket.
+
+        Use S3 Lifecycle policies to delete older versions after a certain period.
+
+        Enable S3 Versioning and set a legal hold by using S3 Object Lock.
+
+        Transition older S3 objects to the S3 Glacier Deep Archive storage class.
+
+    An ecommerce company wants to ensure that their product catalog data stored in Amazon S3 is consistently organized and up-to-date. They need to automatically detect changes in the data schema and update the catalog accordingly.
+
+    Which solution will meet their requirements with the least operational overhead?
+
+        Create an AWS Glue crawler to scan the data in Amazon S3 and to populate table metadata in an AWS Glue Data Catalog. Schedule the crawler to run periodically to identify any changes in the schema and to generate new versions of the tables.
+
+        Schedule a Lambda function to scan and classify the data in Amazon S3. Configure the Lambda function to create tables and columns in an AWS Glue Data Catalog.
+
+        Use Amazon Redshift to query the data and manually manage the catalog updates.
+
+        Configure Amazon EMR to process the data and manually synchronize the schema changes with the AWS Glue Data Catalog.
+
+    A retail company uses Amazon RDS, Amazon S3, and Snowflake to store their sales and customer data. They want to catalog data from these sources in one place to enable unified data access and analysis.
+
+    Which solutions will achieve this with minimal operational overhead? (Select two.)
+
+        Use AWS Glue crawlers to connect to Amazon RDS and Snowflake, automatically cataloging the data into an AWS Glue Data Catalog.
+
+        Create an AWS Glue crawler to scan the data in Amazon S3 and to populate table metadata in an AWS Glue Data Catalog.
+
+        Manually export data from Amazon RDS and Snowflake to Amazon S3 and then use AWS Glue crawlers to catalog the data.
+
+        Write custom scripts using AWS Lambda to extract data from Amazon RDS and Snowflake and populate the AWS Glue Data Catalog.
+
+    A media company stores large volumes of web server logs on Amazon S3 and intends to analyze this data with Amazon Athena. The majority of their queries are analytical, focusing on logs from a specific region or a specific period of time.
+
+    To optimize query performance in Athena and reduce costs, which combination of techniques should they use? (Select two.)
+
+        Partition the data by region, year, and month.
+
+        Store the data in CSV format.
+
+        Use SELECT * in queries.
+
+        Use compressed file formats like gzip or Snappy.
+
+        Keep logs in their original format.
+
+    An ecommerce company stores user order histories in an Amazon DynamoDB table. Each order contains a user ID, product ID, purchase timestamp, delivery timestamp, and delivery location.
+
+    The primary access patterns are the following:
+
+        Retrieve all orders for a specific user sorted by the purchase time.
+
+        Retrieve the latest order for a specific user.
+
+    Which schema design will meet these requirements most efficiently?
+
+        Table Partition Key: 'UserID' Table Sort Key: 'PurchaseTimestamp'
+
+        Table Partition Key: 'UserID' Table Sort Key: 'ProductID'
+
+        Table Partition Key: 'ProductID' Table Sort Key: 'UserID'
+
+        Table Partition Key: 'ProductID' Table Sort Key: 'UserID#'Purchase​Times⁠tamp'
+
+    A company uses Amazon Redshift as its data warehouse. The company stores the data in multiple tables and selects the EVEN distribution style for all tables. Some tables are hundreds of gigabytes in size. Others are less than 10 MB in size. You need to manually configure distribution styles to optimize query performance. At the same time, you must keep data storage as low as possible.
+
+    Which solution will meet these requirements?
+
+        Use a distribution style of ALL for large tables. Specify primary and foreign keys for all tables.
+
+        Use a distribution style of ALL for small and rarely updated tables. Specify primary and foreign keys for all tables.
+
+        Use a distribution style of KEY for all tables. Specify distribution, primary, and foreign keys for all tables.
+
+        Use a distribution style of EVEN for the all tables. Specify primary and foreign keys for all tables.
+
+    A healthcare company needs to store patient data in Amazon S3. The data is accessed frequently within the first year and must be available immediately. Due to regulatory requirements, the data must be retained for five years. Data older than one year must be securely stored and made available when needed for compliance evaluation within 48 hours. Data older than five years must be deleted.
+
+    Which solution will meet these requirements in the most cost-effective manner?
+
+        Store new data on the Amazon S3 Standard storage class. Create a lifecycle rule to transition the data to the S3 Glacier Flexible Retrieval storage class after one year. Configure the lifecycle rule to delete the data after five years.
+
+        Store new data on the Amazon S3 Infrequent Access storage class. Create a lifecycle rule to migrate the data to the S3 Glacier Flexible Retrieval storage class after one year. Configure the lifecycle rule to delete the data after five years.
+
+        Store new data on the Amazon S3 Standard storage class. Create a lifecycle rule to migrate the data to the S3 Glacier Deep Archive storage class after one year. Configure the lifecycle rule to delete the data after five years.
+
+        Store new data on the Amazon S3 Intelligent-Tiering storage class. Opt in to the deep archive access tier. Create a lifecycle rule to delete the data after five years.
+

@@ -1,0 +1,142 @@
+Practice Questions
+
+These practice questions may help you understand what kind of questions to expect on the exam so you can prepare accordingly. The answers are listed in the Appendix.
+
+    A marketing team at a retail company needs to regularly ingest data from their Salesforce CRM into their Amazon Redshift data warehouse. The data includes customer information, sales transactions, and marketing campaign details. The team wants to ensure the data is ingested reliably, with minimal manual intervention, and in a cost-effective manner.
+
+    Which AWS service would be the best choice to meet these requirements with the least operational overhead?
+
+        AWS Glue ETL jobs
+
+        AWS Data Migration Service (DMS)
+
+        Zero-ETL integration between Salesforce and Redshift in AWS Glue
+
+        Amazon Data Firehose
+
+    A marketing team at a retail company needs to automatically process customer survey data that is uploaded to an Amazon S3 bucket. The team wants to create an AWS Lambda function that will convert the customer survey data from .txt format to .json format whenever a new .txt file is added to the S3 bucket.
+
+    Which solution will meet these requirements with the least operational overhead?
+
+        Create an Amazon CloudWatch event rule that triggers the Lambda function when an S3 ObjectCreated event occurs. Use a filter to only trigger the event for files with the .txt extension.
+
+        Create an Amazon EventBridge (Amazon CloudWatch Events) rule that triggers the Lambda function when an S3 ObjectCreated event occurs. Use a filter to only trigger the event for files with the .txt extension.
+
+        Create an S3 event notification that triggers the Lambda function when an S3 ObjectCreated event occurs. Use a filter rule to only trigger the event for files with the .txt extension.
+
+        Create an S3 event notification that triggers an Amazon SNS topic when an S3 ObjectCreated event occurs. Subscribe the Lambda function to the SNS topic and use a filter rule to only trigger the event for files with the .txt extension.
+
+    The data engineering team at a large ecommerce company needs to clean, transform, and prepare customer data from various sources before loading it into their Amazon Redshift data warehouse. The data includes customer profiles, order history, and product reviews, stored in a mix of CSV, JSON, and Excel files in an Amazon S3 data lake.
+
+    The team wants to implement a data preparation process that can handle missing values, inconsistent formatting, and other quality issues, while also allowing them to combine and enrich the data from multiple sources. The solution should require minimal coding, be easy to configure and maintain, and provide visibility into the data transformation steps.
+
+    Which AWS service and approach would be the best choice to meet these requirements?
+
+        Use AWS Glue to create custom ETL jobs that extract data from the S3 data lake, transform it using PySpark code, and load it into Redshift. Leverage AWS Glue’s built-in data quality checks and error handling features.
+
+        Implement a data preparation pipeline using Amazon EMR and Apache Spark, writing custom Scala or Python code to handle the data cleansing, transformation, and integration requirements.
+
+        Use AWS Glue DataBrew to visually design and configure data preparation recipes that can address the various data quality issues, combine datasets, and output the transformed data directly to Redshift.
+
+        Create an Amazon Athena query federation to integrate the disparate data sources, then use Amazon Athena’s built-in data type conversion and transformation functions to prepare the data for loading into Redshift.
+
+    A marketing team at an ecommerce company needs to analyze customer activity data in near real time to identify trends and optimize their online campaigns. The data includes website clicks, product views, and shopping cart activities, which are currently being captured in various AWS services, including Amazon CloudWatch Logs, Amazon Kinesis Data Streams, and Amazon DynamoDB.
+
+    The team wants to set up a data processing pipeline that can consolidate all this real-time data and send it to their Datadog instance for further analysis and reporting.
+
+    Which solution will meet these requirements with the least operational overhead?
+
+        Configure an Amazon Kinesis Data Streams data stream to use Datadog as the destination. Create separate CloudWatch Logs subscription filters, Kinesis Data Streams, and DynamoDB Streams to send the data to the Kinesis Data Streams.
+
+        Create an Amazon Data Firehose delivery stream to use Datadog as the destination. Configure CloudWatch Logs, Kinesis Data Streams, and DynamoDB Streams to send the data to the Amazon Data Firehose delivery stream.
+
+        Create an Amazon Data Firehose delivery stream to use Datadog as the destination. Write an AWS Lambda function to pull the data from CloudWatch Logs, Kinesis Data Streams, and DynamoDB Streams, and send it to the Amazon Data Firehose delivery stream.
+
+        Configure an AWS Lambda function to pull the data from CloudWatch Logs, Kinesis Data Streams, and DynamoDB Streams, and send it directly to the Datadog instance, bypassing the need for an intermediate streaming service.
+
+    A data engineering team at a retail company needs to process customer purchase data stored in JSON files. The files contain the following structure:
+
+    { "customer_id": "123", "purchase_date": "2023-04-15", "items": [ { "item_id": "ABC123", "item_name": "T-Shirt", "quantity": 2, "price": 19.99 }, { "item_id": "XYZ456", "item_name": "Jeans", "quantity": 1, "price": 49.99 } ], "total_amount": 89.97 }
+
+    The team wants to create a new column that calculates the total revenue generated from each customer’s purchases, based on the item quantity and price.
+
+    Which AWS Glue DataBrew transformation would be the best solution to meet this requirement with the least coding effort?
+
+        Use the UNNEST_STRUCT transformation to extract the item data, then apply the SUM and MULTIPLY functions to calculate the total revenue.
+
+        Leverage the EXTRACT_VALUE transformation to access the nested item data, and then use the SUM function to calculate the total revenue.
+
+        Implement the CUSTOM_CODE transformation in AWS Glue DataBrew to write a Python script that processes the JSON data and calculates the total revenue.
+
+        Use the APPLY_MAPPING transformation to map the relevant fields from the JSON data and then apply a custom formula to calculate the total revenue.
+
+    A financial services company has several on-premises file servers that store customer account records, transaction history, and compliance documents. The company wants to regularly transfer this data to an Amazon S3 data lake for long-term storage and analytical processing.
+
+    The data is updated daily, and the company needs to ensure that only the changes are transferred to S3, minimizing the time and resources required for each data transfer. The solution should also provide the ability to monitor the data transfer process and troubleshoot any issues that may arise.
+
+    Which AWS service would be the best choice to meet these requirements with the least operational overhead?
+
+        Amazon S3 Batch Operations
+
+        AWS DataSync
+
+        Amazon S3 cross-region replication
+
+        AWS Storage Gateway
+
+    A data engineering team at a media company needs to build a data processing pipeline that ingests data from various sources, including real-time event streams, batch files, and third-party APIs. The pipeline includes several steps, such as data validation, transformation, and loading into a data warehouse and data lake that depend on external dependencies. The team wants to ensure the pipeline is reliable, scalable, and easy to monitor and manage.
+
+    Which orchestration service would be the best choice to meet these requirements, based on the best practices discussed in the content?
+
+        AWS Step Functions
+
+        Amazon Managed Workflows for Apache Airflow (MWAA)
+
+        AWS Glue workflows
+
+        A combination of AWS Step Functions and AWS Glue workflows
+
+    A marketing team at an ecommerce company needs to cleanse and deduplicate their customer database, which contains information such as customer name, email address, phone number, and address. The database has been built up over time from various sources, and it contains many duplicate records for the same customers.
+
+    The team wants to implement an automated solution to identify and merge these duplicate records, ensuring that the customer data is accurate and up-to-date. They want to minimize the manual effort required to maintain the customer database and ensure that the deduplication process is reliable and scalable as the data grows.
+
+    Which solution will meet these requirements with the least operational overhead?
+
+        Use the FindMatches transformation in AWS Glue DataBrew to identify and merge duplicate customer records.
+
+        Write a custom Python script using the Dedupe library and run it as an AWS Lambda function to deduplicate the customer data.
+
+        Leverage Amazon Comprehend to perform entity extraction and matching on the customer data, then use Amazon Redshift to consolidate the records.
+
+        Implement a custom ETL pipeline using AWS Glue to perform fuzzy matching and record linkage on the customer data.
+
+    A media company needs to build a real-time analytics pipeline to monitor user engagement data from their online streaming platform. The data, which includes video views, user interactions, and device information, is currently being captured in an Amazon Kinesis Data Streams stream.
+
+    The company wants to set up a solution that can continuously ingest this real-time data, store it in an Amazon Redshift Serverless data warehouse, and enable near-real-time analytics on both the latest and historical data.
+
+    Which AWS service and approach would be the best choice to meet these requirements with the least operational overhead?
+
+        Configure an Amazon Data Firehose delivery stream to ingest the data from the Kinesis Data Streams and load it directly into the Amazon Redshift Serverless warehouse.
+
+        Leverage the streaming ingestion feature of Amazon Redshift Serverless to directly consume the data from the Kinesis Data Streams.
+
+        Create an AWS Lambda function to read the data from the Kinesis Data Streams, store it in an Amazon S3 data lake, and then use the COPY command to load the data into the Amazon Redshift Serverless warehouse.
+
+        Utilize DMS to load data into Amazon Redshift Serverless.
+
+    A data engineering team at an ecommerce company has set up an Amazon Kinesis Data Streams stream to ingest real-time customer event data, such as website clicks, product views, and shopping cart activities. The team has configured several AWS services, including Amazon Data Firehose and AWS Lambda, to consume data from the Kinesis stream and process it for downstream analytics.
+
+    However, the team has noticed that the stream’s read throughput is lower than expected, and they are seeing increased latency in the data processing pipeline. The team suspects that there may be an issue with the partitioning or sharding of the Kinesis stream.
+
+    Which steps should the data engineering team take to troubleshoot and resolve the performance issues with the Kinesis Data Streams stream? (Choose two)
+
+        Monitor the shard-level metrics in Amazon CloudWatch and identify any hot shards or uneven data distribution across shards.
+
+        Increase the number of shards in the Kinesis Data Streams stream to scale the overall read and write throughput.
+
+        Modify the partition key used to distribute data across shards, ensuring a well-distributed and random partition key.
+
+        Increase the number of Amazon Data Firehose delivery stream instances to handle the increased read throughput from the Kinesis stream.
+
+        Configure the Amazon Kinesis Client Library (KCL) to use the enhanced fan-out feature to improve the read throughput for consumer applications.
+

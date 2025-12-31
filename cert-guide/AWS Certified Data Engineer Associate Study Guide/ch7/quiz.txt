@@ -1,0 +1,108 @@
+Practice Questions
+
+These practice questions may help you understand what kind of questions to expect on the exam so you can prepare accordingly. The answers are listed in the Appendix.
+
+    Assume your five-member team is spread across the globe and your application’s RDS database is hosted in the AWS us-east-1 region. You have already got the IP address of your individual team members and would like to restrict access only to those IPs.
+
+    What is the best way to configure this access restriction with the least-privilege access principle?
+
+        Include the IP addresses in the Route 53 service, where the database fully qualified domain name is configured to restrict the access.
+
+        Include the IP addresses in the security group of the database to specify inbound access is allowed only from those IPs.
+
+        Include the IP addresses in the NACL of the VPC, so that the restriction is at the subnet level for least-privilege access.
+
+        Include the IP addresses in the security group of the database to specify inbound access is allowed from those IPs only on the database port for connection.
+
+    Assume you are building a three-tier web application that has a React JS–based web interface that invokes a REST API configured using Amazon API Gateway. The API invokes an AWS Lambda function that writes to or reads from the RDS database. The database instance is deployed in a private VPC and you need to configure the Lambda function in a way that it can connect to the database.
+
+    Please note this three-tier application will have several REST APIs, which means you will have multiple Lambda functions that need to interact with the database. What is the most operationally efficient way you can configure access for the Lambda functions to connect to the database?
+
+        Configure the Lambda function and the RDS instance within the same VPC. Include the Lambda function and the database within a single subnet and configure NACL so that they can interact with each other seamlessly.
+
+        Deploy the Lambda function in the same VPC as the RDS instance, then add the Lambda function’s security group in the RDS instance security group as inbound access.
+
+        Create an IAM role for the Lambda function and add a policy to access the RDS instance.
+
+        Configure a VPC endpoint for the Lambda function so that it can access the RDS instance natively.
+
+    Assume you have data stored in one AWS account (Account 1), which is encrypted using AWS KMS keys. You have received a request from users of another AWS account (Account 2) to access your account’s (Account 1) datasets. What is the most efficient way to make sure that they can access the encrypted data?
+
+        Configure separate AWS KMS keys that belong to each account and encrypt the data in Account 1 with the KMS keys of Account 2, so that users of Account 2 can access it.
+
+        Share the KMS key of Account 1 with Account 2.
+
+        Instead of using AWS KMS, integrate SSE-S3 encryption, so that AWS takes care of the encryption/decryption internally.
+
+        Create a KMS key alias in Account 1 and share the key alias with Account 2 to access the data.
+
+    Your organization has a centralized data lake that holds the data of multiple business units such as Finance, Marketing, and Human Resources. You are supposed to implement tighter security control so that employees can access only the data belonging to their business unit. What is the best way to implement security for this?
+
+        Integrate IAM groups for each business unit and configure IAM roles so that users can access only their business unit data.
+
+        Make sure each database table has business_unit as an attribute and integrate AWS Lake Formation with a row filter for the business_unit attribute.
+
+        Configure S3 bucket policies with IAM users to make sure users can access the data available in a specific S3 prefix.
+
+        Set up separate data lakes for each business unit and integrate Lake Formation for fine-grained access control.
+
+    Your organization is planning to integrate a centralized metadata catalog across data lakes and data warehousing systems. They would like to reduce operational overhead and look for a managed solution. Which option in AWS is better suited to this scenario?
+
+        Integrate Hive Metastore with Apache Ranger to build the centralized catalog in AWS.
+
+        Set up Hive Metastore with AWS-managed databases such as Aurora to reduce operational overhead.
+
+        Integrate AWS Glue Data Catalog as the centralized catalog that integrates with most of the analytics services.
+
+        Build a custom catalog on top of AWS-managed databases so that you have the flexibility to manage the metadata.
+
+    You have enabled CloudTrail in your AWS account and for compliance audits you would like to query and analyze the logs with less operational overhead. What is the easiest way to implement this?
+
+        CloudTrail logs are stored in S3, so you can use S3 SELECT feature to directly query from S3 without any additional service.
+
+        Integrate Amazon Athena on top of CloudTrail logs in S3 to allow querying using SQL.
+
+        Leverage CloudTrail Lake, which natively supports analyzing CloudTrail logs.
+
+        CloudTrail logs are nested in format and also have a larger data size. So integrating Amazon EMR to process and analyze the logs is the best possible way.
+
+    Your organization has four business units and each business unit has its own data warehousing system built on Amazon Redshift. Each of the business units got their own AWS account where the Redshift cluster is set up. You need to enable data sharing between business units, where one business unit can share a few tables with another business unit directly. What is the operationally efficient way to achieve this requirement?
+
+        Leverage Redshift data share to share one cluster’s data with another cluster that belongs to the consumer business unit.
+
+        As Redshift data share does not support cross-account data sharing, you can expose the data to AWS Data Exchange and leverage fine-grained access control with AWS Lake Formation.
+
+        Export the data that needs to be shared to Amazon S3 and integrate Lake Formation fine-grained access control to share with the consumer business unit to query using Athena.
+
+        The easiest way is to set up AWS Clean Rooms collaboration by bringing in the four business units as collaborators and enabling data sharing and querying using Clean Rooms.
+
+    Your company has multiple business units and each business unit has its own AWS account. To structure the AWS accounts better, you have already integrated AWS Organizations. As part of your data backup strategy, you have defined a few AWS Regions where the backup data should be stored. To avoid human error, you would like to put restrictions so that no team can push backup data to an AWS Region that is not approved. What is the best way to achieve this requirement?
+
+        Create CloudFormation templates that configure backup policies to write backups only to approved AWS Regions. Let your team use only the Cloud Formation templates for configuring backups.
+
+        Define service control policies to restrict writing backups to unapproved Regions.
+
+        Configure AWS Backup in a central AWS account to trigger backup in other accounts and make sure the central account has a configuration to write to the approved Regions.
+
+        Create a custom utility that is managed by your organization’s security team and is configured to write backups to approved Regions only. Define guidelines for all teams to use the common utility for backups.
+
+    Your mobile application has a backend relational database built on Amazon Aurora Serverless V2 with PostgreSQL as the database engine. You have batch analytics queries that run on the database every month for end-of-the-month reporting. Over the years, the data in the database has grown significantly and you have started seeing performance issues in the database queries. To improve the performance and also enable a few additional use cases, you have decided to move older data from the database to Amazon S3 for analytics. What is the operationally efficient way to implement this requirement?
+
+        Integrate stored procedures within the Aurora database that query older data and write to Amazon S3.
+
+        Write a custom AWS Glue ETL job that is scheduled to run every night and that queries older data from S3 and writes the output to Amazon S3.
+
+        Leverage the Export to S3 feature of Aurora PostgreSQL to automate the older data export requirement.
+
+        Create monthly database snapshots and copy them to Amazon S3 for analytics.
+
+    Your application is built using Amazon API Gateway for REST APIs, AWS Lambda for serverless compute, and Amazon Aurora as the backend database. Your security team identified that your Lambda function’s Python code has hardcoded database credentials that are checked in to the Github repositories. To avoid the security risk, you are assigned to come up with the best way to configure the database credentials in AWS. Which of the following approaches would you suggest as the most secure solution?
+
+        Remove the database credentials from the Lambda function’s Python code and configure them as environmental variables of the Lambda function.
+
+        Create a configuration database that has encryption at rest and stores all the database credentials. Let the Lambda function query the database in real time to query the latest credentials and then connect to it for querying.
+
+        Integrate AWS Secrets Manager to store the database credentials and the Lambda function to refer to the secrets in its code.
+
+        Create a database configuration file that is stored in an Amazon S3 bucket, which is only accessible to the Lambda function. Let the Lambda function read the credentials from the configuration file from S3 when it needs to query the database.
+

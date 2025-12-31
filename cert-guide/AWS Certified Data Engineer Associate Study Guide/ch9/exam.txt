@@ -1,0 +1,569 @@
+Chapter 9. Practice Exam
+
+This chapter is designed to help you assess your readiness and simulate the real certification experience. The following questions cover a wide range of topics and practical scenarios you can expect to encounter on the actual exam. We highly recommend you attempt each question before reviewing the detailed solutions and rationales provided. This will not only test your knowledge but also deepen your understanding of the core concepts and help you think critically about how to apply AWS data and analytics services effectively. The answers are listed in the Appendix. Good luck!
+
+    A company aims to construct an open source–based change data capture (CDC) pipeline to extract changes from an Amazon Aurora MySQL database and load the change streams into an Amazon S3–based data lake.
+
+    As a Solutions Architect, which steps should you take to configure this pipeline? (Select three.)
+
+        Enable binary logging on the Aurora MySQL database to allow change data capture.
+
+        Deploy the Debezium MySQL connector directly on the Aurora MySQL instance to capture data changes.
+
+        Deploy MSK Connect with the Debezium MySQL source connector to stream changes from Aurora MySQL to MSK topics.
+
+        Deploy an Amazon MSK cluster to serve as the streaming platform for the change data.
+
+        Set up AWS Database Migration Service (DMS) to replicate data from Aurora MySQL to Amazon S3.
+
+        Use Amazon Kinesis Data Streams to natively read the binary log from the Aurora MySQL database.
+
+    An ecommerce company collects customer activity events such as clicks, searches, and purchases in real time. These events are streamed to an Amazon Kinesis data stream. The company wants to ingest this streaming data into an Amazon Redshift table for further analyses.
+
+    Which solution will meet the requirement with the least operational overhead?
+
+        Set up an Amazon Managed Service for Apache Flink application to process the stream and write the results to Amazon Redshift.
+
+        Use an AWS Glue streaming job to read data from the Kinesis data stream and write it directly to Amazon Redshift using the Redshift Data API.
+
+        Use the streaming ingestion feature of Amazon Redshift to consume data directly from the Kinesis data stream.
+
+        Use Amazon Data Firehose to deliver the streaming data to an Amazon S3 bucket. Use the COPY command in Amazon Redshift to load the data from S3 at regular intervals.
+
+    A customer relationship management (CRM) solution company stores all its customer data in Amazon Aurora PostgreSQL to handle online transaction processing (OLTP) workloads. As the business grows, the company is experiencing scaling challenges when running analytical queries directly on the Aurora database, impacting the performance of its frontend applications.
+
+    To address this, the company wants a solution that enables scalable data analysis while offloading analytics from Aurora. The solution must ensure up-to-date data availability in the analytics environment and must be designed with the least operational overhead.
+
+    Which solution should you implement?
+
+        Set up AWS Glue jobs to extract data from Aurora PostgreSQL, load it into an Amazon S3 bucket, and then use the COPY command in Amazon Redshift to load the data into a Redshift table for analysis.
+
+        Use Amazon Database Migration Service (DMS) to replicate data from Aurora PostgreSQL to Amazon Redshift in near real time.
+
+        Enable Amazon Aurora zero-ETL integration to continuously and automatically replicate data from Aurora MySQL to Amazon Redshift for analysis.
+
+        Configure an Amazon Aurora read replica to export data to an Amazon S3 bucket using SQL queries, and use Amazon Redshift Spectrum to query the data directly from S3.
+
+    A data engineer is working on a project that involves AWS analytics services. The project’s code is stored in a Git repository. The data engineer recently completed work on a feature branch named optimize-glue-jobs and now needs to integrate those changes into the main branch (main). They have already switched to the main branch locally.
+
+    Which Git command should the consultant use to bring the changes from optimize-glue-jobs into main?
+
+        git pull optimize-glue-jobs
+
+        git merge optimize-glue-jobs
+
+        git rebase main
+
+        git checkout optimize-glue-jobs
+
+    A media streaming startup is building an analytics platform on AWS to track user engagement across its mobile and web applications. The architecture includes Amazon Kinesis Data Streams, AWS Lambda, Amazon S3, and Amazon Redshift. The team wants to define this infrastructure using code that supports object-oriented programming constructs, can be reused across staging and production environments, and allows the use of Python for consistency with the rest of their stack.
+
+    Which approach best aligns with the team’s goals?
+
+        Use AWS Cloud Development Kit (CDK) to define infrastructure as reusable constructs and deploy consistently across multiple environments.
+
+        Use the AWS Management Console to provision resources and export CloudFormation templates for reuse across environments.
+
+        Use AWS CLI scripts to sequentially create each service and pass configuration parameters for each environment.
+
+        Use AWS CloudFormation templates to define the infrastructure and replicate the templates for each environment.
+
+    A company runs large-scale Apache Spark–based ETL jobs regularly to process and transform massive data. The jobs are not time-sensitive and can tolerate interruptions. The company wants to minimize costs while leveraging a scalable solution for these recurring ETL workloads.
+
+    Which solution should the company choose?
+
+        Use Amazon EMR with exclusively On-Demand Instances to ensure job stability and predictable performance.
+
+        Use Amazon EMR with a mix of EC2 Spot Instances and On-Demand Instances, leveraging Spot Instance fleets for cost savings and On-Demand Instances for job stability.
+
+        Use AWS Glue as a fully managed serverless solution to run Spark ETL jobs without needing to manage EC2 instances.
+
+        Set up a self-managed Apache Spark cluster on EC2 Spot Instances to reduce costs and scale as needed.
+
+    A healthcare analytics company collects patient data from various sources and stores it in Amazon S3. The data is uploaded as CSV files, and each file must undergo schema validation and be converted to Apache Parquet format for optimized analytics and storage. The company requires a real-time, file-level processing solution that triggers transformations as soon as the files arrive in the S3 bucket. Source CSV files are around 10–100 MB. The solution must operate with the least operational overhead to ensure simplicity and scalability.
+
+    Which solution should the data engineer implement?
+
+        Configure Amazon S3 Event Notifications to trigger an AWS Lambda function. Use the Lambda function to validate the schema and convert the CSV file to Parquet format, storing the output back in Amazon S3.
+
+        Use AWS Glue crawlers to detect newly uploaded CSV files in Amazon S3. When new files are discovered, trigger an AWS Glue job to perform schema validation and convert the files to Parquet format.
+
+        Use Amazon S3 Event Notifications to trigger an AWS Step Functions workflow. Design the workflow to include schema validation and format conversion tasks using AWS Glue jobs.
+
+        Configure Amazon S3 Batch Operations to process files on a schedule. Use an AWS Glue job to validate file schemas and convert files to Parquet format.
+
+    A fintech company processes real-time transaction data to detect fraudulent activities. The company requires a stateful streaming data processing solution to monitor transaction patterns, maintain session state, and identify anomalies in near real time. They need a fully managed service to run and scale their stream processing applications with minimal operational overhead.
+
+    Which solution should the company choose?
+
+        Set up a self-managed Apache Flink cluster on EC2 instances to process the streaming data and maintain state for fraud detection.
+
+        Use AWS Lambda with Amazon Kinesis Data Streams to process the transaction data, storing state in an Amazon DynamoDB table for anomaly detection.
+
+        Use Amazon Managed Service for Apache Flink to build and run stateful stream processing applications.
+
+        Use Amazon EMR to run an Apache Flink cluster and process streaming data, managing state with an external database.
+
+    A media analytics company processes large datasets on Amazon EMR to analyze user engagement patterns and optimize content recommendations. The company wants to host the source code for its data processing jobs in a code repository to efficiently track code changes, collaborate across teams, and promote code reuse. They need a solution to seamlessly integrate the repository with their EMR Notebooks to streamline development and testing workflows.
+
+    Which solution should the company use?
+
+        Enable version control by storing EMR Notebook source code in an Amazon S3 bucket and manually tracking changes outside of EMR.
+
+        Use Amazon EMR Notebooks to directly associate a Git-based repository, such as AWS CodeCommit or GitHub.
+
+        Create a local copy of the Git-based repository on an EC2 instance and manually upload the job scripts to EMR Notebooks for processing.
+
+        Use AWS Glue Studio to manage and track the ETL scripts in the Git-based repository, then export them to EMR Notebooks when needed.
+
+    A retail company manages a large-scale data platform to analyze customer purchase behavior and enhance product recommendations. The company’s data pipeline involves multiple stages, including stream-based data ingestion into an Amazon S3 data lake and data transformation using Amazon EMR and Amazon Managed Service for Apache Flink.
+
+    The pipeline must be highly scalable, available, and secure, while minimizing the operational overhead of managing the orchestration engine. The company also requires detailed monitoring and logging of each transformation job for debugging and optimization purposes.
+
+    Which solution should the company choose to orchestrate the data pipeline?
+
+        Set up a self-managed Apache Airflow cluster on Amazon EC2 instances to orchestrate the pipeline, ensuring complete control over the infrastructure.
+
+        Use AWS Glue workflows to manage the entire pipeline, configuring it to handle ingestion, transformation, and loading steps.
+
+        Deploy a custom Python-based orchestration engine on Amazon ECS, scaling the service as needed to manage pipeline execution.
+
+        Use Amazon Managed Workflows for Apache Airflow (MWAA) to orchestrate the pipeline, leveraging its fully managed environment for scalability, availability, and security.
+
+    A media streaming company operates a data pipeline that processes user activity logs in near real time to generate personalized recommendations. The pipeline uses multiple AWS Lambda functions for tasks like data parsing, transformation, and enrichment. Each Lambda function relies on the same set of third-party Python libraries for processing. To simplify library management and ensure consistency across functions, the company needs a solution to centralize and reuse these dependencies while minimizing operational overhead.
+
+    Which solution should the company implement?
+
+        Package the required libraries with each Lambda function’s deployment package to ensure each function has all necessary dependencies.
+
+        Use AWS Lambda layers to package the common libraries separately and apply the layer across all Lambda functions.
+
+        Store the libraries in an Amazon S3 bucket and download them at runtime within each Lambda function to minimize deployment size.
+
+        Configure an Amazon EFS filesystem to host the Python libraries, then mount this filesystem into each Lambda function to centrally manage dependencies.
+
+    A financial services company needs to incorporate third-party datasets, such as historical market data, economic indicators, and consumer spending trends, into its analytics platform hosted on AWS. The company wants a solution that allows it to easily discover, subscribe to, and use third-party data in the cloud.
+
+    Which solution should the company implement?
+
+        Use AWS Data Exchange to find and subscribe to third-party datasets.
+
+        Use AWS DataSync to find and subscribe to third-party datasets.
+
+        Use Redshift Data Marketplace to find and subscribe to third-party datasets.
+
+        Use Redshift Data Sharing to find and subscribe to third-party datasets.
+
+    An ecommerce company uses Amazon Redshift to analyze customer feedback stored in a feedback table. The table contains a comments column with customer remarks. The company wants to identify feedback that includes case-insensitive keywords like “refund,” “cancel,” or “complaint” to track negative sentiment patterns. They need to write a SQL query using pattern-matching conditions to efficiently retrieve the relevant records.
+
+    Which SQL query should the company use to achieve this?
+
+        SELECT * FROM feedback WHERE comments = 'refund' OR comments = 'cancel' OR comments = 'complaint';
+
+        SELECT * FROM feedback WHERE comments ~* '(refund|cancel|complaint)';
+
+        SELECT * FROM feedback WHERE comments IN ('%refund%', '%cancel%', '%complaint%');
+
+        SELECT * FROM feedback WHERE comments ~ '%(refund|cancel|complaint)%';
+
+    A healthcare company processes patient data daily to generate summary reports for compliance and operational insights. The ETL pipeline consists of multiple AWS Glue jobs, each handling tasks like data extraction, transformation, and loading into an Amazon S3 data lake. The pipeline must be orchestrated and triggered every day at a specific time. While the completion time for the entire pipeline is not critical, the company wants to prioritize cost-efficiency while ensuring reliable execution of all the jobs.
+
+    Which solution should the company implement?
+
+        Use AWS Lambda to trigger each AWS Glue job at the specified time and configure the jobs to use the default worker type for faster completion.
+
+        Configure an AWS Glue workflow to orchestrate the multiple Glue jobs and set up a time-based trigger using a cron expression to schedule the workflow. Use the default worker type to minimize costs.
+
+        Schedule each AWS Glue job directly using Amazon CloudWatch Events, configuring the jobs to use AWS Glue FLEX for cost savings.
+
+        Configure an AWS Glue workflow to orchestrate the multiple Glue jobs and set up a time-based trigger using a cron expression to schedule the workflow. Use AWS Glue FLEX for the jobs to minimize costs.
+
+    A marketing analytics firm receives hundreds of .csv files from its clients on a daily basis, containing sales and customer transaction data. These files are uploaded to an Amazon S3 bucket. The firm needs to catalog this data in an AWS Glue Data Catalog to enable data querying and reporting. A data engineer is tasked to make the previous day’s data accessible by 7:00 a.m. every day.
+
+    Which solution should the data engineer implement to meet the requirement?
+
+        Create an IAM role with the AmazonS3FullAccess policy and the AWSGlue​Ser⁠viceRole managed policy. Attach it to the crawler. Specify the S3 bucket path of the source data as the crawler’s data store. Set up the AWS Glue crawler to run on-demand and specify a database name for the output.
+
+        Create an IAM role with the AWSGlueServiceRole managed policy and add an inline policy granting the crawler read permission on the specific Amazon S3 bucket containing the CSV data. Attach it to the crawler. Specify the S3 bucket path of the source data as the crawler’s data store. Set up the AWS Glue crawler to run on-demand and specify a database name for the output.
+
+        Create an IAM role with the AmazonS3ReadOnlyAccess policy and the AWSGlueServiceRole managed policy. Attach it to the crawler. Specify the S3 bucket path of the source data as the crawler’s data store. Create a daily schedule to run the crawler and specify a database name for the output.
+
+        Create an IAM role with the AWSGlueServiceRole managed policy and add an inline policy granting the crawler read permission on the specific Amazon S3 bucket containing the CSV data. Attach it to the crawler. Specify the S3 bucket path of the source data as the crawler’s data store. Create a daily schedule to run the crawler and specify a database name for the output.
+
+    An ecommerce company uses various AWS services to collect, process, and store user activity data for tracking customer behavior and transaction trends. The data engineering team is tasked with designing a cost-effective solution that leverages Amazon S3, Amazon DynamoDB, and Amazon QuickSight to meet business reporting and archival requirements while minimizing costs:
+
+        The most recent three months of data must be fetched from the DynamoDB table and displayed on a custom QuickSight dashboard for recent trend analysis.
+
+        Older user activity data must be archived in a data lake for five years and remain accessible for occasional queries using Amazon Athena with reasonable performance.
+
+        Data older than five years must be purged to comply with data retention policies.
+
+    Which solution should the data engineer implement to meet these requirements? (Select three.)
+
+        Use the Time to Live feature to automatically delete items older than 90 days from the DynamoDB table.
+
+        Store all user activity data indefinitely in the DynamoDB table. Configure the table to use the DynamoDB Standard-Infrequent Access (DynamoDB Standard-IA) table class to reduce cost.
+
+        Build an AWS Glue job to export user activity data from the DynamoDB table to Amazon S3.
+
+        Configure an Amazon S3 Lifecycle policy to transition user activity data older than 90 days to the S3 Infrequent Access (S3-IA) storage class and then permanently delete it after five years.
+
+        Configure an Amazon S3 Lifecycle policy to transition user activity data older than 90 days to the Amazon S3 Glacier Deep Archive storage class and then permanently delete it after five years.
+
+    A company has a single Amazon Redshift cluster shared by two teams: the Analytics Team and the Reporting Team. The Analytics Team performs data transformation and analysis to derive critical business insights, while the Reporting Team generates reports for business users.
+
+    Each morning, as business users access reports, the shared Redshift cluster becomes unstable due to the simultaneous demand for data transformation and reporting workloads. This issue causes delays in report generation and impacts overall system performance.
+
+    The company needs a solution to separate the workloads of the two teams while ensuring that the Reporting Team can access the transformed data without delay for publishing reports on an Amazon QuickSight dashboard.
+
+    Which solution will best meet these requirements with minimal impact on the workflow?
+
+        Separate the workloads into two Redshift clusters. Configure Amazon Redshift Data Sharing with the Analytics Team’s cluster as the producer and the Reporting Team’s cluster as the consumer.
+
+        Configure AWS Database Migration Service to replicate data from the Analytics Team’s cluster to a separate cluster for the Reporting Team.
+
+        Separate the workloads into two Amazon Redshift clusters. Configure zero-ETL jobs to synchronize the required tables between the Analytics Team’s cluster and the Reporting Team’s cluster.
+
+        Separate the workloads into two Amazon Redshift clusters. Unload required tables from the Analytics Team’s cluster into an Amazon S3 bucket. Create an Amazon Redshift Spectrum table in the Reporting Team’s cluster to access the data.
+
+    An ecommerce company collects customer transaction data daily in an Amazon S3 bucket. The data is stored in uncompressed CSV format and is queried frequently by the analytics team using Amazon Athena to analyze purchase trends and customer behavior. The majority of their queries are analytical, focusing on transactions from a specific region or a specific period of time.
+
+    To optimize query performance in Athena and reduce costs, which combination of techniques should they use? (Select two.)
+
+        Convert the data from CSV to JSON format and compress the files using Snappy compression.
+
+        Bucket the data by region, year, and month.
+
+        Convert the data from CSV to Apache Parquet format and compress the files using Snappy compression.
+
+        Partition the data by region, year, and month.
+
+    A retail company uses an Amazon DynamoDB table in provisioned capacity mode to manage its inventory data. The application workload follows a predictable pattern: every Monday morning, there is a significant increase in activity as stores across the country sync their inventory data. During weekends, the workload drops to minimal levels as most stores operate in offline mode. The company needs to ensure that the application maintains consistent performance throughout the week.
+
+    Which solution will meet these requirements in the most cost-effective way?
+
+        Change the capacity mode to on-demand. DynamoDB will automatically scale to handle increased throughput requirements.
+
+        Increase the provisioned capacity to accommodate peak throughput levels.
+
+        Use AWS Application Auto Scaling to schedule higher capacity during Monday mornings when the workload spikes and reduce capacity during weekends to minimize costs.
+
+        Create a separate DynamoDB table for peak usage and switch the application to use this table on Mondays.
+
+    A data engineer is tasked with improving the performance of ad-hoc queries run on data stored in Amazon S3 using Amazon Athena. The dataset is partitioned by date, and over time, the number of partitions has grown significantly, causing a noticeable degradation in query planning performance.
+
+    Which solution will improve the query performance with the least operational overhead?
+
+        Create partition indexes in AWS Glue and enable partition projection for the specific table.
+
+        Merge old partitions periodically into larger ones to reduce the number of partitions.
+
+        Consolidate smaller files into larger ones periodically to reduce the number of files.
+
+        Restructure the data layout using a bucketing strategy.
+
+    A retail company stores its data across multiple sources: customer transaction data is saved in Parquet format on Amazon S3, inventory data resides in an Amazon Aurora MySQL database, and order history is stored in Amazon DynamoDB tables. The company’s data engineering team needs to provide a solution that allows data scientists to seamlessly query all these data sources using SQL or SQL-like syntax. The solution should require the least operational overhead.
+
+    Which combination of solutions meets these requirements? (Select three.)
+
+        Use AWS Glue crawlers to crawl all data sources and store metadata in the AWS Glue Data Catalog.
+
+        Use Amazon Athena to query the Amazon S3–based data lake.
+
+        Migrate all data to a single Amazon Redshift data warehouse and use Redshift Spectrum to query the Parquet data on Amazon S3.
+
+        Use AWS Glue jobs to transform the data from all data sources to Apache Parquet files on Amazon S3.
+
+        Leverage Amazon Athena’s federated query capability to access the Amazon Aurora MySQL database and the Amazon DynamoDB tables.
+
+    A company utilizes Amazon OpenSearch Service for log analytics. The current instance types struggle to meet performance demands with increasing indexing throughput, leading to delays and increased costs. The company seeks a cost-effective solution to enhance indexing performance without compromising data durability.
+
+    Which solution will meet the requirement?
+
+        Switch to UltraWarm storage for better performance in indexing-heavy workloads.
+
+        Migrate to OR1 instances.
+
+        Upgrade to larger general-purpose instances with increased CPU and memory resources.
+
+        Use Index State Management (ISM) to schedule the deletion of older data.
+
+    A data engineer is tasked with improving the usability and reliability of a data lake that stores large volumes of data in Amazon S3. The current system faces challenges with schema evolution, where changes to the schema disrupt workflows, and concurrent writes, which often result in inconsistent or corrupted data. The engineer must implement a solution that addresses these issues while ensuring compatibility with existing analytics tools.
+
+    Which solution will best address these challenges?
+
+        Partition the data by key attributes and implement a locking mechanism to manage concurrent writes.
+
+        Store the data using the Apache Parquet format and enforce schema validation during data ingestion.
+
+        Migrate the data lake to use the Apache Iceberg table format.
+
+        Use Amazon EMR to create custom scripts for handling schema changes and retrying failed writes.
+
+    A media streaming company needs to implement real-time analytics capabilities to monitor viewer engagement and streaming performance. The company processes large volumes of streaming data and plans to use Amazon Managed Streaming for Apache Kafka (Amazon MSK) and Amazon Redshift for its data pipeline. The objective is to derive near-real-time insights while minimizing operational overhead, leveraging existing business intelligence (BI) and analytics tools.
+
+    Which solution will meet these requirements with the least operational overhead?
+
+        Use a Kafka sink to stage data in Amazon S3. Use the COPY command to load data from Amazon S3 into Amazon Redshift to make the data available for near-real-time analysis.
+
+        Connect Amazon MSK to Amazon Kinesis Data Firehose. Use Kinesis Data Firehose to stage the data in Amazon S3. Use the COPY command to load data from Amazon S3 into Amazon Redshift.
+
+        Connect Amazon MSK directly to Amazon Redshift using the streaming ingestion feature. Define materialized views in Amazon Redshift to consume data from Amazon MSK topics.
+
+        Use AWS Glue Spark Streaming jobs to read data from Amazon MSK, transform it as needed, and load the transformed data into Amazon Redshift.
+
+    An ecommerce company manages a data lake in Amazon S3 to store transaction and activity events. The data lake tables are updated once every 24 hours through an ETL pipeline. The company’s BI layer queries the data via Amazon Athena every hour to refresh dashboards.
+
+    The team needs a solution that ensures dashboard refresh while reducing query costs. Which solution will meet this requirement with the least operational overhead?
+
+        Use Athena’s --result-reuse-configuration API parameter to enable query result reuse, specifying the maximum age for cached results to ensure they are refreshed after the ETL updates the tables.
+
+        Use a Lambda function to execute the queries hourly and store the results in an Amazon S3 bucket. Configure the BI layer to pull data from the S3 bucket.
+
+        Partition the data lake tables by hour and adjust the BI queries to target the latest partition. Refresh dashboards hourly.
+
+        Configure the BI layer to cache query results and manually clear the cache after the ETL process completes every 24 hours.
+
+    A large multinational retail company uses Amazon Athena to query a centralized data lake stored in Amazon S3. The company has multiple regional teams (e.g., North America, Europe, and Asia) that access the data lake during their respective working hours. As the company grows, data engineers notice increasing query queuing and performance degradation in Athena, particularly during peak hours for each region. The traffic patterns are predictable, with each region querying the data lake during specific time windows. The company wants to improve query performance while minimizing operational overhead.
+
+    Which solution would best address this issue with the least operational overhead?
+
+        Configure Amazon Athena Provisioned Capacity for each region, allocating dedicated query processing resources based on their peak usage hours.
+
+        Use Amazon Redshift instead of Athena to handle the increasing query workload and improve performance.
+
+        Create separate S3 buckets and Athena workgroups for each region to isolate query traffic.
+
+        Implement a query scheduling system to distribute query execution evenly throughout the day, reducing peak-time congestion.
+
+    A data infrastructure team has observed a steady increase in AWS Glue usage over the past six months. To optimize resource utilization and reduce costs, they aim to scale their AWS Glue jobs dynamically based on the need. Which approach should the team take to achieve this goal with minimal operational overhead?
+
+        Manually reduce the number of DPUs for all Glue jobs by 50% and monitor for any performance degradation.
+
+        Use AWS Glue autoscaling to dynamically adjust the number of DPUs based on workload demands, while monitoring metrics such as workerUtilization to validate performance.
+
+        Migrate all AWS Glue jobs to AWS Lambda to reduce costs and eliminate the need for DPU management.
+
+        Implement custom scripts to analyze job performance logs and dynamically modify DPU allocations before each job run.
+
+    A financial services company is building a data lake on Amazon S3 to store customer records, loan applications, and supporting documents. To comply with regulatory requirements such as PCI-DSS, the company needs to automatically identify and classify personally identifiable information (PII) such as names, addresses, and credit card numbers. Additionally, they want to detect custom data types, such as internal customer reference IDs and application form codes, which follow specific patterns.
+
+    Which of the following approaches best meet these requirements? (Select two.)
+
+        Enable Macie’s managed data identifiers to detect common PII types like email addresses, credit card numbers, and national ID numbers.
+
+        Use AWS Lake Formation to detect and tag PII in S3 data using Macie integration.
+
+        Define custom data identifiers in Macie to detect sensitive information that matches specific patterns unique to the organization.
+
+        Use Amazon GuardDuty to scan S3 buckets and classify sensitive information based on anomaly detection.
+
+        Configure Amazon EMR with custom regex rules in Spark jobs to scan and classify S3 data containing internal reference data patterns.
+
+    A financial services company ingests transaction data from multiple sources into an Amazon S3–based data lake. Before processing the data with AWS Glue ETL jobs, the data analytics team needs to ensure the quality of the ingested data, checking for missing values, format inconsistencies, and duplicate records.
+
+    Which solution would best address this issue with the least operational overhead?
+
+        Use AWS Lambda to trigger a custom Python script that validates the data in S3 before AWS Glue processing begins.
+
+        Use AWS Glue Data Quality to define and run data quality rules on the source data in S3, and configure Amazon CloudWatch Alarms to notify the team of any quality issues.
+
+        Configure an Amazon Athena query that runs daily to check for anomalies in the ingested data and alerts the data team.
+
+        Use Amazon EMR with Apache Spark to run data quality checks on the ingested data before AWS Glue processes it.
+
+    A media analytics company is developing a serverless data pipeline using Amazon EMR Serverless to process streaming video engagement data. The pipeline includes multiple ETL jobs that require orchestration with job dependencies and automatic retries for failed jobs to ensure reliable execution. The company aims to minimize operational overhead.
+
+    Which combination of steps should the team take to address this requirement? (Select two.)
+
+        Deploy a self-managed Apache Airflow cluster on Amazon EC2 to orchestrate the workflow, providing full customization and control over job dependencies and failure handling.
+
+        Use AWS Step Functions to define a state machine that orchestrates Amazon EMR Serverless jobs.
+
+        Configure Amazon EventBridge to trigger Amazon EMR Serverless jobs based on predefined schedules, ensuring automated execution without additional orchestration logic.
+
+        Define IAM policies and roles that grant AWS Step Functions the necessary permissions to invoke Amazon EMR Serverless jobs.
+
+        Define IAM policies and roles for the self-managed Apache Airflow cluster on Amazon EC2 to securely interact with Amazon EMR Serverless Application.
+
+    A retail company uses Amazon Redshift to analyze customer purchase patterns and website traffic. The analytics team frequently runs complex aggregate queries on large datasets to generate real-time sales reports and personalized product recommendations. However, these queries are repetitive and resource-intensive, leading to high query execution times and increased compute costs.
+
+    Which approach would best optimize query performance while minimizing operational overhead?
+
+        Manually create Materialized Views (MVs) in Amazon Redshift and schedule periodic refresh jobs using AWS Lambda to ensure query performance improvements.
+
+        Manually create materialized views (MVs) in Amazon Redshift and use Query Editor v2 in Amazon Redshift to schedule refreshes of the materialized views.
+
+        Enable Automated Materialized Views (AutoMVs) in Amazon Redshift to automatically detect and maintain materialized views for frequently executed queries, improving performance without manual intervention.
+
+        Implement Result Caching in Amazon Redshift to store query results for repeated executions, reducing processing time for identical queries.
+
+    A financial services company currently uses Apache Airflow to orchestrate its on-premises data pipelines for ETL processing and reporting workflows. The company plans to migrate these workflows to AWS while minimizing code changes and operational overhead.
+
+    Which solution would best address this issue?
+
+        Deploy a self-managed Apache Airflow cluster on Amazon EC2, giving the team full control over the environment.
+
+        Convert the pipelines to AWS Step Functions workflows, leveraging the serverless AWS Step Functions workflow engine to reduce operational overhead.
+
+        Migrate the existing Apache Airflow workflows to Amazon Managed Workflows for Apache Airflow (Amazon MWAA).
+
+        Rebuild the workflows using AWS Glue workflows, which provide serverless orchestration and eliminate the need for Apache Airflow.
+
+    A large enterprise has multiple business units sharing a single Amazon Redshift cluster as their central data warehouse. The company wants to implement cost attribution metrics to track resource consumption by each business unit based on data scanned and CPU time used. To achieve this, they need to extract query execution details from Redshift system tables.
+
+    Which Amazon Redshift system table should the company use to obtain query-level metrics such as data scanned and CPU time for cost attribution?
+
+        SVL_QUERY_METRICS_SUMMARY
+
+        STL_SCAN
+
+        SVL_QUERY_REPORT
+
+        STL_WLM_QUERY
+
+    A company uses an AWS Glue job to process data in a specific database within the AWS Glue Data Catalog. The current IAM policy for the Glue job execution role is as follows:
+
+    {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "glue:Get*",
+            "glue:Create*",
+            "glue:Update*",
+            "glue:Delete*"
+          ],
+          "Resource": "*"
+        }
+      ]
+    }
+
+    This policy grants excessive permissions and violates the least-privilege principle. As a data engineer, you are tasked with revising the IAM policy to ensure the Glue job has read-only permission to all the tables in database “db1.” Which of the following changes would best meet this requirement?
+
+        Replace the Action field with "Action": ["glue:GetDatabase", "glue:GetTables", "glue:GetTable"] and the Resource field with "Resource": ["arn:aws:glue:us-west-2:123456789012:catalog", "arn:aws:glue:us-west-2:123456789012:database/db1"].
+
+        Add "Action": [glue:GetDatabase", "glue:GetTables", "glue:GetTable"] to the Action field. Replace the Resource field with "Resource": ["arn:aws:glue:us-west-2:123456789012:database/db1"].
+
+        Replace the Action field with "Action": ["glue:GetDatabase", "glue:GetTables", "glue:GetTable"] and the Resource field with "Resource": ["arn:aws:glue:us-west-2:123456789012:catalog"].
+
+        Replace the Action field with "Action": ["glue:Get*"] and the Resource field with "Resource": ["arn:aws:glue:us-west-2:123456789012:catalog", "arn:aws:glue:us-west-2:123456789012:database/db1"].
+
+    A data engineer is tasked with preprocessing raw CSV files containing sensitive customer information for an ML model training pipeline. The upstream data producer team uploads raw data files to an Amazon S3 bucket without a defined schedule. The data engineer must ensure that personally identifiable information (PII) is detected, anonymized, and partially redacted while still enabling transaction verification.
+
+    What steps should the data engineer take to achieve this? (Select three.)
+
+        Set up an AWS Glue workflow that listens to S3 PutObject data events.
+
+        Use an AWS Step Functions state machine to orchestrate a data pipeline with a time-based schedule.
+
+        Use the Detect PII transform in AWS Glue Studio to identify the PII fields in the dataset.
+
+        Create a rule in AWS Glue Data Quality to obfuscate the PII.
+
+        Permanently delete all PII data from the dataset to eliminate privacy concerns.
+
+        Partially redact detected PII text.
+
+    A company is building a centralized data lake on Amazon S3 and wants to enforce fine-grained access control on its data lake tables. The data lake will be accessed by multiple teams using various compute engines, such as Amazon Athena, AWS Glue, and Amazon Redshift Spectrum.
+
+    To meet the requirements, the company needs a scalable solution to manage fine-grained access control across these compute engines. Which steps should you take to configure this environment? (Select three.)
+
+        Enable Lake Formation permissions on the data lake by registering the Amazon S3 data lake location with AWS Lake Formation.
+
+        Grant data permissions in Lake Formation to specific IAM users, roles, or groups to control access.
+
+        Use AWS Identity and Access Management (IAM) policies to define access control for individual tables and columns in the data lake.
+
+        Configure Lake Formation tags (LF-Tags) and assign them to tables and columns to enable scalable tag-based access control.
+
+        Enable encryption on the Amazon S3 buckets and manage key-based access control using AWS KMS to enforce fine-grained table access.
+
+        Add specific compute engines, such as Athena, Glue, and Redshift Spectrum, as principals in Lake Formation and grant them necessary permissions.
+
+    A healthcare organization manages a data lake on Amazon S3 storing sensitive patient information. To comply with strict healthcare regulations, the organization must apply two layers of encryption to all files uploaded to the S3 bucket.
+
+    Which solution will meet this requirement with the least operational overhead?
+
+        Use client-side encryption to encrypt data before uploading it to Amazon S3. Configure server-side encryption (SSE) for the S3 bucket to encrypt the data stored on S3.
+
+        Use dual-layer server-side encryption with keys stored in AWS Key Management Service (DSSE-KMS).
+
+        Use server-side encryption with AWS Key Management Service (AWS KMS) keys (SSE-KMS).
+
+        Use both server-side encryption with AWS KMS keys (SSE-KMS) and Amazon S3–managed keys (SSE-S3).
+
+    A company is using AWS Glue to extract data from a MongoDB database and perform transformations before storing the results in an Amazon S3 data lake. During a security review, the team discovered that the database credentials were hardcoded directly into the Glue job script. The company needs to remediate this security vulnerability and ensure that the credentials are stored and accessed securely.
+
+    Which of the following solutions will meet this requirement?
+
+        Store the credentials in AWS Secrets Manager. Create a Glue connection to your MongoDB instance referring to the secret.
+
+        Store the credentials in the AWS Glue job parameters.
+
+        Utilize the AWS IAM Identity Center to authenticate to the MongoDB instance.
+
+        Store the credentials in a configuration file in an Amazon S3 bucket. Grant the AWS Glue job IAM access to the configuration file.
+
+    A global company is using Amazon QuickSight to build dashboards for their analysts. Each regional analyst group should be able to view data specific to only their respective geographic region, as determined by the region field in the dataset.
+
+    You have been tasked with configuring QuickSight to ensure this data segregation. Which steps should you take to configure the QuickSight environment to meet these requirements? (Select two.)
+
+        Create user groups in Amazon QuickSight for each analyst group and assign users to their respective groups.
+
+        Enable the “Filter by Region” option in the QuickSight dataset configuration panel and assign each group to their corresponding region filter.
+
+        Use Amazon QuickSight’s row-level security (RLS) by creating a permissions dataset that maps analyst groups to the specific regions they are allowed to access.
+
+        Configure IAM policies to restrict access to specific rows of the dataset based on analyst groups.
+
+        Modify the source dataset by creating separate datasets for each region and assign them to the respective groups in QuickSight.
+
+    A company is setting up a multitenant Amazon MSK cluster to host event streams for multiple lines of business (LOBs). Each LOB has its own set of microservices that produce and consume messages to and from Kafka topics. The company requires that microservices of each LOB have permission to access only the Kafka topics associated with their LOB.
+
+    As a Solutions Architect, which steps should you take to configure IAM access control to enforce these requirements? (Select three.)
+
+        Enable IAM access control on the Amazon MSK cluster by updating the cluster’s settings to use IAM as the authentication mechanism.
+
+        Create an IAM policy for each LOB, specifying permissions to allow access only to their respective Kafka topics using the kafka-cluster:Topic resource.
+
+        Configure IAM role-based access control (RBAC) within Kafka to assign permissions for each LOB’s microservices to their respective topics.
+
+        Attach the appropriate IAM policies to the IAM roles assumed by each LOB’s microservices.
+
+        Use Kafka ACLs (access control lists) to restrict access to topics for each LOB’s microservices.
+
+        Use VPC security groups to isolate network traffic for each LOB, ensuring that microservices cannot access topics of other LOBs.
+
+    A healthcare analytics provider is building a data pipeline to process patient records and generate insights for hospitals. The pipeline ingests data from Amazon S3, processes it using Amazon EMR on EC2, and loads transformed data into Amazon Redshift for analysis.
+
+    Due to the sensitive nature of the data, the architecture must prevent public exposure of any data. The company also wants centralized management of sensitive parameters such as database usernames and API keys used within EMR jobs.
+
+    Which of the following should the company implement to meet these requirements? (Select two.)
+
+        Store all credentials in an encrypted S3 bucket, grant access via IAM roles with S3 read permissions.
+
+        Store sensitive credentials such as API keys and database passwords in AWS Systems Manager Parameter Store.
+
+        Configure an Amazon S3 Gateway VPC endpoint to ensure private access to S3 from the EMR cluster.
+
+        Inject all credentials and API keys into EMR cluster instances through environment variables at bootstrap.
+
+        Use EC2 instance user data scripts to hardcode database credentials in each node at launch time.
+
+        Mount the S3 bucket to the EMR cluster using S3FS and configure the route through a NAT Gateway.
+
+    A digital advertising company is building a real-time event streaming platform using Amazon Managed Streaming for Apache Kafka (Amazon MSK) to collect and process clickstream data. The Amazon MSK cluster is deployed in private subnets within a VPC. Kafka producers and consumers are deployed in separate Amazon Elastic Kubernetes Service (Amazon EKS) clusters, each running in different private subnets and in separate VPCs within the same AWS Region. The team must ensure only authorized workloads can access the Kafka brokers.
+
+    Which of the following configurations will help meet these requirements?
+
+        Associate the MSK brokers with a security group that allows inbound traffic on Kafka broker ports only from the security groups of the EKS worker nodes in both VPCs and establish VPC peering or AWS Transit Gateway connectivity between the clusters.
+
+        Associate the MSK brokers with a security group that allows inbound traffic on all ports from the entire VPC CIDR blocks of both EKS clusters to ensure connectivity.
+
+        Deploy a public-facing Network Load Balancer in front of the MSK brokers and use IP whitelisting to restrict access from each EKS cluster.
+
+        Enable internet access on the MSK cluster using a NAT Gateway and configure IAM authentication to control Kafka access from producer and consumer pods.
+
+    
