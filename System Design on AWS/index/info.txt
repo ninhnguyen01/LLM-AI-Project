@@ -1,0 +1,1804 @@
+Index
+Symbols
+
+    80/20 rule, Benefits of Caching
+
+A
+
+    abstract syntax tree (AST), Relational Database Management System Architecture
+    abstraction, System Design Concepts
+    access control
+        Cognito, Amazon Cognito-Amazon Cognito
+        IAM, AWS Identity and Access Management-AWS Identity and Access Management
+    access control lists (ACLs), Amazon S3 data security
+    accounts (AWS), creating, Getting Started with AWS
+    ACID model, ACID-ACID, BASE
+    ACLs (access control lists), Amazon S3 data security
+    active cache invalidation, Cache Invalidation
+    active-active failover pattern, Failover patterns
+    active-passive failover pattern, Failover patterns
+    activities (in Step Functions), AWS Step Functions
+    actor model, Direct messaging-Direct messaging
+    ADCs (application delivery controllers), Global Server Load Balancing
+    Advanced Message Queuing Protocol (AMQP), Message Brokers
+    AI (artificial intelligence), Machine Learning on AWS
+    Airflow, Amazon Managed Workflow for Apache Airflow-Amazon Managed Workflow for Apache Airflow
+    alarm conditions, Alarm conditions
+    alarms, Alarms-Configurable actions
+    ALB (application load balancer), Application load balancers (L7 LBs), AWS Elastic Load Balancer
+    algorithms for load balancing, Load Balancing Algorithms-Dynamic Load Balancing Algorithms
+    allowlist policies, Allowlist Policy
+    Amazon Machine Image (AMI), Amazon Machine Image-Amazon Machine Image
+    Amazon States Language (ASL), AWS Step Functions
+    Amazon VPC (see VPC service)
+    Amazon Web Services (see AWS)
+    Amdahl’s law, Benefits of Caching
+    AMI (Amazon Machine Image), Amazon Machine Image-Amazon Machine Image
+    Amplify, Day Zero Architecture
+    AMQP (Advanced Message Queuing Protocol), Message Brokers
+    analytics (see big data analytics)
+    anticorruption layer, Other Cloud Architecture Patterns
+    AOFs (append-only files), Durability in Redis deployment-Durability in Redis deployment
+    Apache Airflow, Amazon Managed Workflow for Apache Airflow-Amazon Managed Workflow for Apache Airflow
+    Apache Cassandra, Apache Cassandra: Open Source Columnar Database-Apache Cassandra: Open Source Columnar Database
+    Apache Kafka (see Kafka)
+    API Gateway (AWS), Networking Components, Amazon API Gateway-Amazon API Gateway
+    API gateways, Networking Components, API Routing Strategies and Patterns
+    API routing patterns, API Routing Strategies and Patterns-API Routing Strategies and Patterns
+    API servers, Kubernetes architecture
+    APIs (application programming interfaces), Common Communication Protocol Standards
+        GraphQL, GraphQL-GraphQL
+        RESTful, REST-REST
+        for URL shortener service, System APIs-System APIs
+        WebRTC, Web Real-Time Communication-Web Real-Time Communication
+    App Runner, Day Zero Architecture, Compute layer
+    append-only files (AOFs), Durability in Redis deployment-Durability in Redis deployment
+    application caching, Caching Mechanisms
+    application code, Images
+    application delivery controllers (ADCs), Global Server Load Balancing
+    application deployment
+        CI/CD pipeline, CI/CD Pipeline with Gitflow and Automated Deployment Strategies-Monitoring and Incident Management
+        container deployment strategies, Container Deployment Strategies-Container Deployment Strategies
+        evolution of, Evolution of Application Deployment-Evolution of Application Deployment
+    application layer protocols, User Datagram Protocol-Message Queuing Telemetry Transport
+    application load balancer (ALB), Application load balancers (L7 LBs), AWS Elastic Load Balancer
+    application logs, Application Logs
+    application processes, Containers
+    application programming interfaces (see APIs)
+    AppSync, AWS AppSync-AWS AppSync, Day 0 Architecture
+    architectural designs and patterns
+        big data, Big Data Architecture-Data Lake Architecture
+        CDC (change data capture), Change Data Capture-Change Data Capture
+        choreography, Choreography, Deciding Between Choreography and Orchestration
+        cloud, Common Cloud Architecture Patterns-Other Cloud Architecture Patterns
+        distributed systems, Open Source Distributed Systems Architecture-Comparing HDFS and Kafka
+            HDFS, HDFS-HDFS architecture, Comparing HDFS and Kafka
+            Kafka, Apache Kafka: Distributed Message Queue-Comparing HDFS and Kafka
+        EDA (event-driven architecture), Event-Driven Architecture-Event sourcing
+        orchestration, Orchestration-Deciding Between Choreography and Orchestration
+        pub/sub model, Publisher-Subscriber Architecture-Message Queues
+        solution, Solution Architecture-Microservices
+    archived objects storage class, Archived objects
+    artificial intelligence (AI), Machine Learning on AWS
+    ASGs (autoscaling groups), Autoscaling
+    ask prices (stocks), Designing a Stock Tick System
+    ASL (Amazon States Language), AWS Step Functions
+    AST (abstract syntax tree), Relational Database Management System Architecture
+    asynchronous checkpointing, Checkpointing
+    asynchronous communication, Asynchronous communication, Communication Types-Push Mechanism: Server-Sent Events
+    asynchronous invocation, AWS Lambda
+    asynchronous orchestration patterns, Orchestrated, asynchronous, and sequential pattern
+    asynchronous replication, Asynchronous replication-Asynchronous replication
+    at-least-once delivery, Kafka’s configuration levels
+    at-most-once delivery, Kafka’s configuration levels
+    Athena, Amazon Athena-Amazon Athena
+    atomicity, ACID
+    audit-column-based CDC, Change Data Capture
+    Aurora, Amazon RDS, Property Onboarding Architecture, Scaling to Millions and Beyond-Scaling to Millions and Beyond
+    Aurora DSQL, Amazon RDS
+    Aurora Limitless Database, Scaling to Millions and Beyond-Scaling to Millions and Beyond
+    authentication
+        Cognito, Amazon Cognito-Amazon Cognito
+        IAM, AWS Identity and Access Management-AWS Identity and Access Management
+        for social network, Scaling the authentication system-Scaling the authentication system
+    auto-increment feature (databases), Key generation service
+    autoscaling, Autoscaling-Autoscaling
+    autoscaling groups (ASGs), Autoscaling
+    availability, Availability-Replication patterns
+        consistency versus, Consistency Versus Availability-PACELC theorem
+        in document stores, Availability in Document Stores
+        ensuring, Ensuring availability
+        in key-value stores, Availability in Key-Value Stores-Availability in Key-Value Stores
+        measuring, Measuring availability-Measuring availability
+        of nonrelational databases, High Availability and Fault Tolerance
+        patterns, Availability patterns-Replication patterns
+        in Redis, Availability in Redis deployments-Availability in Redis deployments
+        reliability and, Reliability and availability
+        sequential systems versus parallel systems, Availability in parallel versus in sequence-Availability in parallel versus in sequence
+        in social network use case, High availability of system
+    availability zones (AWS), AWS Availability Zones
+    AWS (Amazon Web Services)
+        account creation, Getting Started with AWS
+        availability zones, AWS Availability Zones
+        cloud storage services, Cloud Storage on AWS-Amazon S3 data security
+        compute services
+            choosing, Conclusion-Conclusion
+            containerization (see containerization)
+            EC2, Amazon Elastic Compute Cloud-Autoscaling
+            Lambda, AWS Lambda-AWS Lambda
+        database services, AWS Databases-Amazon Keyspaces
+            Aurora, Amazon RDS, Property Onboarding Architecture, Scaling to Millions and Beyond-Scaling to Millions and Beyond
+            DocumentDB, Amazon DocumentDB-Amazon DocumentDB
+            DynamoDB, Amazon DynamoDB-Amazon DynamoDB
+            ElastiCache, Amazon ElastiCache-Amazon DynamoDB Accelerator
+            Keyspaces, Amazon Keyspaces-Amazon Keyspaces
+            Neptune, Amazon Neptune-Caching
+            OpenSearch, Amazon OpenSearch-Amazon OpenSearch
+            RDS, Amazon RDS-Amazon RDS
+            Timestream, Amazon Timestream
+        edge locations, AWS Edge Locations
+        Hadoop ecosystem versus, Hadoop ecosystem versus AWS-Hadoop ecosystem versus AWS
+        local zones, AWS Local Zones
+        networking services (see networking services (AWS))
+        regions, AWS Regions
+        shared responsibility model, AWS Network Services, AWS Availability Zones
+
+B
+
+    B+ trees, Indexes-Indexes
+    back queue routers, Improving the URL frontier
+    back queue selectors, Improving the URL frontier
+    back queues, Improving the URL frontier
+    backend for frontend (BFF), Other Cloud Architecture Patterns
+    bandwidth, Throughput and bandwidth, Bandwidth and throughput
+    bare-metal servers, Amazon Elastic Compute Cloud
+    base image, Images
+    BASE principles, BASE-BASE
+    base62 encoding, Unique ID generation
+    Belady’s algorithm, Belady’s Algorithm
+    benchmarking, SQL tuning
+    BFF (backend for frontend), Other Cloud Architecture Patterns
+    bid prices (stocks), Designing a Stock Tick System
+    big data analytics
+        Athena, Amazon Athena-Amazon Athena
+        EMR (Elastic MapReduce), Amazon Elastic MapReduce-EMR cluster considerations
+        Glue, AWS Glue-AWS Glue
+        QuickSight, Amazon QuickSight-Amazon QuickSight
+        Redshift, Amazon Redshift-Amazon Redshift
+    big data architectures, Big Data Architecture-Data Lake Architecture
+    bitrate, Video Encoding
+    block-based storage, Data Storage Format, Block-Based Storage-Block-Based Storage, Amazon Elastic Block Store-Amazon Elastic Block Store
+    blocks (HDFS), HDFS architecture
+    Bloom filters, Columnar Store Architecture
+    blue-green deployments, Container Deployment Strategies
+    boundaries, system, Functional and Nonfunctional Requirements
+    bounded stream processing, Amazon Kinesis Data Analytics
+    branch management, Gitflow Workflow for Branch Management
+    Brewer’s theorem (see CAP theorem)
+    brokers, Kafka architecture
+    bucket policies, Amazon S3 data security
+    buckets, Amazon Simple Storage Service
+    buffer managers, Relational Database Management System Architecture
+
+C
+
+    cache hit, Caching Policies and Strategies
+    cache layer, Cache layer
+    cache managers, Relational Database Management System Architecture
+    cache miss, Caching Policies and Strategies
+    cache warm-up, Refresh-ahead
+    cache, definition of, Caching Policies and Strategies
+    cache-aside caching strategy, Cache-aside
+    caching
+        benefits of, Benefits of Caching-Benefits of Caching
+        CDNs (content delivery networks), Content Delivery Networks-Content consistency in CDNs
+        deployment strategies, Cache Deployment-Choosing a Cache Deployment Approach
+        with ElastiCache, Amazon ElastiCache-Amazon DynamoDB Accelerator
+        eviction policies, Cache Eviction Policies-Allowlist Policy
+        invalidation policies, Cache Invalidation-Cache Invalidation
+        mechanisms for, Caching Mechanisms-Caching Mechanisms
+        in Neptune, Caching
+        in online game leaderboard, Caching strategies
+        open source solutions, Open Source Caching Solutions-Memory management in Redis
+        strategies for, Caching Strategies-Write-back
+    callbacks, Asynchronous communication
+    canary deployments, Container Deployment Strategies
+    candidate keys, Keys
+    CAP theorem, Consistency Versus Availability-PACELC theorem
+    capacity modes (DynamoDB), Amazon DynamoDB
+    Cassandra, Apache Cassandra: Open Source Columnar Database-Apache Cassandra: Open Source Columnar Database
+    catalogs, Relational Database Management System Architecture
+    causal consistency, Consistency spectrum model
+    CD (continuous deployment), Continuous Deployment
+    CDC (change data capture), Change Data Capture-Change Data Capture, Event sourcing
+    CDN-based GSLB, Global Server Load Balancing
+    CDNs (content delivery networks), Caching Mechanisms, Content Delivery Networks-Content consistency in CDNs, Content Distribution
+    cell-based architecture, Custom Domain Support
+    cellular architecture, Other Cloud Architecture Patterns
+    change data capture (CDC), Change Data Capture-Change Data Capture, Event sourcing
+    chaos engineering, Scaling to Millions and Beyond
+    chat applications
+        use case, Designing a Chat Application-Conclusion
+            architecture design, Starting with the Design-Multimedia system
+            Day 0 architecture, Day 0 Architecture-Multiregion deployment of messaging systems
+            Day N architecture, Day N Architecture-Day N Architecture
+            direct messaging, Direct messaging-Direct messaging
+            media content storage, Multimedia system-Multimedia system
+            message storage, Message storage-Message storage
+            protocol selection, Protocol selection-Protocol selection
+            system requirements, System Requirements-System Scale
+            WhatsApp architecture, WhatsApp Architecture with Erlang-Databases
+        with WebSockets, Push Mechanism: WebSockets-Push Mechanism: WebSockets
+        XMPP, Extensible Messaging and Presence Protocol-Extensible Messaging and Presence Protocol, Protocol selection-Protocol selection
+    checkpointing, Checkpointing-Checkpointing
+    choosing
+        compute services, Conclusion-Conclusion
+        databases, Conclusion
+            for chat application, Message storage-Message storage
+            for hotel reservation system, Data store selection-Data store selection
+            for URL shortener service, Database Selection-KGS
+            for user post service, User post service databases-User post service databases
+        protocols for chat application, Protocol selection-Protocol selection
+    choreographed asynchronous events, Choreography
+    choreography, Choreography, Deciding Between Choreography and Orchestration
+    CI (continuous integration), Continuous Integration
+    CI/CD pipeline, CI/CD Pipeline with Gitflow and Automated Deployment Strategies-Monitoring and Incident Management
+    CIDR (Classless Inter-Domain Routing), IPv4
+    CIDR blocks, Creating an Amazon VPC-Creating an Amazon VPC
+    circuit breaker pattern, Failure-Tolerant Patterns: Circuit Breaker, Retry with Backoff, and Rate Limiter
+    classic load balancer (CLB), AWS Elastic Load Balancer
+    classifiers (Glue), AWS Glue
+    Classless Inter-Domain Routing (CIDR), IPv4
+    CLB (classic load balancer), AWS Elastic Load Balancer
+    client multiplexing, CDN optimization techniques
+    client-side caching, Caching Mechanisms
+    clients, AWS Compute Services
+    cloud architecture patterns, Common Cloud Architecture Patterns-Other Cloud Architecture Patterns
+    cloud computing services (see networking services (AWS))
+    cloud storage services (AWS), Cloud Storage on AWS-Amazon S3 data security
+        EBS (Elastic Block Store), Amazon Elastic Block Store-Amazon Elastic Block Store
+        EFS (Elastic File System), Amazon Elastic File System-Amazon Elastic File System
+        S3 (Simple Storage Service), Amazon Simple Storage Service-Amazon S3 data security
+    cloud-managed services, self-hosting versus, Conclusion
+    CloudFront, Content consistency in CDNs, AWS Edge Locations, Amazon CloudFront-Amazon CloudFront, Scaling to Millions and Beyond-Scaling to Millions and Beyond
+    CloudWatch, Amazon CloudWatch-Amazon CloudWatch Events
+        alarms, Alarms-Configurable actions
+        application logs, Application Logs
+        events, Amazon CloudWatch Events-Amazon CloudWatch Events
+        metrics, Metrics-Metrics
+    cluster endpoints, Traffic distribution
+    clustering keys in column-family stores, Keys
+    clusters, Kubernetes concepts, EMR cluster considerations-EMR cluster considerations
+    codecs, Video Encoding
+    CodeWhisperer, AWS ML Application Services
+    Cognito, Amazon Cognito-Amazon Cognito, Scaling the authentication system
+    cold start, Refresh-ahead, AWS Lambda
+    collections, Data Model
+    collisions, Hashing-Hashing
+    column-family stores, Data Models, Columnar Databases-Apache Cassandra: Open Source Columnar Database
+        advantages and trade-offs, Advantages, Trade-offs, and Considerations
+        Apache Cassandra, Apache Cassandra: Open Source Columnar Database-Apache Cassandra: Open Source Columnar Database
+        architecture, Columnar Store Architecture-Tombstones for soft delete
+        consistency levels, Consistency Levels-Strong consistency
+        data model, Data Model-Keys
+        Keyspaces, Amazon Keyspaces-Amazon Keyspaces
+    columns (in relational databases), Relational Databases
+    command query responsibility segregation (CQRS), Event-Based Patterns: CQRS and Saga
+    comment publication (social network use case), Scaling post comments-Scaling post comments
+    commit logs, Columnar Store Architecture
+    communication, Communication-Asynchronous communication, Communication Networks and Protocols, AWS Network Services
+        (see also networking services (AWS))
+        asynchronous, Asynchronous communication, Communication Types-Push Mechanism: Server-Sent Events
+        OSI model, OSI Model-OSI Model
+        protocol standards, Common Communication Protocol Standards-Web Real-Time Communication
+            GraphQL, GraphQL-GraphQL
+            REST, REST-REST
+            RPC, Remote Procedure Call-Remote Procedure Call
+            WebRTC, Web Real-Time Communication-Web Real-Time Communication
+        protocols, Communication Models and Protocols
+        pub/sub model, Publisher-Subscriber Architecture-Message Queues
+            Kinesis, Amazon Kinesis-Amazon Kinesis Video Streams
+            MSK (Managed Streaming for Apache Kafka), Amazon Managed Streaming for Apache Kafka-Amazon Managed Streaming for Apache Kafka
+            SNS (Simple Notification Service), Amazon Simple Notification Service-Amazon Simple Notification Service
+            SQS (Simple Queue Service), Amazon Simple Queue Service-Amazon Simple Queue Service
+        pull-based mechanisms, Communication Types
+        push-based mechanisms, Push Mechanism: WebSockets-Push Mechanism: Server-Sent Events
+        synchronous, Synchronous communication, Communication Types
+        TCP/IP model, TCP/IP Model-Message Queuing Telemetry Transport
+            application layer protocols, User Datagram Protocol-Message Queuing Telemetry Transport
+            network layer protocols, Network layer protocols
+            transport layer protocols, Network layer protocols-User Datagram Protocol
+    compaction strategies, Compaction strategies
+    complexity of distributed systems, Consistency spectrum model
+    composite alarms, Configurable actions
+    Comprehend, AWS ML Application Services
+    compression, Data compression-Data compression
+    compute services (AWS)
+        choosing, Conclusion-Conclusion
+        containerization (see containerization)
+        EC2, Amazon Elastic Compute Cloud-Autoscaling
+        Lambda, AWS Lambda-AWS Lambda
+        for online game leaderboard, Compute
+        for URL shortener service, Compute layer-Compute layer
+    concurrency control managers, Relational Database Management System Architecture
+    concurrency in hotel reservation system, Handling concurrent bookings-Handling concurrent bookings
+    ConfigMaps, Kubernetes concepts
+    configurable alarm actions, Configurable actions
+    configuration files, Images
+    configuration levels (Kafka), Kafka’s configuration levels
+    configuration-based load balancers, LB Types Based on Configuration-Software LBs
+    conflict resolution, Consistency in distributed systems
+    congestion, Scaling to Millions and Beyond
+    congestion avoidance, Transmission Control Protocol, Hypertext Transfer Protocol, Congestion handling-Congestion handling, Scaling to Millions and Beyond
+    consensus protocols, Consistency in distributed systems
+    consistency, Consistency-Consistency spectrum model, ACID
+        availability versus, Consistency Versus Availability-PACELC theorem
+        in CDNs, Content consistency in CDNs
+        in column-family stores, Consistency Levels-Strong consistency
+        consistency spectrum model, Consistency spectrum model-Consistency spectrum model
+        in data storage systems, Consistency in data storage and retrieval-Consistency in data storage and retrieval
+        in distributed systems, Consistency in distributed systems
+        in online game leaderboard, Eventual consistency
+    consistency spectrum model, Consistency spectrum model-Consistency spectrum model
+    consistent hashing, Consistent hashing
+    constraints, Relational Databases
+    consumers, Kafka architecture, AWS PrivateLink
+    container images, Images-Images
+    container registries, Registry-Registry
+    containerd, Docker engine and runtime
+    containerization, Containerization, Orchestration, and Deployments
+        deployment strategies, Container Deployment Strategies-Container Deployment Strategies
+        Docker, Docker-Docker engine and runtime
+            container lifecycle, Containers-Containers
+            Docker engine, Docker engine and runtime-Docker engine and runtime
+            images, Images-Images
+            registries, Registry-Registry
+        ECS (Elastic Container Service), Amazon Elastic Container Service-Amazon Elastic Container Service
+        EKS (Elastic Kubernetes Service), Amazon Elastic Kubernetes Service-Amazon Elastic Kubernetes Service
+        Kubernetes, Container Orchestration-Kubernetes concepts
+    containers, Containerization, Orchestration, and Deployments
+        deployment strategies, Container Deployment Strategies-Container Deployment Strategies
+        lifecycle, Containers-Containers
+        orchestration, Container Orchestration-Kubernetes concepts
+        VMs versus, Evolution of Application Deployment-Evolution of Application Deployment
+    content consistency in CDNs, Content consistency in CDNs
+    content delivery networks (see CDNs)
+    content distribution, Content Distribution
+    content fragmentation, CDN optimization techniques
+    content indexing, Content Indexing-Content Indexing
+    content personalization, CDN optimization techniques
+    continuous deployment (CD), Continuous Deployment
+    continuous integration (CI), Continuous Integration
+    control plane nodes, Kubernetes architecture
+    controller managers, Kubernetes architecture
+    cookie-based session affinity, Stateful Load Balancers
+    cooldown periods, Autoscaling
+    coprocessors, AWS ML Infrastructure
+    copy-on-write (CoW), Memory management in Redis-Memory management in Redis
+    core nodes, EMR cluster considerations
+    CoW (copy-on-write), Memory management in Redis-Memory management in Redis
+    CQRS (command query responsibility segregation), Event-Based Patterns: CQRS and Saga
+    cross-VPC connectivity, Connectivity Between Amazon VPCs-AWS PrivateLink
+    custom domain support for URL shortener service, Custom Domain Support-Custom Domain Support
+
+D
+
+    DAGs (Directed Acyclic Graphs), Amazon Managed Workflow for Apache Airflow
+    dashboards (QuickSight), Amazon QuickSight-Amazon QuickSight
+    data catalogs, AWS Glue
+    data compression, Data compression-Data compression
+    data control language (DCL), SQL
+    data copying, Amazon Redshift
+    data crawlers, AWS Glue
+    data definition language (DDL), SQL
+    data dictionaries, Relational Database Management System Architecture
+    data engines, AWS Glue
+    data ingestion, Amazon Redshift
+    data lakes, Data Lake Architecture-Data Lake Architecture
+    data manipulation language (DML), SQL
+    data modeling, Data modeling
+    data processing units (DPUs), AWS Glue
+    data replication, Consistency in distributed systems
+    data retrieval, Scaling data retrieval
+    data security (S3), Amazon S3 data security-Amazon S3 data security
+    data sharing, Amazon Redshift
+    data storage systems
+        cloud storage services (AWS), Cloud Storage on AWS-Amazon S3 data security
+        consistency in, Consistency in data storage and retrieval-Consistency in data storage and retrieval
+        formats of, Data Storage Format-Object-Based Storage
+        for hotel reservation system, Data store selection-Data store selection
+        for media content, Multimedia system-Multimedia system
+        nonrelational databases (see nonrelational databases)
+        relational databases (see relational databases)
+    data streaming
+        KDA (Kinesis Data Analytics), Amazon Kinesis Data Analytics-Amazon Kinesis Data Analytics
+        KDF (Kinesis Data Firehose), Amazon Kinesis Data Firehose-Amazon Kinesis Data Firehose
+        KDS (Kinesis Data Streams), Amazon Kinesis Data Streams-Amazon Kinesis Data Streams
+        KVS (Kinesis Video Streams), Amazon Kinesis Video Streams-Amazon Kinesis Video Streams
+    data tiering, Data tiering
+    data versioning, Consistency in data storage and retrieval
+    database caching, Caching Mechanisms
+    database management systems (DBMS), Relational Databases-Relational Databases
+        open source RDBMS, Open Source Relational Database Systems-PostgreSQL
+        RDBMS architecture, Relational Database Management System Architecture-Relational Database Management System Architecture
+    databases, Relational Databases-Relational Databases
+        auto-increment feature, Key generation service
+        AWS, AWS Databases-Amazon Keyspaces
+            DocumentDB, Amazon DocumentDB-Amazon DocumentDB
+            DynamoDB, Amazon DynamoDB-Amazon DynamoDB
+            ElastiCache, Amazon ElastiCache-Amazon DynamoDB Accelerator
+            Keyspaces, Amazon Keyspaces-Amazon Keyspaces
+            Neptune, Amazon Neptune-Caching
+            OpenSearch, Amazon OpenSearch-Amazon OpenSearch
+            RDS, Amazon RDS-Amazon RDS
+            Timestream, Amazon Timestream
+        choosing, Conclusion
+            for chat application, Message storage-Message storage
+            for hotel reservation system, Data store selection-Data store selection
+            for URL shortener service, Database Selection-KGS
+            for user post service, User post service databases-User post service databases
+        Glue, AWS Glue
+        migration, Database migration
+        nonrelational (see nonrelational databases)
+        for online game leaderboard, Database-Database
+        for order management system, Designing the Order Management System
+        for property onboarding architecture, Property Onboarding Architecture-Property Onboarding Architecture
+        relational (see relational databases)
+        for WhatsApp, Databases-Databases
+    DataNodes, HDFS architecture
+    DAX (DynamoDB Accelerator), Amazon DynamoDB Accelerator
+    Day 0 architecture
+        for chat application, Day 0 Architecture-Multiregion deployment of messaging systems
+        for hotel reservation system, Day 0 Architecture-Scaling to Millions and Beyond
+        for online game leaderboard, Day 0 Architecture-Retirement costs
+        for social network, Day 0 Architecture-Database migration
+        for stockbroker application, Day 0 Architecture-Scaling to Millions and Beyond
+        for URL shortener service, Day Zero Architecture-Compute layer
+        for video processing, Day 0 Architecture-Scaling to Millions and Beyond
+        for web crawler/search engine, Day 0 Architecture-Scaling to Millions and Beyond
+    Day N architecture
+        for chat application, Day N Architecture-Day N Architecture
+        for hotel reservation system, Day N Architecture-Day N Architecture
+        for online game leaderboard, Day N Architecture-System considerations
+        for social network, Day N Architecture-Multiregion deployments
+        for stockbroker application, Day N Architecture-System resilience
+        for URL shortener service, Day N Architecture-Day N Architecture
+        for video processing, Day N Architecture-Day N Architecture
+        for web crawler/search engine, Day N Architecture-Search engine
+    DBMS (database management systems), Relational Databases-Relational Databases
+        open source RDBMS, Open Source Relational Database Systems-PostgreSQL
+        RDBMS architecture, Relational Database Management System Architecture-Relational Database Management System Architecture
+    DCL (data control language), SQL
+    DDD (domain-driven design), Domain-Based Patterns: Domain-Driven Design and Decompose by Subdomains
+    DDL (data definition language), SQL
+    dead letter queue (DLQ), Amazon Simple Queue Service
+    decompose by subdomains pattern, Domain-Based Patterns: Domain-Driven Design and Decompose by Subdomains
+    dedicated tenancy, Creating an Amazon VPC
+    delegation, AWS Identity and Access Management
+    DELETE method, Hypertext Transfer Protocol
+    DeleteItem operation (key-value stores), Data Access and Retrieval Operations
+    deleting indexes, Elasticsearch configuration and scaling
+    denormalization, Denormalization-Denormalization
+    dependencies, Images
+    deployment
+        CI/CD pipeline, CI/CD Pipeline with Gitflow and Automated Deployment Strategies-Monitoring and Incident Management
+        container deployment strategies, Container Deployment Strategies-Container Deployment Strategies
+        evolution of, Evolution of Application Deployment-Evolution of Application Deployment
+        Kubernetes, Kubernetes concepts
+    deployment packages, AWS Lambda
+    deployment strategies
+        for caches, Cache Deployment-Choosing a Cache Deployment Approach
+        Kubernetes, Container Deployment Strategies-Container Deployment Strategies
+        for load balancers, LB Deployment and Placement Strategies-Local Load Balancing
+    designs (see architectural designs and patterns)
+    destinations (Lambda), AWS Lambda
+    digital rights management (DRM), Content Distribution
+    dimensions (of metrics), Metrics
+    Direct Connect, AWS Direct Connect-AWS Direct Connect, Day 0 Architecture
+    direct messaging, Direct messaging-Direct messaging
+    Directed Acyclic Graphs (DAGs), Amazon Managed Workflow for Apache Airflow
+    disaster recovery, Replication
+    distributed systems, Open Source Distributed Systems Architecture-Comparing HDFS and Kafka
+        complexity and consistency, Consistency spectrum model
+        consistency in, Consistency in distributed systems
+        fallacies of, Fallacies of Distributed Computing-Fallacies of Distributed Computing
+        HDFS, HDFS-HDFS architecture, Comparing HDFS and Kafka
+        Kafka, Apache Kafka: Distributed Message Queue-Comparing HDFS and Kafka
+    distribution styles (Redshift), Amazon Redshift
+    DLQ (dead letter queue), Amazon Simple Queue Service
+    DML (data manipulation language), SQL
+    DNS (Domain Name System), Amazon Route 53-Amazon Route 53
+    DNS load balancers, DNS load balancers
+    DNS redirection, CDN optimization techniques
+    DNS-based GSLB, Global Server Load Balancing
+    Docker, Containerization, Orchestration, and Deployments, Docker-Docker engine and runtime
+        container lifecycle, Containers-Containers
+        images, Images-Images
+        registries, Registry-Registry
+    Docker CLI, Docker engine and runtime
+    Docker Client, Registry
+    Docker daemon, Docker engine and runtime
+    Docker engine, Docker engine and runtime-Docker engine and runtime
+    Docker Host, Registry
+    Docker Registry, Registry
+    Dockerfiles, Docker
+    document stores, Data Models, Document Databases-MongoDB: Open Source Document Database
+        advantages and trade-offs, Advantages, Trade-offs, and Considerations
+        availability, Availability in Document Stores
+        data model, Data Model-Data Model
+        DocumentDB, MongoDB: Open Source Document Database, Amazon DocumentDB-Amazon DocumentDB
+        MongoDB, MongoDB: Open Source Document Database-MongoDB: Open Source Document Database
+    DocumentDB, MongoDB: Open Source Document Database, Amazon DocumentDB-Amazon DocumentDB
+    documents, Data Model
+    Domain Name System (DNS), Amazon Route 53-Amazon Route 53
+    domain-based patterns, Domain-Based Patterns: Domain-Driven Design and Decompose by Subdomains
+    domain-driven design (DDD), Domain-Based Patterns: Domain-Driven Design and Decompose by Subdomains
+    DPUs (data processing units), AWS Glue
+    DRM (digital rights management), Content Distribution
+    duplicate detection for URLs, URL uniqueness and duplicate detection-URL uniqueness and duplicate detection
+    durability, ACID
+        in Redis, Durability in Redis deployment-Durability in Redis deployment
+    dynamic content caching optimization, CDN optimization techniques
+    dynamic load balancing algorithms, Dynamic Load Balancing Algorithms-Dynamic Load Balancing Algorithms
+    dynamic pricing, Dynamic pricing in the system-Dynamic pricing in the system
+    Dynamo, Dynamo: Key-Value Database
+    DynamoDB, Amazon DynamoDB-Amazon DynamoDB
+        for chat application, Day 0 Architecture
+        limitations of, User post service databases
+        for online game leaderboard, Day 0 Architecture, Storage
+        for property onboarding architecture, Property Onboarding Architecture
+        scaling, URL shortener service
+        for social network, Storage on DynamoDB-Storage on DynamoDB
+        for social network, Day 0 Architecture
+        for URL shortener service, URL shortener service, Storage layer
+        for user post service, User post service databases
+        for web crawler/search engine, Scaling to Millions and Beyond
+    DynamoDB Accelerator (DAX), Amazon DynamoDB Accelerator
+
+E
+
+    EBS (Elastic Block Store), Block-Based Storage, Amazon Elastic Block Store-Amazon Elastic Block Store
+    EC2 (Elastic Compute Cloud), Amazon Elastic Compute Cloud-Autoscaling
+        AMIs, Amazon Machine Image-Amazon Machine Image
+        autoscaling, Autoscaling-Autoscaling
+        block-based storage, Block-Based Storage
+        file-based storage, File-Based Storage
+        instance types, Instance Type-Instance Type
+        for machine learning, AWS ML Infrastructure
+        placement groups, Scaling to Millions and Beyond
+        for URL shortener service, Day Zero Architecture-Day Zero Architecture
+    ECMP (equal-cost multipath) routers, ECMP routers
+    ECR (Elastic Container Registry), Amazon Elastic Container Service
+    ECS (Elastic Container Service), Amazon Elastic Container Service-Amazon Elastic Container Service, Compute
+    EDA (event-driven architecture), Event-Driven Architecture-Event sourcing
+    edge locations (AWS), AWS Edge Locations, Amazon CloudFront
+    edge side include (ESI) tags, CDN optimization techniques
+    EFS (Elastic File System), File-Based Storage, Amazon Elastic File System-Amazon Elastic File System
+    Ejabberd, WhatsApp Architecture with Erlang
+    EKS (Elastic Kubernetes Service), Kubernetes concepts, Amazon Elastic Kubernetes Service-Amazon Elastic Kubernetes Service
+    Elastic Block Store (EBS), Block-Based Storage, Amazon Elastic Block Store-Amazon Elastic Block Store
+    Elastic Compute Cloud (see EC2)
+    Elastic Container Registry (ECR), Amazon Elastic Container Service
+    Elastic Container Service (ECS), Amazon Elastic Container Service-Amazon Elastic Container Service, Compute
+    Elastic File System (EFS), File-Based Storage, Amazon Elastic File System-Amazon Elastic File System
+    elastic IP addresses, Elastic IP address
+    Elastic Kubernetes Service (EKS), Kubernetes concepts, Amazon Elastic Kubernetes Service-Amazon Elastic Kubernetes Service
+    Elastic Load Balancers (ELBs), Networking Components, AWS Elastic Load Balancer-AWS Elastic Load Balancer
+    Elastic MapReduce (EMR), HDFS, Amazon Elastic MapReduce-EMR cluster considerations, AWS Glue
+    ElastiCache, Memory management in Redis, Amazon ElastiCache-Amazon DynamoDB Accelerator, Day Zero Architecture, Day 0 Architecture
+    Elasticsearch, Property Search Architecture-Elasticsearch configuration and scaling
+    ELBs (Elastic Load Balancers), Networking Components, AWS Elastic Load Balancer-AWS Elastic Load Balancer
+    Elemental MediaConvert, Day 0 Architecture
+    Elemental MediaLive, Day 0 Architecture
+    Elemental MediaPackage, Day 0 Architecture
+    Elemental MediaStore, Day 0 Architecture
+    email communications (SMTP), Simple Mail Transfer Protocol-Simple Mail Transfer Protocol
+    EMR (Elastic MapReduce), HDFS, Amazon Elastic MapReduce-EMR cluster considerations, AWS Glue
+    EMRFS (EMR File System), EMRFS-EMRFS
+    encoding, Video Encoding-Video Encoding
+    encryption, Amazon S3 data security, Encryption and compliance, Amazon Simple Notification Service
+    EOS (exactly-once semantics), Kafka’s configuration levels
+    ephemeral ports, Transmission Control Protocol
+    equal-cost multipath (ECMP) routers, ECMP routers
+    ER model, ER model
+    Erlang, WhatsApp Architecture with Erlang-Databases
+    Erlang term storage (ETS), Databases
+    ESI (edge side include) tags, CDN optimization techniques
+    ETags, Cache Invalidation, Designing the Web Crawler
+    etcd, Kubernetes architecture
+    ETS (Erlang term storage), Databases
+    event sourcing, Event sourcing-Event sourcing
+    event stores, Event sourcing
+    event-driven architecture (EDA), Event-Driven Architecture-Event sourcing
+    event-driven state machines, EDA Concepts and Implementations
+    EventBridge, Amazon CloudWatch Events-Amazon CloudWatch Events
+    events, EDA Concepts and Implementations, AWS Lambda, Amazon CloudWatch Events-Amazon CloudWatch Events
+    eventual consistency, Consistency spectrum model, Eventual consistency, Eventual consistency
+    eviction policies for caches, Cache Eviction Policies-Allowlist Policy
+    exactly-once semantics (EOS), Kafka’s configuration levels
+    execution engines, Relational Database Management System Architecture
+    execution environment, AWS Lambda
+    execution plans, Relational Database Management System Architecture
+    Extensible Messaging and Presence Protocol (XMPP), Extensible Messaging and Presence Protocol-Extensible Messaging and Presence Protocol, Protocol selection-Protocol selection
+
+F
+
+    FaaS (function as a service), Container Deployment Strategies
+    failover patterns, Failover patterns
+    failure-tolerant patterns, Failure-Tolerant Patterns: Circuit Breaker, Retry with Backoff, and Rate Limiter
+    fault tolerance, Ensuring availability, Fault Tolerance-Checkpointing, High Availability and Fault Tolerance
+    federated query, Amazon Athena, Amazon Redshift
+    fields (in relational databases), Relational Databases
+    FIFO (first-in, first-out) caching policy, Queue-Based Policies
+    FIFO (first-in, first-out) queues, Amazon Simple Queue Service, Improving the URL frontier
+    file-based storage, File-Based Storage, Amazon Elastic File System
+    filesystems
+        EMRFS, EMRFS-EMRFS
+        HDFS, HDFS-HDFS architecture, Comparing HDFS and Kafka
+    first-in, first-out (FIFO) caching policy, Queue-Based Policies
+    first-in, first-out (FIFO) queues, Amazon Simple Queue Service, Improving the URL frontier
+    fixed topology fallacy, Fallacies of Distributed Computing
+    flexible schema design
+        in column-family stores, Flexible schema design
+        nonrelational databases, Schema Flexibility
+    Flink, Amazon Kinesis Data Analytics-Amazon Kinesis Data Analytics
+    Forecast, AWS ML Application Services
+    foreign keys, Relational Databases, Keys
+    forking, Memory management in Redis-Memory management in Redis
+    forward indexes, Starting with the Design
+    forward proxies, Networking Components
+    fragmentation, Network layer protocols
+    frequency-based cache eviction policies, Frequency-Based Policies-Frequency-Based Policies
+    frequently accessed objects storage class, Frequently accessed objects
+    front queue selectors, Improving the URL frontier
+    front queues, Improving the URL frontier
+    frontend API, Frontend API
+    FSx for Lustre, Amazon Elastic File System
+    FSx for Windows File Server, Amazon Elastic File System
+    function (Lambda), AWS Lambda
+    function as a service (FaaS), Container Deployment Strategies
+    functional requirements
+        chat application, Functional and Nonfunctional Requirements
+        hotel reservation system, Functional and Nonfunctional Requirements-Functional and Nonfunctional Requirements
+        online game leaderboard, Functional and Nonfunctional Requirements-Functional and Nonfunctional Requirements
+        social network, Functional and Nonfunctional Requirements
+        stockbroker application, Functional and Nonfunctional Requirements
+        URL shortener service, Functional and Nonfunctional Requirements
+        video processing, Functional and Nonfunctional Requirements
+        web crawler/search engine, Functional and Nonfunctional Requirements
+    functionality-based load balancers, LB Types Based on Functionality-Application load balancers (L7 LBs)
+
+G
+
+    game use case (see online game leaderboard use case)
+    gateway load balancer (GWLB), AWS Elastic Load Balancer
+    gateways, Simple Mail Transfer Protocol
+    Geohash, Exploring points of interests
+    GET method, Hypertext Transfer Protocol
+    GetItem operation (key-value stores), Data Access and Retrieval Operations
+    Gitflow, Gitflow Workflow for Branch Management
+    global secondary indexes (GSIs), Amazon DynamoDB
+    global server load balancing (GSLB), Global Server Load Balancing
+    Glue, AWS Glue-AWS Glue
+    graph databases, Data Models, Graph Databases-Neo4j: Open Source Graph Database, Amazon Neptune-Caching
+    GraphQL, GraphQL-GraphQL, AWS AppSync-AWS AppSync, GraphQL federation for search-GraphQL federation for search
+    GSIs (global secondary indexes), Amazon DynamoDB
+    GSLB (global server load balancing), Global Server Load Balancing
+    GWLB (gateway load balancer), AWS Elastic Load Balancer
+
+H
+
+    Hadoop Distributed File System (HDFS), HDFS-HDFS architecture, Comparing HDFS and Kafka, Amazon Elastic MapReduce-EMRFS
+    Hadoop ecosystem
+        AWS versus, Hadoop ecosystem versus AWS-Hadoop ecosystem versus AWS
+        HDFS integration, HDFS
+    handshake process, Push Mechanism: WebSockets
+    hard disk drives (HDDs), Amazon Elastic Block Store
+    hardware load balancers, Hardware LBs
+    hash partitioning, Hash partitioning-Hash partitioning
+    hash-based algorithms, Static Load Balancing Algorithms
+    hashing, Hashing-Hashing
+    HDDs (hard disk drives), Amazon Elastic Block Store
+    HDFS (Hadoop Distributed File System), HDFS-HDFS architecture, Comparing HDFS and Kafka, Amazon Elastic MapReduce-EMRFS
+    heartbeat mechanism, Availability in Document Stores
+    HFT (high-frequency trading), Functional and Nonfunctional Requirements, Designing Ultra-Low-Latency Systems-Programming language
+    high availability, Consistency Versus Availability, Replication, High Availability and Fault Tolerance
+    high-frequency trading (HFT), Functional and Nonfunctional Requirements, Designing Ultra-Low-Latency Systems-Programming language
+    hinted handoff, Availability in Key-Value Stores
+    historical stock tick service, Historical stock ticks-Historical stock ticks
+    homogeneous network fallacy, Fallacies of Distributed Computing
+    horizontal partitioning, Partitioning
+    horizontal scaling, Scalability
+    host ID, IPv4
+    hostname routing, API Routing Strategies and Patterns
+    hot partitions/hot keys, Amazon DynamoDB
+    hot spots, Range partitioning
+    hot-swap deployment, WhatsApp Architecture with Erlang
+    hotel reservation system use case, Designing a Hotel Reservation System-Conclusion
+        architecture design, Starting with the Design-Property Reviews Architecture
+            payment processing architecture, Payment processing architecture-Payment processing architecture
+            property booking architecture, Property Booking Architecture-Dynamic pricing in the system
+            property onboarding architecture, Property Onboarding Architecture-Property Onboarding Architecture
+            property reviews architecture, Property Reviews Architecture-Property Reviews Architecture
+            property search architecture, Property Search Architecture-Exploring points of interests
+        Day 0 architecture, Day 0 Architecture-Scaling to Millions and Beyond
+        Day N architecture, Day N Architecture-Day N Architecture
+        system requirements, System Requirements-System Scale
+    HTTP (Hypertext Transfer Protocol), Hypertext Transfer Protocol-Hypertext Transfer Protocol
+    HTTP header routing, API Routing Strategies and Patterns
+    HTTP headers, Hypertext Transfer Protocol
+    HTTP polling, Pull Mechanism: HTTP Polling
+    HTTP response status codes, Hypertext Transfer Protocol-Hypertext Transfer Protocol, System APIs
+    HTTP/1.1, Hypertext Transfer Protocol
+    HTTP/2, Hypertext Transfer Protocol
+    HTTP/3, Hypertext Transfer Protocol
+    hybrid connectivity, Hybrid Connectivity-AWS Direct Connect
+    hybrid orchestration and choreography pattern, Hybrid orchestration and choreography pattern
+    Hypertext Transfer Protocol (HTTP), Hypertext Transfer Protocol-Hypertext Transfer Protocol
+    hypervisors, Evolution of Application Deployment, Amazon Elastic Compute Cloud
+
+I
+
+    IaC (infrastructure-as-code), Container Deployment Strategies, Creating an Amazon VPC
+    IAM (Identity and Access Management), Amazon S3 data security, AWS Identity and Access Management-AWS Identity and Access Management
+    ICE (Interactive Connectivity Establishment), Web Real-Time Communication
+    ICMP (Internet Control Message Protocol), Network layer protocols
+    idempotence, Kafka’s configuration levels, Payment processing architecture-Payment processing architecture
+    Identity and Access Management (IAM), Amazon S3 data security, AWS Identity and Access Management-AWS Identity and Access Management
+    identity pools, Amazon Cognito
+    identity providers (IdPs), Amazon Cognito
+    IDL (interface definition language), Remote Procedure Call
+    IdPs (identity providers), Amazon Cognito
+    IGW (Internet Gateway), Subnets, Internet Gateway-Internet Gateway
+    images (Docker), Images-Images
+    IMAP (Internet Message Access Protocol), Simple Mail Transfer Protocol
+    in-memory databases (see caching)
+    in-process caching, In-Process Caching
+    inbound rules, Security Groups
+    incident management, Monitoring and Incident Management
+    index aliases, Elasticsearch configuration and scaling
+    index support, Amazon DynamoDB
+    indexes, Relational Databases, Indexes-Indexes
+        deleting, Elasticsearch configuration and scaling
+        key-value stores, No fixed schema or indexes
+        search engine use case, Indexing strategies-Data compression
+        video processing, Content Indexing-Content Indexing
+    inference, AWS ML Infrastructure
+    Inferentia, AWS ML Infrastructure
+    infinite bandwidth fallacy, Fallacies of Distributed Computing
+    infrastructure-as-code (IaC), Container Deployment Strategies, Creating an Amazon VPC
+    infrequently accessed objects storage class, Infrequently accessed objects
+    ingestion system (see video processing use case)
+    init process, Containers
+    initial costs (in TCO), Initial costs-Initial costs
+    instance endpoints, Traffic distribution
+    instance stores, Amazon Elastic Block Store
+    instances, Amazon Elastic Compute Cloud
+        autoscaling, Autoscaling-Autoscaling
+        launching, Amazon Machine Image-Amazon Machine Image
+        types of, Instance Type-Instance Type
+    intelligence, Machine Learning on AWS
+    intelligent tiering, Intelligent tiering
+    Interactive Connectivity Establishment (ICE), Web Real-Time Communication
+    interface definition language (IDL), Remote Procedure Call
+    internet connectivity
+        NACLs, Network Access Control Lists-Network Access Control Lists
+        route tables, Route Tables-Route Tables
+        security groups, Security Groups-Security Groups
+        to VPC service, Amazon VPC-to-Internet Connectivity-NAT gateway
+    Internet Control Message Protocol (ICMP), Network layer protocols
+    Internet Gateway (IGW), Subnets, Internet Gateway-Internet Gateway
+    Internet Message Access Protocol (IMAP), Simple Mail Transfer Protocol
+    Internet Protocol (IP), Network layer protocols
+    internet protocol suite (see TCP/IP model)
+    interprocess caching, Interprocess Caching
+    invalidation policies for caches, Cache Invalidation-Cache Invalidation
+    inverted indexes, Starting with the Design, Indexing strategies-Data compression
+    IP (Internet Protocol), Network layer protocols
+    IP addresses, Network layer protocols, IP addresses-Elastic IP address
+        elastic, Elastic IP address
+        IPv4, IPv4-IPv4
+        IPv6, IPv6
+        private, Private and public IP addresses
+        public, Private and public IP addresses
+    IP datagrams, Network layer protocols
+    IP headers, Network layer protocols
+    IPv4, IPv4-IPv4
+    IPv6, IPv6
+    IRLBot research paper, Improving the URL frontier
+    islands (in Erlang clusters), Databases
+    isolation, Guideline of Isolation: Build It Modularly, ACID
+
+J
+
+    Jabber ID (JID), Extensible Messaging and Presence Protocol
+    jobs (Kubernetes), Kubernetes concepts
+
+K
+
+    Kafka, Message Queues, Apache Kafka: Distributed Message Queue-Comparing HDFS and Kafka, Amazon Managed Streaming for Apache Kafka
+    kappa architecture, Kappa Architecture
+    KDA (Kinesis Data Analytics), Amazon Kinesis Data Analytics-Amazon Kinesis Data Analytics
+    KDF (Kinesis Data Firehose), Amazon Kinesis Data Firehose-Amazon Kinesis Data Firehose
+    KDS (Kinesis Data Streams), Amazon Kinesis Data Streams-Amazon Kinesis Data Streams
+    Kendra, AWS ML Application Services, Day 0 Architecture, Scaling to Millions and Beyond
+    key generation service, Key generation service-Key generation service, KGS
+    key-value stores, Data Models, Key-Value Databases-Dynamo: Key-Value Database
+        access and retrieval operations, Data Access and Retrieval Operations
+        advantages and trade-offs, Advantages, Trade-offs, and Considerations
+        availability, Availability in Key-Value Stores-Availability in Key-Value Stores
+        data model, Data Model-Keys
+        Dynamo, Dynamo: Key-Value Database
+        DynamoDB, Amazon DynamoDB-Amazon DynamoDB
+        scaling, Scaling Key-Value Stores-Consistent hashing
+    keys, Keys-Keys
+        candidate, Keys
+        in column-family stores, Keys
+        in DynamoDB, Amazon DynamoDB
+        foreign, Relational Databases, Keys
+        Kafka, Kafka architecture
+        in key-value stores, Keys-Keys
+        primary, Relational Databases, Keys
+    Keyspaces, Apache Cassandra: Open Source Columnar Database, Amazon Keyspaces-Amazon Keyspaces
+    Kinesis, Kafka’s configuration levels, Amazon Kinesis-Amazon Kinesis Video Streams
+    Kinesis Data Analytics (KDA), Amazon Kinesis Data Analytics-Amazon Kinesis Data Analytics
+    Kinesis Data Firehose (KDF), Amazon Kinesis Data Firehose-Amazon Kinesis Data Firehose
+    Kinesis Data Streams (KDS), Amazon Kinesis Data Streams-Amazon Kinesis Data Streams
+    Kinesis Video Streams (KVS), Amazon Kinesis Video Streams-Amazon Kinesis Video Streams
+    KISS (Keep It Simple, Silly), Guideline of Simplicity: Keep It Simple, Silly
+    KRaft (Apache Kafka Raft), Kafka architecture
+    kube-proxy, Kubernetes architecture
+    kubelets, Kubernetes architecture
+    Kubernetes, Container Orchestration-Kubernetes concepts
+        deployment strategies, Container Deployment Strategies-Container Deployment Strategies
+        EKS (Elastic Kubernetes Service), Amazon Elastic Kubernetes Service-Amazon Elastic Kubernetes Service
+    KVS (Kinesis Video Streams), Amazon Kinesis Video Streams-Amazon Kinesis Video Streams
+
+L
+
+    Lambda, AWS Lambda-AWS Lambda
+        for online game leaderboard, Day 0 Architecture, Compute
+        for URL shortener service, Day Zero Architecture, Compute layer
+        for web crawler/search engine, Scaling to Millions and Beyond
+    lambda architecture, Lambda Architecture-Lambda Architecture
+    Landing Zone, Getting Started with AWS
+    last in, first out (LIFO), Queue-Based Policies
+    last write wins (LWW), Availability in Key-Value Stores
+    latency, Replication
+        in online game leaderboard, Latency
+        programming languages and, Programming language
+        in search engine, Improving search performance-Data compression
+        in stockbroker application, Scaling to Millions and Beyond-Scaling to Millions and Beyond
+        throughput versus, Latency Versus Throughput-Throughput and bandwidth
+        ultra-low, Functional and Nonfunctional Requirements, Designing Ultra-Low-Latency Systems-Programming language
+    launching
+        ECS launch types, Amazon Elastic Container Service
+        instances, Amazon Machine Image-Amazon Machine Image
+    layers (Lambda), AWS Lambda
+    LBaaS (load balancer as a service), Software LBs
+    LBs (load balancers), Networking Components
+        ALB (application load balancer), Application load balancers (L7 LBs), AWS Elastic Load Balancer
+        CLB (classic load balancer), AWS Elastic Load Balancer
+        deployment and placement strategies, LB Deployment and Placement Strategies-Local Load Balancing
+        ELB (Elastic Load Balancer), AWS Elastic Load Balancer-AWS Elastic Load Balancer
+        GWLB (gateway load balancer), AWS Elastic Load Balancer
+        Nginx, Nginx: Open Source Load Balancer-Nginx: Open Source Load Balancer
+        NLB (network load balancer), Network load balancers (L4 LBs)-Network load balancers (L4 LBs), AWS Elastic Load Balancer
+        session persistence, Session Persistence in LBs-Stateless Load Balancers
+        types of, Types of Load Balancers-Software LBs
+    leaderboard service, Leaderboard service
+    leaderboards (see online game leaderboard use case)
+    leaderless replication, Leaderless replication-Leaderless replication
+    least connections algorithms, Dynamic Load Balancing Algorithms
+    least frequently recently used (LFRU), Frequency-Based Policies
+    least frequently used (LFU), Frequency-Based Policies
+    least loaded algorithms, Dynamic Load Balancing Algorithms
+    least recently used (LRU), Recency-Based Policies
+    least response time algorithms, Dynamic Load Balancing Algorithms
+    leveled compaction, Compaction strategies
+    Lex, AWS ML Application Services
+    LFRU (least frequently recently used), Frequency-Based Policies
+    LFU (least frequently used), Frequency-Based Policies
+    lifecycle configurations, Lifecycle configurations
+    LIFO (last in, first out), Queue-Based Policies
+    listeners, AWS Elastic Load Balancer
+    live stock ticks architecture, Live stock ticks-Live stock ticks
+    live streaming services (see video processing use case)
+    load balancer as a service (LBaaS), Software LBs
+    load balancers (LBs), Networking Components
+        ALB (application load balancer), Application load balancers (L7 LBs), AWS Elastic Load Balancer
+        CLB (classic load balancer), AWS Elastic Load Balancer
+        deployment and placement strategies, LB Deployment and Placement Strategies-Local Load Balancing
+        GWLB (gateway load balancer), AWS Elastic Load Balancer
+        Nginx, Nginx: Open Source Load Balancer-Nginx: Open Source Load Balancer
+        NLB (network load balancer), Network load balancers (L4 LBs)-Network load balancers (L4 LBs), AWS Elastic Load Balancer
+        session persistence, Session Persistence in LBs-Stateless Load Balancers
+        types of, Types of Load Balancers-Software LBs
+    load balancing, Ensuring availability
+        algorithms, Load Balancing Algorithms-Dynamic Load Balancing Algorithms
+        benefits of, Benefits of Load Balancing-Benefits of Load Balancing
+        deployment and placement strategies, LB Deployment and Placement Strategies-Local Load Balancing
+        in Neptune, Traffic distribution
+        with Nginx, Nginx: Open Source Load Balancer-Nginx: Open Source Load Balancer
+        session persistence, Session Persistence in LBs-Stateless Load Balancers
+        types of load balancers, Types of Load Balancers-Software LBs
+    load distribution, Replication
+    local load balancing, Local Load Balancing-Local Load Balancing
+    local quorum, Weak consistency
+    local secondary indexes (LSIs), Amazon DynamoDB
+    local zones (AWS), AWS Local Zones, Scaling to Millions and Beyond
+    locality, Caching Policies and Strategies
+    location searches, Exploring points of interests-Exploring points of interests
+    locking, Consistency in data storage and retrieval, Handling concurrent bookings-Handling concurrent bookings
+    locks, Handling concurrent bookings
+    log-based CDC, Change Data Capture
+    logical database schema design, Relational Databases-Relational Databases
+    logs, Application Logs
+    LRU (least recently used), Recency-Based Policies
+    LSI (local secondary indexes), Amazon DynamoDB
+    lucidity, Maintainability
+    LWW (last write wins), Availability in Key-Value Stores
+
+M
+
+    machine learning, Machine Learning on AWS-AWS ML Infrastructure
+    Macie, Amazon S3 data security
+    magnetic disks, Amazon Elastic Block Store
+    mail transfer agents (MTAs), Simple Mail Transfer Protocol
+    maintainability, Maintainability
+    maintenance costs (in TCO), Maintenance costs
+    Make it Work, Make it Right, Make it Fast principle, System Design Use Cases, Day Zero Architecture
+    Managed Streaming for Apache Kafka (MSK), Kafka’s configuration levels, Amazon Managed Streaming for Apache Kafka-Amazon Managed Streaming for Apache Kafka, Amazon Kinesis Data Streams
+    Managed Workflow for Apache Airflow (MWAA), Amazon Managed Workflow for Apache Airflow-Amazon Managed Workflow for Apache Airflow
+    manager nodes, Kubernetes architecture
+    materialized views, Amazon Redshift
+    maximum message size, Amazon Simple Queue Service
+    maximum transmission unit (MTU), Network layer protocols
+    mean time between failures (MTBF), Mean time between failures
+    mean time to repair (MTTR), Mean time to repair
+    measuring
+        availability, Measuring availability-Measuring availability
+        performance, Guideline of Performance: Metrics Don’t Lie-Guideline of Performance: Metrics Don’t Lie
+        reliability, Measuring reliability-Mean time to repair
+    media content storage, Multimedia system-Multimedia system, System architecture
+    Memcached, Memcached-Memcached, Amazon ElastiCache
+    memory capacity, time-space trade-offs, Time Versus Space
+    memory management in Redis, Memory management in Redis-Memory management in Redis
+    MemoryDB, Durability in Redis deployment
+    memtables, Columnar Store Architecture
+    Merkle trees, Leaderless replication, Designing the Web Crawler
+    message attributes, Amazon Simple Notification Service
+    message brokers, Message Brokers-Message Brokers
+    message delivery failure handling, Amazon Simple Notification Service
+    message durability, Amazon Simple Notification Service
+    message filtering, Amazon Simple Notification Service
+    message ordering, Amazon Simple Notification Service
+    message queues, Message Queues
+        Kafka, Apache Kafka: Distributed Message Queue-Comparing HDFS and Kafka
+        SQS (Simple Queue Service), Amazon Simple Queue Service-Amazon Simple Queue Service
+    Message Queuing Telemetry Transport (MQTT), Message Queuing Telemetry Transport-Message Queuing Telemetry Transport, Protocol selection-Protocol selection
+    message security, Amazon Simple Notification Service
+    messaging guarantees (Kafka), Kafka’s configuration levels
+    messaging system, Messaging system, Designing a Chat Application
+        (see also chat applications)
+    metadata, AWS Glue
+    metadata repositories, Relational Database Management System Architecture
+    metrics, Guideline of Performance: Metrics Don’t Lie, Metrics-Metrics
+    microservices, Microservices-Microservices
+    migration costs (in TCO), Retirement costs
+    migration of social network system, Moving from Day 0 to Day N-Database migration
+    MIME (Multipurpose Internet Mail Extensions), Simple Mail Transfer Protocol
+    minions, Kubernetes architecture
+    ML (machine learning), Machine Learning on AWS-AWS ML Infrastructure
+    Mnesia, Databases
+    modifiability, Maintainability
+    modification, invalidation on, Cache Invalidation
+    modular systems, Guideline of Isolation: Build It Modularly
+    MongoDB, MongoDB: Open Source Document Database-MongoDB: Open Source Document Database, Amazon DocumentDB
+    monitoring, Monitoring and Incident Management
+        with CloudWatch, Amazon CloudWatch-Amazon CloudWatch Events
+        URL shortener service, Observability
+    monoliths, Monoliths-Monoliths
+    monotonic read consistency, Consistency spectrum model, Consistency spectrum model
+    most recently used (MRU), Recency-Based Policies
+    MQTT (Message Queuing Telemetry Transport), Message Queuing Telemetry Transport-Message Queuing Telemetry Transport, Protocol selection-Protocol selection
+    MRU (most recently used), Recency-Based Policies
+    MSK (Managed Streaming for Apache Kafka), Kafka’s configuration levels, Amazon Managed Streaming for Apache Kafka-Amazon Managed Streaming for Apache Kafka, Amazon Kinesis Data Streams
+    MTAs (mail transfer agents), Simple Mail Transfer Protocol
+    MTBF (mean time between failures), Mean time between failures
+    MTTR (mean time to repair), Mean time to repair
+    MTU (maximum transmission unit), Network layer protocols
+    multileader replication, Replication patterns, Replication
+    Multipurpose Internet Mail Extensions (MIME), Simple Mail Transfer Protocol
+    multiregion deployments
+        in chat application, Multiregion deployment of messaging systems
+        in social network use case, Multiregion deployments-Multiregion deployments
+    multitenant systems for URL shortener service, Custom Domain Support-Custom Domain Support
+    multithreading, Multithreading
+    multitier CDN architecture, CDN optimization techniques
+    mutations, GraphQL
+    MWAA (Managed Workflow for Apache Airflow), Amazon Managed Workflow for Apache Airflow-Amazon Managed Workflow for Apache Airflow
+    MySQL, MySQL-PostgreSQL
+
+N
+
+    N-tier architectures, N-tier Architectures
+    NACLs (network access control lists), Network Access Control Lists-Network Access Control Lists
+    NameNodes, HDFS architecture
+    namespaces, Metrics
+    NAT gateways, NAT gateway-NAT gateway
+    Neo4j, Neo4j: Open Source Graph Database-Neo4j: Open Source Graph Database
+    Neptune, Neo4j: Open Source Graph Database, Amazon Neptune-Caching
+    network access control lists (NACLs), Network Access Control Lists-Network Access Control Lists
+    network ID, IPv4
+    network layer protocols, Network layer protocols
+    network load balancers (NLBs), Network load balancers (L4 LBs)-Network load balancers (L4 LBs), AWS Elastic Load Balancer
+    networking components, Networking Components-Networking Components
+    networking services (AWS)
+        API Gateway, Amazon API Gateway-Amazon API Gateway
+        CloudFront, Amazon CloudFront-Amazon CloudFront
+        ELB (Elastic Load Balancer), AWS Elastic Load Balancer-AWS Elastic Load Balancer
+        in high-frequency trading (HFT), Network connectivity-Network connectivity
+        internet connectivity
+            NACLs, Network Access Control Lists-Network Access Control Lists
+            route tables, Route Tables-Route Tables
+            security groups, Security Groups-Security Groups
+            to VPC service, Amazon VPC-to-Internet Connectivity-NAT gateway
+        Route 53 (DNS services), Amazon Route 53-Amazon Route 53
+        VPC service, Amazon VPC-Subnets
+            creating VPC, Creating an Amazon VPC-Creating an Amazon VPC
+            cross-VPC connectivity, Connectivity Between Amazon VPCs-AWS PrivateLink
+            hybrid connectivity, Hybrid Connectivity-AWS Direct Connect
+            internet connectivity to, Amazon VPC-to-Internet Connectivity-NAT gateway
+            IP addresses, IP addresses-Elastic IP address
+            subnets, Subnets-Subnets
+    newsfeeds, Designing a Social Network and Newsfeed System
+        (see also social network use case)
+    NFRs (see nonfunctional requirements)
+    Nginx, Nginx: Open Source Load Balancer-Nginx: Open Source Load Balancer
+    NLBs (network load balancers), Network load balancers (L4 LBs)-Network load balancers (L4 LBs), AWS Elastic Load Balancer
+    nodes, Kubernetes architecture
+    nonfunctional requirements
+        chat application, Functional and Nonfunctional Requirements
+        hotel reservation system, Functional and Nonfunctional Requirements
+        online game leaderboard, Functional and Nonfunctional Requirements
+        social network, Functional and Nonfunctional Requirements
+        stockbroker application, Functional and Nonfunctional Requirements-Functional and Nonfunctional Requirements
+        URL shortener service, Functional and Nonfunctional Requirements
+        video processing, Functional and Nonfunctional Requirements
+        web crawler/search engine, Functional and Nonfunctional Requirements-Functional and Nonfunctional Requirements
+    nonrelational databases
+        availability and fault tolerance, High Availability and Fault Tolerance
+        BASE principles, BASE-BASE
+        column-family stores, Data Models, Columnar Databases-Apache Cassandra: Open Source Columnar Database
+            advantages and trade-offs, Advantages, Trade-offs, and Considerations
+            Apache Cassandra, Apache Cassandra: Open Source Columnar Database-Apache Cassandra: Open Source Columnar Database
+            architecture, Columnar Store Architecture-Tombstones for soft delete
+            consistency levels, Consistency Levels-Strong consistency
+            data model, Data Model-Keys
+            Keyspaces, Amazon Keyspaces-Amazon Keyspaces
+        document stores, Data Models, Document Databases-MongoDB: Open Source Document Database
+            advantages and trade-offs, Advantages, Trade-offs, and Considerations
+            availability, Availability in Document Stores
+            data model, Data Model-Data Model
+            DocumentDB, Amazon DocumentDB-Amazon DocumentDB
+            MongoDB, MongoDB: Open Source Document Database-MongoDB: Open Source Document Database
+        graph databases, Data Models, Graph Databases-Neo4j: Open Source Graph Database, Amazon Neptune-Caching
+        key-value stores, Data Models, Key-Value Databases-Dynamo: Key-Value Database
+            access and retrieval operations, Data Access and Retrieval Operations
+            advantages and trade-offs, Advantages, Trade-offs, and Considerations
+            availability, Availability in Key-Value Stores-Availability in Key-Value Stores
+            data model, Data Model-Keys
+            Dynamo, Dynamo: Key-Value Database
+            DynamoDB, Amazon DynamoDB-Amazon DynamoDB
+            scaling, Scaling Key-Value Stores-Consistent hashing
+        relational databases, compared, Conclusion
+        scalability, Scalability
+        schema flexibility, Schema Flexibility
+    normalization, Schema normalization-Schema normalization
+    NoSQL databases (see nonrelational databases)
+    notebooks, Amazon Kinesis Data Analytics
+
+O
+
+    object lock, Amazon S3 data security
+    object-based storage, Data Storage Format, Object-Based Storage-Object-Based Storage, Amazon Simple Storage Service-Amazon S3 data security
+    object-level caching, Caching Mechanisms
+    objects (S3), Amazon Simple Storage Service
+    observability, Guideline of Performance: Metrics Don’t Lie, Observability
+    online game leaderboard use case, Designing an Online Game Leaderboard-Conclusion
+        architecture design, Starting with the Design-Additional components
+        Day 0 architecture, Day 0 Architecture-Retirement costs
+        Day N architecture, Day N Architecture-System considerations
+        system requirements, System Requirements-Bandwidth and throughput
+    open source caching solutions, Open Source Caching Solutions-Memory management in Redis
+    open source distributed systems architecture, Open Source Distributed Systems Architecture-Comparing HDFS and Kafka
+        HDFS, HDFS-HDFS architecture, Comparing HDFS and Kafka
+        Kafka, Apache Kafka: Distributed Message Queue-Comparing HDFS and Kafka
+    open source load balancers, Nginx: Open Source Load Balancer-Nginx: Open Source Load Balancer
+    open source RDBMS, Open Source Relational Database Systems-PostgreSQL
+    Open Systems Interconnection (see OSI model)
+    OpenSearch, Amazon OpenSearch-Amazon OpenSearch
+    operability, Maintainability
+    operational costs (in TCO), Operational costs
+    operators, Data Model
+    optimistic locking, Handling concurrent bookings
+    optimistic replication, Availability in Key-Value Stores
+    optimizing
+        CDNs, CDN optimization techniques-CDN optimization techniques
+        relational databases, Optimizing Relational Databases-Query federation
+    orchestration, Container Orchestration-Kubernetes concepts, Orchestration-Deciding Between Choreography and Orchestration, AWS Messaging, Orchestration, Monitoring, and Access Management Services
+        Kinesis, Amazon Kinesis-Amazon Kinesis Video Streams
+        MSK (Managed Streaming for Apache Kafka), Amazon Managed Streaming for Apache Kafka-Amazon Managed Streaming for Apache Kafka
+        SNS (Simple Notification Service), Amazon Simple Notification Service-Amazon Simple Notification Service
+        in social network use case, Handling New Posts, Post workflow orchestration and memory cache
+        SQS (Simple Queue Service), Amazon Simple Queue Service-Amazon Simple Queue Service
+        workflow orchestration, Workflow Orchestration-Amazon Managed Workflow for Apache Airflow
+    orchestrators, Orchestration
+    order management system design, Designing the Order Management System-Designing the Order Management System, Market order execution-Market order execution
+    Origin Shield, Scaling to Millions and Beyond-Scaling to Millions and Beyond
+    OSI model, Networking Components, OSI Model-OSI Model
+    outbound rules, Security Groups
+    Outposts, Scaling to Millions and Beyond
+
+P
+
+    P&L dashboard design, Building the P&L Dashboard-Building the P&L Dashboard
+    PACELC theorem, PACELC theorem
+    pages (in Memcached), Memcached
+    parallel systems, availability, Availability in parallel versus in sequence-Availability in parallel versus in sequence
+    Pareto distribution, Benefits of Caching
+    partition keys
+        in column-family stores, Keys
+        in DynamoDB, Amazon DynamoDB
+        in key-value stores, Keys
+    partitioning, Partitioning-Range partitioning, AWS Glue, Data partitioning and sharding
+    partitions (Kafka), Kafka architecture
+    path routing, API Routing Strategies and Patterns
+    patterns (see architectural designs and patterns)
+    patterns of availability, Availability patterns-Replication patterns
+    payload, Network layer protocols
+    payment processing architecture (hotel reservation system), Payment processing architecture-Payment processing architecture
+    peer-to-peer connections, Web Real-Time Communication-Web Real-Time Communication
+    performance, Optimizing Relational Databases
+        (see also optimizing)
+        measuring, Guideline of Performance: Metrics Don’t Lie-Guideline of Performance: Metrics Don’t Lie
+        replication and, Replication
+        scalability versus, Performance Versus Scalability
+    persistence, Persistence
+        in event sourcing, Event sourcing
+        in load balancers, Session Persistence in LBs-Stateless Load Balancers
+        in Redis, Durability in Redis deployment-Durability in Redis deployment
+        in stock tick system, Live stock ticks
+        WebSockets, Push Mechanism: WebSockets-Push Mechanism: WebSockets
+    personally identifiable information (PII), Application Logs
+    pessimistic locking, Handling concurrent bookings
+    physical separation, Custom Domain Support
+    PII (personally identifiable information), Application Logs
+    placement strategies for load balancers, LB Deployment and Placement Strategies-Local Load Balancing
+    Pods, Kubernetes concepts
+    politeness, Designing the Web Crawler
+    polling invocation, AWS Lambda
+    Polly, AWS ML Application Services
+    POP (Post Office Protocol), Simple Mail Transfer Protocol
+    ports, Transmission Control Protocol
+    POST method, Hypertext Transfer Protocol
+    Post Office Protocol (POP), Simple Mail Transfer Protocol
+    post workflow orchestration (social network use case), Handling New Posts, Post workflow orchestration and memory cache
+    PostgreSQL, PostgreSQL-PostgreSQL
+    posts, handling in social network use case, Handling New Posts-User timeline service
+    primary indexes, Indexes
+    primary keys
+        in DynamoDB, Amazon DynamoDB
+        in key-value stores, Keys
+        in relational databases, Relational Databases, Keys
+    primary nodes, EMR cluster considerations
+    primary-secondary node clusters, Availability in Document Stores
+    prioritizers, Improving the URL frontier
+    priority queues, Improving the URL frontier
+    private IP addresses, Private and public IP addresses
+    private subnets, Subnets-Subnets, NAT gateway-NAT gateway
+    PrivateLink, AWS PrivateLink-AWS PrivateLink
+    procedures, Remote Procedure Call
+    processing time, Latency, processing time, and response time
+    producers, Kafka architecture
+    profiling, SQL tuning
+    Profit & Loss dashboard design, Building the P&L Dashboard-Building the P&L Dashboard
+    programming languages, latency and, Programming language
+    projection, Data Model
+    property booking architecture (hotel reservation system), Property Booking Architecture-Dynamic pricing in the system, Day 0 Architecture-Day 0 Architecture
+    property onboarding architecture (hotel reservation system), Property Onboarding Architecture-Property Onboarding Architecture, Day 0 Architecture
+    property reviews architecture (hotel reservation system), Property Reviews Architecture-Property Reviews Architecture
+    property search architecture (hotel reservation system), Property Search Architecture-Exploring points of interests, Day 0 Architecture-Day 0 Architecture
+    protocols, Communication Networks and Protocols, Communication Models and Protocols
+        application layer, User Datagram Protocol-Message Queuing Telemetry Transport
+        choosing for chat application, Protocol selection-Protocol selection
+        communications standards, Common Communication Protocol Standards-Web Real-Time Communication
+            GraphQL, GraphQL-GraphQL
+            REST, REST-REST
+            RPC, Remote Procedure Call-Remote Procedure Call
+            WebRTC, Web Real-Time Communication-Web Real-Time Communication
+        network layer, Network layer protocols
+        transport layer, Network layer protocols-User Datagram Protocol
+    provisioned concurrency, AWS Lambda
+    pub/sub (publisher-subscriber) architecture, Publisher-Subscriber Architecture-Message Queues
+        Kinesis, Amazon Kinesis-Amazon Kinesis Video Streams
+        MSK (Managed Streaming for Apache Kafka), Amazon Managed Streaming for Apache Kafka-Amazon Managed Streaming for Apache Kafka
+        SNS (Simple Notification Service), Amazon Simple Notification Service-Amazon Simple Notification Service
+        SQS (Simple Queue Service), Amazon Simple Queue Service-Amazon Simple Queue Service
+    public access (S3), Amazon S3 data security
+    public IP addresses, Private and public IP addresses
+    public subnets, Subnets-Subnets, Internet Gateway-Internet Gateway
+    pull CDNs, Pull CDNs
+    pull-based communication mechanisms, Communication Types, Handling New Posts
+    push CDNs, Push CDNs
+    push-based communication mechanisms, Push Mechanism: WebSockets-Push Mechanism: Server-Sent Events, Amazon Simple Notification Service-Amazon Simple Notification Service, Handling New Posts
+    PUT method, Hypertext Transfer Protocol
+    PutItem operation (key-value stores), Data Access and Retrieval Operations
+
+Q
+
+    QoS (quality of service) levels (in MQTT), Message Queuing Telemetry Transport
+    quadtree, Exploring points of interests
+    quality of service (QoS) levels (in MQTT), Message Queuing Telemetry Transport
+    query federation, Query federation
+    query optimizers, Relational Database Management System Architecture
+    query parsers, Relational Database Management System Architecture
+    query processors, Relational Database Management System Architecture
+    query-level caching, Caching Mechanisms
+    queue-based cache eviction policies, Queue-Based Policies-Queue-Based Policies
+    queues, Dynamic pricing in the system
+    QUIC (Quick UDP Internet Connections), Hypertext Transfer Protocol
+    QuickSight, Amazon QuickSight-Amazon QuickSight
+    quorums, Leaderless replication, Weak consistency
+
+R
+
+    range keys in key-value stores, Keys
+    range partitioning, Range partitioning
+    ranking service, Ranking service
+    rate limiter pattern, Failure-Tolerant Patterns: Circuit Breaker, Retry with Backoff, and Rate Limiter
+    RCUs (read capacity units), Amazon DynamoDB
+    RDB (Redis database) files, Durability in Redis deployment-Durability in Redis deployment
+    RDBMS (relational database management systems)
+        architecture, Relational Database Management System Architecture-Relational Database Management System Architecture
+        open source, Open Source Relational Database Systems-PostgreSQL
+    RDS (Relational Database Service), PostgreSQL, Amazon RDS-Amazon RDS
+    re-creating deployments, Container Deployment Strategies
+    read capacity units (RCUs), Amazon DynamoDB
+    read, invalidation on, Cache Invalidation-Cache Invalidation
+    read-intensive caching strategies, Read-Intensive Strategies-Refresh-ahead
+    read-through caching strategy, Read-through
+    readiness probes, Container Deployment Strategies
+    real-time communications, Designing a Chat Application
+        (see also chat applications)
+        MQTT, Message Queuing Telemetry Transport-Message Queuing Telemetry Transport, Protocol selection-Protocol selection
+        WebRTC, Web Real-Time Communication-Web Real-Time Communication
+        XMPP, Extensible Messaging and Presence Protocol-Extensible Messaging and Presence Protocol, Protocol selection-Protocol selection
+    recency-based cache eviction policies, Recency-Based Policies
+    records (in relational databases), Relational Databases
+    recovery managers, Relational Database Management System Architecture
+    recovery point objective (RPO), Checkpointing
+    recovery time objective (RTO), Checkpointing
+    RECs (regional edge caches), Scaling to Millions and Beyond
+    Redis, Redis-Memory management in Redis, Amazon ElastiCache
+        availability in, Availability in Redis deployments-Availability in Redis deployments
+        benefits of, Redis
+        durability in, Durability in Redis deployment-Durability in Redis deployment
+        memory management in, Memory management in Redis-Memory management in Redis
+        scaling, Scaling Redis-Scaling Redis
+        in social network use case, Post workflow orchestration and memory cache
+    Redshift, Amazon Redshift-Amazon Redshift
+    Redshift Managed Storage (RMS), Amazon Redshift
+    Redshift Spectrum, Amazon Redshift
+    redundancy, Ensuring availability, Redundancy and replication
+    refresh intervals, Indexing strategies
+    refresh-ahead caching strategy, Refresh-ahead
+    regional edge caches (RECs), Scaling to Millions and Beyond
+    regions (AWS), AWS Regions
+    registered ports, Transmission Control Protocol
+    registries (Docker), Registry-Registry
+    Rekognition, AWS ML Application Services
+    Relational Database Service (RDS), PostgreSQL, Amazon RDS-Amazon RDS
+    relational databases
+        ACID model, ACID-ACID
+        database management system architecture, Relational Database Management System Architecture-Relational Database Management System Architecture
+        ER model, ER model
+        keys, Keys-Keys
+        logical schema design, Relational Databases-Relational Databases
+        nonrelational databases, compared, Conclusion
+        object-level caching, Caching Mechanisms
+        optimizing, Optimizing Relational Databases-Query federation
+        for property onboarding architecture, Property Onboarding Architecture-Property Onboarding Architecture
+        query optimizers, Relational Database Management System Architecture
+        query parsers, Relational Database Management System Architecture
+        query processors, Relational Database Management System Architecture
+        query-level caching, Caching Mechanisms
+        RDS, Amazon RDS-Amazon RDS
+        relationships in, Relational Databases, ER model
+        scaling, Scaling Relational Databases-Asynchronous replication
+        schema normalization, Schema normalization-Schema normalization
+        SQL, SQL-SQL
+        for user post service, User post service databases
+    relational model, Relational Databases
+    relationships (in relational databases), Relational Databases, ER model
+    relay servers, Simple Mail Transfer Protocol
+    relevance of search results, Relevance of search results
+    reliability, Reliability-Reliability and availability
+    reliable network fallacy, Fallacies of Distributed Computing
+    remote caching, Remote Caching
+    Remote Procedure Call (RPC), Remote Procedure Call-Remote Procedure Call
+    replica nodes, Consistency
+    replica sets, Availability in Document Stores
+    ReplicaSets, Kubernetes concepts
+    replication, Replication-Asynchronous replication, Redundancy and replication
+    replication patterns, Replication patterns-Replication patterns
+    replication-based fault tolerance, Replication
+    Representational State Transfer (REST), REST-REST
+    resiliency, Replication, System resilience
+    resolution (of metrics), Metrics
+    resources (Kubernetes), Kubernetes concepts
+    response time, Latency, processing time, and response time
+    REST (Representational State Transfer), REST-REST
+    retention periods, Amazon Simple Queue Service
+    retirement costs (in TCO), Retirement costs
+    retry with backoff pattern, Failure-Tolerant Patterns: Circuit Breaker, Retry with Backoff, and Rate Limiter
+    reverse proxies, Networking Components
+    RMS (Redshift Managed Storage), Amazon Redshift
+    rolling deployments, Container Deployment Strategies
+    root users, AWS Identity and Access Management
+    rosters, Extensible Messaging and Presence Protocol
+    round robin algorithms, Static Load Balancing Algorithms
+    Route 53, Amazon Route 53-Amazon Route 53
+    route tables, Route Tables-Route Tables
+    rows (in relational databases), Relational Databases
+    RPC (Remote Procedure Call), Remote Procedure Call-Remote Procedure Call
+    RPO (recovery point objective), Checkpointing
+    RTO (recovery time objective), Checkpointing
+    runc, Docker engine and runtime
+    runtime dependencies, Images
+
+S
+
+    S3 (Simple Storage Service), Object-Based Storage, Amazon Simple Storage Service-Amazon S3 data security
+    sagas, Event-Based Patterns: CQRS and Saga
+    SageMaker, Amazon SageMaker-Amazon SageMaker
+    SASL/SCRAM (Simple Authentication and Security Layer/Salted Challenge Response Authentication Mechanism), Amazon Managed Streaming for Apache Kafka
+    scalability, Scalability-Scalability, System Design Use Cases
+        with AppSync, AWS AppSync-AWS AppSync
+        autoscaling, Autoscaling-Autoscaling
+        horizontal scaling, Scalability
+        of nonrelational databases, Scalability
+        performance versus, Performance Versus Scalability
+        replication and, Replication
+        vertical scaling, Scalability
+    scale (of system)
+        chat application, System Scale
+        hotel reservation system, System Scale-System Scale
+        online game leaderboard, System Scale-Bandwidth and throughput
+        search engine, Search engine
+        social network, System Scale
+        stockbroker application, System Scale
+        URL shortener service, System Scale-System Scale
+        video processing, System Scale
+        web crawler, Web crawler-Web crawler
+    scaling
+        Day 0 architecture (see Day 0 architecture)
+        Day N architecture (see Day N architecture)
+        in DynamoDB, URL shortener service
+        Elasticsearch, Elasticsearch configuration and scaling-Elasticsearch configuration and scaling
+        key-value stores, Scaling Key-Value Stores-Consistent hashing
+        Redis, Scaling Redis-Scaling Redis
+        relational databases, Scaling Relational Databases-Asynchronous replication
+        for URL shortener service, Conclusion
+    scaling costs (in TCO), Support and scaling costs
+    schedulers, Kubernetes architecture
+    schema design
+        in chat application, Starting with the Design-Databases
+        in column-family stores, Flexible schema design
+        in hotel reservation system, Starting with the Design-Property Reviews Architecture
+        key-value stores, No fixed schema or indexes
+        nonrelational databases, Schema Flexibility
+        in online game leaderboard, Starting with the Design-Additional components
+        relational databases, Relational Databases-Relational Databases
+        in social network system, Starting with the Design-Search Service
+        in stockbroker application, Starting with the Design-Building the P&L Dashboard
+        in URL shortener service, Starting with the Design
+        in video processing, Starting with the Design-Content Distribution
+        in web crawler/search engine, Starting with the Design-Relevance of search results
+    schema normalization, Schema normalization-Schema normalization
+    Schema Registry, Kafka architecture
+    score submission service, Score submission service-Score submission service
+    SDP (Session Description Protocol), Web Real-Time Communication
+    search databases (OpenSearch), Amazon OpenSearch-Amazon OpenSearch
+    search engine use case, Designing a Web Crawler and Search Engine-Conclusion
+        architecture design, Designing the Search Engine-Relevance of search results
+        Day 0 architecture, Day 0 Architecture-Scaling to Millions and Beyond
+        Day N architecture, Search engine-Search engine
+        system requirements, System Requirements-Search engine
+    search engines, Designing a Web Crawler and Search Engine
+    search result relevance, Relevance of search results
+    search service
+        in hotel reservation system, Property Search Architecture-Exploring points of interests
+        in social network use case, Search Service-Search Service
+        in video processing use case, Content Indexing-Content Indexing
+    secondary indexes, Indexes
+    secondary NameNodes, HDFS architecture
+    secrets, Kubernetes concepts
+    Secrets Manager, Amazon Managed Streaming for Apache Kafka
+    secure network fallacy, Fallacies of Distributed Computing
+    security
+        of messages, Amazon Simple Notification Service
+        S3, Amazon S3 data security-Amazon S3 data security
+    security groups, Security Groups-Security Groups
+    security managers, Relational Database Management System Architecture
+    seed URLs, Designing the Web Crawler
+    self-hosting, cloud-managed services versus, Conclusion
+    sequential systems, availability, Availability in parallel versus in sequence-Availability in parallel versus in sequence
+    server pools, Load Balancing Approaches and Techniques
+    server-sent events (SSEs), Push Mechanism: Server-Sent Events
+    serverless deployments, Container Deployment Strategies
+    servers, AWS Compute Services
+    service mesh architecture, API Routing Strategies and Patterns
+    service providers, AWS PrivateLink
+    service-level objectives (SLOs), Reliability and availability
+    services (Kubernetes), Kubernetes concepts
+    session affinity, Stateful Load Balancers
+    Session Description Protocol (SDP), Web Real-Time Communication
+    session persistence in load balancers, Session Persistence in LBs-Stateless Load Balancers
+    Session Traversal Utilities for NAT (STUN) protocol, Web Real-Time Communication-Web Real-Time Communication
+    sharding, Sharding, Data partitioning and sharding, Elasticsearch configuration and scaling
+    shards, Amazon Kinesis Data Streams-Amazon Kinesis Data Streams, Indexing strategies
+    shared responsibility model, AWS Network Services, AWS Availability Zones
+    shared tenancy, Creating an Amazon VPC
+    sidecar pattern, Other Cloud Architecture Patterns
+    Simple Authentication and Security Layer/Salted Challenge Response Authentication Mechanism (SASL/SCRAM), Amazon Managed Streaming for Apache Kafka
+    Simple Mail Transfer Protocol (SMTP), Simple Mail Transfer Protocol-Simple Mail Transfer Protocol
+    Simple Notification Service (SNS), Amazon Simple Notification Service-Amazon Simple Notification Service, Day 0 Architecture
+    Simple Object Access Protocol (SOAP), Remote Procedure Call
+    Simple Queue Service (SQS), Amazon Simple Queue Service-Amazon Simple Queue Service, Day 0 Architecture
+    Simple Storage Service (S3), Object-Based Storage, Amazon Simple Storage Service-Amazon S3 data security
+    simplicity, Guideline of Simplicity: Keep It Simple, Silly
+    single administrator fallacy, Fallacies of Distributed Computing
+    single-leader replication, Replication patterns, Replication
+    size-tiered compaction, Compaction strategies
+    slabs (in Memcached), Memcached
+    sloppy quorum, Availability in Key-Value Stores
+    SLOs (service-level objectives), Reliability and availability
+    slow start, Transmission Control Protocol
+    SLTS (stock live ticker service), Live stock ticks-Live stock ticks
+    SMTP (Simple Mail Transfer Protocol), Simple Mail Transfer Protocol-Simple Mail Transfer Protocol
+    SnapStart, AWS Lambda
+    Snowflake, Key generation service
+    SNS (Simple Notification Service), Amazon Simple Notification Service-Amazon Simple Notification Service, Day 0 Architecture
+    SOAP (Simple Object Access Protocol), Remote Procedure Call
+    social network use case, Designing a Social Network and Newsfeed System-Conclusion
+        Day 0 architecture, Day 0 Architecture-Database migration
+        Day N architecture, Day N Architecture-Multiregion deployments
+        migration for scalability, Moving from Day 0 to Day N-Database migration
+        search service, Search Service-Search Service
+        system requirements, System Requirements-System Scale
+        user post service design, Handling New Posts-User timeline service
+        user relationship design, Starting with the Design-Starting with the Design, Managing User Connections-Managing User Connections
+    soft deletes, Tombstones for soft delete
+    soft limit, Creating an Amazon VPC
+    software deployment (see application deployment)
+    software load balancers, Software LBs
+    solid-state drives (SSDs), Amazon Elastic Block Store
+    solution architecture, Solution Architecture-Microservices
+    sort keys
+        in DynamoDB, Amazon DynamoDB
+        in key-value stores, Keys
+    sorting algorithms, Sorting algorithms
+    source IP affinity, Stateful Load Balancers
+    sources (KDS), Amazon Kinesis Data Streams
+    spot instances, Instance Type
+    SQL (structured query language), SQL-SQL
+    SQL tuning, SQL tuning-SQL tuning
+    SQS (Simple Queue Service), Amazon Simple Queue Service-Amazon Simple Queue Service, Day 0 Architecture
+    SSDs (solid-state drives), Amazon Elastic Block Store
+    SSEs (server-sent events), Push Mechanism: Server-Sent Events
+    SSTables, Columnar Store Architecture
+    standard queues, Amazon Simple Queue Service
+    stanzas, Extensible Messaging and Presence Protocol
+    state, EDA Concepts and Implementations
+    state machines, EDA Concepts and Implementations, AWS Step Functions-AWS Step Functions
+    state-oriented EDA implementations, State-oriented implementation
+    stateful load balancers, Stateful Load Balancers-Stateful Load Balancers
+    StatefulSet deployments, Container Deployment Strategies
+    stateless load balancers, Stateless Load Balancers-Stateless Load Balancers
+    static initialization optimization (Lambda), AWS Lambda
+    static load balancing algorithms, Static Load Balancing Algorithms-Static Load Balancing Algorithms
+    statistics, Metrics
+    STCS (stock tick consumer service), Live stock ticks
+    Step Functions, AWS Step Functions-AWS Step Functions, Scaling to Millions and Beyond, Scaling to Millions and Beyond
+    sticky sessions, Stateful Load Balancers
+    stock exchanges, Designing an Online Stock-Trading Platform
+    stock live ticker service (SLTS), Live stock ticks-Live stock ticks
+    stock tick consumer service (STCS), Live stock ticks
+    stock tick system design, Designing a Stock Tick System-Historical stock ticks, Market data delivery
+    stockbroker application use case, Designing an Online Stock-Trading Platform-System resilience
+        Day 0 architecture, Day 0 Architecture-Scaling to Millions and Beyond
+        Day N architecture, Day N Architecture-System resilience
+        order management system design, Designing the Order Management System-Designing the Order Management System, Market order execution-Market order execution
+        P&L dashboard design, Building the P&L Dashboard-Building the P&L Dashboard
+        stock tick system design, Designing a Stock Tick System-Historical stock ticks, Market data delivery
+        system requirements, System Requirements-System Scale
+        ultra-low latency system design, Designing Ultra-Low-Latency Systems-Programming language
+    storage capacity
+        online game leaderboard, Storage requirements-Storage requirements, Storage
+        time-space trade-offs, Time Versus Space
+        URL shortener service, Storage Space-Storage Space
+    storage classes
+        EFS, Amazon Elastic File System
+        S3, S3 storage classes-Intelligent tiering
+    storage drivers, Data Storage Format
+    storage engines, Relational Database Management System Architecture
+    storage systems (see data storage systems)
+    strangler fig pattern, Other Cloud Architecture Patterns
+    stream-based CDC, Change Data Capture
+    streaming services (see video processing use case)
+    strong consistency, Consistency spectrum model, Consistency Versus Availability, Strong consistency
+    structured query language (SQL), SQL-SQL
+    stub functions, Remote Procedure Call
+    STUN (Session Traversal Utilities for NAT) protocol, Web Real-Time Communication-Web Real-Time Communication
+    subnet masks, IPv4
+    subnets, IPv4, Subnets-Subnets, Subnet
+    support costs (in TCO), Support and scaling costs
+    supporting processes, Containers
+    synchronous checkpointing, Checkpointing
+    synchronous communication, Synchronous communication, Communication Types
+    synchronous invocation, AWS Lambda
+    synchronous orchestration patterns, Orchestrated, synchronous, and sequential pattern-Orchestrated, synchronous, and parallel pattern
+    synchronous replication, Synchronous replication-Synchronous replication
+    system boundaries, Functional and Nonfunctional Requirements
+    system design, Architectural Designs and Patterns
+        (see also architectural designs and patterns)
+        AWS Well-Architected Framework, Fallacies of Distributed Computing
+        concepts
+            availability, Availability-Replication patterns
+            communication, Communication-Asynchronous communication
+            consistency, Consistency-Consistency spectrum model
+            fault tolerance, Fault Tolerance-Checkpointing
+            maintainability, Maintainability
+            reliability, Reliability-Reliability and availability
+            scalability, Scalability-Scalability
+        fallacies of distributed systems, Fallacies of Distributed Computing-Fallacies of Distributed Computing
+        goals of, System Design Use Cases
+        guidelines, System Design Guidelines-Guideline of Use Cases: It Always Depends
+        trade-offs, System Design Trade-offs-PACELC theorem
+        use cases (see use cases)
+
+T
+
+    table deltas, Change Data Capture
+    table partitioning, AWS Glue
+    tables (in relational databases), Relational Databases
+    target groups, AWS Elastic Load Balancer
+    task nodes, EMR cluster considerations
+    tasks (ECS), Amazon Elastic Container Service-Amazon Elastic Container Service
+    tasks (Step Functions), AWS Step Functions
+    TCL (transaction control language), SQL
+    TCO (total cost of ownership), Total cost of ownership-Retirement costs
+    TCP (Transmission Control Protocol), Transmission Control Protocol-Transmission Control Protocol
+    TCP/IP model, TCP/IP Model-Message Queuing Telemetry Transport
+        application layer protocols, User Datagram Protocol-Message Queuing Telemetry Transport
+        network layer protocols, Network layer protocols
+        transport layer protocols, Network layer protocols-User Datagram Protocol
+    tenancy, Creating an Amazon VPC
+    “there is no such thing as a free lunch”, Guideline of Trade-offs: There Is No Such Thing as a Free Lunch
+    throughput
+        latency versus, Latency Versus Throughput-Throughput and bandwidth
+        online game leaderboard, Bandwidth and throughput
+    time synchronization, Scaling to Millions and Beyond
+    time to live (TTL), Cache Invalidation, Designing the Web Crawler
+    time-space trade-offs, Time Versus Space
+    time-window compaction, Compaction strategies
+    Timestream, Amazon Timestream, Historical stock ticks
+    tombstones, Tombstones for soft delete
+    topics (Kafka), Kafka architecture
+    total cost of ownership (TCO), Total cost of ownership-Retirement costs
+    trade-offs guideline, Guideline of Trade-offs: There Is No Such Thing as a Free Lunch
+    Trainium, AWS ML Infrastructure
+    transaction control language (TCL), SQL
+    transaction managers, Relational Database Management System Architecture
+    transaction support, Amazon DynamoDB
+    transactional outbox pattern, Other Cloud Architecture Patterns
+    transactions, Relational Databases
+    Transcribe, AWS ML Application Services
+    Transit Gateway, AWS Transit Gateway-AWS Transit Gateway
+    transitions, EDA Concepts and Implementations
+    Transmission Control Protocol (TCP), Transmission Control Protocol-Transmission Control Protocol
+    transport layer protocols, Network layer protocols-User Datagram Protocol
+    Traversal Using Relays around NAT (TURN) servers, Web Real-Time Communication
+    trigger-based CDC, Change Data Capture
+    triggers, AWS Lambda, Amazon Cognito
+    TTL (time to live), Cache Invalidation, Designing the Web Crawler
+    tunable consistency, Consistency spectrum model
+    TURN (Traversal Using Relays around NAT) servers, Web Real-Time Communication
+
+U
+
+    UDFs (user-defined functions), Amazon Athena
+    UDP (User Datagram Protocol), User Datagram Protocol-User Datagram Protocol
+    ultra-low latency, Functional and Nonfunctional Requirements, Designing Ultra-Low-Latency Systems-Programming language
+    unbounded stream processing, Amazon Kinesis Data Analytics
+    unique ID generation, Unique ID generation-Unique ID generation
+    UpdateItem operation (key-value stores), Data Access and Retrieval Operations
+    URL duplicate detection, URL uniqueness and duplicate detection-URL uniqueness and duplicate detection
+    URL frontier, Improving the URL frontier-Improving the URL frontier
+    URL shortener service use case, Designing a URL Shortener Service-Conclusion
+        algorithms for, URL Shortening Algorithm-Key generation service
+        APIs for, System APIs-System APIs
+        architecture design, Starting with the Design
+        custom domain support, Custom Domain Support-Custom Domain Support
+        database selection, Database Selection-KGS
+        Day 0 architecture, Day Zero Architecture-Compute layer
+        Day N architecture, Day N Architecture-Day N Architecture
+        scaling overview, Conclusion
+        system requirements, System Requirements-Storage Space
+    use cases
+        chat application, Designing a Chat Application-Conclusion
+            architecture design, Starting with the Design-Multimedia system
+            Day 0 architecture, Day 0 Architecture-Multiregion deployment of messaging systems
+            Day N architecture, Day N Architecture-Day N Architecture
+            direct messaging, Direct messaging-Direct messaging
+            media content storage, Multimedia system-Multimedia system
+            message storage, Message storage-Message storage
+            protocol selection, Protocol selection-Protocol selection
+            system requirements, System Requirements-System Scale
+            WhatsApp architecture, WhatsApp Architecture with Erlang-Databases
+        hotel reservation system, Designing a Hotel Reservation System-Conclusion
+            architecture design, Starting with the Design-Property Reviews Architecture
+            Day 0 architecture, Day 0 Architecture-Scaling to Millions and Beyond
+            Day N architecture, Day N Architecture-Day N Architecture
+            system requirements, System Requirements-System Scale
+        online game leaderboard, Designing an Online Game Leaderboard-Conclusion
+            architecture design, Starting with the Design-Additional components
+            Day 0 architecture, Day 0 Architecture-Retirement costs
+            Day N architecture, Day N Architecture-System considerations
+            system requirements, System Requirements-Bandwidth and throughput
+        social network, Designing a Social Network and Newsfeed System-Conclusion
+            Day 0 architecture, Day 0 Architecture-Database migration
+            Day N architecture, Day N Architecture-Multiregion deployments
+            migration for scalability, Moving from Day 0 to Day N-Database migration
+            search service, Search Service-Search Service
+            system requirements, System Requirements-System Scale
+            user post service design, Handling New Posts-User timeline service
+            user relationship design, Starting with the Design-Starting with the Design, Managing User Connections-Managing User Connections
+        stockbroker application, Designing an Online Stock-Trading Platform-System resilience
+            Day 0 architecture, Day 0 Architecture-Scaling to Millions and Beyond
+            Day N architecture, Day N Architecture-System resilience
+            order management system design, Designing the Order Management System-Designing the Order Management System, Market order execution-Market order execution
+            P&L dashboard design, Building the P&L Dashboard-Building the P&L Dashboard
+            stock tick system design, Designing a Stock Tick System-Historical stock ticks, Market data delivery
+            system requirements, System Requirements-System Scale
+            ultra-low latency system design, Designing Ultra-Low-Latency Systems-Programming language
+        as system design guideline, Guideline of Use Cases: It Always Depends
+        URL shortener service, Designing a URL Shortener Service-Conclusion
+            algorithms for, URL Shortening Algorithm-Key generation service
+            APIs for, System APIs-System APIs
+            architecture design, Starting with the Design
+            custom domain support, Custom Domain Support-Custom Domain Support
+            database selection, Database Selection-KGS
+            Day 0 architecture, Day Zero Architecture-Compute layer
+            Day N architecture, Day N Architecture-Day N Architecture
+            scaling overview, Conclusion
+            system requirements, System Requirements-Storage Space
+        video processing, Designing a Video-Processing Pipeline for a Streaming Service-Conclusion
+            architecture design, Starting with the Design-Starting with the Design, Content Distribution
+            content distribution, Content Distribution
+            content indexing, Content Indexing-Content Indexing
+            Day 0 architecture, Day 0 Architecture-Scaling to Millions and Beyond
+            Day N architecture, Day N Architecture-Day N Architecture
+            scaling architecture, Scaling to Millions and Beyond-Scaling to Millions and Beyond
+            system requirements, System Requirements-System Scale
+            video encoding process, Video Encoding-Video Encoding
+            video-quality validation, Video-Quality Validation
+        web crawler/search engine, Designing a Web Crawler and Search Engine-Conclusion
+            architecture design, Starting with the Design-Relevance of search results
+            Day 0 architecture, Day 0 Architecture-Scaling to Millions and Beyond
+            Day N architecture, Day N Architecture-Search engine
+            system requirements, System Requirements-Search engine
+    user connections, Direct messaging-Direct messaging
+    User Datagram Protocol (UDP), User Datagram Protocol-User Datagram Protocol
+    user gateway service, Handling New Posts
+    user graph service, Starting with the Design, Managing User Connections
+    user pool hosted UIs, Amazon Cognito
+    user pools, Amazon Cognito
+    user post service design (social network use case), Handling New Posts-User timeline service
+    user relationship design (social network use case), Starting with the Design-Starting with the Design, Managing User Connections-Managing User Connections
+    user timeline service, Handling New Posts, User timeline service
+    user timelines, Designing a Social Network and Newsfeed System
+        (see also social network use case)
+    user-defined functions (UDFs), Amazon Athena
+
+V
+
+    versioning, Images, Amazon Simple Storage Service
+    vertical partitioning, Partitioning
+    vertical scaling, Scalability
+    video encoding, Video Encoding-Video Encoding
+    Video Multimethod Assessment Fusion (VMAF), Video-Quality Validation
+    video processing use case, Designing a Video-Processing Pipeline for a Streaming Service-Conclusion
+        (see also media content storage)
+        architecture design, Starting with the Design-Starting with the Design, Content Distribution
+        content distribution, Content Distribution
+        content indexing, Content Indexing-Content Indexing
+        Day 0 architecture, Day 0 Architecture-Scaling to Millions and Beyond
+        Day N architecture, Day N Architecture-Day N Architecture
+        scaling architecture, Scaling to Millions and Beyond-Scaling to Millions and Beyond
+        system requirements, System Requirements-System Scale
+        video encoding process, Video Encoding-Video Encoding
+        video-quality validation, Video-Quality Validation
+    video streaming, Amazon Kinesis Video Streams-Amazon Kinesis Video Streams
+    video-quality validation, Video-Quality Validation
+    views, Relational Databases
+    VIF (virtual interface), AWS Direct Connect
+    VIP (virtual IP) addresses, Local Load Balancing
+    virtual interface (VIF), AWS Direct Connect
+    virtual machines (VMs), containers versus, Evolution of Application Deployment-Evolution of Application Deployment
+    virtual private clouds (see VPC service)
+    virtual private networks (VPNs), AWS Virtual Private Network
+    virtual separation, Custom Domain Support
+    virtualization, Evolution of Application Deployment
+    visibility timeouts, Amazon Simple Queue Service
+    VMAF (Video Multimethod Assessment Fusion), Video-Quality Validation
+    VMs (virtual machines), containers versus, Evolution of Application Deployment-Evolution of Application Deployment
+    volumes (EBS), Amazon Elastic Block Store
+    volumes (Kubernetes), Kubernetes concepts
+    VPC Lattice, AWS PrivateLink
+    VPC peering, Amazon VPC Peering-Amazon VPC Peering
+    VPC service, Amazon VPC-Subnets
+        creating VPC, Creating an Amazon VPC-Creating an Amazon VPC
+        cross-VPC connectivity, Connectivity Between Amazon VPCs-AWS PrivateLink
+        hybrid connectivity, Hybrid Connectivity-AWS Direct Connect
+        internet connectivity to, Amazon VPC-to-Internet Connectivity-NAT gateway
+        IP addresses, IP addresses-Elastic IP address
+        subnets, Subnets-Subnets
+        for URL shortener service, Day N Architecture
+    VPNs (virtual private networks), AWS Virtual Private Network
+
+W
+
+    warm start, Refresh-ahead, AWS Lambda
+    Wavelength, Scaling to Millions and Beyond
+    WCUs (write capacity units), Amazon DynamoDB
+    weak consistency, Weak consistency
+    web crawler use case, Designing a Web Crawler and Search Engine-Conclusion
+        architecture design, Designing the Web Crawler-URL uniqueness and duplicate detection
+        Day 0 architecture, Day 0 Architecture-Scaling to Millions and Beyond
+        Day N architecture, Web crawler-Web crawler
+        system requirements, System Requirements-Search engine
+    web crawlers, Designing a Web Crawler and Search Engine
+    web server caching, Caching Mechanisms
+    webhooks, GraphQL federation for search
+    WebRTC (Web Real-Time Communication), Web Real-Time Communication-Web Real-Time Communication
+    WebSockets, Extensible Messaging and Presence Protocol, Push Mechanism: WebSockets-Push Mechanism: WebSockets, WebSocket management services
+    weighted round robin algorithms, Static Load Balancing Algorithms
+    Well-Architected Framework (AWS), Fallacies of Distributed Computing
+    well-known ports, Transmission Control Protocol
+    WhatsApp, WhatsApp Architecture with Erlang-Databases
+    wide-column stores (see column-family stores)
+    WLM (workload management) tools, Amazon Redshift
+    worker nodes, Kubernetes architecture
+    workflow orchestration, Workflow Orchestration-Amazon Managed Workflow for Apache Airflow
+    workload management (WLM) tools, Amazon Redshift
+    write capacity units (WCUs), Amazon DynamoDB
+    write-ahead logging, Consistency in data storage and retrieval
+    write-around caching strategy, Write-around
+    write-back caching strategy, Write-back
+    write-through caching strategy, Write-through
+
+X
+
+    X-Ray, Observability
+    XMPP (Extensible Messaging and Presence Protocol), Extensible Messaging and Presence Protocol-Extensible Messaging and Presence Protocol, Protocol selection-Protocol selection
+
+Z
+
+    zero latency fallacy, Fallacies of Distributed Computing
+    zero transport cost fallacy, Fallacies of Distributed Computing
+    zone maps, Amazon Redshift
+    ZooKeeper, Kafka architecture
+
