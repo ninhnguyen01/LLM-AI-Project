@@ -19,6 +19,10 @@
 <p>(4) Email drafting and response <b>generation</b></p>
 <p><b>ACSG</b> or <b>(Automation, classification, summarization, generation)</b></p>
 
+<h2>Buy me a Boba</h2>
+<img src="asset/qr-code.png" width=200 height=200>
+<hr>
+
 <img src="asset/AI_lang.PNG" height=1000 width=1000>
 <img src="asset/AI_project.PNG" height=1000 width=1000>
 <h3>Source: GitHub</h3>
