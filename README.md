@@ -19,6 +19,19 @@
 <p>(4) Email drafting and response <b>generation</b></p>
 <p><b>ACSG</b> or <b>(Automation, classification, summarization, generation)</b></p>
 
+<h2>Model Collapse (Words of caution):</h2>
+<p>Peter Truchly raised the real nightmare scenario:
+"I just hope that conversation data is used for training, otherwise the only entity left to build that knowledge base is AI itself."</p>
+<p><b>Think about what happens:</b></p>
+<p><b>1. AI trains on human knowledge (Stack Overflow, docs, forums)</b></p>
+<p><b>2. Humans stop creating public knowledge (we use AI instead)</b></p>
+<p><b>3. New problems emerge (new frameworks, new patterns)</b></p>
+<p><b>4. AI trains on... AI-generated solutions to those problems</b></p>
+<p><b>5. Garbage in, garbage out, but at scale</b></p>
+
+<p>Daniel Nwaneri from dev.to</p>
+<p>Source: https://dev.to/dannwaneri/were-creating-a-knowledge-collapse-and-no-ones-talking-about-it-226d</p>
+
 <h2>Buy me a Boba</h2>
 <img src="asset/qr-code.png" width=200 height=200>
 <hr>
