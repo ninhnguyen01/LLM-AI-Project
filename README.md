@@ -32,7 +32,7 @@
 <p>Daniel Nwaneri from dev.to</p>
 <p>Source: https://dev.to/dannwaneri/were-creating-a-knowledge-collapse-and-no-ones-talking-about-it-226d</p>
 
-<h2>Buy me a Boba</h2>
+<h2>Buy me a Kopiko</h2>
 <img src="asset/qr-code.png" width=200 height=200>
 <hr>
 
