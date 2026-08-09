@@ -3,6 +3,11 @@
 <h2>What is AI?</h2>
 <p><b>Artificial intelligence (AI)</b> is technology that enables computers and machines to simulate human learning, comprehension, problem solving, decision making, creativity and autonomy. - IBM</p>
 
+<h2>Examples of AI induced mental habits & compulsions</h2>
+<p>Source: information is beautiful</p>
+<p>Link: https://informationisbeautiful.net/visualizations/ai-induced-mental-disorders-ai-mental-health-glossary-burnout-addiction-mania/</p>
+<span><img src="AI-ailments/psychosis.png" height=600 width=500><img src="AI-ailments/ai-state-level.png" height=700 width=500></span>
+
 <h2>What is a Large Language Model (LLM)?</h2>
 <p>A <b>large language model (LLM)</b> is a type of artificial intelligence (AI) program that can recognize and generate text, among other tasks. LLMs are trained on huge sets of data — hence the name "large." LLMs are built on machine learning: specifically, a type of neural network called a transformer model. - CLOUDFLARE</p>
 
