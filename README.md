@@ -3,6 +3,15 @@
 <h2>What is AI?</h2>
 <p><b>Artificial intelligence (AI)</b> is technology that enables computers and machines to simulate human learning, comprehension, problem solving, decision making, creativity and autonomy. - IBM</p>
 
+<h2>What doesn't change?</h2>
+<p><b>Software will be getting more complex. Software will always need maintenance: bit-rot is a fact of
+life. So is entropy. Technology (hardware and software) will move forward, for better or worse. The
+tower (skyscraper?) of abstractions grows ever higher.
+Users will always want more and be prepared to spend less. They still won't know how to relay their
+needs and wants. Worse, they still won't know exactly what they want. The disconnect between the
+customers (who actually pay for the software) and users (who use it) will still be here, as will the
+tension between the needs of the business and the needs of its customers. - Senko Rašić</b></p>
+
 <h2>Examples of AI induced mental habits & compulsions</h2>
 <p>Source: information is beautiful</p>
 <p>Link: https://informationisbeautiful.net/visualizations/ai-induced-mental-disorders-ai-mental-health-glossary-burnout-addiction-mania/</p>
