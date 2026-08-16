@@ -33,7 +33,7 @@ tension between the needs of the business and the needs of its customers. - Senk
 <p>(4) Email drafting and response <b>generation</b></p>
 <p><b>ACSG</b> or <b>(Automation, classification, summarization, generation)</b></p>
 
-<h2>Model Collapse (Words of caution):</h2>
+<h2>Model Collapse (Words of Caution):</h2>
 <p>Peter Truchly raised the real nightmare scenario:
 "I just hope that conversation data is used for training, otherwise the only entity left to build that knowledge base is AI itself."</p>
 <p><b>Think about what happens:</b></p>
