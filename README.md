@@ -12,11 +12,6 @@ needs and wants. Worse, they still won't know exactly what they want. The discon
 customers (who actually pay for the software) and users (who use it) will still be here, as will the
 tension between the needs of the business and the needs of its customers. - Senko Rašić</b></p>
 
-<h2>Examples of AI induced mental habits & compulsions</h2>
-<p>Source: information is beautiful</p>
-<p>Link: https://informationisbeautiful.net/visualizations/ai-induced-mental-disorders-ai-mental-health-glossary-burnout-addiction-mania/</p>
-<span><img src="AI-ailments/psychosis.png" height=600 width=500><img src="AI-ailments/ai-state-level.png" height=700 width=500></span>
-
 <h2>What is a Large Language Model (LLM)?</h2>
 <p>A <b>large language model (LLM)</b> is a type of artificial intelligence (AI) program that can recognize and generate text, among other tasks. LLMs are trained on huge sets of data — hence the name "large." LLMs are built on machine learning: specifically, a type of neural network called a transformer model. - CLOUDFLARE</p>
 
@@ -32,6 +27,10 @@ tension between the needs of the business and the needs of its customers. - Senk
 <p>(3) Document analysis and <b>summarization</b></p>
 <p>(4) Email drafting and response <b>generation</b></p>
 <p><b>ACSG</b> or <b>(Automation, classification, summarization, generation)</b></p>
+
+<h2>Examples of AI induced mental habits & compulsions</h2>
+<p>Source: information is beautiful</p>
+<p>Link: https://informationisbeautiful.net/visualizations/ai-induced-mental-disorders-ai-mental-health-glossary-burnout-addiction-mania/</p>
 
 <h2>Model Collapse (Words of Caution):</h2>
 <p>Peter Truchly raised the real nightmare scenario:
@@ -54,11 +53,6 @@ tension between the needs of the business and the needs of its customers. - Senk
 <img src="asset/AI_project.PNG" height=1000 width=1000>
 <h3>Source: GitHub</h3>
 
-<h2>The Great Flood (Korean Movie)</h2>
-<p><b>When a raging flood traps a researcher and her young son, a call to a crucial mission puts their escape — and the future of humanity — on the line.</b></p>
-<p><b>Theme: Human emotions, AI, Survival.</b></p>
-<img src="asset/The Great Flood.JPG" height=800>
-
 <h2>Cortana Example</h2>
 <img src="asset/Cortana.jpg" height=600 width=600>
 <p>Image: Cortana was a <b>smart artificial intelligence construct (smart AI).</b></p>
@@ -69,6 +63,11 @@ tension between the needs of the business and the needs of its customers. - Senk
 <p>Rampancy is a <b>terminal state of being for artificial intelligence constructs in which the AI behaves contrary to its programming-imposed constraints</b>.</p>
 <p>Comment: In real life, we call this "hallucination".</p>
 <h3>Source: Halo Video Game Series</h3>
+
+<h2>The Great Flood (Korean Movie)</h2>
+<p><b>When a raging flood traps a researcher and her young son, a call to a crucial mission puts their escape — and the future of humanity — on the line.</b></p>
+<p><b>Theme: Human emotions, AI, Survival.</b></p>
+<img src="asset/The Great Flood.JPG" height=800>
 
 <h2>Technological Achievement Tiers (based on Kardashev scale)</h2>
 <p>A Technological Achievement Tier was a level of categorization used by the Forerunners to assess the technological advancement of civilizations. There are a total of 8 tiers, and the lower the Tier number, the more advanced the civilization's technology is/was.</p>
