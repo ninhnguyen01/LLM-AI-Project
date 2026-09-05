@@ -49,10 +49,6 @@ tension between the needs of the business and the needs of its customers. - Senk
 <img src="asset/qr-code.png" width=200 height=200>
 <hr>
 
-<img src="asset/AI_lang.PNG" height=1000 width=1000>
-<img src="asset/AI_project.PNG" height=1000 width=1000>
-<h3>Source: GitHub</h3>
-
 <h2>Cortana Example</h2>
 <img src="asset/Cortana.jpg" height=600 width=600>
 <p>Image: Cortana was a <b>smart artificial intelligence construct (smart AI).</b></p>
