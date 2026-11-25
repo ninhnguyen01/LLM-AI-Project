@@ -28,10 +28,6 @@ tension between the needs of the business and the needs of its customers. - Senk
 <p>(4) Email drafting and response <b>generation</b></p>
 <p><b>ACSG</b> or <b>(Automation, classification, summarization, generation)</b></p>
 
-<h2>Examples of AI induced mental habits & compulsions</h2>
-<p>Source: information is beautiful</p>
-<p>Link: https://informationisbeautiful.net/visualizations/ai-induced-mental-disorders-ai-mental-health-glossary-burnout-addiction-mania/</p>
-
 <h2>Model Collapse (Words of Caution):</h2>
 <p>Peter Truchly raised the real nightmare scenario:
 "I just hope that conversation data is used for training, otherwise the only entity left to build that knowledge base is AI itself."</p>
@@ -44,10 +40,6 @@ tension between the needs of the business and the needs of its customers. - Senk
 
 <p>Daniel Nwaneri from dev.to</p>
 <p>Source: https://dev.to/dannwaneri/were-creating-a-knowledge-collapse-and-no-ones-talking-about-it-226d</p>
-
-<h2>Buy me a Kopiko</h2>
-<img src="asset/qr-code.png" width=200 height=200>
-<hr>
 
 <h2>Cortana Example</h2>
 <img src="asset/Cortana.jpg" height=600 width=600>
